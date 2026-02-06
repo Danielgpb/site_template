@@ -1,0 +1,78 @@
+{
+  "service_id": 2,
+  "last_updated": "2026-02-05",
+  "hero": {
+    "h1": "Dépannage Batterie à Bruxelles – HELPCAR Arrive et Relance Votre Moteur",
+    "badges": [
+      "intervention_rapide",
+      "disponible_24_7",
+      "expertise_10_ans"
+    ],
+    "subtitle": "Diagnostic sur place, boost ou remplacement batterie – jour et nuit dans toute la région bruxelloise"
+  },
+  "sections": [
+    {
+      "h2": "Comment on intervient sur votre batterie en panne",
+      "content": "<p>Votre voiture refuse de démarrer ce matin ? Dans 9 cas sur 10, c'est la batterie. Appelez le <strong><a href=\"tel:+3228445604\" style=\"color: #CF5706; text-decoration: none;\">02 844 56 04</a></strong> – <strong style=\"color: #CF5706;\">HELPCAR Dépannage</strong>, le <strong>numéro 1 du dépannage batterie à Bruxelles</strong>. Un dépanneur arrive en 30 minutes, teste, diagnostique et remet votre moteur en marche sur place. Prix annoncé par téléphone, sans surprise.</p><div class=\"timeline-steps\">\n  <div class=\"timeline-step\"><svg class=\"step-timeline step-1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"100%\" viewBox=\"0 0 40 100\" preserveAspectRatio=\"xMinYMin meet\">\n  <defs>\n    <linearGradient id=\"greenGradient1\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"url(#greenGradient1)\" stroke=\"#FFFFFF\" stroke-width=\"3\"/>\n  <text x=\"20\" y=\"27\" font-family=\"Outfit, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#FFFFFF\" text-anchor=\"middle\">1</text>\n  <line x1=\"20\" y1=\"38\" x2=\"20\" y2=\"100\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n</svg><div class=\"timeline-content\"><strong>Appelez le <a href=\"tel:+3228445604\" class=\"phone-link\">02 844 56 04</a> –</strong> Décrivez les symptômes (rien ne se passe au démarrage, bruit de clac-clac, tableau de bord faible...) et votre localisation</div></div>\n  <div class=\"timeline-step\"><svg class=\"step-timeline step-2\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"100%\" viewBox=\"0 0 40 100\" preserveAspectRatio=\"xMinYMin meet\">\n  <defs>\n    <linearGradient id=\"greenGradient2\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <line x1=\"20\" y1=\"0\" x2=\"20\" y2=\"2\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n  <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"url(#greenGradient2)\" stroke=\"#FFFFFF\" stroke-width=\"3\"/>\n  <text x=\"20\" y=\"27\" font-family=\"Outfit, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#FFFFFF\" text-anchor=\"middle\">2</text>\n  <line x1=\"20\" y1=\"38\" x2=\"20\" y2=\"100\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n</svg><div class=\"timeline-content\"><strong>On vous annonce le tarif avant de partir –</strong> Vous validez le prix, on se met en route immédiatement</div></div>\n  <div class=\"timeline-step\"><svg class=\"step-timeline step-3\" xmlns=\"http://www.w3.org/2000/svg\" width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" preserveAspectRatio=\"xMinYMin meet\">\n  <defs>\n    <linearGradient id=\"greenGradient3\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\">\n      <stop offset=\"0%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n      <stop offset=\"100%\" style=\"stop-color:#CF5706;stop-opacity:1\" />\n    </linearGradient>\n  </defs>\n  <line x1=\"20\" y1=\"0\" x2=\"20\" y2=\"2\" stroke=\"#CF5706\" stroke-width=\"3\"/>\n  <circle cx=\"20\" cy=\"20\" r=\"18\" fill=\"url(#greenGradient3)\" stroke=\"#FFFFFF\" stroke-width=\"3\"/>\n  <text x=\"20\" y=\"27\" font-family=\"Outfit, sans-serif\" font-size=\"18\" font-weight=\"700\" fill=\"#FFFFFF\" text-anchor=\"middle\">3</text>\n</svg><div class=\"timeline-content\"><strong>Le dépanneur teste, diagnostique et résout –</strong> Boost rapide si la batterie tient encore, ou remplacement sur place si elle est fichue</div></div>\n</div>"
+    },
+    {
+      "h2": "Pourquoi les batteries lâchent : les vraies raisons",
+      "content": "<p>Une <strong>batterie de voiture</strong> ne prévient pas toujours avant de rendre l'âme. Mais après {{YEARS_EXPERIENCE_PLUS}} ans d'interventions sur le terrain, notre équipe connaît les causes classiques par coeur.</p><p>La raison numéro un à Bruxelles, c'est la combinaison du <strong>froid hivernal et des trajets courts</strong>. En dessous de 0 degré, une batterie perd facilement 30 à 35% de sa capacité. Si vous faites principalement des déplacements de 10 minutes (école, courses, trajet domicile-bureau), la batterie ne se recharge jamais complètement entre deux démarrages. Au bout de quelques hivers, elle n'a plus assez de jus pour lancer le moteur un matin de gel.</p><p>Les autres causes fréquentes : des phares ou la radio restés allumés moteur éteint, une dashcam branchée en permanence sur la prise allume-cigare, ou simplement l'usure naturelle. Qu'il s'agisse d'une Varta, d'une Bosch ou d'une Exide, la durée de vie moyenne tourne autour de <strong>4 à 6 ans</strong> en conditions normales d'utilisation.</p><div class=\"conseil-callout\"><p>Conseil : en hiver, essayez de faire tourner le moteur au moins 20 minutes à chaque trajet. Les petits déplacements de 5 minutes usent les batteries plus vite que n'importe quoi d'autre. Et si votre voiture reste garée plusieurs jours sans rouler, un mainteneur de charge branché sur secteur (environ 30 euros en magasin auto) gardera votre batterie en forme tout l'hiver.</p></div>"
+    },
+    {
+      "h2": "Batterie ou alternateur : comment savoir où est le vrai problème",
+      "content": "<p>Avant de toucher à quoi que ce soit, notre dépanneur fait un <strong>diagnostic complet</strong>. C'est indispensable, parce que dans environ 1 cas sur 5, le problème ne vient pas de la batterie elle-même.</p><p><strong>L'alternateur</strong> est le suspect numéro deux. Son rôle est de recharger la batterie pendant que vous roulez. S'il ne fonctionne plus correctement, vous pouvez installer une batterie flambant neuve : elle sera morte en 48 heures. Le test est simple. On mesure la tension batterie moteur coupé (elle doit afficher entre 12,4V et 12,7V), puis moteur en marche (elle doit monter entre 13,8V et 14,4V). Si la tension ne bouge pas quand le moteur tourne, l'alternateur est en cause.</p><p>Notre équipe vérifie aussi d'autres pistes : un <strong>démarreur fatigué</strong> (vous entendez un clac-clac répété mais le moteur ne lance pas), des <strong>cosses de batterie oxydées</strong> qui empêchent le courant de passer correctement, ou un <strong>consommateur parasite</strong> qui vide la batterie en stationnement. On a les outils pour identifier chaque scénario et vous donner une réponse claire.</p>"
+    },
+    {
+      "h2": "Tarifs dépannage batterie : on joue cartes sur table",
+      "content": "<div style=\"background: #F9FAFB; padding: 1.5rem; border-radius: 12px; border-left: 4px solid #10B981; margin: 1.5rem 0;\"><p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Boost de démarrage :</strong> Votre batterie est simplement à plat ? On la relance en quelques minutes avec un booster professionnel. Le prix dépend de votre localisation et est communiqué par téléphone avant le départ.</p><p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Remplacement batterie sur place :</strong> Si votre batterie est morte, on en pose une neuve adaptée à votre véhicule. Le tarif varie selon l'ampérage et le format nécessaire pour votre modèle de voiture.</p><p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Diagnostic inclus :</strong> Le test batterie-alternateur-démarreur est compris dans chaque intervention. On ne vous fait jamais changer une pièce sans raison.</p></div><p><strong class=\"text-orange\">Un appel au <a href=\"tel:+3228445604\" style=\"color: #CF5706; font-weight: 700;\">02 844 56 04</a></strong> et on vous donne le montant exact. Pas de supplément à l'arrivée, pas de ligne surprise sur la facture.</p>"
+    },
+    {
+      "h2": "HELPCAR Dépannage : une équipe expérimentée à votre service",
+      "content": "<div class=\"why-trust-list\"><p style=\"margin-bottom: 1.5rem;\">✓ <strong>Plus de {{YEARS_EXPERIENCE_PLUS}} ans d'expérience terrain</strong> – Des milliers de batteries diagnostiquées et remplacées à Bruxelles et alentours</p><p style=\"margin-bottom: 1.5rem;\">✓ <strong>Diagnostic honnête avant tout</strong> – On teste batterie, alternateur, cosses et démarreur avant de poser un verdict. Pas de remplacement inutile</p><p style=\"margin-bottom: 1.5rem;\">✓ <strong class=\"text-orange\">Chez vous en 30 minutes</strong> – Que ce soit dans votre garage, un parking souterrain ou au bord de la route</p><p style=\"margin-bottom: 1.5rem;\">✓ <strong>Stock de batteries embarqué</strong> – Les formats les plus demandés (60Ah, 70Ah, 74Ah, 80Ah, 95Ah) sont dans le véhicule d'intervention</p><p style=\"margin-bottom: 0;\">✓ <strong>Disponible 24h/24, 365 jours par an</strong> – Jours fériés, nuits, week-ends : on vous envoie un dépanneur quoi qu'il arrive</p></div>"
+    },
+    {
+      "h2": "Toute la région bruxelloise couverte",
+      "content": "<p>Notre équipe se déplace dans les <strong>19 communes bruxelloises</strong> sans exception : Ixelles, Saint-Gilles, Forest, Anderlecht, Molenbeek, Jette, Ganshoren, Schaerbeek, Evere, Woluwe-Saint-Lambert, Woluwe-Saint-Pierre, Auderghem, Watermael-Boitsfort, Uccle, Etterbeek, Koekelberg, Saint-Josse-ten-Noode, Berchem-Sainte-Agathe et la Ville de Bruxelles.</p><p>Et on ne s'arrête pas aux limites de la Région. On intervient aussi à <strong>Waterloo, Wavre, Nivelles, Braine-l'Alleud, La Hulpe, Ottignies, Zaventem, Tervuren, Overijse, Vilvoorde, Halle</strong> et dans toute la zone du Brabant wallon et flamand. Devant chez vous, sur le parking d'un supermarché ou à l'aéroport : on arrive.</p><p style=\"margin-top: 1rem;\"><a href=\"../zones/\" class=\"link-arrow\" style=\"color: #CF5706; font-weight: 600; text-decoration: none;\">Voir toutes les zones →</a></p>"
+    },
+    {
+      "h2": "Nos autres services de dépannage",
+      "content": "<div class=\"services-lies-grid\" style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;\"><div style=\"background: #F9FAFB; padding: 1.25rem; border-radius: 12px; border-left: 4px solid #CF5706;\"><h3 style=\"font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem;\"><a href=\"../remorquage-voiture/\" style=\"color: #1A1A1A; text-decoration: none;\">→ Remorquage Voiture</a></h3><p style=\"font-size: 0.95rem; color: #6B7280; margin: 0;\">Transport sur plateau quand votre voiture ne peut plus rouler</p></div><div style=\"background: #F9FAFB; padding: 1.25rem; border-radius: 12px; border-left: 4px solid #CF5706;\"><h3 style=\"font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem;\"><a href=\"../reparation-pneu/\" style=\"color: #1A1A1A; text-decoration: none;\">→ Réparation Pneu</a></h3><p style=\"font-size: 0.95rem; color: #6B7280; margin: 0;\">Pneu crevé sur la route ? Mèche, roue de secours ou remorquage au centre pneus</p></div><div style=\"background: #F9FAFB; padding: 1.25rem; border-radius: 12px; border-left: 4px solid #CF5706;\"><h3 style=\"font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem;\"><a href=\"../fourniture-carburant/\" style=\"color: #1A1A1A; text-decoration: none;\">→ Livraison Carburant</a></h3><p style=\"font-size: 0.95rem; color: #6B7280; margin: 0;\">Panne sèche ? On vous apporte de l'essence ou du diesel directement sur place</p></div><div style=\"background: #F9FAFB; padding: 1.25rem; border-radius: 12px; border-left: 4px solid #CF5706;\"><h3 style=\"font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem;\"><a href=\"../ouverture-de-porte/\" style=\"color: #1A1A1A; text-decoration: none;\">→ Ouverture de Véhicule</a></h3><p style=\"font-size: 0.95rem; color: #6B7280; margin: 0;\">Clés enfermées dans la voiture ? On ouvre sans abîmer la serrure ni la carrosserie</p></div></div>"
+    }
+  ],
+  "cta": {
+    "title": "Votre moteur refuse de démarrer ?",
+    "subtitle": "On vous envoie un dépanneur batterie en 30 minutes – diagnostic et solution sur place",
+    "button_text": "📞  Appeler HELPCAR"
+  },
+  "faq": [
+    {
+      "question": "Combien coûte un dépannage batterie avec HELPCAR Dépannage ?",
+      "answer": "Le prix dépend de l'intervention nécessaire (boost simple ou remplacement) et de votre localisation. Appelez le <a href=\"tel:+3228445604\" style=\"color: #CF5706; font-weight: 600;\">02 844 56 04</a> et on vous communique le <strong class=\"text-orange\">montant exact avant de venir</strong>. Le tarif annoncé est définitif."
+    },
+    {
+      "question": "Vous intervenez aussi la nuit et les jours fériés ?",
+      "answer": "Oui. HELPCAR Dépannage fonctionne <strong class=\"text-green\">24 heures sur 24, 365 jours par an</strong>. Réveillon, 15 août, dimanche à 4h du matin : on décroche et on vous envoie un dépanneur."
+    },
+    {
+      "question": "Ma voiture fait clac-clac mais ne démarre pas, c'est forcément la batterie ?",
+      "answer": "Ce bruit de claquement répété est typique d'une batterie trop faible pour entraîner le démarreur. Dans la majorité des cas, oui, c'est elle. Mais parfois le démarreur lui-même est usé. Notre dépanneur vérifie les deux en arrivant pour ne pas vous faire changer une pièce inutilement."
+    },
+    {
+      "question": "Combien de temps dure une batterie de voiture en Belgique ?",
+      "answer": "Avec le climat belge et les habitudes de conduite urbaine (beaucoup de courts trajets), une batterie tient en moyenne <strong>4 à 5 ans</strong>. Si vous roulez principalement sur autoroute, elle peut atteindre 6 à 7 ans. Les marques comme Varta et Bosch offrent généralement une bonne longévité."
+    },
+    {
+      "question": "Pouvez-vous dépanner une voiture hybride ou électrique ?",
+      "answer": "Les hybrides ont une batterie 12V classique en plus de leur batterie de traction, et on intervient dessus sans problème. Pour les 100% électriques, on peut aussi dépanner la batterie 12V auxiliaire qui gère l'électronique de bord. La batterie haute tension, en revanche, relève du réseau constructeur."
+    },
+    {
+      "question": "J'ai fait booster ma batterie hier et elle est encore morte ce matin. Que faire ?",
+      "answer": "Si la batterie se vide en une nuit après un boost, deux scénarios : soit la batterie est en fin de vie et ne tient plus la charge (à remplacer), soit un consommateur parasite la vide quand le moteur est coupé (autoradio, dashcam, alarme...). Notre dépanneur teste le courant de fuite sur place pour trancher."
+    },
+    {
+      "question": "Comment protéger ma batterie pendant l'hiver bruxellois ?",
+      "answer": "Trois réflexes simples : faites tourner le moteur au moins 20 minutes par trajet pour recharger la batterie correctement. Éteignez tout (phares, chauffage, radio) avant de couper le contact. Et si votre voiture reste stationnée plusieurs jours, un mainteneur de charge branché sur secteur évitera la décharge complète."
+    }
+  ]
+}

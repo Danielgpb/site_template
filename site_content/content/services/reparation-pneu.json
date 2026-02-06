@@ -1,0 +1,74 @@
+{
+  "service_id": 4,
+  "last_updated": "2026-02-05",
+  "hero": {
+    "h1": "Réparation et Changement de Pneu à Bruxelles – HELPCAR Dépannage 24h/24",
+    "badges": [
+      "intervention_rapide",
+      "disponible_24_7",
+      "expertise_10_ans"
+    ],
+    "subtitle": "Pneu crevé ou éclaté ? On vous envoie un dépanneur pour réparer sur place ou transporter votre véhicule"
+  },
+  "sections": [
+    {
+      "h2": "Ce qu'on fait quand vous avez un pneu à plat",
+      "content": "<p>Vous rouliez tranquillement et d'un coup, ce bruit sourd et le volant qui tire ? Pneu crevé. Appelez le <strong><a href=\"tel:+3228445604\" style=\"color: #CF5706; text-decoration: none;\">02 844 56 04</a></strong> : <strong style=\"color: #CF5706;\">HELPCAR Dépannage</strong>, c'est <strong>le meilleur service de réparation de pneu à Bruxelles</strong>. Un dépanneur arrive en 30 minutes avec tout le matériel – mèche, roue de secours ou plateau vers un centre pneus. Le prix est annoncé par téléphone, pas de surprise.</p><p><strong>Pose de mèche :</strong> Si le trou se trouve sur la bande de roulement et mesure moins de 6 mm, on insère une mèche de réparation, on regonfle le pneu et vous repartez en quelques minutes. C'est la solution la plus rapide et la plus économique.</p><p><strong>Montage de la roue de secours :</strong> Vous avez une roue de secours dans le coffre ? Notre dépanneur démonte la roue endommagée, installe la roue de secours et vous pouvez rejoindre un centre pneus tranquillement.</p><p><strong>Remorquage vers un centre pneus :</strong> Pas de roue de secours et la crevaison n'est pas réparable sur place ? On charge votre véhicule sur le plateau et on le transporte au magasin de pneus de votre choix.</p>"
+    },
+    {
+      "h2": "Pneu crevé ou pneu éclaté : quelle différence pour vous ?",
+      "content": "<p>Une crevaison classique, c'est un trou dans la bande de roulement causé par un clou, une vis ou un morceau de métal sur la route. Le pneu se dégonfle lentement, parfois sur plusieurs heures. Dans la plupart des cas, une <strong>réparation par mèche</strong> suffit et vous repartez en quelques minutes.</p><p>Un éclatement, c'est tout autre chose. Le flanc du pneu cède brutalement, souvent à cause d'un choc violent contre un trottoir ou un nid-de-poule, ou parce que le pneu était sous-gonflé depuis longtemps. Là, il n'y a rien à réparer : le pneu est détruit et il faut le remplacer. Notre dépanneur installe votre roue de secours si vous en avez une, sinon on remorque votre véhicule.</p><div class=\"conseil-callout\"><p>Conseil : vérifiez la pression de vos pneus une fois par mois. Un pneu sous-gonflé chauffe davantage, s'use de manière inégale et risque beaucoup plus d'éclater. C'est la cause numéro un des éclatements sur autoroute.</p></div>"
+    },
+    {
+      "h2": "Réparation sur place : dans quels cas c'est possible ?",
+      "content": "<p>La réparation par mèche fonctionne dans environ <strong>70% des cas de crevaison</strong>. Pour que ce soit faisable, trois conditions doivent être réunies : le trou doit se situer sur la bande de roulement (la partie du pneu qui touche la route), il ne doit pas dépasser 6 mm de diamètre, et le pneu ne doit pas avoir roulé à plat sur une longue distance.</p><p>En revanche, certaines situations rendent la réparation impossible. Un trou sur le flanc du pneu est trop dangereux à colmater, la structure y étant trop fine et trop sollicitée. Un pneu qui a roulé complètement à plat sur plusieurs kilomètres a une carcasse interne déformée de façon irréversible. Et un pneu déjà usé jusqu'au témoin d'usure ne vaut pas la peine d'être réparé.</p><p>Notre dépanneur vous montre toujours le dégât constaté et vous explique clairement pourquoi la réparation est possible ou non. Pas de jargon technique incompréhensible, pas de pression pour vous faire acheter quoi que ce soit.</p>"
+    },
+    {
+      "h2": "Tarifs crevaison : vous savez avant qu'on se déplace",
+      "content": "<div style=\"background: #F9FAFB; padding: 1.5rem; border-radius: 12px; border-left: 4px solid #10B981; margin: 1.5rem 0;\"><p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Mèche sur bande de roulement :</strong> Intervention rapide et économique. Tarif fixe communiqué par téléphone selon votre localisation dans Bruxelles ou en périphérie.</p><p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Montage roue de secours :</strong> Démontage de la roue endommagée et installation de votre roue de secours. Prix confirmé à l'appel, tout compris.</p><p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Remorquage vers un centre pneus :</strong> Tarif calculé selon la distance entre votre position et le magasin. Devis immédiat et gratuit par téléphone.</p></div><p><strong class=\"text-orange\">Composez le <a href=\"tel:+3228445604\" style=\"color: #CF5706; font-weight: 700;\">02 844 56 04</a></strong> et on vous annonce le montant en moins de deux minutes. Le prix ne bougera pas entre le téléphone et la facture.</p>"
+    },
+    {
+      "h2": "On couvre Bruxelles et toute la périphérie",
+      "content": "<p><strong style=\"color: #CF5706;\">HELPCAR Dépannage</strong> intervient dans l'ensemble des <strong>19 communes bruxelloises</strong> : Anderlecht, Molenbeek, Saint-Gilles, Forest, Etterbeek, Auderghem, Jette, Evere, Ganshoren, Ixelles, Uccle, Schaerbeek, Woluwe-Saint-Lambert, Woluwe-Saint-Pierre, Watermael-Boitsfort, Koekelberg, Saint-Josse-ten-Noode, Berchem-Sainte-Agathe et la Ville de Bruxelles.</p><p>On se déplace aussi en <strong>périphérie</strong> : Zaventem, Waterloo, Nivelles, Halle, Grimbergen, Wemmel, Dilbeek, Tervuren, Overijse, Wavre, Braine-l'Alleud et au-delà. Que vous soyez sur le Ring, dans un parking de centre commercial ou devant votre domicile, on arrive équipés.</p><p style=\"margin-top: 1rem;\"><a href=\"../zones/\" class=\"link-arrow\" style=\"color: #CF5706; font-weight: 600; text-decoration: none;\">Voir toutes les zones →</a></p>"
+    },
+    {
+      "h2": "Nos autres services de dépannage",
+      "content": "<div class=\"services-lies-grid\" style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;\"><div style=\"background: #F9FAFB; padding: 1.25rem; border-radius: 12px; border-left: 4px solid #CF5706;\"><h3 style=\"font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem;\"><a href=\"../remorquage-voiture/\" style=\"color: #1A1A1A; text-decoration: none;\">→ Remorquage Voiture</a></h3><p style=\"font-size: 0.95rem; color: #6B7280; margin: 0;\">Transport sur plateau quand la réparation sur place n'est pas possible</p></div><div style=\"background: #F9FAFB; padding: 1.25rem; border-radius: 12px; border-left: 4px solid #CF5706;\"><h3 style=\"font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem;\"><a href=\"../batterie/\" style=\"color: #1A1A1A; text-decoration: none;\">→ Dépannage Batterie</a></h3><p style=\"font-size: 0.95rem; color: #6B7280; margin: 0;\">Batterie à plat ? Boost ou remplacement directement chez vous</p></div><div style=\"background: #F9FAFB; padding: 1.25rem; border-radius: 12px; border-left: 4px solid #CF5706;\"><h3 style=\"font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem;\"><a href=\"../fourniture-carburant/\" style=\"color: #1A1A1A; text-decoration: none;\">→ Livraison Carburant</a></h3><p style=\"font-size: 0.95rem; color: #6B7280; margin: 0;\">Panne sèche en pleine route ? On vous apporte l'essence ou le diesel</p></div><div style=\"background: #F9FAFB; padding: 1.25rem; border-radius: 12px; border-left: 4px solid #CF5706;\"><h3 style=\"font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem;\"><a href=\"../remorquage-moto/\" style=\"color: #1A1A1A; text-decoration: none;\">→ Remorquage Moto</a></h3><p style=\"font-size: 0.95rem; color: #6B7280; margin: 0;\">Pneu crevé sur votre deux-roues ? On transporte votre moto ou scooter</p></div></div>"
+    }
+  ],
+  "cta": {
+    "title": "Pneu crevé ? On s'en occupe.",
+    "subtitle": "Réparation sur place ou remorquage – un dépanneur chez vous en 30 minutes",
+    "button_text": "📞  Appeler HELPCAR"
+  },
+  "faq": [
+    {
+      "question": "Combien coûte un dépannage pneu crevé avec HELPCAR Dépannage ?",
+      "answer": "Le tarif dépend de l'intervention : pose de mèche, montage roue de secours ou remorquage. Appelez le <a href=\"tel:+3228445604\" style=\"color: #CF5706; font-weight: 600;\">02 844 56 04</a> et on vous communique le <strong class=\"text-orange\">montant exact avant de venir</strong>. Aucun supplément à l'arrivée."
+    },
+    {
+      "question": "Vous intervenez la nuit et le week-end pour une crevaison ?",
+      "answer": "Oui. HELPCAR Dépannage est disponible <strong>24 heures sur 24, 7 jours sur 7</strong>, y compris les jours fériés. Appelez le <a href=\"tel:+3228445604\" style=\"color: #CF5706; font-weight: 600;\">02 844 56 04</a> à n'importe quelle heure, on vous envoie un dépanneur."
+    },
+    {
+      "question": "Ma voiture récente n'a pas de roue de secours, comment faites-vous ?",
+      "answer": "C'est de plus en plus courant sur les modèles récents. Si la crevaison permet une réparation par mèche, on intervient sur place. Sinon, on remorque votre véhicule jusqu'au centre pneus le plus proche de votre choix pour le remplacement."
+    },
+    {
+      "question": "La mèche de réparation, c'est fiable ?",
+      "answer": "Oui, à condition qu'elle soit posée au bon endroit (bande de roulement uniquement) et que le trou ne dépasse pas 6 mm. C'est une réparation d'urgence efficace. On recommande toutefois de faire poser un patch de vulcanisation par l'intérieur chez un spécialiste dans les semaines qui suivent, pour une solution définitive."
+    },
+    {
+      "question": "En combien de temps le dépanneur arrive-t-il ?",
+      "answer": "En moyenne <strong>moins de 30 minutes</strong> dans les 19 communes bruxelloises. Pour la périphérie, le délai dépend de la distance mais on vous donne une estimation précise dès votre appel."
+    },
+    {
+      "question": "Que faire si j'ai une crevaison sur le Ring ou l'autoroute ?",
+      "answer": "Restez dans votre véhicule avec la ceinture de sécurité, activez vos feux de détresse et appelez immédiatement le <a href=\"tel:+3228445604\" style=\"color: #CF5706; font-weight: 600;\">02 844 56 04</a>. Ne sortez pas sur une voie rapide : c'est la première cause d'accident secondaire. Notre dépanneur intervient sur la bande d'arrêt d'urgence."
+    },
+    {
+      "question": "Un pneu réparé à la mèche passe-t-il le contrôle technique en Belgique ?",
+      "answer": "Un pneu avec une mèche visible de l'extérieur peut être refusé au contrôle technique belge. Après notre intervention d'urgence, faites poser un patch de vulcanisation par l'intérieur chez un spécialiste pneus. Cela garantit une réparation définitive et conforme aux exigences du contrôle."
+    }
+  ]
+}
