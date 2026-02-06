@@ -166,6 +166,47 @@ function replaceVars(text) {
     .replace(/\{\{WHATSAPP_LINK\}\}/g, WHATSAPP_LINK);
 }
 
+// ============ IMAGE PLACEHOLDER HELPER ============
+
+const IMG_ICON = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>';
+
+function imgPlaceholder(label, suggestion, size = '800 x 600 px', modifier = '--landscape') {
+  return `<div class="img-placeholder img-placeholder${modifier}">
+    <div class="img-placeholder__icon">${IMG_ICON}</div>
+    <div class="img-placeholder__label">${label}</div>
+    <div class="img-placeholder__suggestion">${suggestion}</div>
+    <div class="img-placeholder__dimensions">${size}</div>
+  </div>`;
+}
+
+// Photo suggestions per service type
+const SERVICE_PHOTO_SUGGESTIONS = {
+  'batterie': [
+    { label: 'Photo : Diagnostic batterie', suggestion: 'Technicien avec multimètre sur une batterie, capot ouvert, gros plan sur les bornes' },
+    { label: 'Photo : Remplacement batterie', suggestion: 'Dépanneur qui installe une batterie neuve, vue sur le compartiment moteur' },
+  ],
+  'remorquage-voiture': [
+    { label: 'Photo : Chargement plateau', suggestion: 'Voiture qui monte sur le plateau de la dépanneuse, rampe visible, vue latérale' },
+    { label: 'Photo : Transport', suggestion: 'Camion plateau avec voiture chargée, en déplacement dans Bruxelles' },
+  ],
+  'reparation-pneu': [
+    { label: 'Photo : Changement de roue', suggestion: 'Technicien accroupi qui change un pneu, cric et outils visibles' },
+    { label: 'Photo : Pneu crevé', suggestion: 'Gros plan sur un pneu à plat, ou dépanneur qui pose une mèche' },
+  ],
+  'ouverture-de-porte': [
+    { label: 'Photo : Ouverture véhicule', suggestion: 'Dépanneur avec outils de crochetage auto, portière, travail méticuleux' },
+    { label: 'Photo : Porte déverrouillée', suggestion: 'Main sur la poignée de porte ouverte, client soulagé' },
+  ],
+  '_default': [
+    { label: 'Photo : Intervention en cours', suggestion: 'Dépanneur en uniforme en train de travailler sur un véhicule, ambiance professionnelle' },
+    { label: 'Photo : Résultat', suggestion: 'Véhicule réparé/chargé, client satisfait, dépanneur souriant' },
+  ],
+};
+
+function getServicePhotos(baseName) {
+  return SERVICE_PHOTO_SUGGESTIONS[baseName] || SERVICE_PHOTO_SUGGESTIONS['_default'];
+}
+
 // ============ SERVICE PAGES ============
 
 function buildServicePage(jsonFile, slug) {
@@ -182,10 +223,41 @@ function buildServicePage(jsonFile, slug) {
     return `<span class="hero__badge">${labels[b] || b}</span>`;
   }).join(' ');
 
-  const sectionsHtml = (data.sections || []).map(s => `
+  const photos = getServicePhotos(path.basename(jsonFile, '.json'));
+
+  const sectionsHtml = (data.sections || []).map((s, i) => {
+    let html = '';
+    // Insert photo placeholder after every 2nd section, alternating layout
+    if (i > 0 && i % 2 === 0 && photos.length > 0) {
+      const photoIdx = Math.floor(i / 2) - 1;
+      const photo = photos[photoIdx % photos.length];
+      const reverse = (photoIdx % 2 === 1) ? ' photo-section--reverse' : '';
+      html += `
+    </div>
+  </div>
+</section>
+<section class="section${i % 4 === 0 ? ' section--gray' : ''}">
+  <div class="container">
+    <div class="photo-section${reverse}">
+      <div class="photo-section__content">
+        <h2>${replaceVars(s.h2)}</h2>
+        <div>${replaceVars(s.content)}</div>
+      </div>
+      <div class="photo-section__image">
+        ${imgPlaceholder(photo.label, photo.suggestion)}
+      </div>
+    </div>
+    <div class="service-content">`;
+      return html;
+    }
+    html += `
     <h2>${replaceVars(s.h2)}</h2>
-    <div>${replaceVars(s.content)}</div>
-  `).join('\n');
+    <div>${replaceVars(s.content)}</div>`;
+    return html;
+  }).join('\n');
+
+  // Add a hero-level photo placeholder after the first section
+  const heroPhoto = photos[0] || { label: 'Photo service', suggestion: 'Photo en rapport avec ce service' };
 
   const faqHtml = (data.faq || []).map(f => `
     <div class="faq-item">
@@ -230,6 +302,13 @@ ${getSharedHeader('Services')}
 
 <section class="section">
   <div class="container">
+    <div class="photo-section">
+      <div class="photo-section__image">
+        ${imgPlaceholder(heroPhoto.label, heroPhoto.suggestion, '1200 x 800 px', '--wide')}
+      </div>
+      <div class="photo-section__content" style="display:none"></div>
+    </div>
+    <style>@media(max-width:767px){.photo-section__content[style]{display:none!important}}</style>
     <div class="service-content">
       ${sectionsHtml}
     </div>
@@ -350,10 +429,17 @@ ${getSharedHeader('Zones')}
 
 <section class="section">
   <div class="container">
-    <div class="service-content">
-      <p>${replaceVars(c.intro_autorite.paragraphe_0)}</p>
-      <p>${replaceVars(c.intro_autorite.paragraphe_1)}</p>
-      <p>${replaceVars(c.intro_autorite.paragraphe_2)}</p>
+    <div class="photo-section">
+      <div class="photo-section__content">
+        <div class="service-content" style="padding:0">
+          <p>${replaceVars(c.intro_autorite.paragraphe_0)}</p>
+          <p>${replaceVars(c.intro_autorite.paragraphe_1)}</p>
+          <p>${replaceVars(c.intro_autorite.paragraphe_2)}</p>
+        </div>
+      </div>
+      <div class="photo-section__image">
+        ${imgPlaceholder('Photo : ' + data.commune, 'Vue de ' + data.commune + ' avec dépanneuse HELPCAR, ou point de repère connu de la commune avec camion en arrière-plan')}
+      </div>
     </div>
   </div>
 </section>
