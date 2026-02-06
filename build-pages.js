@@ -351,12 +351,18 @@ function buildLocationPage(jsonFile, slug) {
 
   const quartiersHtml = (c.section_on_connait?.quartiers || []).map(q => `
     <div class="service-card">
-      <div class="service-card__icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      <div class="service-card__photo">
+        <div class="service-card__photo-icon">${IMG_ICON}</div>
+        <div class="service-card__photo-hint">Photo : Rue ou place connue de ${q.nom}</div>
       </div>
-      <div class="service-card__content">
-        <h3 class="service-card__title">${q.nom}</h3>
-        <p class="service-card__desc">${q.description}</p>
+      <div class="service-card__body">
+        <div class="service-card__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <div class="service-card__content">
+          <h3 class="service-card__title">${q.nom}</h3>
+          <p class="service-card__desc">${q.description}</p>
+        </div>
       </div>
     </div>
   `).join('\n');
