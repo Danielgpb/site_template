@@ -298,16 +298,44 @@ h3 { font-size: 1.25rem; }
   padding: 40px 0 48px;
   position: relative;
   overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero::before {
   content: '';
   position: absolute;
-  top: 0; right: -50%;
+  top: 0; left: 0;
   width: 100%;
   height: 100%;
-  background: radial-gradient(circle, rgba(207,87,6,0.15) 0%, transparent 70%);
+  background: linear-gradient(to bottom, rgba(26,26,26,0.82) 0%, rgba(26,26,26,0.92) 100%);
   pointer-events: none;
+  z-index: 0;
+}
+
+.hero--placeholder::before {
+  background: linear-gradient(to bottom, rgba(26,26,26,0.75) 0%, rgba(26,26,26,0.88) 100%);
+}
+
+.hero__bg-hint {
+  position: absolute;
+  bottom: 12px;
+  right: 16px;
+  z-index: 2;
+  background: rgba(0,0,0,0.6);
+  color: var(--gray-400);
+  font-size: 0.65rem;
+  padding: 4px 10px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.hero__bg-hint svg {
+  width: 14px;
+  height: 14px;
 }
 
 .hero__content {

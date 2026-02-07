@@ -207,6 +207,41 @@ function getServicePhotos(baseName) {
   return SERVICE_PHOTO_SUGGESTIONS[baseName] || SERVICE_PHOTO_SUGGESTIONS['_default'];
 }
 
+// Hero background photo suggestions per service
+const SERVICE_HERO_BG = {
+  'batterie': 'Dépanneur branchant des câbles sur une batterie, scène de nuit avec gyrophare',
+  'remorquage-voiture': 'Camion plateau HELPCAR chargeant une voiture, vue large de nuit',
+  'reparation-pneu': 'Technicien changeant un pneu au bord de la route, éclairage de nuit',
+  'ouverture-de-porte': 'Dépanneur travaillant sur une portière verrouillée, éclairage urbain',
+  'remorquage-moto': 'Moto en cours de chargement sur plateau, ambiance nocturne',
+  'depannage-camionnette-bruxelles': 'Camionnette sur plateau dépanneuse, intervention de nuit',
+  'remorquage-vehicules-speciaux': 'SUV chargé sur dépanneuse, scène nocturne urbaine',
+  'transport-local': 'Dépanneuse traversant Bruxelles de nuit avec véhicule chargé',
+  'transport-longue-distance': 'Camion plateau sur autoroute belge, longue exposition de nuit',
+  'enlevement-epave': 'Enlèvement d\'une épave, dépanneuse avec treuil, gyrophare',
+  'sortie-de-fourriere': 'Véhicule récupéré en fourrière, dépanneuse garée devant',
+  'depannage-voiture-bruxelles': 'Dépanneur penché sur un moteur, intervention de nuit à Bruxelles',
+  'depannage-voiture-electrique-bruxelles': 'Véhicule électrique sur plateau, borne de recharge en arrière-plan',
+  'achat-voiture-accidentee': 'Voiture accidentée inspectée, dépanneuse en arrière-plan',
+  'panne-moteur-bruxelles': 'Diagnostic moteur avec outil électronique, capot ouvert, nuit',
+  'depannage-sous-sol': 'Dépanneuse dans un parking souterrain, éclairage artificiel',
+  'remplacement-batterie': 'Installation batterie neuve sous capot, mains du technicien',
+  'fourniture-carburant': 'Dépanneur apportant un bidon de carburant, bord de route',
+  'panne-essence-bruxelles': 'Livraison de carburant au bord de la route, nuit',
+  'placement-roue-secours-bruxelles': 'Montage roue de secours, cric et outils, bord de route',
+  'erreur-carburant': 'Siphonnage réservoir, tuyaux et bidon, intervention de nuit',
+  'embourbe': 'Treuil tirant une voiture embourbée, phares allumés',
+  '_default': 'Dépanneuse HELPCAR en intervention de nuit, gyrophare orange allumé',
+};
+
+function getHeroBg(baseName) {
+  return SERVICE_HERO_BG[baseName] || SERVICE_HERO_BG['_default'];
+}
+
+function heroBgHint(suggestion) {
+  return `<div class="hero__bg-hint">${IMG_ICON} ${suggestion}</div>`;
+}
+
 // ============ SERVICE PAGES ============
 
 function buildServicePage(jsonFile, slug) {
@@ -286,7 +321,8 @@ function buildServicePage(jsonFile, slug) {
 <body>
 ${getSharedHeader('Services')}
 
-<section class="hero">
+<section class="hero hero--placeholder">
+  ${heroBgHint('Photo hero : ' + getHeroBg(path.basename(jsonFile, '.json')))}
   <div class="container">
     <div class="hero__content">
       <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px">${badges}</div>
@@ -301,14 +337,6 @@ ${getSharedHeader('Services')}
 </section>
 
 <section class="section">
-  <div class="container">
-    <div class="photo-section">
-      <div class="photo-section__image">
-        ${imgPlaceholder(heroPhoto.label, heroPhoto.suggestion, '1200 x 800 px', '--wide')}
-      </div>
-      <div class="photo-section__content" style="display:none"></div>
-    </div>
-    <style>@media(max-width:767px){.photo-section__content[style]{display:none!important}}</style>
     <div class="service-content">
       ${sectionsHtml}
     </div>
@@ -419,7 +447,8 @@ function buildLocationPage(jsonFile, slug) {
 <body>
 ${getSharedHeader('Zones')}
 
-<section class="hero">
+<section class="hero hero--placeholder">
+  ${heroBgHint('Photo hero : Rue ou monument emblématique de ' + data.commune + ', dépanneuse HELPCAR en arrière-plan')}
   <div class="container">
     <div class="hero__content">
       <div class="hero__badge"><span class="hero__badge-dot"></span> Disponible maintenant</div>
