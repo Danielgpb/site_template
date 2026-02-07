@@ -156,32 +156,18 @@ h3 { font-size: 1.25rem; }
 .header__logo {
   display: flex;
   align-items: center;
-  gap: 8px;
   text-decoration: none;
   flex-shrink: 0;
 }
 
-.header__logo-icon {
-  width: 36px;
-  height: 36px;
-  background: var(--primary);
-  border-radius: var(--radius-sm);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-weight: 800;
-  font-size: 0.85rem;
+.header__logo img {
+  height: 40px;
+  width: auto;
+  display: block;
 }
 
-.header__logo-text {
-  color: var(--white);
-  font-weight: 700;
-  font-size: 1.1rem;
-}
-
-.header__logo-text span {
-  color: var(--primary);
+.footer .header__logo img {
+  height: 34px;
 }
 
 .header__phone-desktop {
