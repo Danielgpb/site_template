@@ -96,7 +96,7 @@
 | S6 | services/panne-essence-bruxelles | Image panne essence (1200x800) | |
 | S7 | services/fourniture-carburant-bruxelles | Image fourniture carburant (1200x800) | |
 | S8 | services/remplacement-batterie-bruxelles | Image remplacement batterie (1200x800) | |
-| S9 | services/remorquage-vehicules-speciaux-bruxelles | Image véhicules spéciaux (1200x800) | |
+| S9 | services/remorquage-vehicules-speciaux-bruxelles | Image véhicules spéciaux (1200x800) | 35|
 | S10 | services/transport-routier-local-bruxelles | Image transport local (1200x800) | |
 | S11 | services/transport-routier-longue-distance-bruxelles | Image transport longue distance (1200x800) | |
 | S12 | services/depannage-voiture-bruxelles | Image dépannage voiture (1200x800) | |
