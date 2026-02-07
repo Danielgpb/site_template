@@ -29,7 +29,7 @@
     },
     {
       "h2": "Tarifs pour le dépannage de véhicules électriques",
-      "content": "<div style=\"background: #F9FAFB; padding: 1.5rem; border-radius: 12px; border-left: 4px solid #10B981; margin: 1.5rem 0;\"><p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Transport vers borne de recharge :</strong> Votre autonomie est à zéro ? On vous dépose à la borne rapide la plus proche. Prix communiqué par téléphone.</p><p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Remorquage vers garage ou concessionnaire :</strong> Panne électronique, mécanique ou collision. Devis gratuit immédiat selon la distance.</p><p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Remplacement batterie 12V :</strong> Intervention rapide sur place, tarif selon le modèle de votre véhicule.</p><p style=\"margin-bottom: 0;\"><strong style=\"color: #10B981;\">Ouverture de portière :</strong> Clés enfermées dans votre EV ? Méthode non destructive, électronique préservée. Prix communiqué par téléphone.</p></div><p><strong class=\"text-orange\">Appelez le <a href=\"tel:+3228445604\" style=\"color: #CF5706; font-weight: 700;\">02 844 56 04</a></strong> en précisant votre modèle. On vous confirme le tarif en moins de 2 minutes. <strong>Aucun supplément à l'arrivée.</strong></p>"
+      "content": "<div style=\"background: #F9FAFB; padding: 1.5rem; border-radius: 12px; border-left: 4px solid #10B981; margin: 1.5rem 0;\"><p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Transport vers borne de recharge :</strong> Votre autonomie est à zéro ? On vous dépose à la borne rapide la plus proche. Prix communiqué par téléphone.</p><p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Remorquage vers garage ou concessionnaire :</strong> Panne électronique, mécanique ou collision. Devis gratuit immédiat selon la distance.</p><p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Remplacement batterie 12V :</strong> Intervention rapide sur place, tarif selon le modèle de votre véhicule.</p><p style=\"margin-bottom: 0;\"><strong style=\"color: #10B981;\">Ouverture de portière :</strong> Clés enfermées dans votre EV ? Méthode non destructive, électronique préservée. Prix communiqué par téléphone.</p></div><p><strong class=\"text-orange\">Appelez le <a href=\"tel:+3228445604\" style=\"color: #CF5706; font-weight: 700;\">02 844 56 04</a></strong> en précisant votre modèle. On vous confirme le tarif en moins de 2 minutes. <strong>Supplément éventuel inclus dans le montant annoncé.</strong></p>"
     },
     {
       "h2": "Zone de couverture : Bruxelles et toute la périphérie",
@@ -60,7 +60,7 @@
     },
     {
       "question": "Quel est le prix pour dépanner une Tesla ou un autre EV à Bruxelles ?",
-      "answer": "Le tarif dépend du modèle et de la distance de transport. Appelez le <a href=\"tel:+3228445604\" style=\"color: #CF5706; font-weight: 600;\">02 844 56 04</a> et on vous donne le montant exact avant de nous déplacer. Pas de supplément à l'arrivée."
+      "answer": "Le tarif dépend du modèle et de la distance de transport. Appelez le <a href=\"tel:+3228445604\" style=\"color: #CF5706; font-weight: 600;\">02 844 56 04</a> et on vous donne le montant exact avant de nous déplacer. Le montant annoncé est le montant final."
     },
     {
       "question": "Intervenez-vous aussi sur les hybrides rechargeables (PHEV) ?",

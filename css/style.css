@@ -156,28 +156,37 @@ h3 { font-size: 1.25rem; }
 .header__logo {
   display: flex;
   align-items: center;
+  gap: 8px;
   text-decoration: none;
   flex-shrink: 0;
 }
 
-.header__logo img {
-  height: 44px;
-  max-width: 180px;
+.header__logo-img {
+  height: 80px;
   width: auto;
-  display: block;
-  object-fit: contain;
 }
 
-.footer .header__logo img {
-  height: 38px;
-  max-width: 160px;
+.header__logo-icon {
+  width: 36px;
+  height: 36px;
+  background: var(--primary);
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 800;
+  font-size: 0.85rem;
 }
 
-@media (min-width: 768px) {
-  .header__logo img {
-    height: 50px;
-    max-width: 240px;
-  }
+.header__logo-text {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.header__logo-text span {
+  color: var(--primary);
 }
 
 .header__phone-desktop {
@@ -294,6 +303,9 @@ h3 { font-size: 1.25rem; }
   padding: 40px 0 48px;
   position: relative;
   overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero::before {
@@ -302,8 +314,32 @@ h3 { font-size: 1.25rem; }
   top: 0; right: -50%;
   width: 100%;
   height: 100%;
-  background: radial-gradient(circle, rgba(207,87,6,0.15) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(207,87,6,0.25) 0%, transparent 70%);
   pointer-events: none;
+}
+
+.hero--placeholder::before {
+  background: linear-gradient(to bottom, rgba(26,26,26,0.75) 0%, rgba(26,26,26,0.88) 100%);
+}
+
+.hero__bg-hint {
+  position: absolute;
+  bottom: 12px;
+  right: 16px;
+  z-index: 2;
+  background: rgba(0,0,0,0.6);
+  color: var(--gray-400);
+  font-size: 0.65rem;
+  padding: 4px 10px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.hero__bg-hint svg {
+  width: 14px;
+  height: 14px;
 }
 
 .hero__content {
@@ -505,9 +541,15 @@ h3 { font-size: 1.25rem; }
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 16px 12px;
+  padding: 0;
   border-bottom: 1px solid var(--gray-200);
   overflow: hidden;
+}
+
+.service-card__photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .section--dark .service-card__photo {
@@ -1600,6 +1642,16 @@ h3 { font-size: 1.25rem; }
 
 .photo-section__image {
   width: 100%;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  aspect-ratio: 4/3;
+}
+
+.photo-section__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
 }
 
 .photo-section__image .img-placeholder {

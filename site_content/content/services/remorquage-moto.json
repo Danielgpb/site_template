@@ -56,7 +56,7 @@
     },
     {
       "question": "Quel est le prix pour transporter ma moto dans Bruxelles ?",
-      "answer": "Le tarif dépend du type de moto et de la distance entre votre position et la destination. Appelez le <a href=\"tel:+3228445604\" style=\"color: #CF5706; font-weight: 600;\">02 844 56 04</a> et on vous donne le <strong class=\"text-orange\">montant exact en deux minutes</strong>. Ce prix est définitif, sans supplément à l'arrivée."
+      "answer": "Le tarif dépend du type de moto et de la distance entre votre position et la destination. Appelez le <a href=\"tel:+3228445604\" style=\"color: #CF5706; font-weight: 600;\">02 844 56 04</a> et on vous donne le <strong class=\"text-orange\">montant exact en deux minutes</strong>. Ce prix est définitif, supplément éventuel inclus."
     },
     {
       "question": "Faut-il que je sois présent au moment du chargement ?",
@@ -64,7 +64,7 @@
     },
     {
       "question": "Vous intervenez la nuit et le week-end ?",
-      "answer": "HELPCAR Dépannage est disponible <strong>24 heures sur 24, 7 jours sur 7</strong>, jours fériés compris. Le délai d'intervention reste le même de nuit comme de jour. Les pannes et les accidents n'ont pas d'horaire, nous non plus."
+      "answer": "HELPCAR Dépannage est disponible <strong>24 heures sur 24, 7 jours sur 7</strong>, jours fériés compris. Les pannes et les accidents n'ont pas d'horaire, nous non plus. Appelez pour connaître le tarif exact."
     },
     {
       "question": "Que faire si ma moto fume ou fait un bruit anormal mais roule encore ?",

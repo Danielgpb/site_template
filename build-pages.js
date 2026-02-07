@@ -61,7 +61,7 @@ function getSharedHeader(activeNav) {
   return `<header class="header">
   <div class="header__inner">
     <a href="/" class="header__logo">
-      <img src="/images/logo-helpcar.png" alt="HelpCar Dépannage" />
+      <img src="/images/logo-helpcar.png" alt="HELPCAR Dépannage" class="header__logo-img">
     </a>
     <nav class="nav-desktop">
       ${desktopLinks}
@@ -93,7 +93,7 @@ function getSharedFooter() {
     <div class="footer__grid">
       <div>
         <div class="header__logo" style="margin-bottom:14px">
-          <img src="/images/logo-helpcar.png" alt="HelpCar Dépannage" />
+          <img src="/images/logo-helpcar.png" alt="HELPCAR Dépannage" class="header__logo-img">
         </div>
         <p style="font-size:0.9rem;margin-bottom:16px;color:var(--gray-400)">Dépannage auto et remorquage à Bruxelles, 24h/24 et 7j/7. Prix annoncé par téléphone.</p>
         <div class="footer__contact-item">
