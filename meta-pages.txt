@@ -1,0 +1,330 @@
+RÉCAPITULATIF META & TITLE — SITE HELPCAR.BE
+=============================================
+Généré le 08/02/2026
+
+LÉGENDE : ✅ = présent | ❌ = manquant
+
+
+================================================================================
+ACCUEIL
+================================================================================
+
+/index.html
+  Title:          HELPCAR Dépannage | Dépannage Auto & Remorquage Bruxelles 24h/24
+  Description:    HELPCAR Dépannage - Dépannage auto et remorquage à Bruxelles 24h/24, 7j/7. Intervention rapide en ~30 min. Appelez le 02 844 56 04.
+  Canonical:      https://helpcar.be/
+  OG Title:       ✅ HELPCAR Dépannage | Dépannage Auto & Remorquage Bruxelles 24h/24
+  OG Description: ✅ Dépannage auto et remorquage à Bruxelles. Intervention rapide en ~30 min, 24h/24, 7j/7. Appelez le 02 844 56 04.
+
+
+================================================================================
+SERVICES (listing)
+================================================================================
+
+/services/index.html
+  Title:          22 Services de Dépannage et Remorquage à Bruxelles | HELPCAR Dépannage
+  Description:    HELPCAR Dépannage propose 22 services de dépannage et remorquage à Bruxelles : batterie, pneu, remorquage voiture, moto, camionnette. Intervention en 30 min, 24h/24.
+  Canonical:      https://helpcar.be/services/
+  OG Title:       ✅ 22 Services de Dépannage et Remorquage à Bruxelles | HELPCAR Dépannage
+  OG Description: ✅ Dépannage et remorquage à Bruxelles : 22 services, intervention en 30 min, 24h/24. Prix annoncé par téléphone.
+
+
+================================================================================
+SERVICES (pages individuelles)
+================================================================================
+
+/services/depannage-voiture-bruxelles/
+  Title:          Dépannage Voiture à Bruxelles – HELPCAR Dépannage 24h/24
+  Description:    Batterie, pneu, moteur, carburant ou portière bloquée – on vous envoie un dépanneur en 30 minutes, prix annoncé par téléphone
+  Canonical:      https://helpcar.be/services/depannage-voiture-bruxelles/
+  OG Title:       ✅
+  OG Description: ✅
+
+/services/depannage-batterie-bruxelles/
+  Title:          Dépannage Batterie à Bruxelles – HELPCAR Arrive et Relance Votre Moteur
+  Description:    Diagnostic sur place, boost ou remplacement batterie – jour et nuit dans toute la région bruxelloise
+  Canonical:      https://helpcar.be/services/depannage-batterie-bruxelles/
+  OG Title:       ✅
+  OG Description: ✅
+
+/services/remplacement-batterie-bruxelles/
+  Title:          Remplacement de Batterie Neuve sur Place à Bruxelles – HELPCAR Dépannage
+  Description:    Votre batterie est morte ? On arrive avec la bonne référence et on la monte directement chez vous.
+  Canonical:      https://helpcar.be/services/remplacement-batterie-bruxelles/
+  OG Title:       ✅
+  OG Description: ✅
+
+/services/reparation-pneu-bruxelles/
+  Title:          Réparation et Changement de Pneu à Bruxelles – HELPCAR Dépannage 24h/24
+  Description:    Pneu crevé ou éclaté ? On vous envoie un dépanneur pour réparer sur place ou transporter votre véhicule
+  Canonical:      https://helpcar.be/services/reparation-pneu-bruxelles/
+  OG Title:       ✅
+  OG Description: ✅
+
+/services/placement-roue-secours-bruxelles/
+  Title:          Placement Roue de Secours à Bruxelles – On Arrive et On Monte Votre Roue
+  Description:    Pneu crevé ? Notre dépanneur installe votre roue de secours directement sur place, jour et nuit
+  Canonical:      https://helpcar.be/services/placement-roue-secours-bruxelles/
+  OG Title:       ✅
+  OG Description: ✅
+
+/services/ouverture-porte-voiture-bruxelles/
+  Title:          Ouverture de Véhicule à Bruxelles – Clés Enfermées, Portière Bloquée | HELPCAR
+  Description:    Vos clés sont restées dans la voiture ? On vous envoie un dépanneur qui ouvre sans dégât, en quelques minutes.
+  Canonical:      https://helpcar.be/services/ouverture-porte-voiture-bruxelles/
+  OG Title:       ✅
+  OG Description: ✅
+
+/services/panne-essence-bruxelles/
+  Title:          Panne Sèche à Bruxelles ? HELPCAR Livre Votre Carburant sur Place
+  Description:    Réservoir vide en pleine route – on vous apporte 5 litres et vous repartez
+  Canonical:      https://helpcar.be/services/panne-essence-bruxelles/
+  OG Title:       ✅
+  OG Description: ✅
+
+/services/fourniture-carburant-bruxelles/
+  Title:          Livraison de Carburant Panne Sèche à Bruxelles – HELPCAR Dépannage
+  Description:    Réservoir vide ? On vous apporte de l'essence ou du diesel sur place, partout dans la région bruxelloise
+  Canonical:      https://helpcar.be/services/fourniture-carburant-bruxelles/
+  OG Title:       ✅
+  OG Description: ✅
+
+/services/siphonnage-reservoir-bruxelles/
+  Title:          Erreur de Carburant à Bruxelles ? HELPCAR Vidange Votre Réservoir sur Place
+  Description:    Diesel au lieu d'essence ou l'inverse – ne démarrez pas, on vous envoie un dépanneur
+  Canonical:      https://helpcar.be/services/siphonnage-reservoir-bruxelles/
+  OG Title:       ✅
+  OG Description: ✅
+
+/services/remorquage-voiture-bruxelles/
+  Title:          Remorquage Voiture à Bruxelles – HELPCAR Dépannage 24h/24
+  Description:    Votre véhicule chargé sur plateau, transporté où vous voulez, au prix annoncé par téléphone
+  Canonical:      https://helpcar.be/services/remorquage-voiture-bruxelles/
+  OG Title:       ✅
+  OG Description: ✅
+
+/services/remorquage-motos-bruxelles/
+  Title:          Remorquage Moto et Scooter à Bruxelles – HELPCAR Dépannage 24h/24
+  Description:    Panne, chute ou accident : on transporte votre deux-roues en toute sécurité, sans une rayure
+  Canonical:      https://helpcar.be/services/remorquage-motos-bruxelles/
+  OG Title:       ✅
+  OG Description: ✅
+
+/services/remorquage-vehicules-speciaux-bruxelles/
+  Title:          Remorquage Véhicules Spéciaux à Bruxelles – 4x4, Collection, Électriques, Utilitaires
+  Description:    Plateau adapté pour les gabarits hors norme : SUV, voitures de collection, véhicules électriques et utilitaires lourds
+  Canonical:      https://helpcar.be/services/remorquage-vehicules-speciaux-bruxelles/
+  OG Title:       ✅
+  OG Description: ✅
+
+/services/depannage-camionnette-bruxelles/
+  Title:          Dépannage Camionnette et Utilitaire à Bruxelles – HELPCAR Dépannage
+  Description:    Kangoo, Trafic, Sprinter, Transit – on dépanne tous les utilitaires jusqu'à 3,5T, jour et nuit
+  Canonical:      https://helpcar.be/services/depannage-camionnette-bruxelles/
+  OG Title:       ✅
+  OG Description: ✅
+
+/services/depannage-voiture-electrique-bruxelles/
+  Title:          Dépannage Voiture Électrique à Bruxelles – HELPCAR Dépannage
+  Description:    Tesla, BMW i, VW ID, Renault ZOE et toutes les marques – plateau obligatoire, protocole adapté
+  Canonical:      https://helpcar.be/services/depannage-voiture-electrique-bruxelles/
+  OG Title:       ✅
+  OG Description: ✅
+
+/services/depannage-parking-souterrain-bruxelles/
+  Title:          Dépannage Parking Souterrain Bruxelles – Plateau Surbaissé 24h/24
+  Description:    Votre voiture est bloquée au sous-sol ? On descend avec un véhicule de moins de 1,90 m
+  Canonical:      https://helpcar.be/services/depannage-parking-souterrain-bruxelles/
+  OG Title:       ✅
+  OG Description: ✅
+
+/services/voiture-embourbee-bruxelles/
+  Title:          Véhicule Embourbé à Bruxelles ? HELPCAR Vous Dégage 24h/24
+  Description:    Boue, neige, fossé, sable – on vous envoie un dépanneur avec treuil professionnel
+  Canonical:      https://helpcar.be/services/voiture-embourbee-bruxelles/
+  OG Title:       ✅
+  OG Description: ✅
+
+/services/enlevement-epave-bruxelles/
+  Title:          Enlèvement d'Épave à Bruxelles – HELPCAR Récupère Votre Véhicule Hors d'Usage
+  Description:    Votre vieille voiture vous encombre ? On l'enlève, on gère les papiers, c'est réglé
+  Canonical:      https://helpcar.be/services/enlevement-epave-bruxelles/
+  OG Title:       ✅
+  OG Description: ✅
+
+/services/achat-voiture-accidentee/
+  Title:          Achat de Voiture Accidentée à Bruxelles – HELPCAR Dépannage
+  Description:    On rachète votre véhicule accidenté ou en panne – estimation gratuite, enlèvement offert, paiement immédiat
+  Canonical:      https://helpcar.be/services/achat-voiture-accidentee/
+  OG Title:       ✅
+  OG Description: ✅
+
+/services/sortie-fourriere-bruxelles/
+  Title:          Sortie de Fourrière à Bruxelles – HELPCAR Dépannage Vous Aide
+  Description:    On vous accompagne pour récupérer votre véhicule saisi – démarches, documents, transport
+  Canonical:      https://helpcar.be/services/sortie-fourriere-bruxelles/
+  OG Title:       ✅
+  OG Description: ✅
+
+/services/transport-routier-local-bruxelles/
+  Title:          Transport de Véhicule Local à Bruxelles – HELPCAR Dépannage
+  Description:    Votre voiture doit changer d'adresse dans Bruxelles ? On s'en occupe, sur plateau, sans que vous conduisiez.
+  Canonical:      https://helpcar.be/services/transport-routier-local-bruxelles/
+  OG Title:       ✅
+  OG Description: ✅
+
+/services/transport-routier-longue-distance-bruxelles/
+  Title:          Transport de Véhicule Longue Distance depuis Bruxelles – HELPCAR Dépannage
+  Description:    Votre véhicule transporté sur plateau sécurisé à travers la Belgique et les pays voisins
+  Canonical:      https://helpcar.be/services/transport-routier-longue-distance-bruxelles/
+  OG Title:       ✅
+  OG Description: ✅
+
+
+================================================================================
+ZONES (listing)
+================================================================================
+
+/zones/index.html
+  Title:          Zones d'Intervention Dépannage Bruxelles | HELPCAR Dépannage
+  Description:    HELPCAR Dépannage intervient dans toutes les communes de Bruxelles et en périphérie. Service rapide 24/7, prix annoncé par téléphone. ☎️ 02 844 56 04
+  Canonical:      https://www.helpcar.be/zones/
+  OG Title:       ✅ Dépannage Auto Bruxelles et Périphérie | HELPCAR Dépannage
+  OG Description: ✅ HELPCAR Dépannage couvre Bruxelles-Capitale et la périphérie. Intervention rapide 24h/24 et 7j/7.
+
+
+================================================================================
+ZONES (pages individuelles)
+================================================================================
+
+/zones/depannage-voiture-bruxelles-centre/
+  Title:          Dépannage Voiture Bruxelles-Ville (1000) | 24h/24 – HELPCAR
+  Description:    Dépannage auto et remorquage à Bruxelles-Ville (1000). Intervention rapide Grand-Place, Sablon, Marolles, Quartier Européen. Prix par téléphone. ☎ 02 844 56 04
+  Canonical:      https://helpcar.be/zones/depannage-voiture-bruxelles-centre/
+  OG Title:       ✅
+  OG Description: ✅
+
+/zones/depannage-voiture-etterbeek/
+  Title:          Dépannage Voiture Etterbeek (1040) | 24h/24 – HELPCAR Dépannage
+  Description:    Dépannage auto et remorquage à Etterbeek (1040). Cinquantenaire, Place Jourdan, Chasses. Prix par téléphone, intervention rapide. ☎ 02 844 56 04
+  Canonical:      https://helpcar.be/zones/depannage-voiture-etterbeek/
+  OG Title:       ✅
+  OG Description: ✅
+
+/zones/depannage-voiture-ixelles/
+  Title:          Dépannage Voiture Ixelles (1050) | 24h/24 – HELPCAR Dépannage
+  Description:    Dépannage auto et remorquage à Ixelles (1050). Flagey, Porte de Namur, ULB, Châtelain. Prix annoncé par téléphone, intervention rapide. ☎ 02 844 56 04
+  Canonical:      https://helpcar.be/zones/depannage-voiture-ixelles/
+  OG Title:       ✅
+  OG Description: ✅
+
+/zones/depannage-voiture-schaerbeek/
+  Title:          Dépannage Voiture Schaerbeek (1030) | 24h/24 – HELPCAR Dépannage
+  Description:    Dépannage auto et remorquage à Schaerbeek (1030). Meiser, Helmet, Cage aux Ours, Josaphat. Prix par téléphone, arrivée rapide. ☎ 02 844 56 04
+  Canonical:      https://helpcar.be/zones/depannage-voiture-schaerbeek/
+  OG Title:       ✅
+  OG Description: ✅
+
+
+================================================================================
+TARIFS
+================================================================================
+
+/tarifs/index.html
+  Title:          Tarif Dépannage Auto Bruxelles | Prix Remorquage | HELPCAR Dépannage
+  Description:    Tarif dépannage auto à Bruxelles. Prix remorquage annoncé par téléphone avant intervention. Pas de surprise. HELPCAR Dépannage, 24h/24 et 7j/7.
+  Canonical:      https://helpcar.be/tarifs/
+  OG Title:       ✅
+  OG Description: ✅
+
+
+================================================================================
+À PROPOS
+================================================================================
+
+/a-propos/index.html
+  Title:          À Propos HELPCAR Dépannage Bruxelles | Équipe Expérimentée
+  Description:    Découvrez l'équipe HELPCAR Dépannage à Bruxelles. Des dépanneurs expérimentés, disponibles 24h/24, qui connaissent chaque rue de la région.
+  Canonical:      https://helpcar.be/a-propos/
+  OG Title:       ✅
+  OG Description: ✅
+
+
+================================================================================
+CONTACT
+================================================================================
+
+/contact/index.html
+  Title:          Contact HELPCAR Dépannage Bruxelles | ☎️ 02 844 56 04 - 24h/24
+  Description:    Contactez HELPCAR Dépannage à Bruxelles. Disponible 24h/24 et 7j/7. Appelez le 02 844 56 04 ou envoyez-nous un message pour toute demande de dépannage.
+  Canonical:      https://helpcar.be/contact/
+  OG Title:       ✅
+  OG Description: ✅
+
+
+================================================================================
+BLOG
+================================================================================
+
+/blog/index.html
+  Title:          Blog Dépannage Auto Bruxelles | Conseils & Astuces | HELPCAR
+  Description:    Conseils dépannage auto, astuces prévention pannes et informations remorquage à Bruxelles. Le blog HELPCAR Dépannage.
+  Canonical:      https://helpcar.be/blog/
+  OG Title:       ✅
+  OG Description: ✅
+
+/blog/combien-coute-remorquage-bruxelles/
+  Title:          Combien coûte un remorquage à Bruxelles ? | HELPCAR Dépannage
+  Description:    Quel est le prix d'un remorquage à Bruxelles ? Découvrez les tarifs moyens, les facteurs qui influencent le coût et comment obtenir le meilleur prix avec HELPCAR.
+  Canonical:      https://helpcar.be/blog/combien-coute-remorquage-bruxelles/
+  OG Title:       ✅
+  OG Description: ✅
+
+/blog/eviter-panne-batterie-hiver/
+  Title:          Comment éviter une panne de batterie en hiver ? | HELPCAR Dépannage
+  Description:    Panne de batterie en hiver ? Découvrez pourquoi le froid tue les batteries, les signes avant-coureurs et nos conseils pour éviter la panne à Bruxelles.
+  Canonical:      https://helpcar.be/blog/eviter-panne-batterie-hiver/
+  OG Title:       ✅
+  OG Description: ✅
+
+/blog/panne-autoroute-belgique/          ❌ PAGE NON CRÉÉE
+/blog/pneu-creve-reparer-remplacer/      ❌ PAGE NON CRÉÉE
+/blog/voiture-ne-demarre-pas/            ❌ PAGE NON CRÉÉE
+
+
+================================================================================
+PAGES LÉGALES
+================================================================================
+
+/mentions-legales/index.html
+  Title:          Mentions Légales | HELPCAR Dépannage
+  Description:    Mentions légales du site helpcar.be - HELPCAR Dépannage, service de dépannage automobile à Bruxelles.
+  Canonical:      https://helpcar.be/mentions-legales/
+  OG Title:       ❌ MANQUANT
+  OG Description: ❌ MANQUANT
+
+/politique-confidentialite/index.html
+  Title:          Politique de Confidentialité | HELPCAR Dépannage
+  Description:    Politique de confidentialité de HELPCAR Dépannage. Découvrez comment nous traitons et protégeons vos données personnelles conformément au RGPD.
+  Canonical:      https://helpcar.be/politique-confidentialite/
+  OG Title:       ❌ MANQUANT
+  OG Description: ❌ MANQUANT
+
+
+================================================================================
+RÉSUMÉ
+================================================================================
+
+Total pages existantes : 33
+  - Accueil : 1
+  - Services : 21 (1 listing + 20 pages)
+  - Zones : 5 (1 listing + 4 communes)
+  - Tarifs : 1
+  - À propos : 1
+  - Contact : 1
+  - Blog : 3 (1 listing + 2 articles)
+  - Pages légales : 2 (mentions légales + confidentialité)
+
+Meta complètes (Title + Description + Canonical + OG) : 31 ✅
+OG manquants : 2 (mentions-legales, politique-confidentialite)
+Pages blog prévues mais non créées : 3
