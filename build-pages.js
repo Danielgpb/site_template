@@ -298,6 +298,14 @@ ${getSharedHeader('Services')}
   </div>
 </section>
 
+${data.intro_autorite ? `<section class="section" style="padding-bottom:0">
+  <div class="container">
+    <div class="service-content" style="padding:0">
+      <p>${replaceVars(data.intro_autorite)}</p>
+    </div>
+  </div>
+</section>` : ''}
+
 <section class="section">
   <div class="container">
     <div class="photo-section">
