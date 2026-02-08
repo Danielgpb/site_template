@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * HELPCAR Dépannage - Page Generator
- * Generates service detail pages and location detail pages from JSON content.
+ * Generates service detail pages, location detail pages, and blog pages from JSON content.
  */
 
 const fs = require('fs');
@@ -9,6 +9,7 @@ const path = require('path');
 
 const SERVICES_DIR = path.join(__dirname, 'site_content/content/services');
 const LOCATIONS_DIR = path.join(__dirname, 'site_content/content/locations');
+const BLOG_DIR = path.join(__dirname, 'site_content/content/blog');
 const CONFIG = JSON.parse(fs.readFileSync(path.join(__dirname, 'site_content/config/config.json'), 'utf8'));
 const VARIABLES = JSON.parse(fs.readFileSync(path.join(__dirname, 'site_content/config/variables.json'), 'utf8'));
 
@@ -47,6 +48,7 @@ function getSharedHeader(activeNav) {
     { label: 'Zones', href: '/zones/' },
     { label: 'Tarifs', href: '/tarifs/' },
     { label: 'À propos', href: '/a-propos/' },
+    { label: 'Blog', href: '/blog/' },
     { label: 'Contact', href: '/contact/' },
   ];
 
@@ -130,6 +132,7 @@ function getSharedFooter() {
         <ul class="footer__links">
           <li><a href="/tarifs/">Tarifs</a></li>
           <li><a href="/a-propos/">À propos</a></li>
+          <li><a href="/blog/">Blog</a></li>
           <li><a href="/contact/">Contact</a></li>
           <li><a href="/mentions-legales/">Mentions légales</a></li>
         </ul>
@@ -162,6 +165,10 @@ function replaceVars(text) {
     .replace(/\{\{SERVICES_REMORQUAGE\}\}/g, String(VARIABLES.stats.services_remorquage))
     .replace(/\{\{SERVICES_DEPANNAGE\}\}/g, String(VARIABLES.stats.services_depannage))
     .replace(/\{\{WHATSAPP_LINK\}\}/g, WHATSAPP_LINK);
+}
+
+function escapeAttr(str) {
+  return (str || '').replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/<[^>]*>/g, '');
 }
 
 // ============ IMAGE PLACEHOLDER HELPER ============
@@ -211,6 +218,12 @@ function buildServicePage(jsonFile, slug) {
   const data = JSON.parse(fs.readFileSync(jsonFile, 'utf8'));
   const cssPath = '../../css/style.css';
   const jsPath = '../../js/main.js';
+
+  const title = replaceVars(data.hero.h1);
+  const description = replaceVars(data.hero.subtitle);
+  const titleAttr = escapeAttr(title);
+  const descAttr = escapeAttr(description);
+  const canonicalUrl = `https://helpcar.be/services/${slug}/`;
 
   const badges = (data.hero.badges || []).map(b => {
     const labels = {
@@ -269,6 +282,43 @@ function buildServicePage(jsonFile, slug) {
     </div>
   `).join('\n');
 
+  // Schema: Service + FAQPage
+  const faqSchema = (data.faq && data.faq.length > 0) ? `,
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [${data.faq.map(f => `
+      {
+        "@type": "Question",
+        "name": ${JSON.stringify(escapeAttr(replaceVars(f.question)))},
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": ${JSON.stringify(escapeAttr(replaceVars(f.answer)))}
+        }
+      }`).join(',')}
+    ]
+  }` : '';
+
+  const schemaJson = `[
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": ${JSON.stringify(titleAttr)},
+    "description": ${JSON.stringify(descAttr)},
+    "url": "${canonicalUrl}",
+    "provider": {
+      "@type": "LocalBusiness",
+      "@id": "https://helpcar.be/#business",
+      "name": "HELPCAR Dépannage",
+      "telephone": "+3228445604"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Bruxelles"
+    }
+  }${faqSchema}
+]`;
+
   const ctaTitle = data.cta ? replaceVars(data.cta.title) : 'En Panne Maintenant ?';
   const ctaSub = data.cta ? replaceVars(data.cta.subtitle) : 'Un appel, un prix, une intervention.';
 
@@ -277,9 +327,24 @@ function buildServicePage(jsonFile, slug) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${replaceVars(data.hero.h1)}</title>
-  <meta name="description" content="${replaceVars(data.hero.subtitle)}">
+  <title>${titleAttr}</title>
+  <meta name="description" content="${descAttr}">
+  <link rel="canonical" href="${canonicalUrl}">
+  <!-- Open Graph -->
+  <meta property="og:title" content="${titleAttr}">
+  <meta property="og:description" content="${descAttr}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="${canonicalUrl}">
+  <meta property="og:locale" content="fr_BE">
+  <meta property="og:site_name" content="HELPCAR Dépannage">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="${titleAttr}">
+  <meta name="twitter:description" content="${descAttr}">
   <link rel="stylesheet" href="${cssPath}">
+  <script type="application/ld+json">
+  ${schemaJson}
+  </script>
 </head>
 <body>
 ${getSharedHeader('Services')}
@@ -288,8 +353,8 @@ ${getSharedHeader('Services')}
   <div class="container">
     <div class="hero__content">
       <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px">${badges}</div>
-      <h1>${replaceVars(data.hero.h1)}</h1>
-      <p class="hero__subtitle">${replaceVars(data.hero.subtitle)}</p>
+      <h1>${title}</h1>
+      <p class="hero__subtitle">${description}</p>
       <div class="hero__cta">
         <a href="tel:+3228445604" class="btn btn--primary btn--full">Appeler le 02 844 56 04</a>
         <a href="${WHATSAPP_LINK}" class="btn btn--green btn--full" target="_blank" rel="noopener">Devis WhatsApp</a>
@@ -355,6 +420,12 @@ function buildLocationPage(jsonFile, slug) {
   const jsPath = '../../js/main.js';
   const c = data.content;
 
+  const title = data.seo.meta_title;
+  const description = data.seo.meta_description;
+  const titleAttr = escapeAttr(title);
+  const descAttr = escapeAttr(description);
+  const canonicalUrl = `https://helpcar.be/zones/${slug}/`;
+
   const quartiersHtml = (c.section_on_connait?.quartiers || []).map(q => `
     <div class="service-card">
       <div class="service-card__photo">
@@ -413,14 +484,51 @@ function buildLocationPage(jsonFile, slug) {
     </a>
   `).join('\n');
 
+  // Schema: LocalBusiness for location
+  const schemaJson = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://helpcar.be/#business",
+    "name": "HELPCAR Dépannage",
+    "description": descAttr,
+    "url": canonicalUrl,
+    "telephone": "+3228445604",
+    "email": "contact@helpcar.be",
+    "areaServed": {
+      "@type": "Place",
+      "name": data.commune || slug
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bruxelles",
+      "postalCode": "1000",
+      "addressCountry": "BE"
+    }
+  }, null, 2);
+
   return `<!DOCTYPE html>
 <html lang="fr-BE">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${data.seo.meta_title}</title>
-  <meta name="description" content="${data.seo.meta_description}">
+  <title>${titleAttr}</title>
+  <meta name="description" content="${descAttr}">
+  <link rel="canonical" href="${canonicalUrl}">
+  <!-- Open Graph -->
+  <meta property="og:title" content="${titleAttr}">
+  <meta property="og:description" content="${descAttr}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="${canonicalUrl}">
+  <meta property="og:locale" content="fr_BE">
+  <meta property="og:site_name" content="HELPCAR Dépannage">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="${titleAttr}">
+  <meta name="twitter:description" content="${descAttr}">
   <link rel="stylesheet" href="${cssPath}">
+  <script type="application/ld+json">
+  ${schemaJson}
+  </script>
 </head>
 <body>
 ${getSharedHeader('Zones')}
@@ -530,6 +638,218 @@ ${getFloatingCTA()}
 </html>`;
 }
 
+// ============ BLOG PAGES ============
+
+function buildBlogPost(jsonFile, slug) {
+  const data = JSON.parse(fs.readFileSync(jsonFile, 'utf8'));
+  const cssPath = '../../css/style.css';
+  const jsPath = '../../js/main.js';
+
+  const titleAttr = escapeAttr(data.title);
+  const descAttr = escapeAttr(data.meta_description);
+  const canonicalUrl = `https://helpcar.be/blog/${slug}/`;
+
+  const sectionsHtml = (data.sections || []).map(s => `
+    <h2>${s.h2}</h2>
+    <div>${s.content}</div>
+  `).join('\n');
+
+  const schemaJson = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": titleAttr,
+    "description": descAttr,
+    "url": canonicalUrl,
+    "datePublished": data.date,
+    "dateModified": data.date,
+    "author": {
+      "@type": "Organization",
+      "name": "HELPCAR Dépannage",
+      "url": "https://helpcar.be/"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "HELPCAR Dépannage",
+      "url": "https://helpcar.be/"
+    },
+    "mainEntityOfPage": canonicalUrl
+  }, null, 2);
+
+  const serviceLie = data.service_lie || {};
+
+  return `<!DOCTYPE html>
+<html lang="fr-BE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>${titleAttr} | HELPCAR Dépannage</title>
+  <meta name="description" content="${descAttr}">
+  <link rel="canonical" href="${canonicalUrl}">
+  <!-- Open Graph -->
+  <meta property="og:title" content="${titleAttr}">
+  <meta property="og:description" content="${descAttr}">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="${canonicalUrl}">
+  <meta property="og:locale" content="fr_BE">
+  <meta property="og:site_name" content="HELPCAR Dépannage">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="${titleAttr}">
+  <meta name="twitter:description" content="${descAttr}">
+  <link rel="stylesheet" href="${cssPath}">
+  <script type="application/ld+json">
+  ${schemaJson}
+  </script>
+</head>
+<body>
+${getSharedHeader('Blog')}
+
+<section class="hero" style="padding:48px 0 32px">
+  <div class="container">
+    <div class="hero__content" style="max-width:800px">
+      <nav style="margin-bottom:16px;font-size:0.9rem;color:var(--gray-500)">
+        <a href="/" style="color:var(--primary)">Accueil</a> &rsaquo;
+        <a href="/blog/" style="color:var(--primary)">Blog</a> &rsaquo;
+        <span>${data.category || 'Article'}</span>
+      </nav>
+      <h1>${data.title}</h1>
+      <p class="hero__subtitle">${data.intro}</p>
+      <div style="display:flex;gap:16px;flex-wrap:wrap;margin-top:12px;font-size:0.85rem;color:var(--gray-500)">
+        <span>${data.date}</span>
+        <span>${data.category || ''}</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="service-content" style="max-width:800px;margin:0 auto">
+      ${sectionsHtml}
+    </div>
+  </div>
+</section>
+
+${serviceLie.slug ? `
+<section class="cta-final">
+  <div class="container">
+    <h2>Besoin d'aide maintenant ?</h2>
+    <p>HELPCAR Dépannage intervient 24h/24 à Bruxelles. Appelez-nous pour un dépannage rapide.</p>
+    <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+      <a href="tel:+3228445604" class="btn btn--primary">Appeler le 02 844 56 04</a>
+      <a href="/services/${serviceLie.slug}/" class="btn btn--outline" style="border-color:white;color:white">${serviceLie.label || 'Voir le service'} &rarr;</a>
+    </div>
+  </div>
+</section>` : `
+<section class="cta-final">
+  <div class="container">
+    <h2>En Panne Maintenant ?</h2>
+    <p>Un appel, un prix, une intervention.</p>
+    <a href="tel:+3228445604" class="btn btn--primary">02 844 56 04</a>
+  </div>
+</section>`}
+
+${getSharedFooter()}
+${getFloatingCTA()}
+
+<script src="${jsPath}"></script>
+</body>
+</html>`;
+}
+
+function buildBlogListing(blogArticles) {
+  const cssPath = '../css/style.css';
+  const jsPath = '../js/main.js';
+
+  const cardsHtml = blogArticles.map(a => `
+    <a href="/blog/${a.slug}/" class="service-card">
+      <div class="service-card__body">
+        <div class="service-card__content" style="width:100%">
+          <div style="display:flex;gap:8px;margin-bottom:8px">
+            <span class="hero__badge" style="font-size:0.75rem;padding:2px 10px">${a.category || 'Article'}</span>
+            <span style="font-size:0.8rem;color:var(--gray-500)">${a.date}</span>
+          </div>
+          <div class="service-card__title">${a.title}</div>
+          <div class="service-card__desc">${a.intro}</div>
+        </div>
+        <svg class="service-card__arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+      </div>
+    </a>
+  `).join('\n');
+
+  const schemaJson = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Blog HELPCAR Dépannage",
+    "description": "Conseils dépannage auto, astuces prévention pannes et informations remorquage à Bruxelles.",
+    "url": "https://helpcar.be/blog/",
+    "publisher": {
+      "@type": "Organization",
+      "name": "HELPCAR Dépannage",
+      "url": "https://helpcar.be/"
+    }
+  }, null, 2);
+
+  return `<!DOCTYPE html>
+<html lang="fr-BE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Dépannage Auto Bruxelles | Conseils &amp; Astuces | HELPCAR</title>
+  <meta name="description" content="Conseils dépannage auto, astuces prévention pannes et informations remorquage à Bruxelles. Le blog HELPCAR Dépannage.">
+  <link rel="canonical" href="https://helpcar.be/blog/">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Blog Dépannage Auto Bruxelles | Conseils &amp; Astuces | HELPCAR">
+  <meta property="og:description" content="Conseils dépannage auto, astuces prévention pannes et informations remorquage à Bruxelles.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://helpcar.be/blog/">
+  <meta property="og:locale" content="fr_BE">
+  <meta property="og:site_name" content="HELPCAR Dépannage">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Blog Dépannage Auto Bruxelles | HELPCAR">
+  <meta name="twitter:description" content="Conseils dépannage auto, astuces prévention pannes et informations remorquage à Bruxelles.">
+  <link rel="stylesheet" href="${cssPath}">
+  <script type="application/ld+json">
+  ${schemaJson}
+  </script>
+</head>
+<body>
+${getSharedHeader('Blog')}
+
+<section class="hero" style="padding:48px 0 32px">
+  <div class="container">
+    <div class="hero__content">
+      <h1>Blog Dépannage Auto <span class="highlight">Bruxelles</span></h1>
+      <p class="hero__subtitle">Conseils pratiques, astuces prévention et tout ce qu'il faut savoir sur le dépannage auto à Bruxelles.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="services-grid">
+      ${cardsHtml}
+    </div>
+  </div>
+</section>
+
+<section class="cta-final">
+  <div class="container">
+    <h2>En Panne Maintenant ?</h2>
+    <p>Un appel, un prix, une intervention. On est disponible 24h/24.</p>
+    <a href="tel:+3228445604" class="btn btn--primary">02 844 56 04</a>
+  </div>
+</section>
+
+${getSharedFooter()}
+${getFloatingCTA()}
+
+<script src="${jsPath}"></script>
+</body>
+</html>`;
+}
+
 // ============ MAIN ============
 
 console.log('Generating service pages...');
@@ -565,4 +885,39 @@ for (const file of locationFiles) {
   console.log(`  ✓ zones/${slug}/index.html`);
 }
 
-console.log(`\nDone! Generated ${serviceCount} service pages and ${locationCount} location pages.`);
+console.log(`\nGenerating blog pages...`);
+let blogCount = 0;
+const blogArticles = [];
+
+if (fs.existsSync(BLOG_DIR)) {
+  const blogFiles = fs.readdirSync(BLOG_DIR).filter(f => f.endsWith('.json'));
+
+  for (const file of blogFiles) {
+    const data = JSON.parse(fs.readFileSync(path.join(BLOG_DIR, file), 'utf8'));
+    blogArticles.push(data);
+  }
+
+  // Sort by date descending
+  blogArticles.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+
+  for (const article of blogArticles) {
+    const slug = article.slug;
+    const outDir = path.join(__dirname, 'blog', slug);
+
+    if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
+
+    const html = buildBlogPost(path.join(BLOG_DIR, slug + '.json'), slug);
+    fs.writeFileSync(path.join(outDir, 'index.html'), html, 'utf8');
+    blogCount++;
+    console.log(`  ✓ blog/${slug}/index.html`);
+  }
+
+  // Generate blog listing
+  const blogListDir = path.join(__dirname, 'blog');
+  if (!fs.existsSync(blogListDir)) fs.mkdirSync(blogListDir, { recursive: true });
+  const listingHtml = buildBlogListing(blogArticles);
+  fs.writeFileSync(path.join(blogListDir, 'index.html'), listingHtml, 'utf8');
+  console.log(`  ✓ blog/index.html (listing)`);
+}
+
+console.log(`\nDone! Generated ${serviceCount} service pages, ${locationCount} location pages, and ${blogCount} blog posts.`);
