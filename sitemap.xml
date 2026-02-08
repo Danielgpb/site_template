@@ -206,24 +206,6 @@
 
   <!-- 5 articles blog -->
   <url>
-    <loc>https://helpcar.be/blog/voiture-ne-demarre-pas/</loc>
-    <lastmod>2026-02-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://helpcar.be/blog/panne-autoroute-belgique/</loc>
-    <lastmod>2026-02-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://helpcar.be/blog/pneu-creve-reparer-remplacer/</loc>
-    <lastmod>2026-02-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://helpcar.be/blog/eviter-panne-batterie-hiver/</loc>
     <lastmod>2026-02-08</lastmod>
     <changefreq>monthly</changefreq>
