@@ -1,200 +1,200 @@
 {
-  "meta_title": "Dépannage Auto Bruxelles 24h/24 | Remorquage | HELPCAR Dépannage",
-  "meta_description": "HELPCAR Dépannage : dépannage auto et remorquage à Bruxelles, 24h/24 et 7j/7. Prix annoncé par téléphone, intervention rapide. ☎️ 02 844 56 04",
+  "meta_title": "Detailing Auto Bruxelles | Coating & Correction Peinture | PRESTIGE DETAILING",
+  "meta_description": "PRESTIGE DETAILING : detailing automobile haut de gamme a Bruxelles. Correction peinture, coating ceramique, PPF, polish. 12 ans d'expertise. 02 899 12 34",
 
   "hero": {
-    "h1": "Dépannage Auto & Remorquage à Bruxelles",
-    "h2": "On arrive, on dépanne, vous repartez. 24h/24, 7j/7.",
-    "h2_cta": "Réponse immédiate",
+    "h1": "Detailing Automobile Haut de Gamme a Bruxelles",
+    "h2": "Correction de peinture, coating ceramique et finitions d'exception. Votre vehicule merite le meilleur.",
+    "h2_cta": "Devis personnalise",
     "cta_text": "Appeler maintenant",
     "cta_whatsapp": "Devis WhatsApp",
     "cta_whatsapp_badge": "RAPIDE",
-    "disponible": "Disponible maintenant",
+    "disponible": "Disponible cette semaine",
     "devis": "Devis gratuit",
-    "badge_disponibilite": "24/7"
+    "badge_disponibilite": "Sur RDV"
   },
 
   "intro": {
-    "h2": "HELPCAR Dépannage – Votre Dépanneur à Bruxelles",
-    "content": "<p><strong style=\"color: #CF5706;\">HELPCAR Dépannage</strong>, c'est le <strong>meilleur dépannage auto et remorquage à Bruxelles</strong>. Batterie à plat, pneu crevé, clés enfermées, remorquage – l'équipe se déplace dans toute la Région de Bruxelles-Capitale et en périphérie avec le matériel qu'il faut pour régler votre problème.</p><p>Vous appelez le <strong><a href=\"tel:+3228445604\" style=\"color: #CF5706; text-decoration: none;\">02 844 56 04</a></strong>, on vous donne le <strong>prix par téléphone</strong>, et si ça vous va, on est chez vous en <strong>environ 30 minutes</strong>. Pas de compteur qui tourne, pas de mauvaise surprise.</p>"
+    "h2": "PRESTIGE DETAILING - L'Art du Detailing a Bruxelles",
+    "content": "<p><strong style=\"color: #C8A04D;\">PRESTIGE DETAILING</strong>, c'est <strong>12 ans de savoir-faire</strong> dans le detailing automobile haut de gamme a Bruxelles. Correction de peinture, coating ceramique, protection PPF, polish, renovation interieure - chaque vehicule est traite avec une precision et un soin qui font toute la difference.</p><p>Notre atelier, situe <strong>Avenue Louise 150 a Ixelles</strong>, accueille berlines, SUV, sportives et vehicules de collection. Appelez le <strong><a href=\"tel:+3228991234\" style=\"color: #C8A04D; text-decoration: none;\">02 899 12 34</a></strong> pour un devis personnalise. Nous evaluerons l'etat de votre vehicule et vous proposerons un programme de traitement adapte, sans engagement.</p>"
   },
 
   "services_section": {
-    "h2": "Ce Qu'on Fait Pour Vous",
-    "subtitle": "Dépannage sur place ou remorquage – on s'adapte à votre situation"
+    "h2": "Nos Prestations Detailing",
+    "subtitle": "10 prestations specialisees pour sublimer et proteger votre vehicule"
   },
 
   "sections_alternees": [
     {
-      "id": "equipe",
+      "id": "expertise",
       "type": "image-droite",
-      "label": "Notre équipe",
-      "titre": "Un Appel, et On S'occupe de Tout",
-      "paragraphe": "Vous appelez le <strong><a href=\"tel:+3228445604\" style=\"color: #CF5706; text-decoration: none;\">02 844 56 04</a></strong>, vous expliquez votre situation, et on s'organise pour vous envoyer <strong>un dépanneur rapidement</strong>. Notre équipe coordonne chaque intervention avec <strong>plus de 10 ans d'expérience</strong> dans le dépannage à Bruxelles.",
+      "label": "Notre savoir-faire",
+      "titre": "Une Expertise Forgee par 12 Ans de Passion",
+      "paragraphe": "Chez <strong style=\"color: #C8A04D;\">PRESTIGE DETAILING</strong>, chaque vehicule est une toile que nous restaurons avec precision. Notre equipe maitrise les techniques les plus avancees de <strong>correction de peinture</strong> et de <strong>coating ceramique</strong>, avec un equipement professionnel de pointe : polisseuses Rupes, eclairage d'inspection Scangrip, produits Gyeon et CarPro.",
       "points": [
-        "✓ Un seul numéro pour tout",
-        "✓ Plus de 10 ans d'expérience",
-        "✓ Matériel professionnel",
-        "✓ Intervention rapide à Bruxelles"
+        "Maitrise de la correction peinture multi-etapes",
+        "Certifies en application de coatings ceramiques",
+        "Equipement professionnel haut de gamme",
+        "Plus de 2 500 vehicules traites"
       ],
-      "cta_texte": "Nos services →",
+      "cta_texte": "Decouvrir nos services",
       "cta_url": "services/index.html",
-      "images_folder": "images/homepage/sections/equipe",
-      "image_alt": "Équipe HELPCAR Dépannage en intervention"
+      "images_folder": "images/homepage/sections/expertise",
+      "image_alt": "Expert PRESTIGE DETAILING en correction de peinture"
     },
     {
-      "id": "tarification",
+      "id": "processus",
       "type": "image-gauche",
-      "label": "Tarification",
-      "titre": "Le Prix, Vous le Connaissez Avant Qu'on Bouge",
-      "paragraphe": "On vous donne le <strong>prix exact par téléphone</strong> avant de démarrer le camion. Pas de compteur, pas de frais cachés, pas de surprise à l'arrivée. Le montant annoncé est le montant payé.",
+      "label": "Notre processus",
+      "titre": "Un Protocole Rigoureux pour un Resultat Impeccable",
+      "paragraphe": "Nous ne faisons pas de detailing a la chaine. Chaque vehicule fait l'objet d'une <strong>inspection detaillee</strong> avant le moindre geste. Mesure d'epaisseur de vernis, analyse des defauts sous eclairage specialise, plan de traitement personnalise - rien n'est laisse au hasard.",
       "points": [
-        "✓ Prix communiqué par téléphone",
-        "✓ Aucun frais caché",
-        "✓ Facture claire après intervention",
-        "✓ Carte bancaire, espèces ou virement"
+        "Inspection prealable avec jauge d'epaisseur",
+        "Analyse sous eclairage LED specialise",
+        "Produits premium sans solvants agressifs",
+        "Controle qualite final avant restitution"
       ],
       "cta_type": "double",
-      "cta_primary_texte": "📞 Appelez-nous",
-      "cta_primary_url": "tel:028445604",
-      "cta_secondary_texte": "💬 Devis WhatsApp",
+      "cta_primary_texte": "Appeler pour un devis",
+      "cta_primary_url": "tel:+3228991234",
+      "cta_secondary_texte": "Devis WhatsApp",
       "cta_secondary_url": "{{WHATSAPP_LINK}}",
-      "images_folder": "images/homepage/sections/tarification",
-      "image_alt": "Prix transparent communiqué par téléphone"
+      "images_folder": "images/homepage/sections/processus",
+      "image_alt": "Processus de detailing professionnel chez PRESTIGE DETAILING"
     },
     {
-      "id": "disponibilite",
+      "id": "resultats",
       "type": "image-droite",
-      "label": "Disponibilité",
-      "titre": "24h/24, 7j/7 – Même le Dimanche à 3h du Matin",
-      "paragraphe": "Panne de nuit ? Week-end ? Jour férié ? On est là. Notre équipe intervient <strong>partout à Bruxelles et en périphérie</strong>, à n'importe quelle heure. Temps d'arrivée moyen : <strong>environ 30 minutes</strong>.",
+      "label": "Resultats",
+      "titre": "Des Finitions Qui Parlent d'Elles-Memes",
+      "paragraphe": "Le veritable temoignage de notre travail, c'est le reflet dans la carrosserie de votre vehicule. Nos clients repartent avec une voiture qui semble sortir d'un salon automobile. <strong>4.9 etoiles sur Google</strong> et <strong>187 avis</strong> confirment ce que nos clients constatent a chaque restitution.",
       "points": [
-        "✓ Intervention de nuit sans supplément",
-        "✓ Week-ends et jours fériés",
-        "✓ 19 communes de Bruxelles + périphérie",
-        "✓ Environ 30 minutes d'arrivée"
+        "4.9/5 sur Google avec 187 avis verifies",
+        "Avant/apres documentes en photo HD",
+        "Garantie sur chaque prestation realisee",
+        "Conseils d'entretien personnalises inclus"
       ],
       "cta_type": "phone",
-      "cta_texte": "📞 02 844 56 04",
-      "cta_url": "tel:028445604",
-      "images_folder": "images/homepage/sections/disponibilite",
-      "image_alt": "Dépannage disponible 24h/24 à Bruxelles"
+      "cta_texte": "02 899 12 34",
+      "cta_url": "tel:+3228991234",
+      "images_folder": "images/homepage/sections/resultats",
+      "image_alt": "Resultat de detailing haut de gamme sur vehicule premium"
     }
   ],
 
   "zones_section": {
-    "h2": "On Couvre Tout Bruxelles",
-    "subtitle": "Les 19 communes et la périphérie proche"
+    "h2": "Nous Intervenons dans Toute la Region Bruxelloise",
+    "subtitle": "Atelier Avenue Louise - Accessibilite facile depuis toutes les communes"
   },
 
   "why_us": {
-    "h2": "Pourquoi Appeler HELPCAR ?",
+    "h2": "Pourquoi Choisir PRESTIGE DETAILING ?",
     "points": [
       {
-        "title": "Prix annoncé par téléphone",
-        "description": "Vous savez combien ça coûte avant qu'on démarre le camion"
+        "title": "12 ans d'expertise",
+        "description": "Plus de 2 500 vehicules traites depuis 2014. Une experience qui se voit dans chaque finition"
       },
       {
-        "title": "Environ 30 minutes",
-        "description": "On part dès que vous raccrochez, de jour comme de nuit"
+        "title": "Produits & equipement premium",
+        "description": "Nous utilisons exclusivement des marques professionnelles : Gyeon, CarPro, Rupes, Koch Chemie"
       },
       {
-        "title": "24h/24 – 7j/7",
-        "description": "Nuit, week-end, jours fériés – on répond toujours"
+        "title": "Devis transparent et detaille",
+        "description": "Vous recevez un devis precis apres evaluation de votre vehicule. Le tarif est fixe, sans surprise"
       },
       {
-        "title": "Équipe expérimentée",
-        "description": "Plus de 10 ans de métier et du matériel professionnel dans chaque camion"
+        "title": "Resultats garantis",
+        "description": "Chaque prestation est documentee en photo avant/apres. Nous ne rendons le vehicule que lorsque le resultat est parfait"
       }
     ]
   },
 
   "section_comment_ca_marche": {
-    "label": "Comment ça marche",
-    "titre": "Votre Dépannage en 4 Étapes",
+    "label": "Comment ca marche",
+    "titre": "Votre Detailing en 4 Etapes",
     "etapes": [
       {
         "numero": "1",
-        "icone": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z\" /></svg>",
-        "titre": "Vous appelez le 02 844 56 04",
-        "description": "Décrivez votre panne en 30 secondes. On vous donne un prix ferme immédiatement.",
-        "photo": "images/etapes-contacter.jpg"
+        "icone": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z\" /></svg>",
+        "titre": "Devis gratuit",
+        "description": "Appelez le 02 899 12 34 ou envoyez-nous des photos de votre vehicule. Nous etablissons un devis detaille adapte a vos besoins.",
+        "photo": "images/etapes-devis.jpg"
       },
       {
         "numero": "2",
-        "icone": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0\" /></svg>",
-        "titre": "On se met en route",
-        "description": "Un dépanneur part vers votre position avec tout le matériel nécessaire. Bruxelles et périphérie, jour et nuit.",
-        "photo": "images/etapes-deplacement-bruxelles.png"
+        "icone": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z\" /></svg>",
+        "titre": "Prise en charge",
+        "description": "Vous deposez votre vehicule a notre atelier Avenue Louise. Nous realisons une inspection complete et validons le programme de traitement avec vous.",
+        "photo": "images/etapes-prise-en-charge.jpg"
       },
       {
         "numero": "3",
         "icone": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z\" /><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15 12a3 3 0 11-6 0 3 3 0 016 0z\" /></svg>",
-        "titre": "On diagnostique et on agit",
-        "description": "Réparation sur place si c'est possible, remorquage vers votre garage sinon. On vous explique tout avant d'intervenir.",
-        "photo": "images/etapes-diagnostic.png"
+        "titre": "Le traitement",
+        "description": "Notre equipe travaille methodiquement selon le protocole defini. Correction, protection, finition - chaque etape est realisee avec le plus grand soin.",
+        "photo": "images/etapes-traitement.jpg"
       },
       {
         "numero": "4",
-        "icone": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z\" /></svg>",
-        "titre": "Vous payez, vous repartez",
-        "description": "Le prix convenu, pas un euro de plus. Carte bancaire, espèces ou virement – comme vous voulez.",
-        "photo": "images/etapes-reglement.jpg"
+        "icone": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M5 13l4 4L19 7\" /></svg>",
+        "titre": "Restitution",
+        "description": "Vous decouvrez le resultat final lors d'une presentation detaillee. Photos avant/apres, conseils d'entretien et garantie inclus.",
+        "photo": "images/etapes-restitution.jpg"
       }
     ]
   },
 
   "section_avis": {
     "label": "Avis Clients",
-    "titre": "Ce Qu'on Entend Après un Dépannage",
-    "intro": "<strong style=\"color: #CF5706;\">HELPCAR Dépannage</strong>, c'est une équipe avec <strong>plus de 10 ans d'expérience</strong> dans le dépannage automobile à Bruxelles. Notre principe : un service humain, rapide et au prix annoncé.",
+    "titre": "Ce Que Nos Clients Disent de Nous",
+    "intro": "<strong style=\"color: #C8A04D;\">PRESTIGE DETAILING</strong> accompagne les passionnes d'automobile a Bruxelles depuis <strong>12 ans</strong>. Notre engagement : un resultat qui depasse vos attentes, a chaque vehicule.",
     "avis": [
       {
         "rating": "5.0",
-        "texte": "Batterie morte un dimanche soir à Ixelles. J'ai appelé HELPCAR, en 25 minutes le technicien était là. Batterie changée sur place, le prix était celui annoncé au téléphone. Rien à redire.",
-        "auteur": "Mehdi A.",
-        "initiales": "MA",
-        "photo": "images/avatars/mehdi.jpg",
-        "date": "Il y a 3 jours"
+        "texte": "J'ai confie ma BMW M4 pour une correction de peinture et un coating ceramique. Le resultat est tout simplement bluffant. Les micro-rayures ont totalement disparu et la profondeur du vernis est incroyable. L'equipe a pris le temps de tout m'expliquer. Je recommande sans hesiter.",
+        "auteur": "Thomas V.",
+        "initiales": "TV",
+        "photo": "images/avatars/thomas.jpg",
+        "date": "Il y a 4 jours"
       },
       {
         "rating": "5.0",
-        "texte": "Ma voiture ne démarrait plus sur le parking à Zaventem. HELPCAR est intervenu rapidement, le chauffeur était ponctuel et m'a tout expliqué. Tarif correct, je garde le numéro.",
-        "auteur": "Laura J.",
-        "initiales": "LJ",
-        "photo": "images/avatars/laura.jpg",
+        "texte": "Nettoyage interieur complet de mon Audi Q7 avec trois enfants... autant dire que c'etait un chantier. Rendu impeccable, l'odeur de neuf en prime. Travail meticuleux et professionnel. Merci a toute l'equipe.",
+        "auteur": "Isabelle D.",
+        "initiales": "ID",
+        "photo": "images/avatars/isabelle.jpg",
         "date": "Il y a une semaine"
       },
       {
         "rating": "5.0",
-        "texte": "Remorquage de ma moto après un souci sur le Ring. L'équipe a manipulé la moto avec soin et l'a transportée jusqu'à mon garage sans problème. Pro du début à la fin.",
-        "auteur": "Nicolas M.",
-        "initiales": "NM",
-        "photo": "images/avatars/nicolas.jpg",
+        "texte": "Detailing complet sur ma Porsche 911 avant une vente. Le resultat a depasse toutes mes attentes. L'acheteur pensait que la voiture n'avait que deux ans alors qu'elle en avait six. Rapport qualite-prix excellent pour une prestation de ce niveau.",
+        "auteur": "Marc-Antoine L.",
+        "initiales": "ML",
+        "photo": "images/avatars/marc-antoine.jpg",
         "date": "Il y a 2 semaines"
       },
       {
         "rating": "5.0",
-        "texte": "Pneu crevé en allant au boulot, impossible de changer la roue seule. HELPCAR a posé la roue de secours en moins de 30 minutes. Efficace, sympathique, prix correct.",
-        "auteur": "Sofia E.",
-        "initiales": "SE",
-        "photo": "images/avatars/sofia.jpg",
-        "date": "Il y a un mois"
+        "texte": "Protection PPF sur tout l'avant de ma Mercedes Classe C neuve. Pose parfaite, aucune bulle, finition invisible. On sent vraiment qu'ils maitrisent leur sujet. Je reviendrai pour le coating ceramique.",
+        "auteur": "Nathalie W.",
+        "initiales": "NW",
+        "photo": "images/avatars/nathalie.jpg",
+        "date": "Il y a 3 semaines"
       },
       {
         "rating": "5.0",
-        "texte": "Pneu crevé en pleine nuit à Schaerbeek. J'avais peur de tomber sur quelqu'un qui profite de la situation. HELPCAR m'a donné le prix au téléphone et l'a respecté. Intervention rapide et propre.",
-        "auteur": "Kevin P.",
-        "initiales": "KP",
-        "photo": "images/avatars/kevin.jpg",
+        "texte": "J'ai fait renover les jantes et les phares de mon Golf GTI. Le resultat est spectaculaire, on dirait des pieces neuves. Le devis etait precis et respecte. Un vrai travail d'artisan. Bravo.",
+        "auteur": "Philippe C.",
+        "initiales": "PC",
+        "photo": "images/avatars/philippe.jpg",
         "date": "Il y a 5 jours"
       }
     ],
     "aria_labels": {
-      "btn_prev": "Avis précédent",
+      "btn_prev": "Avis precedent",
       "btn_next": "Avis suivant",
-      "dot_prefix": "Aller à l'avis",
-      "google_card": "Voir notre expérience"
+      "dot_prefix": "Aller a l'avis",
+      "google_card": "Voir notre note Google"
     },
     "google_card": {
       "reviews_count_suffix": "avis clients"
@@ -202,8 +202,8 @@
   },
 
   "cta_final": {
-    "h2": "En Panne Maintenant ?",
-    "text": "Un appel, un prix, une intervention. On est disponible là, tout de suite.",
-    "button": "02 844 56 04"
+    "h2": "Offrez a Votre Vehicule le Traitement Qu'il Merite",
+    "text": "Devis gratuit et personnalise. Appelez-nous ou passez nous voir Avenue Louise a Bruxelles.",
+    "button": "02 899 12 34"
   }
 }

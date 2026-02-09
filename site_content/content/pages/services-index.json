@@ -1,109 +1,173 @@
 {
-  "meta_title": "Services de Dépannage Auto à Bruxelles | HELPCAR Dépannage 24/7",
-  "meta_description": "HELPCAR Dépannage propose {{SERVICES_TOTAL}} services auto à Bruxelles : remorquage, batterie, pneu, ouverture de porte. Prix fixe au téléphone. ☎️ 02 844 56 04",
+  "meta_title": "Nos Services Detailing Auto a Bruxelles | PRESTIGE DETAILING",
+  "meta_description": "Decouvrez les 10 prestations detailing de PRESTIGE DETAILING a Bruxelles : coating ceramique, correction peinture, PPF, polish, nettoyage interieur. Devis gratuit. 02 899 12 34",
   "hero": {
-    "h1": "{{SERVICES_TOTAL}} Services pour Vous Sortir de la Galère",
-    "subtitle": "Vous êtes bloqué quelque part à Bruxelles ? HELPCAR Dépannage, le n°1 du dépannage automobile à Bruxelles, couvre tout : de la batterie à plat au remorquage longue distance. Prix par téléphone, dépanneur en 30 minutes.",
+    "h1": "10 Prestations pour Sublimer Votre Vehicule",
+    "subtitle": "PRESTIGE DETAILING propose une gamme complete de services detailing haut de gamme a Bruxelles. De la correction de peinture au coating ceramique, en passant par la protection PPF et la renovation complete, chaque prestation est realisee avec des produits professionnels et un savoir-faire de 12 ans.",
     "stats": [
       {
-        "number": "{{SERVICES_TOTAL}}",
-        "label": "Services"
+        "number": "10",
+        "label": "Prestations"
       },
       {
-        "number": "24/7",
-        "label": "Jour et nuit"
+        "number": "4.9",
+        "label": "Note Google"
       },
       {
-        "number": "30min",
-        "label": "Sur place"
+        "number": "12 ans",
+        "label": "D'expertise"
       }
     ]
   },
   "section": {
-    "label": "Ce qu'on sait faire",
-    "title": "Deux Métiers,<br>Une Seule Équipe",
-    "description": "Que votre voiture ait besoin d'une réparation sur place ou d'un transport, on a ce qu'il faut dans le camion."
+    "label": "Nos specialites",
+    "title": "Protection & Esthetique,<br>Un Savoir-Faire Complet",
+    "description": "Que votre vehicule ait besoin d'une protection durable ou d'une remise en beaute complete, notre equipe dispose de l'expertise et de l'equipement necessaires pour un resultat irreprochable."
   },
   "categories": {
-    "remorquage": {
-      "name": "Remorquage",
-      "count": "{{SERVICES_REMORQUAGE}} services",
-      "tagline": "« Votre véhicule monte sur le plateau, on s'occupe du reste »",
-      "description": "La voiture ne redémarre pas et la réparation sur place n'est pas possible ? On charge votre véhicule sur notre plateau et on le livre où vous voulez : votre garage de confiance, votre domicile ou un concessionnaire."
+    "protection": {
+      "name": "Protection",
+      "count": "4 prestations",
+      "tagline": "Proteger votre investissement sur le long terme",
+      "description": "La carrosserie de votre vehicule est exposee quotidiennement aux agressions : UV, pollution, projections, micro-rayures. Nos traitements de protection forment un bouclier invisible et durable qui preserve l'eclat de votre peinture et facilite l'entretien au quotidien.",
+      "services": [
+        {
+          "slug": "coating-ceramique",
+          "name": "Coating Ceramique",
+          "short_description": "Protection nanotechnologique longue duree pour une brillance intense et une resistance extreme aux agressions exterieures. Hydrophobie maximale et facilite d'entretien garanties.",
+          "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z\" /></svg>"
+        },
+        {
+          "slug": "protection-ppf",
+          "name": "Protection PPF",
+          "short_description": "Film de protection transparent (Paint Protection Film) applique sur les zones sensibles de la carrosserie. Protection invisible contre les impacts de gravillons, les eclats et les rayures.",
+          "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M20.618 5.984A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z\" /></svg>"
+        },
+        {
+          "slug": "correction-peinture",
+          "name": "Correction de Peinture",
+          "short_description": "Elimination des micro-rayures, tourbillons, hologrammes et defauts de vernis par polissage multi-etapes. Restauration de la profondeur et de la brillance d'origine de votre peinture.",
+          "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M11.933 12.8a1 1 0 000-1.6L6.6 7.2A1 1 0 005 8v8a1 1 0 001.6.8l5.333-4zM19.933 12.8a1 1 0 000-1.6l-5.333-4A1 1 0 0013 8v8a1 1 0 001.6.8l5.333-4z\" /></svg>"
+        },
+        {
+          "slug": "traitement-cuir-textile",
+          "name": "Traitement Cuir & Textile",
+          "short_description": "Nettoyage en profondeur, nourrissage et protection des cuirs et textiles de l'habitacle. Redonne souplesse et eclat aux sieges, volant et elements interieurs en cuir ou tissu.",
+          "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01\" /></svg>"
+        }
+      ]
     },
-    "depannage": {
-      "name": "Dépannage",
-      "count": "{{SERVICES_DEPANNAGE}} services",
-      "tagline": "« On arrive, on règle le problème, vous repartez »",
-      "description": "Batterie morte, pneu crevé, mauvais carburant, clés enfermées dans la voiture – ce genre de galère se résout directement sur place. On intervient avec le matériel qu'il faut et vous reprenez la route."
+    "esthetique": {
+      "name": "Esthetique",
+      "count": "6 prestations",
+      "tagline": "Sublimer chaque detail de votre vehicule",
+      "description": "Au-dela de la protection, l'esthetique automobile est un art. Nos prestations de mise en beaute couvrent l'ensemble du vehicule, de la carrosserie a l'habitacle, en passant par les jantes et les optiques. Chaque detail compte pour un rendu d'exception.",
+      "services": [
+        {
+          "slug": "lavage-exterieur-premium",
+          "name": "Lavage Exterieur Premium",
+          "short_description": "Lavage complet a la main avec methode deux seaux et produits au pH neutre. Decontamination, sechage soigne et finition sans traces pour un resultat superieur au lavage classique.",
+          "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z\" /></svg>"
+        },
+        {
+          "slug": "nettoyage-interieur-complet",
+          "name": "Nettoyage Interieur Complet",
+          "short_description": "Aspiration, nettoyage vapeur, traitement des plastiques, des textiles et du cuir. Desinfection et desodorisation de l'habitacle pour retrouver un interieur comme neuf.",
+          "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4\" /></svg>"
+        },
+        {
+          "slug": "polish-lustrage",
+          "name": "Polish & Lustrage",
+          "short_description": "Polissage de finition pour raviver l'eclat de la peinture et obtenir un effet miroir. Ideal en complement d'un lavage ou en entretien regulier pour maintenir une brillance optimale.",
+          "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z\" /></svg>"
+        },
+        {
+          "slug": "renovation-jantes",
+          "name": "Renovation Jantes",
+          "short_description": "Nettoyage approfondi, decontamination ferreuse et restauration des jantes. Elimination des residus de frein incrustes, micro-rayures et traces d'oxydation pour des jantes comme neuves.",
+          "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z\" /><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M15 12a3 3 0 11-6 0 3 3 0 016 0z\" /></svg>"
+        },
+        {
+          "slug": "renovation-phares",
+          "name": "Renovation Phares",
+          "short_description": "Restauration des optiques ternis, jaunis ou opaques. Ponçage, polissage et application d'un coating protecteur pour retrouver une transparence optimale et une meilleure visibilite nocturne.",
+          "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z\" /></svg>"
+        },
+        {
+          "slug": "detailing-complet",
+          "name": "Detailing Complet",
+          "short_description": "Notre prestation la plus complete : lavage, decontamination, correction peinture, polish, nettoyage interieur, traitement cuir et coating. La transformation totale de votre vehicule en une seule intervention.",
+          "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z\" /></svg>"
+        }
+      ]
     }
   },
   "toggle": {
     "tous": {
-      "label": "Tous les services",
-      "count": "{{SERVICES_TOTAL}}"
+      "label": "Toutes les prestations",
+      "count": "10"
     },
-    "remorquage": {
-      "label": "Remorquage",
-      "count": "{{SERVICES_REMORQUAGE}}"
+    "protection": {
+      "label": "Protection",
+      "count": "4"
     },
-    "depannage": {
-      "label": "Dépannage",
-      "count": "{{SERVICES_DEPANNAGE}}"
+    "esthetique": {
+      "label": "Esthetique",
+      "count": "6"
     }
   },
   "pourquoi": {
-    "h2": "Ce qui change avec HELPCAR Dépannage",
+    "h2": "Ce Qui Fait la Difference PRESTIGE DETAILING",
     "cards": [
       {
-        "icon": "✓",
-        "titre": "Le prix avant le déplacement",
-        "description": "Vous appelez, on écoute votre situation, on vous dit combien ça coûte. Si ça vous va, on bouge. Pas de compteur qui tourne, pas de supplément surprise à l'arrivée."
+        "icon": "&#10003;",
+        "titre": "12 ans d'expertise certifiee",
+        "description": "Notre equipe est formee aux dernieres techniques de detailing et certifiee pour l'application de coatings ceramiques professionnels. Plus de 2 500 vehicules traites avec le meme niveau d'exigence."
       },
       {
-        "icon": "✓",
-        "titre": "Présents dans toutes les communes",
-        "description": "Bruxelles-Ville, Ixelles, Etterbeek, Schaerbeek et toutes les autres communes de la région. Où que vous soyez bloqué, on n'est jamais loin."
+        "icon": "&#10003;",
+        "titre": "Produits et equipement de reference",
+        "description": "Nous travaillons exclusivement avec des marques professionnelles reconnues : Gyeon, CarPro, Rupes, Koch Chemie, Scangrip. Des produits que vous ne trouverez pas dans le commerce grand public."
       },
       {
-        "icon": "✓",
-        "titre": "Du matériel pro dans le camion",
-        "description": "Booster 2000A, plateau, outils spécialisés, stock de batteries. On vient équipé pour résoudre le problème sur place, pas pour constater la panne."
+        "icon": "&#10003;",
+        "titre": "Un resultat documente et garanti",
+        "description": "Chaque intervention est photographiee en avant/apres sous eclairage professionnel. Nous ne restituons votre vehicule que lorsque le resultat atteint notre standard de qualite. Garantie sur toutes nos prestations."
       }
     ]
   },
   "faq": {
-    "h2": "Vos questions, nos réponses",
+    "h2": "Questions Frequentes sur Nos Services",
     "items": [
       {
-        "question": "Vous faites quoi exactement comme services ?",
-        "answer": "On propose <strong>{{SERVICES_TOTAL}} services</strong> qui couvrent à peu près tout ce qui peut vous arriver sur la route : <strong>{{SERVICES_REMORQUAGE}} services de remorquage</strong> (voiture, moto, camionnette, véhicule spécial) et <strong>{{SERVICES_DEPANNAGE}} services de dépannage sur place</strong> (batterie, pneu, carburant, ouverture de porte, et plus)."
+        "question": "Quels types de vehicules acceptez-vous ?",
+        "answer": "Nous traitons tous les types de vehicules : berlines, SUV, sportives, vehicules de collection, utilitaires haut de gamme et motos. Quelle que soit la marque ou le modele, notre expertise s'adapte a chaque vehicule. Contactez-nous au <strong><a href=\"tel:+3228991234\" style=\"color: #C8A04D; text-decoration: none;\">02 899 12 34</a></strong> pour discuter de votre projet."
       },
       {
-        "question": "C'est quoi la différence entre dépannage et remorquage ?",
-        "answer": "Le <strong>dépannage</strong>, c'est quand on peut régler le problème directement là où vous êtes : on relance la batterie, on change le pneu, on vous apporte du carburant. Le <strong>remorquage</strong>, c'est quand la voiture doit être transportée – panne mécanique sérieuse, accident, ou véhicule qui ne roule plus du tout."
+        "question": "Combien de temps dure un detailing complet ?",
+        "answer": "Un detailing complet necessite generalement entre <strong>1 et 3 jours</strong> selon l'etat du vehicule et les prestations choisies. Une correction de peinture seule prend environ une journee. Un lavage exterieur premium est realise en 2 a 3 heures. Nous vous communiquons un delai precis lors de l'etablissement du devis."
       },
       {
-        "question": "Vous dépannez tous les types de véhicules ?",
-        "answer": "Oui. Voitures, camionnettes, motos, scooters, véhicules électriques et hybrides, camping-cars. On a le matériel adapté pour chaque type de véhicule. Si vous avez un doute, appelez-nous au <strong><a href=\"tel:+3228445604\" style=\"color: #CF5706; text-decoration: none;\">02 844 56 04</a></strong> et on vous dit tout de suite si on peut intervenir."
+        "question": "Quelle est la difference entre un polish et une correction de peinture ?",
+        "answer": "Le <strong>polish</strong> est un polissage leger qui ravive l'eclat de la peinture et elimine les defauts superficiels. La <strong>correction de peinture</strong> est un traitement multi-etapes plus approfondi qui elimine les micro-rayures, tourbillons et hologrammes incrustes dans le vernis. La correction restaure veritablement la peinture d'origine."
       },
       {
-        "question": "Combien ça coûte un dépannage ?",
-        "answer": "Ça dépend du service et de l'endroit où vous êtes. Mais voilà comment on fonctionne : vous nous appelez, on vous pose quelques questions, et <strong>on vous annonce le prix exact avant de se déplacer</strong>. Le montant qu'on vous dit au téléphone, c'est celui que vous payez. Point."
+        "question": "Combien de temps dure un coating ceramique ?",
+        "answer": "Un coating ceramique professionnel dure entre <strong>2 et 5 ans</strong> selon le produit utilise, les conditions d'utilisation du vehicule et l'entretien. Nous proposons differents niveaux de coating adaptes a vos besoins et a votre budget, avec des conseils d'entretien pour maximiser la duree de vie du traitement."
       },
       {
-        "question": "Vous travaillez la nuit et les jours fériés ?",
-        "answer": "Oui, <strong>24 heures sur 24, 7 jours sur 7</strong>. Noël, Nouvel An, 3h du matin un mardi – on répond et on se déplace. Le numéro est le même : <strong><a href=\"tel:+3228445604\" style=\"color: #CF5706; text-decoration: none;\">02 844 56 04</a></strong>."
+        "question": "Proposez-vous des formules d'entretien regulier ?",
+        "answer": "Oui, nous proposons des <strong>programmes d'entretien personnalises</strong> pour maintenir le resultat de nos traitements dans le temps. Un lavage d'entretien periodique avec des produits compatibles coating permet de conserver une protection optimale et un eclat durable. Appelez le <strong><a href=\"tel:+3228991234\" style=\"color: #C8A04D; text-decoration: none;\">02 899 12 34</a></strong> pour en savoir plus."
       }
     ]
   },
   "zones": {
-    "h2": "Où on intervient",
-    "description": "HELPCAR Dépannage couvre <strong>Bruxelles-Capitale</strong> et toute la périphérie. Ixelles, Schaerbeek, Etterbeek, Uccle, Forest, Anderlecht, Molenbeek – et aussi Waterloo, Zaventem, Tervuren, Wavre. On arrive en <strong>30 minutes</strong> dans toute la zone.",
-    "cta_text": "Voir toutes nos zones"
+    "h2": "Notre Atelier a Bruxelles",
+    "description": "PRESTIGE DETAILING est situe <strong>Avenue Louise 150, 1050 Ixelles</strong>, au coeur de Bruxelles. Notre atelier est facilement accessible depuis toutes les communes : Uccle, Etterbeek, Saint-Gilles, Forest, Watermael-Boitsfort, Woluwe, Auderghem et toute la peripherie. Parking disponible sur place.",
+    "cta_text": "Voir notre localisation"
   },
   "cta": {
-    "title": "En Panne<br>Là Maintenant ?",
-    "subtitle": "Appelez, on vous dit le prix, et on arrive."
+    "title": "Pret a Sublimer<br>Votre Vehicule ?",
+    "subtitle": "Devis gratuit et personnalise. Appelez-nous ou passez a l'atelier."
   }
 }

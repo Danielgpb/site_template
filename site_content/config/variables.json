@@ -1,27 +1,27 @@
 {
   "description": "Variables globales centralisées pour tout le site - Source de vérité unique",
   "version": "2.0",
-  "last_updated": "2025-12-18",
+  "last_updated": "2026-02-09",
   "site": {
-    "name": "HELPCAR Dépannage",
-    "domain": "https://helpcar.be",
-    "baseline": "Dépannage Auto 24h/24 à Bruxelles"
+    "name": "PRESTIGE DETAILING",
+    "domain": "https://prestige-detailing.be",
+    "baseline": "Car Detailing & Protection Automobile à Bruxelles"
   },
   "company": {
-    "name": "HELPCAR Dépannage",
-    "name_full": "HELPCAR Dépannage",
-    "baseline": "Dépannage Auto 24h/24 à Bruxelles",
+    "name": "PRESTIGE DETAILING",
+    "name_full": "PRESTIGE DETAILING",
+    "baseline": "Car Detailing & Protection Automobile à Bruxelles",
     "company_number": "",
     "vat_number": "",
-    "founding_year": "2015",
-    "years_experience": "10",
-    "years_experience_plus": "+10"
+    "founding_year": "2014",
+    "years_experience": "12",
+    "years_experience_plus": "+12"
   },
   "google": {
     "rating": "4.9",
-    "reviews_count": "212",
+    "reviews_count": "187",
     "my_business_url": "",
-    "maps_search_url": "https://www.google.com/maps/search/?api=1&query=Rue+Charles+Martel+55,+1000+Bruxelles",
+    "maps_search_url": "https://www.google.com/maps/search/?api=1&query=Avenue+Louise+150,+1050+Ixelles,+Bruxelles",
     "analytics_id": ""
   },
   "clarity": {
@@ -29,53 +29,53 @@
     "_comment": "Pour activer Clarity: 1) Créer compte sur clarity.microsoft.com, 2) Ajouter site, 3) Copier Project ID ici"
   },
   "whatsapp": {
-    "phone_number": "3228445604",
+    "phone_number": "3228991234",
     "services": [
       {
-        "id": "batterie",
-        "name": "Panne de batterie",
-        "icon": "images/icons/depannage-batterie.png",
+        "id": "correction_peinture",
+        "name": "Correction de peinture",
+        "icon": "images/icons/correction-peinture.png",
         "needs_destination": false
       },
       {
-        "id": "remorquage_voiture",
-        "name": "Remorquage voiture",
-        "icon": "images/icons/remorquage-voiture.png",
-        "needs_destination": true
+        "id": "coating_ceramique",
+        "name": "Coating céramique",
+        "icon": "images/icons/coating-ceramique.png",
+        "needs_destination": false
       },
       {
-        "id": "remorquage_moto",
-        "name": "Remorquage moto",
-        "icon": "images/icons/remorquage-motos.png",
-        "needs_destination": true
+        "id": "detailing_complet",
+        "name": "Detailing complet",
+        "icon": "images/icons/detailing-complet.png",
+        "needs_destination": false
       },
       {
-        "id": "remorquage_camionnette",
-        "name": "Remorquage camionnette",
-        "icon": "images/icons/depannage-camionnette.png",
-        "needs_destination": true
+        "id": "lavage_premium",
+        "name": "Lavage extérieur premium",
+        "icon": "images/icons/lavage-premium.png",
+        "needs_destination": false
       },
       {
-        "id": "enlevement_epave",
-        "name": "Enlèvement épave",
-        "icon": "images/icons/enlevement-epave.png",
-        "needs_destination": true
+        "id": "nettoyage_interieur",
+        "name": "Nettoyage intérieur",
+        "icon": "images/icons/nettoyage-interieur.png",
+        "needs_destination": false
       },
       {
-        "id": "depannage_souterrain",
-        "name": "Dépannage en souterrain",
-        "icon": "images/icons/depannage-parking-souterrain.png",
+        "id": "protection_ppf",
+        "name": "Protection PPF",
+        "icon": "images/icons/protection-ppf.png",
         "needs_destination": false
       }
     ]
   },
   "contact": {
-    "phone": "+3228445604",
-    "phone_display": "+32 2 844 56 04",
-    "phone_local": "028445604",
-    "phone_local_display": "02 844 56 04",
-    "email": "contact@helpcar.be",
-    "address": "Rue Charles Martel 55, 1000 Bruxelles"
+    "phone": "+3228991234",
+    "phone_display": "+32 2 899 12 34",
+    "phone_local": "028991234",
+    "phone_local_display": "02 899 12 34",
+    "email": "contact@prestige-detailing.be",
+    "address": "Avenue Louise 150, 1050 Ixelles, Bruxelles"
   },
   "social": {
     "facebook_url": "",
@@ -83,43 +83,42 @@
   },
   "stats": {
     "description": "Statistiques du site - Mis à jour automatiquement",
-    "services_total": 22,
-    "services_remorquage": 13,
-    "services_depannage": 9,
-    "locations_total": 35,
-    "locations_bruxelles": 19,
-    "locations_peripherie": 16,
-    "nombre_communes": "35",
-    "years_experience": 15,
-    "years_existence": 10,
-    "arrival_time": "30 min",
-    "satisfaction_rate": "98%"
+    "services_total": 10,
+    "services_protection": 4,
+    "services_esthetique": 6,
+    "locations_total": 4,
+    "locations_bruxelles": 4,
+    "nombre_communes": "19",
+    "years_experience": 12,
+    "years_existence": 12,
+    "vehicules_traites": "3000+",
+    "satisfaction_rate": "99%"
   },
   "seo": {
-    "default_meta_suffix": "☎ +32 479 89 00 89",
-    "default_description": "Dépannage automobile rapide et professionnel. Intervention en 30 minutes. Disponible 24h/24 et 7j/7.",
+    "default_meta_suffix": "| PRESTIGE DETAILING Bruxelles",
+    "default_description": "Spécialiste en car detailing, correction de peinture et protection céramique à Bruxelles. Finition haut de gamme, résultat garanti.",
     "keywords_global": [
-      "dépannage bruxelles",
-      "remorquage belgique",
-      "panne voiture 24h"
+      "car detailing bruxelles",
+      "correction peinture voiture",
+      "coating ceramique belgique"
     ],
     "language": "fr-BE",
     "region": "BE-BRU"
   },
   "design": {
     "colors": {
-      "primary": "#CF5706",
-      "secondary": "#CF5706",
+      "primary": "#C8A04D",
+      "secondary": "#1A1A2E",
       "success": "#059669",
-      "dark": "#1A1A1A",
+      "dark": "#0D0D0D",
       "light": "#FFFFFF",
-      "gray": "#6B7280"
+      "gray": "#9CA3AF"
     },
     "fonts": {
-      "primary": "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif",
-      "body": "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif",
-      "google_font_url": "",
-      "_comment": "Fonts système pour performances maximales (0 requête réseau, amélioration LCP de ~500-1000ms)"
+      "primary": "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif",
+      "body": "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif",
+      "google_font_url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap",
+      "_comment": "Inter pour un look moderne et premium"
     },
     "spacing": {
       "mobile": "16px",
@@ -138,8 +137,7 @@
     "minify_js": true,
     "inline_critical_css": true,
     "lazy_load_images": true,
-    "preload_fonts": false,
-    "_comment_preload_fonts": "Désactivé car utilisation de fonts système uniquement"
+    "preload_fonts": true
   },
   "template_variables": {
     "SITE_NAME": "site.name",
@@ -164,137 +162,51 @@
     "FACEBOOK_URL": "social.facebook_url",
     "INSTAGRAM_URL": "social.instagram_url",
     "SERVICES_TOTAL": "stats.services_total",
-    "SERVICES_REMORQUAGE": "stats.services_remorquage",
-    "SERVICES_DEPANNAGE": "stats.services_depannage",
+    "SERVICES_PROTECTION": "stats.services_protection",
+    "SERVICES_ESTHETIQUE": "stats.services_esthetique",
     "LOCATIONS_TOTAL": "stats.locations_total",
-    "LOCATIONS_BRUXELLES": "stats.locations_bruxelles",
-    "LOCATIONS_PERIPHERIE": "stats.locations_peripherie",
-    "NOMBRE_COMMUNES": "stats.nombre_communes",
-    "URL_COMMUNE_AUDERGHEM": "urls.communes.AUDERGHEM",
+    "VEHICULES_TRAITES": "stats.vehicules_traites",
     "URL_COMMUNE_BRUXELLES_VILLE": "urls.communes.BRUXELLES_VILLE",
-    "URL_COMMUNE_ETTERBEEK": "urls.communes.ETTERBEEK",
-    "URL_COMMUNE_EVERE": "urls.communes.EVERE",
-    "URL_COMMUNE_FOREST": "urls.communes.FOREST",
     "URL_COMMUNE_IXELLES": "urls.communes.IXELLES",
-    "URL_COMMUNE_SAINT_GILLES": "urls.communes.SAINT_GILLES",
-    "URL_COMMUNE_SAINT_JOSSE_TEN_NOODE": "urls.communes.SAINT_JOSSE_TEN_NOODE",
-    "URL_COMMUNE_SCHAERBEEK": "urls.communes.SCHAERBEEK",
     "URL_COMMUNE_UCCLE": "urls.communes.UCCLE",
-    "URL_COMMUNE_WATERMAEL_BOITSFORT": "urls.communes.WATERMAEL_BOITSFORT",
-    "URL_COMMUNE_WOLUWE_SAINT_LAMBERT": "urls.communes.WOLUWE_SAINT_LAMBERT",
     "URL_COMMUNE_WOLUWE_SAINT_PIERRE": "urls.communes.WOLUWE_SAINT_PIERRE",
-    "URL_COMMUNE_ZAVENTEM": "urls.communes.ZAVENTEM",
-    "URL_COMMUNE_VILVOORDE": "urls.communes.VILVOORDE",
-    "URL_COMMUNE_MACHELEN": "urls.communes.MACHELEN",
-    "URL_COMMUNE_GRIMBERGEN": "urls.communes.GRIMBERGEN",
-    "URL_COMMUNE_KRAAINEM": "urls.communes.KRAAINEM",
-    "URL_COMMUNE_WEZEMBEEK_OPPEM": "urls.communes.WEZEMBEEK_OPPEM",
-    "URL_COMMUNE_TERVUREN": "urls.communes.TERVUREN",
-    "URL_COMMUNE_OVERIJSE": "urls.communes.OVERIJSE",
-    "URL_COMMUNE_HOEILAART": "urls.communes.HOEILAART",
-    "URL_COMMUNE_LA_HULPE": "urls.communes.LA_HULPE",
-    "URL_COMMUNE_WATERLOO": "urls.communes.WATERLOO",
-    "URL_COMMUNE_BRAINE_L_ALLEUD": "urls.communes.BRAINE_L_ALLEUD",
-    "URL_COMMUNE_RHODE_SAINT_GENÈSE": "urls.communes.RHODE_SAINT_GENÈSE",
-    "URL_COMMUNE_DROGENBOS": "urls.communes.DROGENBOS",
-    "URL_COMMUNE_ASSE": "urls.communes.ASSE",
-    "URL_COMMUNE_MEISE": "urls.communes.MEISE",
-    "URL_COMMUNE_RIXENSART": "urls.communes.RIXENSART",
-    "URL_COMMUNE_WAVRE": "urls.communes.WAVRE",
-    "URL_COMMUNE_LASNE": "urls.communes.LASNE",
-    "URL_COMMUNE_OTTIGNIES": "urls.communes.OTTIGNIES",
-    "URL_COMMUNE_LOUVAIN_LA_NEUVE": "urls.communes.LOUVAIN_LA_NEUVE",
-    "URL_COMMUNE_DIEGEM": "urls.communes.DIEGEM",
-    "URL_SERVICE_REMORQUAGE_VOITURE": "urls.services.REMORQUAGE_VOITURE",
-    "URL_SERVICE_BATTERIE": "urls.services.BATTERIE",
-    "URL_SERVICE_PNEU": "urls.services.PNEU",
-    "URL_SERVICE_FOURNITURE_CARBURANT": "urls.services.FOURNITURE_CARBURANT",
-    "URL_SERVICE_REMORQUAGE_MOTO": "urls.services.REMORQUAGE_MOTO",
-    "URL_SERVICE_REMORQUAGE_SPECIAUX": "urls.services.REMORQUAGE_SPECIAUX",
-    "URL_SERVICE_REMPLACEMENT_BATTERIE": "urls.services.REMPLACEMENT_BATTERIE",
-    "URL_SERVICE_TRANSPORT_LOCAL": "urls.services.TRANSPORT_LOCAL",
-    "URL_SERVICE_TRANSPORT_LONGUE_DISTANCE": "urls.services.TRANSPORT_LONGUE_DISTANCE",
-    "URL_SERVICE_OUVERTURE_PORTE": "urls.services.OUVERTURE_PORTE",
-    "URL_SERVICE_PANNE_ESSENCE": "urls.services.PANNE_ESSENCE",
-    "URL_SERVICE_ROUE_SECOURS": "urls.services.ROUE_SECOURS",
-    "URL_SERVICE_PARKING_SOUTERRAIN": "urls.services.PARKING_SOUTERRAIN",
-    "URL_SERVICE_VOITURE_EMBOURBEE": "urls.services.VOITURE_EMBOURBEE",
-    "URL_SERVICE_SIPHONNAGE": "urls.services.SIPHONNAGE",
-    "URL_SERVICE_EPAVE": "urls.services.EPAVE",
-    "URL_SERVICE_PANNE_MOTEUR": "urls.services.PANNE_MOTEUR",
-    "URL_SERVICE_SORTIE_FOURRIERE": "urls.services.SORTIE_FOURRIERE",
-    "URL_SERVICE_VOITURE_ELECTRIQUE": "urls.services.VOITURE_ELECTRIQUE",
-    "URL_SERVICE_DEPANNAGE_VOITURE": "urls.services.DEPANNAGE_VOITURE",
-    "URL_SERVICE_CAMIONNETTE": "urls.services.CAMIONNETTE"
+    "URL_SERVICE_CORRECTION_PEINTURE": "urls.services.CORRECTION_PEINTURE",
+    "URL_SERVICE_COATING_CERAMIQUE": "urls.services.COATING_CERAMIQUE",
+    "URL_SERVICE_LAVAGE_EXTERIEUR": "urls.services.LAVAGE_EXTERIEUR",
+    "URL_SERVICE_NETTOYAGE_INTERIEUR": "urls.services.NETTOYAGE_INTERIEUR",
+    "URL_SERVICE_POLISH_LUSTRAGE": "urls.services.POLISH_LUSTRAGE",
+    "URL_SERVICE_PROTECTION_PPF": "urls.services.PROTECTION_PPF",
+    "URL_SERVICE_RENOVATION_JANTES": "urls.services.RENOVATION_JANTES",
+    "URL_SERVICE_RENOVATION_PHARES": "urls.services.RENOVATION_PHARES",
+    "URL_SERVICE_DETAILING_COMPLET": "urls.services.DETAILING_COMPLET",
+    "URL_SERVICE_TRAITEMENT_CUIR": "urls.services.TRAITEMENT_CUIR"
   },
   "notes": [
     "Ce fichier est la SOURCE DE VÉRITÉ pour toutes les variables du site",
     "Modifier ce fichier met à jour automatiquement tout le site lors de la génération",
     "Les slugs sont sans trailing slash (ajouté automatiquement dans les templates)",
     "Pour ajouter un nouveau service : ajouter dans services_slugs ET dans template_variables",
-    "Version 2.0 : Migration complète depuis site.json - Fichier unifié"
+    "Version 2.0 : Configuration pour site de car detailing premium"
   ],
   "urls": {
     "description": "URLs centralisées - Source unique pour tout le maillage interne",
     "communes": {
-      "AUDERGHEM": "depannage-voiture-auderghem",
-      "BRUXELLES_VILLE": "depannage-voiture-bruxelles-centre",
-      "ETTERBEEK": "depannage-voiture-etterbeek",
-      "EVERE": "depannage-voiture-evere",
-      "FOREST": "depannage-voiture-forest",
-      "IXELLES": "depannage-voiture-ixelles",
-      "SAINT_GILLES": "depannage-voiture-saint-gilles",
-      "SAINT_JOSSE_TEN_NOODE": "depannage-voiture-saint-josse",
-      "SCHAERBEEK": "depannage-voiture-schaerbeek",
-      "UCCLE": "depannage-voiture-uccle",
-      "WATERMAEL_BOITSFORT": "depannage-voiture-watermael-boitsfort",
-      "WOLUWE_SAINT_LAMBERT": "depannage-voiture-woluwe-saint-lambert",
-      "WOLUWE_SAINT_PIERRE": "depannage-voiture-woluwe-saint-pierre",
-      "ZAVENTEM": "depannage-voiture-zaventem",
-      "VILVOORDE": "depannage-voiture-vilvoorde",
-      "MACHELEN": "depannage-voiture-machelen",
-      "GRIMBERGEN": "depannage-voiture-grimbergen",
-      "KRAAINEM": "depannage-voiture-kraainem",
-      "WEZEMBEEK_OPPEM": "depannage-voiture-wezembeek-oppem",
-      "TERVUREN": "depannage-voiture-tervuren",
-      "OVERIJSE": "depannage-voiture-overijse",
-      "HOEILAART": "depannage-voiture-hoeilaart",
-      "LA_HULPE": "depannage-voiture-la-hulpe",
-      "WATERLOO": "depannage-voiture-waterloo",
-      "BRAINE_L_ALLEUD": "depannage-voiture-braine-lalleud",
-      "RHODE_SAINT_GENÈSE": "depannage-voiture-rhode-saint-genese",
-      "DROGENBOS": "depannage-voiture-drogenbos",
-      "ASSE": "depannage-voiture-asse",
-      "MEISE": "depannage-voiture-meise",
-      "RIXENSART": "depannage-voiture-rixensart",
-      "WAVRE": "depannage-voiture-wavre",
-      "LASNE": "depannage-voiture-lasne",
-      "OTTIGNIES": "depannage-voiture-ottignies",
-      "LOUVAIN_LA_NEUVE": "depannage-voiture-louvain-la-neuve",
-      "DIEGEM": "depannage-voiture-diegem"
+      "BRUXELLES_VILLE": "detailing-voiture-bruxelles-centre",
+      "IXELLES": "detailing-voiture-ixelles",
+      "UCCLE": "detailing-voiture-uccle",
+      "WOLUWE_SAINT_PIERRE": "detailing-voiture-woluwe-saint-pierre"
     },
     "services": {
-      "REMORQUAGE_VOITURE": "remorquage-voiture-bruxelles",
-      "BATTERIE": "depannage-batterie-bruxelles",
-      "PNEU": "reparation-pneu-bruxelles",
-      "FOURNITURE_CARBURANT": "fourniture-carburant-bruxelles",
-      "REMORQUAGE_MOTO": "remorquage-motos-bruxelles",
-      "REMORQUAGE_SPECIAUX": "remorquage-vehicules-speciaux-bruxelles",
-      "REMPLACEMENT_BATTERIE": "remplacement-batterie-bruxelles",
-      "TRANSPORT_LOCAL": "transport-routier-local-bruxelles",
-      "TRANSPORT_LONGUE_DISTANCE": "transport-routier-longue-distance-bruxelles",
-      "OUVERTURE_PORTE": "ouverture-porte-voiture-bruxelles",
-      "PANNE_ESSENCE": "panne-essence-bruxelles",
-      "ROUE_SECOURS": "placement-roue-secours-bruxelles",
-      "PARKING_SOUTERRAIN": "depannage-parking-souterrain-bruxelles",
-      "VOITURE_EMBOURBEE": "voiture-embourbee-bruxelles",
-      "SIPHONNAGE": "siphonnage-reservoir-bruxelles",
-      "EPAVE": "enlevement-epave-bruxelles",
-      "PANNE_MOTEUR": "panne-moteur-bruxelles",
-      "SORTIE_FOURRIERE": "sortie-fourriere-bruxelles",
-      "VOITURE_ELECTRIQUE": "depannage-voiture-electrique-bruxelles",
-      "DEPANNAGE_VOITURE": "depannage-voiture-bruxelles",
-      "CAMIONNETTE": "depannage-camionnette-bruxelles"
+      "CORRECTION_PEINTURE": "correction-peinture-voiture-bruxelles",
+      "COATING_CERAMIQUE": "coating-ceramique-voiture-bruxelles",
+      "LAVAGE_EXTERIEUR": "lavage-exterieur-premium-bruxelles",
+      "NETTOYAGE_INTERIEUR": "nettoyage-interieur-voiture-bruxelles",
+      "POLISH_LUSTRAGE": "polish-lustrage-voiture-bruxelles",
+      "PROTECTION_PPF": "protection-ppf-film-bruxelles",
+      "RENOVATION_JANTES": "renovation-jantes-bruxelles",
+      "RENOVATION_PHARES": "renovation-phares-bruxelles",
+      "DETAILING_COMPLET": "detailing-complet-voiture-bruxelles",
+      "TRAITEMENT_CUIR": "traitement-cuir-textile-bruxelles"
     }
   }
 }

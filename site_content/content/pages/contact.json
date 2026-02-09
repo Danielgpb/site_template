@@ -1,23 +1,23 @@
 {
-  "meta_title": "Contact HELPCAR Dépannage Bruxelles | ☎️ 02 844 56 04 - 24h/24",
-  "meta_description": "Contactez HELPCAR Dépannage pour un dépannage ou remorquage à Bruxelles. Disponible 24h/24 et 7j/7. ☎️ 02 844 56 04. Rue Charles Martel 55, 1000 Bruxelles.",
+  "meta_title": "Contact PRESTIGE DETAILING Bruxelles | 02 899 12 34",
+  "meta_description": "Contactez PRESTIGE DETAILING pour un devis gratuit de detailing automobile à Bruxelles. Correction peinture, coating céramique, nettoyage intérieur. Avenue Louise 150, 1050 Ixelles. 02 899 12 34.",
 
   "open_graph": {
-    "title": "Contactez HELPCAR Dépannage | 02 844 56 04 - 24h/7j",
-    "description": "HELPCAR Dépannage, Rue Charles Martel 55, 1000 Bruxelles. Appelez le 02 844 56 04 à tout moment."
+    "title": "Contactez PRESTIGE DETAILING | 02 899 12 34",
+    "description": "PRESTIGE DETAILING, Avenue Louise 150, 1050 Ixelles, Bruxelles. Appelez le 02 899 12 34 pour un devis gratuit."
   },
 
   "hero": {
-    "h1": "Comment Nous Joindre",
-    "subtitle": "Vous avez une panne, une question ou besoin d'un devis ? HELPCAR Dépannage répond 24h/24 et 7j/7, y compris la nuit et les jours fériés.",
+    "h1": "Contactez-Nous",
+    "subtitle": "Pour un devis gratuit, une question ou une réservation, notre équipe de spécialistes en detailing automobile est à votre écoute.",
     "cta_button": "{{TELEPHONE}}",
-    "disponibilite": "Disponible maintenant",
-    "image_alt": "Contact HELPCAR Dépannage Bruxelles"
+    "disponibilite": "Lun-Sam 8h-19h",
+    "image_alt": "Contact PRESTIGE DETAILING Bruxelles - Centre de detailing automobile Avenue Louise"
   },
 
   "formulaire": {
-    "titre": "Envoyez-nous un Message",
-    "description": "Pour une demande non urgente, remplissez le formulaire. On vous répond rapidement. Si c'est urgent, appelez directement le 02 844 56 04.",
+    "titre": "Demandez Votre Devis Gratuit",
+    "description": "Décrivez votre véhicule et le service souhaité. Nous vous recontactons dans les plus brefs délais avec un devis personnalisé, sans engagement.",
     "champs": {
       "nom": {
         "label": "Nom complet *",
@@ -32,20 +32,26 @@
         "placeholder": "04XX XX XX XX"
       },
       "type_demande": {
-        "label": "Type de demande",
+        "label": "Service souhaité",
         "options": [
-          { "value": "devis", "label": "Demande de devis" },
-          { "value": "info", "label": "Demande d'information" },
-          { "value": "reclamation", "label": "Réclamation" },
+          { "value": "correction", "label": "Correction de peinture" },
+          { "value": "coating", "label": "Coating céramique" },
+          { "value": "detailing", "label": "Detailing complet" },
+          { "value": "lavage", "label": "Lavage premium" },
+          { "value": "interieur", "label": "Nettoyage intérieur" },
           { "value": "autre", "label": "Autre" }
         ]
       },
+      "vehicule": {
+        "label": "Véhicule (marque, modèle)",
+        "placeholder": "Ex: BMW Série 3, 2022"
+      },
       "message": {
         "label": "Message *",
-        "placeholder": "Décrivez votre demande..."
+        "placeholder": "Décrivez l'état de votre véhicule et vos attentes..."
       }
     },
-    "button_submit": "Envoyer le message"
+    "button_submit": "Envoyer la demande"
   },
 
   "coordonnees": {
@@ -54,31 +60,31 @@
       {
         "type": "telephone",
         "label": "Téléphone",
-        "value": "02 844 56 04",
-        "href": "tel:028445604"
+        "value": "02 899 12 34",
+        "href": "tel:028991234"
       },
       {
         "type": "email",
         "label": "Email",
-        "value": "contact@helpcar.be",
-        "href": "mailto:contact@helpcar.be"
+        "value": "contact@prestige-detailing.be",
+        "href": "mailto:contact@prestige-detailing.be"
       },
       {
         "type": "adresse",
         "label": "Adresse",
-        "value": "Rue Charles Martel 55, 1000 Bruxelles"
+        "value": "Avenue Louise 150, 1050 Ixelles, Bruxelles"
       },
       {
         "type": "horaires",
-        "label": "Disponibilité",
-        "value": "24h/24 - 7j/7, jours fériés inclus"
+        "label": "Horaires",
+        "value": "Lundi – Samedi : 8h – 19h | Dimanche : Fermé"
       }
     ]
   },
 
   "cta_final": {
-    "titre": "En Panne Maintenant ?",
-    "subtitle": "Pas besoin de formulaire – un appel et on est en route.",
-    "button": "02 844 56 04"
+    "titre": "Envie d'un Véhicule Impeccable ?",
+    "subtitle": "Appelez-nous pour un devis gratuit et sans engagement.",
+    "button": "02 899 12 34"
   }
 }

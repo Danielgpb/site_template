@@ -1,0 +1,134 @@
+{
+  "version": "2.0",
+  "commune": "Woluwe-Saint-Pierre",
+  "code_postal": "1150",
+
+  "seo": {
+    "meta_title": "Detailing Voiture Woluwe-Saint-Pierre (1150) | PRESTIGE DETAILING",
+    "meta_description": "Car detailing professionnel a Woluwe-Saint-Pierre (1150). Correction peinture, coating ceramique, detailing interieur/exterieur. Collecte et livraison gratuites. Tel 02 899 12 34"
+  },
+
+  "hero": {
+    "h1": "Detailing Voiture Woluwe-Saint-Pierre (1150)",
+    "accroche": "Car detailing haut de gamme pour les residents de Woluwe-Saint-Pierre. Correction de peinture, coating ceramique, detailing complet. Collecte et livraison de votre vehicule a domicile."
+  },
+
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Vous habitez Woluwe-Saint-Pierre et vous recherchez un <strong>detailing automobile premium</strong> ? Appelez le <strong><a href=\"tel:+3228991234\" style=\"color: #C8A04D; text-decoration: none;\">02 899 12 34</a></strong>. <strong style=\"color: #C8A04D;\">PRESTIGE DETAILING</strong> est le <strong>specialiste du car detailing a Woluwe-Saint-Pierre (1150)</strong>, avec un service de collecte et livraison gratuit jusque chez vous.",
+      "paragraphe_1": "Woluwe-Saint-Pierre est une commune residentielle prisee, avec de larges avenues bordees d'arbres, des villas avec allees privees et une proximite avec le parc de Woluwe et la Foret de Soignes. Cet environnement vert est agreable, mais il expose votre vehicule a la <strong>resine, au pollen, aux fientes d'oiseaux</strong> et a l'humidite forestiere qui deteriorent le vernis si rien n'est fait.",
+      "paragraphe_2": "Notre atelier est situe <strong>Avenue Louise 150, 1050 Ixelles</strong>. Nous venons chercher votre vehicule a Woluwe-Saint-Pierre et le ramenons impeccable apres le detailing. Appelez le <strong><a href=\"tel:+3228991234\" style=\"color: #C8A04D; text-decoration: none;\">02 899 12 34</a></strong> pour planifier un rendez-vous."
+    },
+
+    "section_on_connait": {
+      "h2": "On Connait Woluwe-Saint-Pierre et Ses Quartiers",
+      "intro": "Woluwe-Saint-Pierre est une commune etendue avec des quartiers tres distincts. Chaque zone a ses propres conditions de stationnement et d'exposition :",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Stockel & Place Dumon",
+          "description": "Coeur commercial de Woluwe-Saint-Pierre. Les vehicules gares autour de la Place Dumon et dans les rues adjacentes sont exposes a la poussiere et aux projections. Un detailing exterieur regulier et un coating ceramique gardent votre carrosserie en parfait etat."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Avenue de Tervueren",
+          "description": "Axe prestigieux borde de tilleuls et de marronniers. Au printemps et en ete, la resine et le pollen s'accumulent sur les carrosseries. Notre decontamination et notre polissage eliminent ces depots sans abimer le vernis."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Parc de Woluwe & Woluwe-Shopping",
+          "description": "Quartier anime entre le parc et le centre commercial. Les vehicules gares en plein air pres du parc subissent l'humidite et les depots organiques. Un traitement hydrophobe sur carrosserie et vitrage les protege efficacement."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Quartier du Chant d'Oiseau",
+          "description": "Quartier residentiel haut de gamme avec de belles villas et des allees arborees. Nos clients du Chant d'Oiseau optent souvent pour le pack complet : correction de peinture, coating ceramique et film PPF sur les zones sensibles."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Quartier des Dames Blanches",
+          "description": "Zone residentielle calme a proximite de la Foret de Soignes. L'ombre permanente et l'humidite favorisent les micro-organismes et la mousse sur les joints et les plastiques exterieurs. Notre detailing exterieur inclut un traitement complet de ces zones."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Quartier Joli-Bois",
+          "description": "En bordure de la Foret de Soignes. Les vehicules gares sous les hetres et les chenes accumulent rapidement des depots vegetaux. Un entretien periodique avec decontamination et coating est la meilleure solution pour preserver votre peinture."
+        }
+      ],
+      "conclusion": "Woluwe-Saint-Pierre est une commune verte et residentielle ou les vehicules meritent un soin particulier. Nos prestations sont adaptees aux conditions locales pour un resultat durable."
+    },
+
+    "section_services": {
+      "h2": "Nos Services de Detailing a Woluwe-Saint-Pierre",
+      "intro": "Toutes nos prestations de detailing sont disponibles pour les residents de Woluwe-Saint-Pierre avec collecte et livraison gratuites a domicile.",
+      "cta_text": "Voir tous nos services",
+      "cta_url": "../services/",
+      "categories": [
+        {
+          "icon": "sparkle",
+          "titre": "Correction & Protection",
+          "services": [
+            {"nom": "Correction de peinture (polissage multi-etapes)", "url_var": "URL_SERVICE_CORRECTION_PEINTURE"},
+            {"nom": "Coating ceramique (protection 2 a 5 ans)", "url_var": "URL_SERVICE_COATING_CERAMIQUE"},
+            {"nom": "Film de protection PPF", "url_var": "URL_SERVICE_FILM_PPF"}
+          ]
+        },
+        {
+          "icon": "car",
+          "titre": "Detailing Complet",
+          "services": [
+            {"nom": "Detailing exterieur complet", "url_var": "URL_SERVICE_DETAILING_EXTERIEUR"},
+            {"nom": "Detailing interieur (cuir, tissus, plastiques)", "url_var": "URL_SERVICE_DETAILING_INTERIEUR"}
+          ]
+        },
+        {
+          "icon": "droplet",
+          "titre": "Traitements Specifiques",
+          "services": [
+            {"nom": "Traitement hydrophobe vitrage", "url_var": "URL_SERVICE_TRAITEMENT_VITRAGE"},
+            {"nom": "Renovation des phares", "url_var": "URL_SERVICE_RENOVATION_PHARES"}
+          ]
+        }
+      ]
+    },
+
+    "faq_locale": {
+      "h2": "Questions Frequentes -- Detailing Woluwe-Saint-Pierre",
+      "questions": [
+        {
+          "question": "Vous venez chercher ma voiture a Woluwe-Saint-Pierre ?",
+          "reponse": "Oui. Notre <strong>service de collecte et livraison</strong> couvre toute la commune de Woluwe-Saint-Pierre (1150). Un chauffeur vient recuperer votre vehicule a votre domicile, dans votre allee ou a votre bureau, et vous le restitue apres le detailing. C'est inclus dans le prix. Appelez le <strong><a href=\"tel:+3228991234\" style=\"color: #C8A04D; text-decoration: none;\">02 899 12 34</a></strong>."
+        },
+        {
+          "question": "Ma voiture est garee sous les arbres de l'Avenue de Tervueren, le vernis est terne. Que conseillez-vous ?",
+          "reponse": "L'Avenue de Tervueren est magnifique mais exigeante pour les carrosseries. Nous recommandons une <strong>decontamination chimique</strong> pour retirer la resine et les depots incrustes, suivie d'un <strong>polissage correctif</strong> pour restaurer la brillance, puis d'un <strong>coating ceramique</strong> pour proteger votre peinture pendant 2 a 5 ans."
+        },
+        {
+          "question": "Combien de temps dure la collecte jusqu'a Woluwe-Saint-Pierre ?",
+          "reponse": "Notre atelier est situe Avenue Louise 150 a Ixelles. Un chauffeur arrive a Woluwe-Saint-Pierre en <strong>20 a 30 minutes</strong> environ. Nous fixons un creneau precis (matin ou apres-midi) pour que vous n'ayez pas a attendre."
+        },
+        {
+          "question": "Vous traitez les vehicules electriques et hybrides ?",
+          "reponse": "Absolument. Nous traitons tous les types de vehicules, y compris les <strong>electriques et hybrides</strong>. Les techniques de detailing sont identiques. Woluwe-Saint-Pierre compte de nombreux vehicules electriques haut de gamme (Tesla, BMW i, Mercedes EQ) que nous entretenons regulierement."
+        },
+        {
+          "question": "Proposez-vous un detailing avant la vente d'un vehicule ?",
+          "reponse": "Oui, notre <strong>pack preparation vente</strong> est tres populaire : correction de peinture, detailing interieur complet, renovation des phares et traitement des plastiques exterieurs. Un vehicule detaille se vend plus vite et a meilleur prix. Appelez le <strong><a href=\"tel:+3228991234\" style=\"color: #C8A04D; text-decoration: none;\">02 899 12 34</a></strong> pour un devis."
+        }
+      ]
+    },
+
+    "section_zones_voisines": {
+      "h2": "Communes Voisines de Woluwe-Saint-Pierre",
+      "content": "Notre service de collecte et livraison couvre egalement toutes les communes limitrophes de Woluwe-Saint-Pierre. Que vous soyez a Woluwe-Saint-Lambert, Etterbeek ou Auderghem, nous venons chercher votre vehicule.",
+      "communes_voisines": [
+        {"nom": "Woluwe-Saint-Lambert (1200)", "slug": "detailing-voiture-woluwe-saint-lambert"},
+        {"nom": "Etterbeek (1040)", "slug": "detailing-voiture-etterbeek"},
+        {"nom": "Auderghem (1160)", "slug": "detailing-voiture-auderghem"},
+        {"nom": "Watermael-Boitsfort (1170)", "slug": "detailing-voiture-watermael-boitsfort"},
+        {"nom": "Evere (1140)", "slug": "detailing-voiture-evere"},
+        {"nom": "Bruxelles-Ville (1000)", "slug": "detailing-voiture-bruxelles-centre"}
+      ]
+    }
+  }
+}

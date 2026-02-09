@@ -1,16 +1,16 @@
 {
-  "site_name": "HELPCAR Dépannage",
-  "site_tagline": "Dépannage Voiture & Remorquage à Bruxelles",
-  "phone": "02 844 56 04",
-  "email": "contact@helpcar.be",
-  "domain": "helpcar.be",
-  "base_url": "https://www.helpcar.be",
+  "site_name": "PRESTIGE DETAILING",
+  "site_tagline": "Car Detailing & Protection Automobile à Bruxelles",
+  "phone": "02 899 12 34",
+  "email": "contact@prestige-detailing.be",
+  "domain": "prestige-detailing.be",
+  "base_url": "https://www.prestige-detailing.be",
 
   "company": {
-    "legal_name": "HELPCAR Dépannage",
+    "legal_name": "PRESTIGE DETAILING",
     "tva": "",
-    "address": "Rue Charles Martel 55, 1000 Bruxelles",
-    "years_experience": 10
+    "address": "Avenue Louise 150, 1050 Ixelles, Bruxelles",
+    "years_experience": 12
   },
 
   "social": {
@@ -21,7 +21,7 @@
 
   "ratings": {
     "google_rating": "4.9",
-    "google_reviews": "150",
+    "google_reviews": "187",
     "trustpilot_rating": "",
     "trustpilot_reviews": ""
   },
@@ -30,31 +30,31 @@
     "main_city": "Bruxelles",
     "communes": [
       "bruxelles-ville",
-      "schaerbeek",
       "ixelles",
-      "etterbeek"
+      "uccle",
+      "woluwe-saint-pierre"
     ],
     "radius_km": 30
   },
 
   "services": {
-    "intervention_time": "30 minutes",
-    "availability": "24h/24 - 7j/7",
+    "intervention_time": "Sur rendez-vous",
+    "availability": "Lundi – Samedi, 8h – 19h",
     "payment_methods": ["Espèces", "Bancontact", "Carte de crédit", "Virement"],
     "garantie": "Satisfaction garantie"
   },
 
   "whatsapp": {
     "enabled": true,
-    "number": "+3228445604",
-    "message_template": "Bonjour HELPCAR Dépannage, j'ai besoin d'un dépannage."
+    "number": "+3228991234",
+    "message_template": "Bonjour PRESTIGE DETAILING, je souhaite prendre rendez-vous pour un detailing."
   },
 
   "seo": {
-    "default_meta_title": "Help Car - Dépannage Voiture Bruxelles | Intervention 24h/24",
-    "default_meta_description": "Help Car : dépannage et remorquage de voiture à Bruxelles. Intervention rapide en 30 min. Service 24h/24. Prix fixe annoncé. ☎️ 0479 89 00 89",
-    "keywords": ["dépannage voiture", "remorquage", "batterie", "pneu crevé", "Bruxelles"],
-    "author": "Help Car",
+    "default_meta_title": "PRESTIGE DETAILING – Car Detailing & Correction Peinture Bruxelles",
+    "default_meta_description": "PRESTIGE DETAILING : spécialiste en car detailing, correction de peinture et coating céramique à Bruxelles. Résultat impeccable garanti. Devis gratuit.",
+    "keywords": ["car detailing bruxelles", "correction peinture", "coating ceramique", "polish voiture", "nettoyage interieur auto"],
+    "author": "PRESTIGE DETAILING",
     "og_image": "/images/og-image.jpg"
   },
 
@@ -65,12 +65,12 @@
   },
 
   "variables": {
-    "YEARS_EXPERIENCE": "15",
+    "YEARS_EXPERIENCE": "12",
     "GOOGLE_RATING": "4.9",
-    "GOOGLE_REVIEWS": "150",
-    "PHONE": "02 844 56 04",
-    "EMAIL": "contact@helpcar.be",
-    "SITE_NAME": "HELPCAR Dépannage",
-    "INTERVENTION_TIME": "30 minutes"
+    "GOOGLE_REVIEWS": "187",
+    "PHONE": "02 899 12 34",
+    "EMAIL": "contact@prestige-detailing.be",
+    "SITE_NAME": "PRESTIGE DETAILING",
+    "INTERVENTION_TIME": "Sur rendez-vous"
   }
 }

@@ -1,172 +1,172 @@
 {
-  "meta_title": "Zones d'Intervention Dépannage Bruxelles | HELPCAR Dépannage",
-  "meta_description": "HELPCAR Dépannage intervient dans toutes les communes de Bruxelles et en périphérie. Service rapide 24/7, prix annoncé par téléphone. ☎️ 02 844 56 04",
+  "meta_title": "Zones Desservies | Car Detailing Bruxelles | PRESTIGE DETAILING",
+  "meta_description": "PRESTIGE DETAILING dessert toutes les communes de Bruxelles-Capitale pour le detailing automobile. Service de collecte et livraison de votre vehicule. Avenue Louise 150, 1050 Ixelles. Tel 02 899 12 34",
 
   "open_graph": {
-    "title": "Dépannage Auto Bruxelles et Périphérie | HELPCAR Dépannage",
-    "description": "HELPCAR Dépannage couvre Bruxelles-Capitale et la périphérie. Intervention rapide 24h/24 et 7j/7."
+    "title": "Car Detailing Bruxelles - Toutes Communes | PRESTIGE DETAILING",
+    "description": "PRESTIGE DETAILING couvre les 19 communes de Bruxelles pour le detailing, coating ceramique, correction de peinture et protection de vehicule. Collecte et livraison incluses."
   },
 
   "hero": {
-    "h1": "On Intervient dans Toute la Région Bruxelloise",
-    "h2": "Bruxelles-Ville, Ixelles, Etterbeek, Schaerbeek et bien d'autres communes – HELPCAR Dépannage arrive chez vous.",
-    "image_alt": "Zone d'intervention HELPCAR Dépannage Bruxelles"
+    "h1": "Nous Intervenons dans Toute la Region Bruxelloise",
+    "h2": "Bruxelles-Ville, Ixelles, Uccle, Woluwe et toutes les communes de la capitale -- PRESTIGE DETAILING vient chercher et livrer votre vehicule.",
+    "image_alt": "Zone de couverture PRESTIGE DETAILING car detailing Bruxelles"
   },
 
   "section_couverture": {
     "section_label": "Notre zone",
-    "section_title": "Bruxelles et ses alentours, on connaît",
+    "section_title": "Bruxelles et ses 19 communes, on connait",
     "paragraphes": [
-      "<strong style=\"color: #CF5706;\">HELPCAR Dépannage</strong>, c'est le <strong>meilleur service de dépannage auto dans toute la région bruxelloise</strong>. Que vous soyez bloqué près de la Gare Centrale, Place Jourdan à Etterbeek, au Parc Josaphat à Schaerbeek ou Avenue Louise à Ixelles – un dépanneur se déplace en 30 minutes.",
-      "Notre équipe cumule <strong>plus de 10 ans d'expérience</strong> sur les routes de Bruxelles. Appelez le <strong><a href=\"tel:+3228445604\" style=\"color: #CF5706; text-decoration: none;\">02 844 56 04</a></strong>, donnez-nous votre position et on vous rejoint."
+      "<strong style=\"color: #C8A04D;\">PRESTIGE DETAILING</strong>, c'est le <strong>specialiste du car detailing haut de gamme dans toute la region bruxelloise</strong>. Que votre vehicule soit gare pres de la Grand-Place, Avenue Louise a Ixelles, au Bois de la Cambre a Uccle ou a Stockel a Woluwe-Saint-Pierre -- nous venons le chercher et le ramenons impeccable.",
+      "Notre atelier est situe <strong>Avenue Louise 150, 1050 Ixelles</strong>, au coeur de Bruxelles. Vous pouvez deposer votre vehicule directement ou profiter de notre <strong>service de collecte et livraison gratuit</strong> dans toutes les communes bruxelloises. Appelez le <strong><a href=\"tel:+3228991234\" style=\"color: #C8A04D; text-decoration: none;\">02 899 12 34</a></strong> pour planifier un rendez-vous.",
+      "Nous proposons egalement un <strong>service de pick-up et delivery</strong> : un chauffeur vient recuperer votre voiture a votre domicile ou a votre bureau, la ramene a notre atelier pour le detailing, puis vous la restitue une fois le travail termine. Aucun deplacement necessaire de votre part."
     ]
   },
 
   "section_services": {
     "section_label": "Disponible partout",
-    "section_title": "Les mêmes services dans chaque commune",
-    "section_description": "Où que vous soyez en panne, vous avez accès à tous nos services",
+    "section_title": "Les memes prestations dans chaque commune",
+    "section_description": "Ou que vous soyez a Bruxelles, vous avez acces a toute notre gamme de services de detailing automobile",
     "services": [
       {
-        "nom": "Dépannage Batterie",
-        "url_var": "URL_SERVICE_BATTERIE",
-        "description": "Recharge ou remplacement directement sur place",
-        "icon": "depannage-batterie.png"
+        "nom": "Correction de Peinture",
+        "url_var": "URL_SERVICE_CORRECTION_PEINTURE",
+        "description": "Elimination des micro-rayures, tourbillons et defauts de vernis pour redonner un eclat miroir a votre carrosserie",
+        "icon": "correction-peinture.png"
       },
       {
-        "nom": "Réparation Pneu",
-        "url_var": "URL_SERVICE_PNEU",
-        "description": "Pose de mèche ou roue de secours",
-        "icon": "reparation-pneu.png"
+        "nom": "Coating Ceramique",
+        "url_var": "URL_SERVICE_COATING_CERAMIQUE",
+        "description": "Protection ceramique longue duree qui protege votre peinture contre les UV, la pollution et les salissures",
+        "icon": "coating-ceramique.png"
       },
       {
-        "nom": "Panne de Carburant",
-        "url_var": "URL_SERVICE_PANNE_ESSENCE",
-        "description": "On vous apporte du carburant sur place",
-        "icon": "panne-essence.png"
+        "nom": "Detailing Interieur",
+        "url_var": "URL_SERVICE_DETAILING_INTERIEUR",
+        "description": "Nettoyage en profondeur des cuirs, tissus, plastiques et moquettes avec des produits professionnels",
+        "icon": "detailing-interieur.png"
       },
       {
-        "nom": "Ouverture de Porte",
-        "url_var": "URL_SERVICE_OUVERTURE_PORTE",
-        "description": "Clés enfermées, ouverture sans abîmer",
-        "icon": "ouverture-porte-voiture.png"
+        "nom": "Detailing Exterieur",
+        "url_var": "URL_SERVICE_DETAILING_EXTERIEUR",
+        "description": "Lavage minutieux, decontamination, polissage et protection de toute la carrosserie et des jantes",
+        "icon": "detailing-exterieur.png"
       },
       {
-        "nom": "Remorquage Voiture",
-        "url_var": "URL_SERVICE_REMORQUAGE_VOITURE",
-        "description": "Transport vers votre garage ou domicile",
-        "icon": "remorquage-voiture.png"
+        "nom": "Protection Film PPF",
+        "url_var": "URL_SERVICE_FILM_PPF",
+        "description": "Film de protection invisible contre les impacts de gravillon, les rayures et les eclats de peinture",
+        "icon": "film-ppf.png"
       },
       {
-        "nom": "Remorquage Moto",
-        "url_var": "URL_SERVICE_REMORQUAGE_MOTO",
-        "description": "Moto ou scooter en panne, on s'en charge",
-        "icon": "remorquage-motos.png"
+        "nom": "Traitement Vitrage",
+        "url_var": "URL_SERVICE_TRAITEMENT_VITRAGE",
+        "description": "Application d'un traitement hydrophobe sur pare-brise et vitres pour une visibilite optimale",
+        "icon": "traitement-vitrage.png"
       }
     ],
-    "cta_text": "Voir tous nos services →"
+    "cta_text": "Voir tous nos services de detailing"
   },
 
   "section_communes": {
     "section_label": "Communes desservies",
-    "section_title": "Toutes nos zones d'intervention",
-    "section_description": "Cliquez sur une commune pour découvrir nos services dans votre quartier."
+    "section_title": "Toutes nos zones d'intervention a Bruxelles",
+    "section_description": "Cliquez sur une commune pour decouvrir nos prestations de detailing dans votre quartier.",
+    "communes": [
+      {"nom": "Bruxelles-Ville (1000)", "slug": "detailing-voiture-bruxelles-centre"},
+      {"nom": "Ixelles (1050)", "slug": "detailing-voiture-ixelles"},
+      {"nom": "Uccle (1180)", "slug": "detailing-voiture-uccle"},
+      {"nom": "Woluwe-Saint-Pierre (1150)", "slug": "detailing-voiture-woluwe-saint-pierre"},
+      {"nom": "Etterbeek (1040)", "slug": "detailing-voiture-etterbeek"},
+      {"nom": "Schaerbeek (1030)", "slug": "detailing-voiture-schaerbeek"},
+      {"nom": "Saint-Gilles (1060)", "slug": "detailing-voiture-saint-gilles"},
+      {"nom": "Forest (1190)", "slug": "detailing-voiture-forest"},
+      {"nom": "Anderlecht (1070)", "slug": "detailing-voiture-anderlecht"},
+      {"nom": "Molenbeek-Saint-Jean (1080)", "slug": "detailing-voiture-molenbeek"},
+      {"nom": "Jette (1090)", "slug": "detailing-voiture-jette"},
+      {"nom": "Koekelberg (1081)", "slug": "detailing-voiture-koekelberg"},
+      {"nom": "Ganshoren (1083)", "slug": "detailing-voiture-ganshoren"},
+      {"nom": "Berchem-Sainte-Agathe (1082)", "slug": "detailing-voiture-berchem-sainte-agathe"},
+      {"nom": "Evere (1140)", "slug": "detailing-voiture-evere"},
+      {"nom": "Woluwe-Saint-Lambert (1200)", "slug": "detailing-voiture-woluwe-saint-lambert"},
+      {"nom": "Auderghem (1160)", "slug": "detailing-voiture-auderghem"},
+      {"nom": "Watermael-Boitsfort (1170)", "slug": "detailing-voiture-watermael-boitsfort"},
+      {"nom": "Saint-Josse-ten-Noode (1210)", "slug": "detailing-voiture-saint-josse"}
+    ]
   },
 
-  "section_axes_routiers": {
-    "section_label": "Sur la route aussi",
-    "section_title": "On intervient sur les grands axes routiers",
-    "axes": [
-      {
-        "emoji": "🛣️",
-        "nom": "Ring de Bruxelles (R0)",
-        "description": "Tout le contour de Bruxelles"
-      },
-      {
-        "emoji": "🛣️",
-        "nom": "E40",
-        "description": "Direction Gand ou Liège"
-      },
-      {
-        "emoji": "🛣️",
-        "nom": "E19",
-        "description": "Direction Anvers ou Mons"
-      },
-      {
-        "emoji": "🛣️",
-        "nom": "E411",
-        "description": "Direction Namur et Luxembourg"
-      },
-      {
-        "emoji": "🛣️",
-        "nom": "A12",
-        "description": "Direction Anvers via Boom"
-      },
-      {
-        "emoji": "🛣️",
-        "nom": "N4, N5, N6",
-        "description": "Nationales vers le Brabant wallon et flamand"
-      }
+  "section_pickup_delivery": {
+    "section_label": "Service collecte & livraison",
+    "section_title": "On vient chercher votre voiture, on vous la ramene",
+    "paragraphes": [
+      "Pas le temps de vous deplacer ? Notre <strong>service de pick-up et delivery</strong> est inclus pour toutes les prestations de detailing dans les 19 communes de Bruxelles.",
+      "Un chauffeur professionnel recupere votre vehicule a l'adresse de votre choix (domicile, bureau, parking), le conduit a notre atelier Avenue Louise 150, et vous le restitue une fois le travail termine.",
+      "Planifiez votre collecte en appelant le <strong><a href=\"tel:+3228991234\" style=\"color: #C8A04D; text-decoration: none;\">02 899 12 34</a></strong> ou via notre formulaire de contact."
     ],
-    "note_autoroute": "Bloqué sur l'autoroute ? Mettez-vous en sécurité sur la bande d'arrêt d'urgence et appelez le <a href=\"tel:028445604\" style=\"color: #CF5706; font-weight: 600;\">02 844 56 04</a>."
+    "avantages": [
+      {"icon": "clock", "texte": "Creneau de collecte flexible matin ou apres-midi"},
+      {"icon": "shield", "texte": "Chauffeur assure et experimente"},
+      {"icon": "map-pin", "texte": "Couverture des 19 communes bruxelloises"},
+      {"icon": "check", "texte": "Vehicule restitue propre et protege"}
+    ]
   },
 
   "section_pourquoi_nous": {
-    "section_label": "Ce qu'on vous garantit",
-    "section_title": "Pourquoi appeler HELPCAR Dépannage ?",
+    "section_label": "Ce que nous vous garantissons",
+    "section_title": "Pourquoi choisir PRESTIGE DETAILING ?",
     "avantages": [
       {
-        "texte": "<strong>Toutes les communes de Bruxelles</strong> – Plus la périphérie proche"
+        "texte": "<strong>Toutes les communes de Bruxelles</strong> -- Collecte et livraison dans les 19 communes"
       },
       {
-        "texte": "<strong>Environ 30 minutes</strong> – On part dès que vous raccrochez"
+        "texte": "<strong>Atelier professionnel Avenue Louise</strong> -- Equipement haut de gamme et environnement controle"
       },
       {
-        "texte": "<strong>Prix annoncé par téléphone</strong> – Vous savez ce que ça coûte avant qu'on bouge"
+        "texte": "<strong>Produits premium</strong> -- Gyeon, Koch Chemie, Gtechniq et autres marques de reference"
       },
       {
-        "texte": "<strong>24h/24, 7j/7</strong> – Nuit, week-end, jours fériés inclus"
+        "texte": "<strong>Devis transparent</strong> -- Prix communique avant toute intervention, pas de surprise"
       },
       {
-        "texte": "<strong>Équipe expérimentée</strong> – Plus de 10 ans dans le dépannage"
+        "texte": "<strong>Expertise certifiee</strong> -- Techniciens formes aux dernieres techniques de detailing et coating"
       }
     ]
   },
 
   "faq": {
     "section_label": "FAQ",
-    "section_title": "Questions fréquentes sur nos zones",
+    "section_title": "Questions frequentes sur nos zones de service",
     "questions": [
       {
         "question": "Vous couvrez toutes les communes de Bruxelles ?",
-        "reponse": "Oui, les <strong>19 communes de Bruxelles-Capitale</strong> sont couvertes : Bruxelles-Ville, Ixelles, Etterbeek, Schaerbeek, Saint-Gilles, Uccle, Forest, Anderlecht, Jette, Woluwe-Saint-Lambert, Woluwe-Saint-Pierre, Auderghem, Watermael-Boitsfort, Evere, Koekelberg, Ganshoren, Berchem-Sainte-Agathe, Saint-Josse et Molenbeek."
+        "reponse": "Oui, les <strong>19 communes de Bruxelles-Capitale</strong> sont couvertes : Bruxelles-Ville, Ixelles, Etterbeek, Schaerbeek, Saint-Gilles, Uccle, Forest, Anderlecht, Jette, Woluwe-Saint-Lambert, Woluwe-Saint-Pierre, Auderghem, Watermael-Boitsfort, Evere, Koekelberg, Ganshoren, Berchem-Sainte-Agathe, Saint-Josse et Molenbeek. Notre service de collecte et livraison est disponible partout."
       },
       {
-        "question": "Et en dehors de Bruxelles, vous venez ?",
-        "reponse": "Oui, on intervient aussi en <strong>périphérie</strong> : Zaventem, Tervuren, Overijse, Waterloo, Wavre, Braine-l'Alleud, La Hulpe, et d'autres. Appelez-nous au <strong><a href=\"tel:+3228445604\" style=\"color: #CF5706; text-decoration: none;\">02 844 56 04</a></strong> avec votre adresse, on vous confirme tout de suite."
+        "question": "Comment fonctionne le service de collecte et livraison ?",
+        "reponse": "C'est simple : appelez le <strong><a href=\"tel:+3228991234\" style=\"color: #C8A04D; text-decoration: none;\">02 899 12 34</a></strong>, on fixe un creneau pour venir chercher votre vehicule a l'adresse de votre choix. On le ramene a notre atelier Avenue Louise, on realise le detailing, et un chauffeur vous le restitue une fois termine. Vous n'avez pas a vous deplacer."
       },
       {
-        "question": "C'est plus cher en périphérie ?",
-        "reponse": "Le tarif tient compte de la distance, mais ça reste raisonnable. On vous donne le <strong>montant exact par téléphone</strong> avant de se déplacer."
+        "question": "Le service de collecte est-il payant ?",
+        "reponse": "La collecte et la livraison sont <strong>incluses dans le prix</strong> pour toutes les prestations de detailing dans les 19 communes de Bruxelles-Capitale. Pour les communes en peripherie, un leger supplement peut s'appliquer selon la distance."
       },
       {
-        "question": "Vous intervenez sur le Ring ?",
-        "reponse": "Oui. Le <strong>Ring de Bruxelles (R0)</strong>, l'E40, l'E19, l'E411 – on intervient sur tous les grands axes. Garez-vous en sécurité sur la bande d'arrêt d'urgence et appelez-nous."
+        "question": "Combien de temps dure une prestation de detailing ?",
+        "reponse": "Cela depend de la prestation choisie. Un <strong>detailing exterieur complet</strong> prend generalement une journee. Un <strong>coating ceramique</strong> necessite 2 a 3 jours pour le temps de cure. On vous communique la duree exacte lors de la prise de rendez-vous."
       },
       {
-        "question": "Ma commune n'apparaît pas dans la liste, vous venez quand même ?",
-        "reponse": "Probablement oui. Appelez le <strong><a href=\"tel:+3228445604\" style=\"color: #CF5706; text-decoration: none;\">02 844 56 04</a></strong> avec votre localisation exacte. Si on peut intervenir dans un délai raisonnable, on vient."
+        "question": "Puis-je deposer ma voiture directement a votre atelier ?",
+        "reponse": "Bien sur. Notre atelier se trouve <strong>Avenue Louise 150, 1050 Ixelles</strong>. Vous pouvez deposer votre vehicule sur rendez-vous du lundi au samedi. Appelez le <strong><a href=\"tel:+3228991234\" style=\"color: #C8A04D; text-decoration: none;\">02 899 12 34</a></strong> pour fixer une heure."
       },
       {
-        "question": "Vous intervenez la nuit dans toutes les zones ?",
-        "reponse": "Oui, <strong>24h/24</strong> dans toutes les communes et sur tous les axes routiers. Pas de supplément nuit."
+        "question": "Ma commune n'apparait pas dans la liste, vous intervenez quand meme ?",
+        "reponse": "Probablement oui. Nous intervenons egalement en <strong>peripherie bruxelloise</strong> : Tervuren, Waterloo, Rhode-Saint-Genese, Overijse, Hoeilaart et d'autres. Appelez-nous au <strong><a href=\"tel:+3228991234\" style=\"color: #C8A04D; text-decoration: none;\">02 899 12 34</a></strong> pour confirmer."
       }
     ]
   },
 
   "cta_final": {
-    "titre": "En panne quelque part à Bruxelles ?",
-    "subtitle": "Dites-nous où vous êtes, on vous dit quand on arrive.",
-    "button": "Appeler le 02 844 56 04"
+    "titre": "Votre voiture merite le meilleur soin",
+    "subtitle": "Appelez-nous ou prenez rendez-vous en ligne. Collecte et livraison dans tout Bruxelles.",
+    "button": "Appeler le 02 899 12 34"
   }
 }

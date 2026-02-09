@@ -1,0 +1,134 @@
+{
+  "version": "2.0",
+  "commune": "Uccle",
+  "code_postal": "1180",
+
+  "seo": {
+    "meta_title": "Detailing Voiture Uccle (1180) | PRESTIGE DETAILING",
+    "meta_description": "Car detailing professionnel a Uccle (1180). Correction peinture, coating ceramique, detailing interieur/exterieur. Collecte et livraison gratuites. Atelier Avenue Louise. Tel 02 899 12 34"
+  },
+
+  "hero": {
+    "h1": "Detailing Voiture Uccle (1180)",
+    "accroche": "Car detailing haut de gamme pour les residents d'Uccle. Correction de peinture, coating ceramique, protection PPF et detailing complet. Collecte et livraison de votre vehicule a domicile."
+  },
+
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Vous habitez Uccle et vous souhaitez offrir a votre vehicule un <strong>detailing professionnel haut de gamme</strong> ? Appelez le <strong><a href=\"tel:+3228991234\" style=\"color: #C8A04D; text-decoration: none;\">02 899 12 34</a></strong>. <strong style=\"color: #C8A04D;\">PRESTIGE DETAILING</strong> est le <strong>specialiste du car detailing a Uccle (1180)</strong>, avec un service de collecte et livraison directement a votre domicile.",
+      "paragraphe_1": "Uccle est l'une des communes les plus vertes de Bruxelles, ce qui est un avantage pour le cadre de vie mais un defi pour votre carrosserie. Les <strong>allees arborees du Fort Jaco</strong>, les <strong>avenues residentielles du Vivier d'Oie</strong> et les <strong>rues ombragees du Lycee Francais</strong> signifient resine, pollen, fientes et depots organiques en permanence sur votre vehicule.",
+      "paragraphe_2": "Notre atelier est situe <strong>Avenue Louise 150, 1050 Ixelles</strong>, a 10 minutes d'Uccle. Nous proposons un <strong>service de collecte et livraison gratuit</strong> : un chauffeur vient chercher votre voiture et la ramene impeccable. Appelez le <strong><a href=\"tel:+3228991234\" style=\"color: #C8A04D; text-decoration: none;\">02 899 12 34</a></strong>."
+    },
+
+    "section_on_connait": {
+      "h2": "On Connait Uccle et Ses Quartiers Residentiels",
+      "intro": "Uccle est une commune vaste, avec des quartiers tres differents. Chaque zone presente ses propres defis pour l'entretien automobile :",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Fort Jaco & Observatoire",
+          "description": "Quartier residentiel haut de gamme avec de grandes proprietes et des allees privees. Les vehicules de prestige y sont nombreux. Nos clients du Fort Jaco optent souvent pour un coating ceramique complet et un detailing interieur regulier."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Vivier d'Oie & Churchill",
+          "description": "Carrefour entre Uccle, Ixelles et le Bois de la Cambre. Les avenues bordees de chenes deposent pollen et resine au printemps. Notre decontamination et nos traitements protecteurs gardent votre carrosserie impeccable toute l'annee."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Globe & Calevoet",
+          "description": "Quartier familial avec beaucoup de stationnement en voirie. Les micro-rayures de parking et les impacts de portiere sont courants. Notre correction de peinture multi-etapes les fait disparaitre completement."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Stalle & Saint-Job",
+          "description": "Quartiers proches de la Foret de Soignes. L'humidite forestiere et les depots de mousse favorisent les micro-organismes sur la carrosserie. Un traitement de decontamination suivi d'un coating ceramique previent ces problemes."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Uccle-Centre & Parvis Saint-Pierre",
+          "description": "Coeur commercial d'Uccle avec ses rues animees. Les vehicules gares pres des commerces subissent poussiere, projections et contacts involontaires. Notre detailing exterieur restaure l'eclat original."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Montjoie & Brugmann (cote Uccle)",
+          "description": "Avenues residentielles prisees entre Uccle et Ixelles. Beaux vehicules en stationnement sous les arbres. Le film PPF protege les zones sensibles (capot, pare-chocs, retroviseurs) contre les eclats et les rayures."
+        }
+      ],
+      "conclusion": "Uccle est une commune ou les vehicules de prestige meritent un entretien a la hauteur. Nous adaptons chaque prestation a l'environnement de stationnement et aux besoins specifiques de votre voiture."
+    },
+
+    "section_services": {
+      "h2": "Nos Services de Detailing a Uccle",
+      "intro": "Toutes nos prestations de detailing sont disponibles pour les residents d'Uccle avec collecte et livraison gratuites a domicile.",
+      "cta_text": "Voir tous nos services",
+      "cta_url": "../services/",
+      "categories": [
+        {
+          "icon": "sparkle",
+          "titre": "Correction & Protection",
+          "services": [
+            {"nom": "Correction de peinture (polissage multi-etapes)", "url_var": "URL_SERVICE_CORRECTION_PEINTURE"},
+            {"nom": "Coating ceramique (protection 2 a 5 ans)", "url_var": "URL_SERVICE_COATING_CERAMIQUE"},
+            {"nom": "Film de protection PPF", "url_var": "URL_SERVICE_FILM_PPF"}
+          ]
+        },
+        {
+          "icon": "car",
+          "titre": "Detailing Complet",
+          "services": [
+            {"nom": "Detailing exterieur complet", "url_var": "URL_SERVICE_DETAILING_EXTERIEUR"},
+            {"nom": "Detailing interieur (cuir, tissus, plastiques)", "url_var": "URL_SERVICE_DETAILING_INTERIEUR"}
+          ]
+        },
+        {
+          "icon": "droplet",
+          "titre": "Traitements Specifiques",
+          "services": [
+            {"nom": "Traitement hydrophobe vitrage", "url_var": "URL_SERVICE_TRAITEMENT_VITRAGE"},
+            {"nom": "Renovation des phares", "url_var": "URL_SERVICE_RENOVATION_PHARES"}
+          ]
+        }
+      ]
+    },
+
+    "faq_locale": {
+      "h2": "Questions Frequentes -- Detailing Uccle",
+      "questions": [
+        {
+          "question": "Vous venez chercher ma voiture a Uccle ?",
+          "reponse": "Oui. Notre <strong>service de collecte et livraison</strong> couvre toute la commune d'Uccle (1180). Un chauffeur vient recuperer votre vehicule a votre domicile ou au bureau et vous le restitue une fois le detailing termine. C'est gratuit. Appelez le <strong><a href=\"tel:+3228991234\" style=\"color: #C8A04D; text-decoration: none;\">02 899 12 34</a></strong>."
+        },
+        {
+          "question": "Ma voiture est pleine de resine d'arbre apres le printemps, que faire ?",
+          "reponse": "C'est un probleme tres frequent a Uccle avec ses avenues arborees. Nous procedons a une <strong>decontamination chimique</strong> pour dissoudre la resine sans abimer le vernis, puis un <strong>polissage</strong> pour eliminer les traces residuelles. Un <strong>coating ceramique</strong> empechera la resine de s'incruster a l'avenir."
+        },
+        {
+          "question": "Quel est le meilleur traitement pour proteger ma voiture garee en exterieur a Uccle ?",
+          "reponse": "Pour un vehicule gare en voirie ou dans une allee ouverte, nous recommandons un <strong>coating ceramique</strong> : il protege contre les UV, la pollution, la resine et les fientes pendant 2 a 5 ans. Pour les zones les plus exposees (capot, pare-chocs avant), un <strong>film PPF</strong> ajoute une protection physique supplementaire."
+        },
+        {
+          "question": "Vous traitez les SUV et les grands vehicules ?",
+          "reponse": "Oui, nous traitons tous les types de vehicules : <strong>berlines, SUV, 4x4, monospaces et vehicules de prestige</strong>. Les tarifs sont adaptes a la taille du vehicule. Appelez le <strong><a href=\"tel:+3228991234\" style=\"color: #C8A04D; text-decoration: none;\">02 899 12 34</a></strong> pour un devis personnalise."
+        },
+        {
+          "question": "Proposez-vous un abonnement pour un entretien regulier ?",
+          "reponse": "Oui, nous proposons des <strong>formules d'entretien periodique</strong> (mensuel, trimestriel ou semestriel) avec collecte et livraison incluses. Ideal pour les residents d'Uccle qui souhaitent maintenir leur vehicule en parfait etat toute l'annee. Contactez-nous pour les details."
+        }
+      ]
+    },
+
+    "section_zones_voisines": {
+      "h2": "Communes Voisines d'Uccle",
+      "content": "Notre service de collecte et livraison couvre egalement toutes les communes limitrophes d'Uccle. Que vous soyez a Forest, Ixelles ou Watermael-Boitsfort, nous venons chercher votre vehicule.",
+      "communes_voisines": [
+        {"nom": "Ixelles (1050)", "slug": "detailing-voiture-ixelles"},
+        {"nom": "Forest (1190)", "slug": "detailing-voiture-forest"},
+        {"nom": "Saint-Gilles (1060)", "slug": "detailing-voiture-saint-gilles"},
+        {"nom": "Watermael-Boitsfort (1170)", "slug": "detailing-voiture-watermael-boitsfort"},
+        {"nom": "Auderghem (1160)", "slug": "detailing-voiture-auderghem"},
+        {"nom": "Bruxelles-Ville (1000)", "slug": "detailing-voiture-bruxelles-centre"}
+      ]
+    }
+  }
+}

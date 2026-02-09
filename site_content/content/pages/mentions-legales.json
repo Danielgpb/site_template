@@ -1,21 +1,21 @@
 {
-  "meta_title": "Mentions Légales | HELPCAR Dépannage",
-  "meta_description": "Mentions légales du site HELPCAR Dépannage. Informations sur l'éditeur, l'hébergement, la propriété intellectuelle et les conditions d'utilisation.",
+  "meta_title": "Mentions Légales | PRESTIGE DETAILING",
+  "meta_description": "Mentions légales du site PRESTIGE DETAILING. Informations sur l'éditeur, l'hébergement, la propriété intellectuelle et les conditions d'utilisation.",
 
   "hero": {
     "h1": "Mentions Légales",
-    "subtitle": "Informations légales et conditions d'utilisation du site helpcar.be"
+    "subtitle": "Informations légales et conditions d'utilisation du site prestige-detailing.be"
   },
 
   "sections": {
     "editeur": {
       "titre": "1. Éditeur du site",
       "raison_sociale_label": "Raison sociale :",
-      "raison_sociale": "HELPCAR Dépannage",
+      "raison_sociale": "PRESTIGE DETAILING",
       "forme_juridique_label": "Forme juridique :",
       "forme_juridique": "Entreprise individuelle",
       "siege_social_label": "Siège social :",
-      "siege_social": "Rue Charles Martel 55, 1000 Bruxelles, Belgique",
+      "siege_social": "Avenue Louise 150, 1050 Ixelles, Bruxelles, Belgique",
       "numero_entreprise_label": "Numéro d'entreprise :",
       "numero_tva_label": "N° TVA :",
       "email_label": "Email :",
@@ -24,7 +24,7 @@
 
     "directeur": {
       "titre": "2. Directeur de publication",
-      "contenu": "Le directeur de la publication du site est le gérant de HELPCAR Dépannage."
+      "contenu": "Le directeur de la publication du site est le gérant de PRESTIGE DETAILING."
     },
 
     "hebergement": {
@@ -40,22 +40,22 @@
 
     "propriete_intellectuelle": {
       "titre": "4. Propriété intellectuelle",
-      "paragraphe_1": "Tout le contenu présent sur le site helpcar.be – textes, images, logos, vidéos, éléments graphiques – est la propriété de HELPCAR Dépannage, sauf mention contraire.",
-      "paragraphe_2": "Toute reproduction, même partielle, du contenu de ce site est interdite sans autorisation écrite préalable de HELPCAR Dépannage.",
+      "paragraphe_1": "Tout le contenu présent sur le site prestige-detailing.be – textes, images, logos, vidéos, éléments graphiques – est la propriété de PRESTIGE DETAILING, sauf mention contraire.",
+      "paragraphe_2": "Toute reproduction, même partielle, du contenu de ce site est interdite sans autorisation écrite préalable de PRESTIGE DETAILING.",
       "paragraphe_3": "L'utilisation non autorisée de tout élément du site pourra faire l'objet de poursuites conformément au droit belge en matière de propriété intellectuelle."
     },
 
     "responsabilite": {
       "titre": "5. Limitation de responsabilité",
-      "paragraphe_1": "HELPCAR Dépannage met tout en œuvre pour fournir des informations exactes sur ce site. Le site peut toutefois contenir des inexactitudes ou être temporairement indisponible.",
-      "paragraphe_2": "HELPCAR Dépannage décline toute responsabilité en cas de :",
+      "paragraphe_1": "PRESTIGE DETAILING met tout en œuvre pour fournir des informations exactes sur ce site. Le site peut toutefois contenir des inexactitudes ou être temporairement indisponible.",
+      "paragraphe_2": "PRESTIGE DETAILING décline toute responsabilité en cas de :",
       "liste": [
         "Dommages résultant de l'utilisation ou de l'impossibilité d'accéder au site",
         "Interruptions ou dysfonctionnements du site",
         "Intrusion frauduleuse d'un tiers ayant modifié les informations",
         "Inexactitudes dans les informations publiées"
       ],
-      "paragraphe_3": "Les tarifs mentionnés sur le site sont indicatifs. Le prix exact de chaque intervention est communiqué par téléphone avant déplacement. Aucune intervention ne débute sans accord préalable du client sur le montant."
+      "paragraphe_3": "Les tarifs mentionnés sur le site sont indicatifs. Le prix exact de chaque prestation est communiqué sur devis personnalisé après évaluation du véhicule. Aucune prestation ne débute sans accord préalable du client sur le montant."
     },
 
     "donnees_personnelles": {
@@ -63,9 +63,9 @@
       "paragraphe_1": "Conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi belge du 30 juillet 2018, vous disposez d'un droit d'accès, de rectification, de suppression et d'opposition concernant vos données personnelles.",
       "paragraphe_2": "Pour exercer ces droits, contactez-nous :",
       "contact_liste": [
-        "Par email : contact@helpcar.be",
+        "Par email : contact@prestige-detailing.be",
         "Par téléphone : {{TELEPHONE}}",
-        "Par courrier : Rue Charles Martel 55, 1000 Bruxelles"
+        "Par courrier : Avenue Louise 150, 1050 Ixelles, Bruxelles"
       ],
       "paragraphe_3": "Pour en savoir plus, consultez notre <a href=\"../politique-confidentialite/\">Politique de Confidentialité</a>."
     },
@@ -83,8 +83,8 @@
 
     "liens": {
       "titre": "8. Liens hypertextes",
-      "paragraphe_1": "Le site helpcar.be peut contenir des liens vers des sites tiers. HELPCAR Dépannage n'a aucun contrôle sur le contenu de ces sites et n'en est pas responsable.",
-      "paragraphe_2": "La création de liens vers helpcar.be nécessite l'accord préalable de HELPCAR Dépannage."
+      "paragraphe_1": "Le site prestige-detailing.be peut contenir des liens vers des sites tiers. PRESTIGE DETAILING n'a aucun contrôle sur le contenu de ces sites et n'en est pas responsable.",
+      "paragraphe_2": "La création de liens vers prestige-detailing.be nécessite l'accord préalable de PRESTIGE DETAILING."
     },
 
     "droit_applicable": {
@@ -99,15 +99,15 @@
       "email_label": "Email",
       "telephone_label": "Téléphone",
       "adresse_label": "Adresse",
-      "adresse_ligne1": "Rue Charles Martel 55",
-      "adresse_ligne2": "1000 Bruxelles, Belgique"
+      "adresse_ligne1": "Avenue Louise 150",
+      "adresse_ligne2": "1050 Ixelles, Bruxelles, Belgique"
     }
   },
 
   "cta_final": {
-    "titre": "Besoin d'un Dépannage ?",
-    "subtitle": "On est disponible 24h/24, 7j/7. Un appel suffit.",
-    "button": "Appeler le 02 844 56 04"
+    "titre": "Envie d'un Devis Detailing Gratuit ?",
+    "subtitle": "Contactez-nous pour sublimer votre véhicule. Devis personnalisé sans engagement.",
+    "button": "Appeler le 02 899 12 34"
   },
 
   "derniere_maj": "Dernière mise à jour : février 2026"

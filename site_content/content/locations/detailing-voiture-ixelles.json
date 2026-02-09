@@ -1,0 +1,134 @@
+{
+  "version": "2.0",
+  "commune": "Ixelles",
+  "code_postal": "1050",
+
+  "seo": {
+    "meta_title": "Detailing Voiture Ixelles (1050) | PRESTIGE DETAILING",
+    "meta_description": "Car detailing professionnel a Ixelles (1050). Correction peinture, coating ceramique, detailing interieur/exterieur. Atelier Avenue Louise 150. Collecte gratuite. Tel 02 899 12 34"
+  },
+
+  "hero": {
+    "h1": "Detailing Voiture Ixelles (1050)",
+    "accroche": "Notre atelier est installe au coeur d'Ixelles, Avenue Louise 150. Detailing haut de gamme, correction de peinture, coating ceramique et protection complete pour votre vehicule."
+  },
+
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Vous habitez Ixelles et vous cherchez un <strong>detailing automobile de qualite</strong> ? Vous etes au bon endroit. <strong style=\"color: #C8A04D;\">PRESTIGE DETAILING</strong> a installe son atelier <strong>Avenue Louise 150, 1050 Ixelles</strong> -- en plein coeur de votre commune. Nous sommes le <strong>meilleur detailing voiture a Ixelles (1050)</strong>, avec un equipement professionnel et un environnement controle pour des resultats irreprochables.",
+      "paragraphe_1": "Ixelles est une commune ou les belles voitures sont legion -- de l'Avenue Louise au quartier du Chatelain, en passant par les rues residentielles autour des Etangs d'Ixelles. Mais le stationnement en voirie, la <strong>pollution urbaine</strong> et les <strong>projections de sel en hiver</strong> abiment rapidement les peintures. Nos prestations de detailing corrigent et protegent votre carrosserie durablement.",
+      "paragraphe_2": "Deposez votre vehicule directement a notre atelier ou profitez de notre <strong>service de collecte gratuit</strong> dans toute la commune. Appelez le <strong><a href=\"tel:+3228991234\" style=\"color: #C8A04D; text-decoration: none;\">02 899 12 34</a></strong> pour prendre rendez-vous."
+    },
+
+    "section_on_connait": {
+      "h2": "On Connait Ixelles Comme Notre Poche",
+      "intro": "C'est notre commune d'implantation. On connait chaque quartier, chaque rue, et les problemes specifiques que rencontrent les vehicules ici :",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Avenue Louise & Bois de la Cambre",
+          "description": "L'avenue la plus prestigieuse de Bruxelles et son prolongement vers le Bois. Les vehicules haut de gamme y sont nombreux et meritent un entretien a la hauteur. Notre atelier est directement sur cet axe."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Quartier du Chatelain",
+          "description": "Rues residentielles arborees entre la Place du Chatelain et Bailli. La resine d'arbres et les fientes d'oiseaux sont les ennemis numero un des carrosseries garees sous les tilleuls. Notre decontamination et notre coating ceramique reglent le probleme."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Etangs d'Ixelles & Flagey",
+          "description": "Quartier vivant autour de la Place Flagey et des etangs. L'humidite ambiante et la poussiere favorisent les depots sur la carrosserie. Un traitement hydrophobe garde votre vehicule propre plus longtemps."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Quartier Universitaire (ULB/VUB)",
+          "description": "Zone dense ou les vehicules subissent le va-et-vient quotidien. Les micro-rayures de parking et les impacts de portiere sont frequents. Notre correction de peinture les fait disparaitre."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Porte de Namur & Matongue",
+          "description": "Carrefour anime entre le centre-ville et Ixelles. Circulation dense, poussiere de chantier et pollution des tunnels. Nos traitements de decontamination eliminent les particules incrustees dans le vernis."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Ma Campagne & Lepoutre",
+          "description": "Quartier residentiel calme avec beaucoup de stationnement en voirie. Les vehicules gares sous les arbres accumulent pollen, resine et depots organiques. Un detailing exterieur regulier preserve la brillance de votre peinture."
+        }
+      ],
+      "conclusion": "Installe a Ixelles, nous connaissons parfaitement les conditions locales. Chaque prestation est adaptee aux besoins specifiques de votre vehicule et de son environnement de stationnement."
+    },
+
+    "section_services": {
+      "h2": "Nos Services de Detailing a Ixelles",
+      "intro": "Toutes nos prestations sont disponibles pour les residents d'Ixelles. Deposez votre vehicule a l'atelier ou profitez de la collecte gratuite.",
+      "cta_text": "Voir tous nos services",
+      "cta_url": "../services/",
+      "categories": [
+        {
+          "icon": "sparkle",
+          "titre": "Correction & Protection",
+          "services": [
+            {"nom": "Correction de peinture (polissage multi-etapes)", "url_var": "URL_SERVICE_CORRECTION_PEINTURE"},
+            {"nom": "Coating ceramique (protection 2 a 5 ans)", "url_var": "URL_SERVICE_COATING_CERAMIQUE"},
+            {"nom": "Film de protection PPF", "url_var": "URL_SERVICE_FILM_PPF"}
+          ]
+        },
+        {
+          "icon": "car",
+          "titre": "Detailing Complet",
+          "services": [
+            {"nom": "Detailing exterieur complet", "url_var": "URL_SERVICE_DETAILING_EXTERIEUR"},
+            {"nom": "Detailing interieur (cuir, tissus, plastiques)", "url_var": "URL_SERVICE_DETAILING_INTERIEUR"}
+          ]
+        },
+        {
+          "icon": "droplet",
+          "titre": "Traitements Specifiques",
+          "services": [
+            {"nom": "Traitement hydrophobe vitrage", "url_var": "URL_SERVICE_TRAITEMENT_VITRAGE"},
+            {"nom": "Renovation des phares", "url_var": "URL_SERVICE_RENOVATION_PHARES"}
+          ]
+        }
+      ]
+    },
+
+    "faq_locale": {
+      "h2": "Questions Frequentes -- Detailing Ixelles",
+      "questions": [
+        {
+          "question": "Ou se trouve exactement votre atelier a Ixelles ?",
+          "reponse": "Notre atelier est situe <strong>Avenue Louise 150, 1050 Ixelles</strong>, facilement accessible depuis toute la commune. Vous pouvez deposer votre vehicule sur rendez-vous du lundi au samedi. Appelez le <strong><a href=\"tel:+3228991234\" style=\"color: #C8A04D; text-decoration: none;\">02 899 12 34</a></strong>."
+        },
+        {
+          "question": "Ma voiture est garee sous les arbres du Chatelain, le vernis colle. Que faire ?",
+          "reponse": "La <strong>resine d'arbre et les fientes</strong> attaquent le vernis si elles ne sont pas retirees rapidement. Nous procedons a une <strong>decontamination chimique douce</strong>, suivie d'un polissage si necessaire, puis d'un coating ceramique qui empechera ces depots de s'incruster a l'avenir."
+        },
+        {
+          "question": "Vous pouvez venir chercher ma voiture dans mon parking ?",
+          "reponse": "Oui. Notre <strong>service de collecte</strong> couvre toute la commune d'Ixelles. Un chauffeur vient recuperer votre vehicule a votre domicile, parking ou bureau, et vous le restitue une fois les travaux termines. C'est gratuit pour toutes les prestations."
+        },
+        {
+          "question": "Quel detailing pour une voiture neuve achetee chez un concessionnaire Avenue Louise ?",
+          "reponse": "Pour un vehicule neuf, nous recommandons un <strong>pack protection neuf</strong> : correction legere des defauts d'usine (traces de transport, hologrammes), application d'un <strong>coating ceramique</strong> sur la carrosserie et les jantes, traitement hydrophobe des vitres, et protection des cuirs. C'est l'investissement le plus rentable pour preserver la valeur de votre vehicule."
+        },
+        {
+          "question": "Combien de temps gardez-vous ma voiture ?",
+          "reponse": "Un <strong>detailing exterieur complet</strong> prend generalement une journee. Un <strong>coating ceramique</strong> necessite 2 a 3 jours (preparation, application, temps de cure). Nous vous communiquons la duree exacte lors de la prise de rendez-vous et vous tenons informe par SMS."
+        }
+      ]
+    },
+
+    "section_zones_voisines": {
+      "h2": "Communes Voisines d'Ixelles",
+      "content": "Notre atelier Avenue Louise est idéalement situe pour desservir toutes les communes limitrophes d'Ixelles. La collecte et la livraison sont gratuites dans toute la region bruxelloise.",
+      "communes_voisines": [
+        {"nom": "Bruxelles-Ville (1000)", "slug": "detailing-voiture-bruxelles-centre"},
+        {"nom": "Etterbeek (1040)", "slug": "detailing-voiture-etterbeek"},
+        {"nom": "Saint-Gilles (1060)", "slug": "detailing-voiture-saint-gilles"},
+        {"nom": "Uccle (1180)", "slug": "detailing-voiture-uccle"},
+        {"nom": "Auderghem (1160)", "slug": "detailing-voiture-auderghem"},
+        {"nom": "Watermael-Boitsfort (1170)", "slug": "detailing-voiture-watermael-boitsfort"}
+      ]
+    }
+  }
+}

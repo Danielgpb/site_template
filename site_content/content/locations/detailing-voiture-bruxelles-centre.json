@@ -1,0 +1,134 @@
+{
+  "version": "2.0",
+  "commune": "Bruxelles-Ville",
+  "code_postal": "1000",
+
+  "seo": {
+    "meta_title": "Detailing Voiture Bruxelles-Ville (1000) | PRESTIGE DETAILING",
+    "meta_description": "Car detailing haut de gamme a Bruxelles-Ville (1000). Correction de peinture, coating ceramique, detailing interieur et exterieur. Collecte et livraison. Avenue Louise 150. Tel 02 899 12 34"
+  },
+
+  "hero": {
+    "h1": "Detailing Voiture Bruxelles-Ville (1000)",
+    "accroche": "Votre specialiste du car detailing au coeur de Bruxelles. Correction de peinture, coating ceramique, protection complete. Collecte et livraison de votre vehicule dans tout le centre-ville."
+  },
+
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Vous cherchez un <strong>detailing automobile professionnel a Bruxelles-Ville (1000)</strong> ? Appelez le <strong><a href=\"tel:+3228991234\" style=\"color: #C8A04D; text-decoration: none;\">02 899 12 34</a></strong>. <strong style=\"color: #C8A04D;\">PRESTIGE DETAILING</strong> est le <strong>specialiste du car detailing haut de gamme au centre de Bruxelles</strong>. Nous venons chercher votre vehicule ou que vous soyez -- pres de la Grand-Place, au Sablon, dans le Quartier Europeen ou a Sainte-Catherine.",
+      "paragraphe_1": "Le centre de Bruxelles met votre carrosserie a rude epreuve : <strong>pollution urbaine</strong>, poussieres de chantier, fientes de pigeons, particules de freinage dans les tunnels de la petite ceinture. Nos prestations de detailing eliminent ces contaminants et protegent durablement votre peinture avec un <strong>coating ceramique</strong> ou un <strong>film PPF</strong>.",
+      "paragraphe_2": "Notre atelier est situe <strong>Avenue Louise 150, 1050 Ixelles</strong>, a quelques minutes du centre-ville. Nous proposons un <strong>service de collecte et livraison gratuit</strong> : un chauffeur recupere votre vehicule a votre domicile ou a votre bureau et vous le restitue impeccable. Appelez le <strong><a href=\"tel:+3228991234\" style=\"color: #C8A04D; text-decoration: none;\">02 899 12 34</a></strong> pour planifier votre rendez-vous."
+    },
+
+    "section_on_connait": {
+      "h2": "On Connait Bruxelles-Ville Sur le Bout des Doigts",
+      "intro": "Le centre de Bruxelles presente des defis specifiques pour l'entretien automobile : stationnement en voirie, tunnels poussiereux, zones a faibles emissions. Voici les quartiers ou nous intervenons regulierement :",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Grand-Place & Ilot Sacre",
+          "description": "Rues etroites, stationnement limite et pollution touristique. Les vehicules gares dans ce quartier accumulent rapidement poussieres et contaminants. Un detailing exterieur regulier preserve l'eclat de votre carrosserie."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Sablon & Marolles",
+          "description": "Quartier prise des amateurs de belles voitures. Nos clients du Sablon choisissent souvent le coating ceramique pour proteger leur vehicule contre les salissures des paves et les projections de la Place du Jeu de Balle."
+        },
+        {
+          "icon": "building",
+          "nom": "Quartier Europeen & Schuman",
+          "description": "Les tunnels Loi et les parkings souterrains des institutions deposent un film de particules fines sur votre carrosserie. Notre decontamination chimique et notre polissage corrigent les degats de la pollution quotidienne."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Sainte-Catherine & Dansaert",
+          "description": "Quartier branche ou les vehicules souffrent du stationnement en voirie et de l'humidite du canal. Nos traitements hydrophobes sur vitrage et carrosserie vous protegent toute l'annee."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Rogier & Gare du Nord",
+          "description": "Zone tres frequentee ou la poussiere de chantier et la circulation dense abiment les peintures. Notre correction de peinture efface les micro-rayures et redonne un fini miroir a votre vehicule."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Mont des Arts & Palais Royal",
+          "description": "Stationnement en plein air pres des musees et du Parc de Bruxelles. Les fientes d'oiseaux et la resine d'arbres attaquent le vernis. Un coating ceramique offre une protection durable contre ces agressions."
+        }
+      ],
+      "conclusion": "Que votre vehicule stationne en voirie dans le centre historique ou dans un parking souterrain du Quartier Europeen, nous adaptons nos prestations aux conditions specifiques de chaque quartier."
+    },
+
+    "section_services": {
+      "h2": "Nos Services de Detailing a Bruxelles-Ville",
+      "intro": "Toutes nos prestations de detailing sont disponibles pour les residents et professionnels de Bruxelles-Ville, avec collecte et livraison incluses.",
+      "cta_text": "Voir tous nos services",
+      "cta_url": "../services/",
+      "categories": [
+        {
+          "icon": "sparkle",
+          "titre": "Correction & Protection",
+          "services": [
+            {"nom": "Correction de peinture (polissage multi-etapes)", "url_var": "URL_SERVICE_CORRECTION_PEINTURE"},
+            {"nom": "Coating ceramique (protection 2 a 5 ans)", "url_var": "URL_SERVICE_COATING_CERAMIQUE"},
+            {"nom": "Film de protection PPF", "url_var": "URL_SERVICE_FILM_PPF"}
+          ]
+        },
+        {
+          "icon": "car",
+          "titre": "Detailing Complet",
+          "services": [
+            {"nom": "Detailing exterieur complet", "url_var": "URL_SERVICE_DETAILING_EXTERIEUR"},
+            {"nom": "Detailing interieur (cuir, tissus, plastiques)", "url_var": "URL_SERVICE_DETAILING_INTERIEUR"}
+          ]
+        },
+        {
+          "icon": "droplet",
+          "titre": "Traitements Specifiques",
+          "services": [
+            {"nom": "Traitement hydrophobe vitrage", "url_var": "URL_SERVICE_TRAITEMENT_VITRAGE"},
+            {"nom": "Renovation des phares", "url_var": "URL_SERVICE_RENOVATION_PHARES"}
+          ]
+        }
+      ]
+    },
+
+    "faq_locale": {
+      "h2": "Questions Frequentes -- Detailing Bruxelles-Ville",
+      "questions": [
+        {
+          "question": "Vous venez chercher ma voiture dans le centre de Bruxelles ?",
+          "reponse": "Oui. Notre <strong>service de collecte et livraison</strong> couvre tout Bruxelles-Ville (1000). Un chauffeur vient recuperer votre vehicule a votre domicile, bureau ou parking, et vous le restitue une fois le detailing termine. Appelez le <strong><a href=\"tel:+3228991234\" style=\"color: #C8A04D; text-decoration: none;\">02 899 12 34</a></strong> pour planifier."
+        },
+        {
+          "question": "Ma voiture est couverte de poussiere de tunnel, que conseillez-vous ?",
+          "reponse": "Les tunnels bruxellois (Loi, Louise, Porte de Hal) deposent des <strong>particules de freinage et des poussieres metalliques</strong> qui s'incrustent dans le vernis. Nous recommandons une <strong>decontamination chimique</strong> suivie d'un polissage et d'un coating ceramique pour proteger durablement votre peinture."
+        },
+        {
+          "question": "Combien coute un detailing complet pour une berline ?",
+          "reponse": "Le prix depend de l'etat du vehicule et des prestations choisies. Un <strong>detailing exterieur complet</strong> demarre aux alentours de 250 euros, un <strong>coating ceramique</strong> a partir de 500 euros. Appelez le <strong><a href=\"tel:+3228991234\" style=\"color: #C8A04D; text-decoration: none;\">02 899 12 34</a></strong> pour un devis personnalise."
+        },
+        {
+          "question": "Vous traitez les voitures de collection ?",
+          "reponse": "Absolument. Nous avons l'experience des <strong>peintures anciennes, laques monocouches et chromes</strong>. Le Sablon et le centre de Bruxelles abritent de nombreuses voitures de collection que nous entretenons regulierement avec des produits et techniques adaptes."
+        },
+        {
+          "question": "Combien de temps faut-il pour un coating ceramique ?",
+          "reponse": "Comptez <strong>2 a 3 jours</strong> au total : preparation (decontamination, correction de peinture), application du coating, puis temps de cure en environnement controle. On vous restitue votre vehicule parfaitement protege."
+        }
+      ]
+    },
+
+    "section_zones_voisines": {
+      "h2": "Communes Voisines de Bruxelles-Ville",
+      "content": "Notre service de collecte et livraison couvre egalement toutes les communes limitrophes de Bruxelles-Ville. Ou que vous soyez dans la region bruxelloise, nous venons chercher votre vehicule pour le detailing.",
+      "communes_voisines": [
+        {"nom": "Ixelles (1050)", "slug": "detailing-voiture-ixelles"},
+        {"nom": "Schaerbeek (1030)", "slug": "detailing-voiture-schaerbeek"},
+        {"nom": "Etterbeek (1040)", "slug": "detailing-voiture-etterbeek"},
+        {"nom": "Saint-Gilles (1060)", "slug": "detailing-voiture-saint-gilles"},
+        {"nom": "Saint-Josse-ten-Noode (1210)", "slug": "detailing-voiture-saint-josse"},
+        {"nom": "Molenbeek-Saint-Jean (1080)", "slug": "detailing-voiture-molenbeek"}
+      ]
+    }
+  }
+}

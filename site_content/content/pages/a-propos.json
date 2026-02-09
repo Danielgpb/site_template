@@ -1,122 +1,112 @@
 {
-  "meta_title": "À Propos HELPCAR Dépannage Bruxelles | Équipe Expérimentée",
-  "meta_description": "HELPCAR Dépannage : une équipe avec plus de 10 ans d'expérience en dépannage et remorquage à Bruxelles. Matériel pro, prix annoncé par téléphone. ☎️ 02 844 56 04",
+  "meta_title": "À Propos de PRESTIGE DETAILING | Detailing Automobile Bruxelles",
+  "meta_description": "PRESTIGE DETAILING : plus de 12 ans d'expertise en detailing automobile à Bruxelles. Correction peinture, coating céramique, PPF. Produits premium Gyeon & Gtechniq.",
 
   "open_graph": {
-    "title": "À Propos – HELPCAR Dépannage | Dépannage Auto Bruxelles",
-    "description": "HELPCAR Dépannage, une équipe de dépanneurs expérimentés à Bruxelles. On vous dit qui on est."
+    "title": "À Propos – PRESTIGE DETAILING | Detailing Auto Bruxelles",
+    "description": "Découvrez l'histoire et les valeurs de PRESTIGE DETAILING, spécialiste du detailing automobile haut de gamme à Bruxelles depuis plus de 12 ans."
   },
 
   "hero": {
-    "h1": "Qui Est <span class=\"highlight gradient-text\">HELPCAR Dépannage</span> ?",
-    "subtitle": "Une équipe de dépanneurs expérimentés, basée à Bruxelles, qui connaît chaque rue de la région.",
-    "image_alt": "Équipe HELPCAR Dépannage Bruxelles"
+    "h1": "Qui Est <span class=\"highlight gradient-text\">PRESTIGE DETAILING</span> ?",
+    "subtitle": "Plus de 12 ans de passion pour l'esthétique automobile, au service des véhicules d'exception à Bruxelles.",
+    "image_alt": "Atelier PRESTIGE DETAILING Bruxelles Avenue Louise"
   },
 
   "notre_histoire": {
-    "section_label": "Notre parcours",
-    "section_title": "Du Terrain, Pas du Bureau",
+    "section_label": "Notre histoire",
+    "section_title": "La Passion de la Perfection",
     "paragraphes": [
-      "<strong style=\"color: #CF5706;\">HELPCAR Dépannage</strong>, aujourd'hui reconnu comme le <strong>meilleur service de dépannage auto à Bruxelles</strong>, est né d'un constat simple : quand vous êtes en panne à 23h sur le Ring, vous avez besoin de quelqu'un qui décroche, qui vous donne un prix, et qui arrive. Pas d'un répondeur automatique.",
-      "Chacun dans l'équipe a <strong>plus de 10 ans d'expérience</strong> dans le dépannage automobile. On a travaillé sur toutes sortes de pannes, dans toutes les conditions. Aujourd'hui avec <strong>HELPCAR Dépannage</strong>, on met cette expérience à votre service – du pneu crevé Place Flagey au remorquage sur l'E40.",
-      "Ce qui n'a pas changé : quand vous appelez le <strong><a href=\"tel:+3228445604\" style=\"color: #CF5706; text-decoration: none;\">02 844 56 04</a></strong>, vous parlez directement à quelqu'un qui va venir vous dépanner. On vous donne le prix, vous dites oui ou non, et on part."
+      "<strong style=\"color: #C8A04D;\">PRESTIGE DETAILING</strong> est né d'une passion profonde pour l'esthétique automobile. Fondé à Bruxelles il y a plus de <strong>12 ans</strong>, notre atelier situé <strong>Avenue Louise 150, à Ixelles</strong>, est devenu la référence du <strong>detailing haut de gamme</strong> dans la capitale belge. Dès le premier jour, notre ambition était claire : offrir à chaque véhicule le traitement qu'il mérite, avec un niveau de soin et de précision qui dépasse les standards du marché.",
+      "Au fil des années, nous avons perfectionné nos techniques, investi dans les <strong>technologies les plus avancées</strong> et sélectionné les <strong>meilleurs produits du marché</strong> – Gyeon, Gtechniq, Rupes, Koch Chemie – pour garantir des résultats irréprochables. Chaque correction de peinture, chaque application de coating céramique, chaque pose de film PPF est réalisée avec la même exigence : celle de la perfection.",
+      "Aujourd'hui, <strong style=\"color: #C8A04D;\">PRESTIGE DETAILING</strong> a traité plus de <strong>3 000 véhicules</strong> – des citadines soignées par leurs propriétaires aux Porsche, Mercedes-AMG et Ferrari de collectionneurs exigeants. Notre clientèle nous fait confiance parce qu'elle sait que chaque véhicule qui entre dans notre atelier en ressort transformé. Appelez-nous au <strong><a href=\"tel:+3228991234\" style=\"color: #C8A04D; text-decoration: none;\">02 899 12 34</a></strong> ou écrivez-nous à <strong><a href=\"mailto:contact@prestige-detailing.be\" style=\"color: #C8A04D; text-decoration: none;\">contact@prestige-detailing.be</a></strong> pour découvrir ce que nous pouvons faire pour votre véhicule."
     ]
   },
 
   "chiffres_cles": [
     {
-      "valeur": "10+",
-      "label": "Ans d'expérience (équipe)"
+      "valeur": "12+",
+      "label": "Années d'expérience"
     },
     {
-      "valeur": "24/7",
-      "label": "Disponibilité"
+      "valeur": "3 000+",
+      "label": "Véhicules traités"
     },
     {
-      "valeur": "19+",
+      "valeur": "99%",
+      "label": "Taux de satisfaction"
+    },
+    {
+      "valeur": "19",
       "label": "Communes couvertes"
-    },
-    {
-      "valeur": "~30 min",
-      "label": "Temps d'intervention"
     }
   ],
 
   "nos_valeurs": {
-    "section_label": "Comment on travaille",
-    "section_title": "Nos Principes, Pas du Marketing",
-    "section_description": "Ce qu'on applique à chaque intervention, pas juste sur le site",
+    "section_label": "Ce qui nous définit",
+    "section_title": "Nos Valeurs, Notre Signature",
+    "section_description": "Quatre principes qui guident chacune de nos interventions, du lavage le plus simple à la correction la plus complexe",
     "valeurs": [
       {
-        "emoji": "📞",
-        "titre": "On décroche",
-        "description": "Pas de répondeur, pas de musique d'attente. Vous appelez, quelqu'un répond. <strong>24h/24, 7j/7</strong>, nuit et jours fériés inclus."
+        "emoji": "🔍",
+        "titre": "Perfectionnisme",
+        "description": "Chaque centimètre de votre véhicule est inspecté sous éclairage professionnel. Nous ne livrons un véhicule que lorsque le résultat atteint nos standards – et les vôtres. <strong>Le détail, c'est notre métier.</strong>"
+      },
+      {
+        "emoji": "🧪",
+        "titre": "Produits Premium",
+        "description": "Nous travaillons exclusivement avec les marques leaders du detailing professionnel : <strong>Gyeon, Gtechniq, Rupes, Koch Chemie, XPEL</strong>. Aucun compromis sur la qualité des produits appliqués sur votre véhicule."
       },
       {
         "emoji": "💶",
-        "titre": "On annonce le prix",
-        "description": "Avant de démarrer le camion, vous savez ce que ça coûte. <strong>Le prix annoncé est le prix payé</strong>. Pas de surprise à l'arrivée."
+        "titre": "Tarification Transparente",
+        "description": "Chaque devis est détaillé, chaque prestation est expliquée. <strong>Le prix annoncé est le prix facturé</strong>, sans supplément caché. Vous savez exactement ce que vous payez et pourquoi."
       },
       {
-        "emoji": "🔧",
-        "titre": "On répare sur place",
-        "description": "Batterie, pneu, carburant, ouverture de porte – si c'est réparable sur place, on évite le remorquage. <strong>Moins cher pour vous, plus rapide pour tout le monde.</strong>"
-      },
-      {
-        "emoji": "🗺️",
-        "titre": "On connaît le terrain",
-        "description": "Des années sur les routes de Bruxelles, ça veut dire qu'on connaît les rues à sens unique, les parkings souterrains et les raccourcis. <strong>Ça se traduit en minutes gagnées</strong> pour vous."
-      },
-      {
-        "emoji": "🛠️",
-        "titre": "Du matériel qui suit",
-        "description": "Camions équipés, plateaux porte-voitures, treuils, matériel de diagnostic. <strong>On arrive prêt</strong>, pas les mains vides."
-      },
-      {
-        "emoji": "🤝",
-        "titre": "On reste correct",
-        "description": "Vous êtes en panne, c'est déjà pas drôle. On fait notre boulot proprement, on vous explique ce qu'on fait, et on vous laisse repartir tranquille."
+        "emoji": "🏎️",
+        "titre": "Passion Automobile",
+        "description": "Nous ne traitons pas des carrosseries, nous prenons soin de véhicules qui comptent pour leurs propriétaires. <strong>Chaque voiture qui entre dans notre atelier est traitée comme si c'était la nôtre.</strong>"
       }
     ]
   },
 
   "garanties": {
-    "section_label": "Ce qu'on vous garantit",
-    "section_title": "Pourquoi les Bruxellois Nous Appellent",
+    "section_label": "Ce que nous vous garantissons",
+    "section_title": "Pourquoi Nous Choisir à Bruxelles",
     "items": [
       {
         "emoji": "✓",
-        "titre": "Équipe Locale et Disponible",
-        "description": "Quand vous appelez, on organise votre dépannage et on vous envoie un professionnel équipé dans toute la région bruxelloise."
+        "titre": "Expertise Certifiée",
+        "description": "Plus de 12 ans d'expérience en detailing automobile, formés aux dernières techniques de correction peinture, coating céramique et pose de film PPF. Nos résultats parlent d'eux-mêmes."
       },
       {
         "emoji": "✓",
-        "titre": "Matériel Professionnel",
-        "description": "Nos camions sont équipés pour tout type de véhicule : voiture, moto, camionnette, SUV, véhicule électrique. On ne refuse pas un dépannage parce qu'on n'a pas le bon outil."
+        "titre": "Atelier Professionnel Dédié",
+        "description": "Un atelier équipé d'un éclairage professionnel de correction, de cabines contrôlées et de tout le matériel nécessaire pour travailler dans des conditions optimales – Avenue Louise 150, au cœur de Bruxelles."
       },
       {
         "emoji": "✓",
         "titre": "Toutes les Communes de Bruxelles",
-        "description": "Les 19 communes de Bruxelles-Capitale plus la périphérie : Zaventem, Tervuren, Waterloo, Wavre et bien d'autres. On intervient aussi sur le Ring et les grands axes."
+        "description": "Nous accueillons des clients des 19 communes de Bruxelles-Capitale : Ixelles, Uccle, Woluwe-Saint-Pierre, Watermael-Boitsfort, Etterbeek, Auderghem et bien d'autres. Service de collecte et livraison disponible."
       },
       {
         "emoji": "✓",
-        "titre": "Zéro Surprise sur la Facture",
-        "description": "Le montant qu'on vous annonce par téléphone, c'est celui que vous payez. Si on découvre un problème plus complexe sur place, on vous appelle avant de faire quoi que ce soit."
+        "titre": "Garantie sur Nos Traitements",
+        "description": "Nos coatings céramiques sont garantis jusqu'à 5 ans, nos films PPF jusqu'à 10 ans. Nous assurons un suivi après chaque prestation et restons disponibles pour tout conseil d'entretien."
       }
     ]
   },
 
   "engagement": {
-    "titre": "Un Mot de l'Équipe",
-    "paragraphe": "Chez <strong style=\"color: #CF5706;\">HELPCAR Dépannage</strong>, on sait qu'une panne, c'est toujours au mauvais moment. C'est pour ça qu'on a bâti notre service sur un principe simple : <strong>vous aider vite, bien, et au juste prix</strong>. Pas de discours commercial, juste du concret.",
-    "citation": "\"On fait ce métier depuis des années parce qu'on aime résoudre les problèmes des gens. Quand quelqu'un nous appelle stressé et qu'il repart soulagé – c'est exactement pour ça qu'on est là.\"",
-    "signature": "— L'équipe HELPCAR Dépannage"
+    "titre": "Notre Engagement",
+    "paragraphe": "Chez <strong style=\"color: #C8A04D;\">PRESTIGE DETAILING</strong>, nous croyons que chaque véhicule mérite un traitement d'exception. Notre engagement va au-delà de la simple prestation : nous construisons une relation de confiance avec chaque client, fondée sur <strong>l'excellence du travail, la transparence des prix et le respect de votre véhicule</strong>. C'est cette philosophie qui fait de nous la référence du detailing à Bruxelles.",
+    "citation": "\"L'automobile est bien plus qu'un moyen de transport – c'est une œuvre de design, un investissement, une passion. Notre mission est de révéler et de préserver la beauté de chaque véhicule qui nous est confié.\"",
+    "signature": "— L'équipe PRESTIGE DETAILING"
   },
 
   "cta_final": {
-    "titre": "En Panne ? On Est Là.",
-    "subtitle": "Un appel, un prix, une intervention. C'est aussi simple que ça.",
-    "button": "02 844 56 04"
+    "titre": "Envie de Sublimer Votre Véhicule ?",
+    "subtitle": "Contactez-nous pour un devis personnalisé. Chaque détail compte, chaque véhicule mérite l'excellence.",
+    "button": "02 899 12 34"
   }
 }
