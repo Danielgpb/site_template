@@ -1,7 +1,7 @@
 {
   "service_id": 12,
   "last_updated": "2026-02-05",
-  "intro_autorite": "Le réservoir est à sec et vous êtes planté sur le bord de la route ? Une <b>panne sèche à Bruxelles</b>, ça arrive plus souvent qu'on ne croit. Appelez le <a href=\"tel:+3228445604\" style=\"color: #CF5706; text-decoration: none; font-weight: 700;\">02&nbsp;844&nbsp;56&nbsp;04</a> — <strong style=\"color: #CF5706;\">HELPCAR Dépannage</strong> vous apporte du carburant en 30 minutes, directement là où vous êtes. Le prix on vous le dit par téléphone, pas de mauvaise surprise.",
+  "intro_autorite": "Le réservoir est à sec et vous êtes planté sur le bord de la route ? Une <b>panne sèche à Bruxelles</b>, ça arrive plus souvent qu'on ne croit. Appelez le <a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none; font-weight: 700;\">02&nbsp;844&nbsp;56&nbsp;04</a> — <strong style=\"color: #CF5706;\">HELPCAR Dépannage</strong> vous apporte du carburant en 30 minutes, directement là où vous êtes. Le prix on vous le dit par téléphone, pas de mauvaise surprise.",
   "hero": {
     "h1": "Panne Sèche à Bruxelles ? HELPCAR Livre Votre Carburant sur Place",
     "badges": [
@@ -14,7 +14,7 @@
   "sections": [
     {
       "h2": "Panne d'essence à Bruxelles : ce qu'on fait pour vous",
-      "content": "<p>Votre voiture vient de caler en pleine route et le réservoir est vide ? Que ce soit une jauge capricieuse ou un simple oubli, le résultat est le même : vous êtes planté. Le <strong>meilleur dépannage panne essence à Bruxelles</strong> ? C'est <strong style=\"color: #CF5706;\">HELPCAR Dépannage</strong>. Appelez le <strong><a href=\"tel:+3228445604\" style=\"color: #CF5706; text-decoration: none;\">02 844 56 04</a></strong> : l'équipe arrive vite, verse le carburant, vérifie que le moteur repart, et vous filez à la station.</p><p>Notre équipe a <strong>plus de {{YEARS_EXPERIENCE_PLUS}} ans d'expérience</strong> sur le terrain bruxellois. On connaît les coins, les axes engorgés et les raccourcis. Résultat : on arrive vite, on verse le carburant, on vérifie que le moteur repart, et vous filez à la station la plus proche. Pas de blabla, pas d'attente interminable.</p><p>Un coup de fil au <a href=\"tel:+3228445604\" style=\"color: #CF5706; font-weight: 700;\">02 844 56 04</a> et notre équipe organise l'intervention. On vous annonce le prix avant de bouger – vous savez exactement ce que ça coûte.</p>"
+      "content": "<p>Votre voiture vient de caler en pleine route et le réservoir est vide ? Que ce soit une jauge capricieuse ou un simple oubli, le résultat est le même : vous êtes planté. Le <strong>meilleur dépannage panne essence à Bruxelles</strong> ? C'est <strong style=\"color: #CF5706;\">HELPCAR Dépannage</strong>. Appelez le <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong> : l'équipe arrive vite, verse le carburant, vérifie que le moteur repart, et vous filez à la station.</p><p>Notre équipe a <strong>plus de {{YEARS_EXPERIENCE_PLUS}} ans d'expérience</strong> sur le terrain bruxellois. On connaît les coins, les axes engorgés et les raccourcis. Résultat : on arrive vite, on verse le carburant, on vérifie que le moteur repart, et vous filez à la station la plus proche. Pas de blabla, pas d'attente interminable.</p><p>Un coup de fil au <a href=\"tel:+3228860486\" style=\"color: #CF5706; font-weight: 700;\">02 886 04 86</a> et notre équipe organise l'intervention. On vous annonce le prix avant de bouger – vous savez exactement ce que ça coûte.</p>"
     },
     {
       "h2": "Pourquoi une panne sèche arrive (et comment l'éviter)",
@@ -26,7 +26,7 @@
     },
     {
       "h2": "Tarif livraison carburant à Bruxelles",
-      "content": "<div style=\"background: #F9FAFB; padding: 1.5rem; border-radius: 12px; border-left: 4px solid #10B981; margin: 1.5rem 0;\">\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Prix annoncé par téléphone :</strong> Avant tout déplacement, on vous indique le montant exact. Vous acceptez ou non. C'est aussi simple que ça.</p>\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Apport de 5 litres (essence ou diesel) :</strong> Suffisant pour atteindre la pompe la plus proche. Montant fixe communiqué à l'appel.</p>\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Réamorçage circuit diesel :</strong> Purge de l'air dans les conduits après panne sèche complète. Estimation gratuite au téléphone.</p>\n<p style=\"margin-bottom: 0;\"><strong style=\"color: #10B981;\">Transport vers station-service :</strong> Si la situation l'exige, on achemine votre véhicule directement à la pompe. Tarif au kilomètre, communiqué d'avance.</p>\n</div>\n<p><strong class=\"text-orange\">Composez le <a href=\"tel:+3228445604\" style=\"color: #CF5706; font-weight: 700;\">02 844 56 04</a></strong> : tarif exact en moins de 2 minutes. <strong>Aucun frais caché, jamais.</strong></p>"
+      "content": "<div style=\"background: #F9FAFB; padding: 1.5rem; border-radius: 12px; border-left: 4px solid #10B981; margin: 1.5rem 0;\">\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Prix annoncé par téléphone :</strong> Avant tout déplacement, on vous indique le montant exact. Vous acceptez ou non. C'est aussi simple que ça.</p>\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Apport de 5 litres (essence ou diesel) :</strong> Suffisant pour atteindre la pompe la plus proche. Montant fixe communiqué à l'appel.</p>\n<p style=\"margin-bottom: 1rem;\"><strong style=\"color: #10B981;\">Réamorçage circuit diesel :</strong> Purge de l'air dans les conduits après panne sèche complète. Estimation gratuite au téléphone.</p>\n<p style=\"margin-bottom: 0;\"><strong style=\"color: #10B981;\">Transport vers station-service :</strong> Si la situation l'exige, on achemine votre véhicule directement à la pompe. Tarif au kilomètre, communiqué d'avance.</p>\n</div>\n<p><strong class=\"text-orange\">Composez le <a href=\"tel:+3228860486\" style=\"color: #CF5706; font-weight: 700;\">02 886 04 86</a></strong> : tarif exact en moins de 2 minutes. <strong>Aucun frais caché, jamais.</strong></p>"
     },
     {
       "h2": "Zone d'intervention : Bruxelles et toute la périphérie",
@@ -49,7 +49,7 @@
     },
     {
       "question": "HELPCAR intervient-il la nuit et les jours fériés ?",
-      "answer": "Oui. Notre service de livraison carburant fonctionne <strong class=\"text-green\">24 heures sur 24, 7 jours sur 7</strong>, dimanches et jours fériés inclus. Appelez le <a href=\"tel:+3228445604\" style=\"color: #CF5706; font-weight: 600;\">02 844 56 04</a>, quelle que soit l'heure."
+      "answer": "Oui. Notre service de livraison carburant fonctionne <strong class=\"text-green\">24 heures sur 24, 7 jours sur 7</strong>, dimanches et jours fériés inclus. Appelez le <a href=\"tel:+3228860486\" style=\"color: #CF5706; font-weight: 600;\">02 886 04 86</a>, quelle que soit l'heure."
     },
     {
       "question": "Pourquoi mon diesel refuse-t-il de démarrer après une panne sèche ?",
@@ -57,7 +57,7 @@
     },
     {
       "question": "Comment est calculé le prix du dépannage carburant ?",
-      "answer": "Le tarif dépend de votre localisation et du type d'intervention (simple apport de carburant ou réamorçage diesel). Appelez le <a href=\"tel:+3228445604\" style=\"color: #CF5706; font-weight: 600;\">02 844 56 04</a> : on vous communique le montant exact avant de se déplacer. Le montant annoncé est le montant final."
+      "answer": "Le tarif dépend de votre localisation et du type d'intervention (simple apport de carburant ou réamorçage diesel). Appelez le <a href=\"tel:+3228860486\" style=\"color: #CF5706; font-weight: 600;\">02 886 04 86</a> : on vous communique le montant exact avant de se déplacer. Le montant annoncé est le montant final."
     },
     {
       "question": "Livrez-vous de l'essence et du diesel, ou seulement l'un des deux ?",
@@ -69,7 +69,7 @@
     },
     {
       "question": "Intervenez-vous sur le Ring de Bruxelles et les autoroutes ?",
-      "answer": "Oui. Nos dépanneurs accèdent au Ring, aux autoroutes, aux bretelles et aux aires de repos. On se coordonne avec la police si nécessaire pour sécuriser l'intervention. Appelez le <a href=\"tel:+3228445604\" style=\"color: #CF5706; font-weight: 600;\">02 844 56 04</a>."
+      "answer": "Oui. Nos dépanneurs accèdent au Ring, aux autoroutes, aux bretelles et aux aires de repos. On se coordonne avec la police si nécessaire pour sécuriser l'intervention. Appelez le <a href=\"tel:+3228860486\" style=\"color: #CF5706; font-weight: 600;\">02 886 04 86</a>."
     }
   ]
 }

@@ -39,7 +39,12 @@ const SERVICE_SLUG_MAP = {
   'achat-voiture-accidentee': 'achat-voiture-accidentee',
 };
 
-const WHATSAPP_LINK = 'https://wa.me/3228445604?text=Bonjour%20HELPCAR%20D%C3%A9pannage%2C%20j%27ai%20besoin%20d%27un%20d%C3%A9pannage.';
+const WHATSAPP_LINK = 'https://wa.me/3228860486?text=Bonjour%20HELPCAR%20D%C3%A9pannage%2C%20j%27ai%20besoin%20d%27un%20d%C3%A9pannage.';
+
+const FAVICON_TAGS = `<link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">`;
 
 function getSharedHeader(activeNav) {
   const navItems = [
@@ -67,13 +72,13 @@ function getSharedHeader(activeNav) {
     </a>
     <nav class="nav-desktop">
       ${desktopLinks}
-      <a href="tel:+3228445604" class="header__phone-desktop">
+      <a href="tel:+3228860486" class="header__phone-desktop">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-        02 844 56 04
+        02 886 04 86
       </a>
     </nav>
     <div class="header__actions">
-      <a href="tel:+3228445604" class="header__phone-btn">
+      <a href="tel:+3228860486" class="header__phone-btn">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
         Appeler
       </a>
@@ -85,7 +90,7 @@ function getSharedHeader(activeNav) {
 </header>
 <nav class="nav-mobile">
   ${mobileLinks}
-  <a href="tel:+3228445604" class="nav-mobile__cta">02 844 56 04</a>
+  <a href="tel:+3228860486" class="nav-mobile__cta">02 886 04 86</a>
 </nav>`;
 }
 
@@ -100,7 +105,7 @@ function getSharedFooter() {
         <p style="font-size:0.9rem;margin-bottom:16px;color:var(--gray-400)">Dépannage auto et remorquage à Bruxelles, 24h/24 et 7j/7. Prix annoncé par téléphone.</p>
         <div class="footer__contact-item">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-          <a href="tel:+3228445604">02 844 56 04</a>
+          <a href="tel:+3228860486">02 886 04 86</a>
         </div>
         <div class="footer__contact-item">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
@@ -148,7 +153,7 @@ function getSharedFooter() {
 
 function getFloatingCTA() {
   return `<div class="floating-cta">
-  <a href="tel:+3228445604" class="btn btn--primary">Appeler</a>
+  <a href="tel:+3228860486" class="btn btn--primary">Appeler</a>
   <a href="${WHATSAPP_LINK}" class="btn btn--green" target="_blank" rel="noopener">WhatsApp</a>
 </div>`;
 }
@@ -310,7 +315,7 @@ function buildServicePage(jsonFile, slug) {
       "@type": "LocalBusiness",
       "@id": "https://helpcar.be/#business",
       "name": "HELPCAR Dépannage",
-      "telephone": "+3228445604"
+      "telephone": "+3228860486"
     },
     "areaServed": {
       "@type": "City",
@@ -341,6 +346,7 @@ function buildServicePage(jsonFile, slug) {
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="${titleAttr}">
   <meta name="twitter:description" content="${descAttr}">
+  ${FAVICON_TAGS}
   <link rel="stylesheet" href="${cssPath}">
   <script type="application/ld+json">
   ${schemaJson}
@@ -356,7 +362,7 @@ ${getSharedHeader('Services')}
       <h1>${title}</h1>
       <p class="hero__subtitle">${description}</p>
       <div class="hero__cta">
-        <a href="tel:+3228445604" class="btn btn--primary btn--full">Appeler le 02 844 56 04</a>
+        <a href="tel:+3228860486" class="btn btn--primary btn--full">Appeler le 02 886 04 86</a>
         <a href="${WHATSAPP_LINK}" class="btn btn--green btn--full" target="_blank" rel="noopener">Devis WhatsApp</a>
       </div>
     </div>
@@ -400,7 +406,7 @@ ${faqHtml ? `
   <div class="container">
     <h2>${ctaTitle}</h2>
     <p>${ctaSub}</p>
-    <a href="tel:+3228445604" class="btn btn--primary">02 844 56 04</a>
+    <a href="tel:+3228860486" class="btn btn--primary">02 886 04 86</a>
   </div>
 </section>
 
@@ -492,7 +498,7 @@ function buildLocationPage(jsonFile, slug) {
     "name": "HELPCAR Dépannage",
     "description": descAttr,
     "url": canonicalUrl,
-    "telephone": "+3228445604",
+    "telephone": "+3228860486",
     "email": "contact@helpcar.be",
     "areaServed": {
       "@type": "Place",
@@ -525,6 +531,7 @@ function buildLocationPage(jsonFile, slug) {
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="${titleAttr}">
   <meta name="twitter:description" content="${descAttr}">
+  ${FAVICON_TAGS}
   <link rel="stylesheet" href="${cssPath}">
   <script type="application/ld+json">
   ${schemaJson}
@@ -540,7 +547,7 @@ ${getSharedHeader('Zones')}
       <h1>${data.hero.h1}</h1>
       <p class="hero__subtitle">${data.hero.accroche}</p>
       <div class="hero__cta">
-        <a href="tel:+3228445604" class="btn btn--primary btn--full">Appeler le 02 844 56 04</a>
+        <a href="tel:+3228860486" class="btn btn--primary btn--full">Appeler le 02 886 04 86</a>
         <a href="${WHATSAPP_LINK}" class="btn btn--green btn--full" target="_blank" rel="noopener">Devis WhatsApp</a>
       </div>
     </div>
@@ -626,7 +633,7 @@ ${voisinesHtml ? `
   <div class="container">
     <h2>En Panne à ${data.commune} ?</h2>
     <p>Dites-nous où vous êtes, on vous dit quand on arrive.</p>
-    <a href="tel:+3228445604" class="btn btn--primary">02 844 56 04</a>
+    <a href="tel:+3228860486" class="btn btn--primary">02 886 04 86</a>
   </div>
 </section>
 
@@ -696,6 +703,7 @@ function buildBlogPost(jsonFile, slug) {
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="${titleAttr}">
   <meta name="twitter:description" content="${descAttr}">
+  ${FAVICON_TAGS}
   <link rel="stylesheet" href="${cssPath}">
   <script type="application/ld+json">
   ${schemaJson}
@@ -736,7 +744,7 @@ ${serviceLie.slug ? `
     <h2>Besoin d'aide maintenant ?</h2>
     <p>HELPCAR Dépannage intervient 24h/24 à Bruxelles. Appelez-nous pour un dépannage rapide.</p>
     <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
-      <a href="tel:+3228445604" class="btn btn--primary">Appeler le 02 844 56 04</a>
+      <a href="tel:+3228860486" class="btn btn--primary">Appeler le 02 886 04 86</a>
       <a href="/services/${serviceLie.slug}/" class="btn btn--outline" style="border-color:white;color:white">${serviceLie.label || 'Voir le service'} &rarr;</a>
     </div>
   </div>
@@ -745,7 +753,7 @@ ${serviceLie.slug ? `
   <div class="container">
     <h2>En Panne Maintenant ?</h2>
     <p>Un appel, un prix, une intervention.</p>
-    <a href="tel:+3228445604" class="btn btn--primary">02 844 56 04</a>
+    <a href="tel:+3228860486" class="btn btn--primary">02 886 04 86</a>
   </div>
 </section>`}
 
@@ -809,6 +817,7 @@ function buildBlogListing(blogArticles) {
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Blog Dépannage Auto Bruxelles | HELPCAR">
   <meta name="twitter:description" content="Conseils dépannage auto, astuces prévention pannes et informations remorquage à Bruxelles.">
+  ${FAVICON_TAGS}
   <link rel="stylesheet" href="${cssPath}">
   <script type="application/ld+json">
   ${schemaJson}
@@ -838,7 +847,7 @@ ${getSharedHeader('Blog')}
   <div class="container">
     <h2>En Panne Maintenant ?</h2>
     <p>Un appel, un prix, une intervention. On est disponible 24h/24.</p>
-    <a href="tel:+3228445604" class="btn btn--primary">02 844 56 04</a>
+    <a href="tel:+3228860486" class="btn btn--primary">02 886 04 86</a>
   </div>
 </section>
 

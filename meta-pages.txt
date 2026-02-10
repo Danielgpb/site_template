@@ -11,10 +11,10 @@ ACCUEIL
 
 /index.html
   Title:          HELPCAR Dépannage | Dépannage Auto & Remorquage Bruxelles 24h/24
-  Description:    HELPCAR Dépannage - Dépannage auto et remorquage à Bruxelles 24h/24, 7j/7. Intervention rapide en ~30 min. Appelez le 02 844 56 04.
+  Description:    HELPCAR Dépannage - Dépannage auto et remorquage à Bruxelles 24h/24, 7j/7. Intervention rapide en ~30 min. Appelez le 02 886 04 86.
   Canonical:      https://helpcar.be/
   OG Title:       ✅ HELPCAR Dépannage | Dépannage Auto & Remorquage Bruxelles 24h/24
-  OG Description: ✅ Dépannage auto et remorquage à Bruxelles. Intervention rapide en ~30 min, 24h/24, 7j/7. Appelez le 02 844 56 04.
+  OG Description: ✅ Dépannage auto et remorquage à Bruxelles. Intervention rapide en ~30 min, 24h/24, 7j/7. Appelez le 02 886 04 86.
 
 
 ================================================================================
@@ -187,7 +187,7 @@ ZONES (listing)
 
 /zones/index.html
   Title:          Zones d'Intervention Dépannage Bruxelles | HELPCAR Dépannage
-  Description:    HELPCAR Dépannage intervient dans toutes les communes de Bruxelles et en périphérie. Service rapide 24/7, prix annoncé par téléphone. ☎️ 02 844 56 04
+  Description:    HELPCAR Dépannage intervient dans toutes les communes de Bruxelles et en périphérie. Service rapide 24/7, prix annoncé par téléphone. ☎️ 02 886 04 86
   Canonical:      https://www.helpcar.be/zones/
   OG Title:       ✅ Dépannage Auto Bruxelles et Périphérie | HELPCAR Dépannage
   OG Description: ✅ HELPCAR Dépannage couvre Bruxelles-Capitale et la périphérie. Intervention rapide 24h/24 et 7j/7.
@@ -199,28 +199,28 @@ ZONES (pages individuelles)
 
 /zones/depannage-voiture-bruxelles-centre/
   Title:          Dépannage Voiture Bruxelles-Ville (1000) | 24h/24 – HELPCAR
-  Description:    Dépannage auto et remorquage à Bruxelles-Ville (1000). Intervention rapide Grand-Place, Sablon, Marolles, Quartier Européen. Prix par téléphone. ☎ 02 844 56 04
+  Description:    Dépannage auto et remorquage à Bruxelles-Ville (1000). Intervention rapide Grand-Place, Sablon, Marolles, Quartier Européen. Prix par téléphone. ☎ 02 886 04 86
   Canonical:      https://helpcar.be/zones/depannage-voiture-bruxelles-centre/
   OG Title:       ✅
   OG Description: ✅
 
 /zones/depannage-voiture-etterbeek/
   Title:          Dépannage Voiture Etterbeek (1040) | 24h/24 – HELPCAR Dépannage
-  Description:    Dépannage auto et remorquage à Etterbeek (1040). Cinquantenaire, Place Jourdan, Chasses. Prix par téléphone, intervention rapide. ☎ 02 844 56 04
+  Description:    Dépannage auto et remorquage à Etterbeek (1040). Cinquantenaire, Place Jourdan, Chasses. Prix par téléphone, intervention rapide. ☎ 02 886 04 86
   Canonical:      https://helpcar.be/zones/depannage-voiture-etterbeek/
   OG Title:       ✅
   OG Description: ✅
 
 /zones/depannage-voiture-ixelles/
   Title:          Dépannage Voiture Ixelles (1050) | 24h/24 – HELPCAR Dépannage
-  Description:    Dépannage auto et remorquage à Ixelles (1050). Flagey, Porte de Namur, ULB, Châtelain. Prix annoncé par téléphone, intervention rapide. ☎ 02 844 56 04
+  Description:    Dépannage auto et remorquage à Ixelles (1050). Flagey, Porte de Namur, ULB, Châtelain. Prix annoncé par téléphone, intervention rapide. ☎ 02 886 04 86
   Canonical:      https://helpcar.be/zones/depannage-voiture-ixelles/
   OG Title:       ✅
   OG Description: ✅
 
 /zones/depannage-voiture-schaerbeek/
   Title:          Dépannage Voiture Schaerbeek (1030) | 24h/24 – HELPCAR Dépannage
-  Description:    Dépannage auto et remorquage à Schaerbeek (1030). Meiser, Helmet, Cage aux Ours, Josaphat. Prix par téléphone, arrivée rapide. ☎ 02 844 56 04
+  Description:    Dépannage auto et remorquage à Schaerbeek (1030). Meiser, Helmet, Cage aux Ours, Josaphat. Prix par téléphone, arrivée rapide. ☎ 02 886 04 86
   Canonical:      https://helpcar.be/zones/depannage-voiture-schaerbeek/
   OG Title:       ✅
   OG Description: ✅
@@ -255,8 +255,8 @@ CONTACT
 ================================================================================
 
 /contact/index.html
-  Title:          Contact HELPCAR Dépannage Bruxelles | ☎️ 02 844 56 04 - 24h/24
-  Description:    Contactez HELPCAR Dépannage à Bruxelles. Disponible 24h/24 et 7j/7. Appelez le 02 844 56 04 ou envoyez-nous un message pour toute demande de dépannage.
+  Title:          Contact HELPCAR Dépannage Bruxelles | ☎️ 02 886 04 86 - 24h/24
+  Description:    Contactez HELPCAR Dépannage à Bruxelles. Disponible 24h/24 et 7j/7. Appelez le 02 886 04 86 ou envoyez-nous un message pour toute demande de dépannage.
   Canonical:      https://helpcar.be/contact/
   OG Title:       ✅
   OG Description: ✅

@@ -29,7 +29,7 @@
     "_comment": "Pour activer Clarity: 1) Créer compte sur clarity.microsoft.com, 2) Ajouter site, 3) Copier Project ID ici"
   },
   "whatsapp": {
-    "phone_number": "3228445604",
+    "phone_number": "3228860486",
     "services": [
       {
         "id": "batterie",
@@ -70,10 +70,10 @@
     ]
   },
   "contact": {
-    "phone": "+3228445604",
-    "phone_display": "+32 2 844 56 04",
-    "phone_local": "028445604",
-    "phone_local_display": "02 844 56 04",
+    "phone": "+3228860486",
+    "phone_display": "+32 2 886 04 86",
+    "phone_local": "028860486",
+    "phone_local_display": "02 886 04 86",
     "email": "contact@helpcar.be",
     "address": "Rue Charles Martel 55, 1000 Bruxelles"
   },
