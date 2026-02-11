@@ -1,7 +1,7 @@
 {
   "site_name": "HELPCAR Dépannage",
   "site_tagline": "Dépannage Voiture & Remorquage à Bruxelles",
-  "phone": "02 844 56 04",
+  "phone": "02 886 04 86",
   "email": "contact@helpcar.be",
   "domain": "helpcar.be",
   "base_url": "https://www.helpcar.be",
@@ -46,7 +46,7 @@
 
   "whatsapp": {
     "enabled": true,
-    "number": "+3228445604",
+    "number": "+3228860486",
     "message_template": "Bonjour HELPCAR Dépannage, j'ai besoin d'un dépannage."
   },
 
@@ -68,7 +68,7 @@
     "YEARS_EXPERIENCE": "15",
     "GOOGLE_RATING": "4.9",
     "GOOGLE_REVIEWS": "150",
-    "PHONE": "02 844 56 04",
+    "PHONE": "02 886 04 86",
     "EMAIL": "contact@helpcar.be",
     "SITE_NAME": "HELPCAR Dépannage",
     "INTERVENTION_TIME": "30 minutes"

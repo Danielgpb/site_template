@@ -39,7 +39,7 @@ const SERVICE_SLUG_MAP = {
   'achat-voiture-accidentee': 'achat-voiture-accidentee',
 };
 
-const WHATSAPP_LINK = 'https://wa.me/3228445604?text=Bonjour%20HELPCAR%20D%C3%A9pannage%2C%20j%27ai%20besoin%20d%27un%20d%C3%A9pannage.';
+const WHATSAPP_LINK = 'https://wa.me/3228860486?text=Bonjour%20HELPCAR%20D%C3%A9pannage%2C%20j%27ai%20besoin%20d%27un%20d%C3%A9pannage.';
 
 function getSharedHeader(activeNav) {
   const navItems = [
@@ -67,13 +67,13 @@ function getSharedHeader(activeNav) {
     </a>
     <nav class="nav-desktop">
       ${desktopLinks}
-      <a href="tel:+3228445604" class="header__phone-desktop">
+      <a href="tel:+3228860486" class="header__phone-desktop">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-        02 844 56 04
+        02 886 04 86
       </a>
     </nav>
     <div class="header__actions">
-      <a href="tel:+3228445604" class="header__phone-btn">
+      <a href="tel:+3228860486" class="header__phone-btn">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
         Appeler
       </a>
@@ -85,7 +85,7 @@ function getSharedHeader(activeNav) {
 </header>
 <nav class="nav-mobile">
   ${mobileLinks}
-  <a href="tel:+3228445604" class="nav-mobile__cta">02 844 56 04</a>
+  <a href="tel:+3228860486" class="nav-mobile__cta">02 886 04 86</a>
 </nav>`;
 }
 
@@ -100,7 +100,7 @@ function getSharedFooter() {
         <p style="font-size:0.9rem;margin-bottom:16px;color:var(--gray-400)">Dépannage auto et remorquage à Bruxelles, 24h/24 et 7j/7. Prix annoncé par téléphone.</p>
         <div class="footer__contact-item">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-          <a href="tel:+3228445604">02 844 56 04</a>
+          <a href="tel:+3228860486">02 886 04 86</a>
         </div>
         <div class="footer__contact-item">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
@@ -148,7 +148,7 @@ function getSharedFooter() {
 
 function getFloatingCTA() {
   return `<div class="floating-cta">
-  <a href="tel:+3228445604" class="btn btn--primary">Appeler</a>
+  <a href="tel:+3228860486" class="btn btn--primary">Appeler</a>
   <a href="${WHATSAPP_LINK}" class="btn btn--green" target="_blank" rel="noopener">WhatsApp</a>
 </div>`;
 }
@@ -176,6 +176,9 @@ function escapeAttr(str) {
 const IMG_ICON = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>';
 
 function imgPlaceholder(label, suggestion, size = '800 x 600 px', modifier = '--landscape') {
+  if (suggestion && suggestion.startsWith('/images/')) {
+    return `<img src="${suggestion}" alt="${label}" style="width:100%;border-radius:12px">`;
+  }
   return `<div class="img-placeholder img-placeholder${modifier}">
     <div class="img-placeholder__icon">${IMG_ICON}</div>
     <div class="img-placeholder__label">${label}</div>
@@ -184,15 +187,95 @@ function imgPlaceholder(label, suggestion, size = '800 x 600 px', modifier = '--
   </div>`;
 }
 
-// Photo suggestions per service type
+// Photo suggestions per service type — if suggestion starts with /images/, a real <img> is rendered
 const SERVICE_PHOTO_SUGGESTIONS = {
+  'achat-voiture-accidentee': [
+    { label: 'Achat voiture accidentée Bruxelles HELPCAR', suggestion: '/images/achat-voiture-accidentee.jpg' },
+    { label: 'Rachat voiture accidentée inspection Bruxelles HELPCAR', suggestion: '/images/achat-voiture-accidentee-2.jpg' },
+    { label: 'Enlèvement voiture accidentée Bruxelles HELPCAR', suggestion: '/images/achat-voiture-accidentee-3.jpg' },
+    { label: 'Rachat voiture accidentée service complet Bruxelles HELPCAR', suggestion: '/images/achat-voiture-accidentee-4.jpg' },
+  ],
+  'depannage-camionnette-bruxelles': [
+    { label: 'Remorquage camionnette utilitaire sur plateau Bruxelles HELPCAR', suggestion: '/images/remorquage-camionnette.jpg' },
+    { label: 'Dépannage camionnette intervention Bruxelles HELPCAR', suggestion: '/images/depannage-camionnette-intervention.jpg' },
+    { label: 'Camionnette chargée sur plateau dépanneuse Bruxelles HELPCAR', suggestion: '/images/depannage-camionnette-resultat.jpg' },
+    { label: 'Déplacement intervention dépannage camionnette Bruxelles HELPCAR', suggestion: '/images/deplacement-intervention.jpg' },
+  ],
+  'depannage-sous-sol': [
+    { label: 'Dépannage parking souterrain Bruxelles HELPCAR', suggestion: '/images/depannage-parking-souterrain.jpg' },
+    { label: 'Dépanneuse HELPCAR intervention parking souterrain Bruxelles', suggestion: '/images/depanneuse-cinquantenaire-etterbeek.jpg' },
+    { label: 'Dépannage parking souterrain Bruxelles - HELPCAR', suggestion: '/images/depannage-parking-souterrain-bruxelles.jpg' },
+  ],
+  'depannage-voiture-bruxelles': [
+    { label: 'Dépannage voiture accidentée Bruxelles HELPCAR', suggestion: '/images/depannage-voiture.jpg' },
+    { label: 'Dépannage camionnette sur plateau HELPCAR Bruxelles', suggestion: '/images/depannage-camionette-plateau.jpg' },
+    { label: 'Client satisfait dépannage HELPCAR Bruxelles - tarif transparent', suggestion: '/images/client-satisfait-helpcar.jpg' },
+    { label: 'Placement roue de secours HELPCAR Bruxelles', suggestion: '/images/placement-roue-secours.jpg' },
+  ],
+  'depannage-voiture-electrique-bruxelles': [
+    { label: 'Dépannage voiture électrique Bruxelles', suggestion: '/images/depannage-voiture-electrique.jpg' },
+  ],
+  'enlevement-epave': [
+    { label: 'Enlèvement épave Bruxelles', suggestion: '/images/enlevement-epave.jpg' },
+    { label: 'Casse automobile - enlèvement épave Bruxelles', suggestion: '/images/enlevement-epave-2.jpg' },
+    { label: 'Certificat de cession véhicule - enlèvement épave Bruxelles', suggestion: '/images/enlevement-epave-3.jpg' },
+  ],
+  'panne-essence-bruxelles': [
+    { label: 'Panne essence Bruxelles', suggestion: '/images/panne-essence.jpg' },
+    { label: 'Fourniture carburant livraison essence Bruxelles HELPCAR', suggestion: '/images/fourniture-carburant.jpg' },
+    { label: 'Dépanneuse HELPCAR déplacement intervention panne essence Bruxelles', suggestion: '/images/deplacement-intervention.jpg' },
+  ],
+  'placement-roue-secours-bruxelles': [
+    { label: 'Placement roue de secours Bruxelles HELPCAR', suggestion: '/images/placement-roue-secours.jpg' },
+    { label: 'Client pneu crevé placement roue secours Bruxelles HELPCAR', suggestion: '/images/client-pneu-plat.jpg' },
+    { label: 'Réparation pneu mèche placement roue secours Bruxelles HELPCAR', suggestion: '/images/pneu-meche-intervention.jpg' },
+  ],
+  'remorquage-moto': [
+    { label: 'Remorquage moto Bruxelles', suggestion: '/images/remorquage-moto-new.jpg' },
+    { label: 'Remorquage moto Bruxelles', suggestion: '/images/remorquage-moto-2.jpg' },
+    { label: 'Cliente satisfaite garage moto Bruxelles', suggestion: '/images/remorquage-moto-3.jpg' },
+  ],
+  'remorquage-vehicules-speciaux': [
+    { label: 'Remorquage véhicules spéciaux Bruxelles', suggestion: '/images/remorquage-vehicules-speciaux.jpg' },
+    { label: 'Remorquage véhicule spécial intervention Bruxelles HELPCAR', suggestion: '/images/remorquage-vehicule-special-intervention.jpg' },
+    { label: 'Véhicule spécial chargé sur plateau Bruxelles HELPCAR', suggestion: '/images/remorquage-vehicule-special-resultat.jpg' },
+    { label: 'Dépannage véhicule spécial intervention HELPCAR Bruxelles', suggestion: '/images/depannage-voiture-electrique.jpg' },
+  ],
+  'remorquage-voiture': [
+    { label: 'Remorquage camionnette sur plateau dépanneuse Bruxelles HELPCAR', suggestion: '/images/depannage-camionette-plateau.jpg' },
+    { label: 'Remorquage voiture accidentée plateau Bruxelles HELPCAR', suggestion: '/images/depannage-voiture-accidente.jpg' },
+    { label: 'Arrimage véhicule sangles plateau autoroute Bruxelles HELPCAR', suggestion: '/images/remorquage-sangle-autoroute.jpg' },
+  ],
+  'remplacement-batterie': [
+    { label: 'Remplacement batterie voiture Bruxelles HELPCAR', suggestion: '/images/remplacement-batterie.jpg' },
+  ],
+  'erreur-carburant': [
+    { label: 'Erreur carburant siphonnage réservoir Bruxelles HELPCAR', suggestion: '/images/erreur-carburant.jpg' },
+  ],
+  'sortie-de-fourriere': [
+    { label: 'Sortie fourrière Bruxelles', suggestion: '/images/sortie-fourriere.jpg' },
+    { label: 'Sortie de fourrière transport véhicule Bruxelles HELPCAR', suggestion: '/images/sortie-fourriere-2.jpg' },
+    { label: 'Sortie fourrière accompagnement Bruxelles HELPCAR', suggestion: '/images/sortie-fourriere-3.jpg' },
+    { label: 'Déplacement intervention sortie fourrière Bruxelles HELPCAR', suggestion: '/images/deplacement-intervention-fourriere.jpg' },
+  ],
+  'transport-local': [
+    { label: 'Transport local véhicule sur plateau Bruxelles HELPCAR', suggestion: '/images/transport-local.jpg' },
+    { label: 'Client satisfait poignée de main transport véhicule Bruxelles HELPCAR', suggestion: '/images/dep-poignee-de-main.jpg' },
+    { label: 'Transport véhicule intervention plateau Bruxelles HELPCAR', suggestion: '/images/remorquage-vehicule-special-intervention.jpg' },
+  ],
+  'transport-longue-distance': [
+    { label: 'Transport véhicule longue distance autoroute E411 Bruxelles', suggestion: '/images/transport-longue-distance.jpg' },
+    { label: 'Plateau HELPCAR transport véhicule Bruxelles', suggestion: '/images/transport-local.jpg' },
+    { label: 'Client satisfait poignée de main dépanneur HELPCAR Bruxelles', suggestion: '/images/dep-poignee-de-main.jpg' },
+  ],
+  'embourbe': [
+    { label: 'Voiture embourbée intervention treuil Bruxelles HELPCAR', suggestion: '/images/voiture-embourbee-2.jpg' },
+    { label: 'Voiture embourbée désenlisement Bruxelles HELPCAR', suggestion: '/images/voiture-embourbee-3.jpg' },
+    { label: 'Client satisfait serrant la main du dépanneur HELPCAR après extraction véhicule embourbé Bruxelles', suggestion: '/images/dep-poignee-de-main.jpg' },
+  ],
   'batterie': [
     { label: 'Photo : Diagnostic batterie', suggestion: 'Technicien avec multimètre sur une batterie, capot ouvert, gros plan sur les bornes' },
     { label: 'Photo : Remplacement batterie', suggestion: 'Dépanneur qui installe une batterie neuve, vue sur le compartiment moteur' },
-  ],
-  'remorquage-voiture': [
-    { label: 'Photo : Chargement plateau', suggestion: 'Voiture qui monte sur le plateau de la dépanneuse, rampe visible, vue latérale' },
-    { label: 'Photo : Transport', suggestion: 'Camion plateau avec voiture chargée, en déplacement dans Bruxelles' },
   ],
   'reparation-pneu': [
     { label: 'Photo : Changement de roue', suggestion: 'Technicien accroupi qui change un pneu, cric et outils visibles' },
@@ -240,7 +323,7 @@ function buildServicePage(jsonFile, slug) {
     let html = '';
     // Insert photo placeholder after every 2nd section, alternating layout
     if (i > 0 && i % 2 === 0 && photos.length > 0) {
-      const photoIdx = Math.floor(i / 2) - 1;
+      const photoIdx = Math.floor(i / 2);
       const photo = photos[photoIdx % photos.length];
       const reverse = (photoIdx % 2 === 1) ? ' photo-section--reverse' : '';
       html += `
@@ -310,7 +393,7 @@ function buildServicePage(jsonFile, slug) {
       "@type": "LocalBusiness",
       "@id": "https://helpcar.be/#business",
       "name": "HELPCAR Dépannage",
-      "telephone": "+3228445604"
+      "telephone": "+3228860486"
     },
     "areaServed": {
       "@type": "City",
@@ -356,7 +439,7 @@ ${getSharedHeader('Services')}
       <h1>${title}</h1>
       <p class="hero__subtitle">${description}</p>
       <div class="hero__cta">
-        <a href="tel:+3228445604" class="btn btn--primary btn--full">Appeler le 02 844 56 04</a>
+        <a href="tel:+3228860486" class="btn btn--primary btn--full">Appeler le 02 886 04 86</a>
         <a href="${WHATSAPP_LINK}" class="btn btn--green btn--full" target="_blank" rel="noopener">Devis WhatsApp</a>
       </div>
     </div>
@@ -400,7 +483,7 @@ ${faqHtml ? `
   <div class="container">
     <h2>${ctaTitle}</h2>
     <p>${ctaSub}</p>
-    <a href="tel:+3228445604" class="btn btn--primary">02 844 56 04</a>
+    <a href="tel:+3228860486" class="btn btn--primary">02 886 04 86</a>
   </div>
 </section>
 
@@ -492,7 +575,7 @@ function buildLocationPage(jsonFile, slug) {
     "name": "HELPCAR Dépannage",
     "description": descAttr,
     "url": canonicalUrl,
-    "telephone": "+3228445604",
+    "telephone": "+3228860486",
     "email": "contact@helpcar.be",
     "areaServed": {
       "@type": "Place",
@@ -540,7 +623,7 @@ ${getSharedHeader('Zones')}
       <h1>${data.hero.h1}</h1>
       <p class="hero__subtitle">${data.hero.accroche}</p>
       <div class="hero__cta">
-        <a href="tel:+3228445604" class="btn btn--primary btn--full">Appeler le 02 844 56 04</a>
+        <a href="tel:+3228860486" class="btn btn--primary btn--full">Appeler le 02 886 04 86</a>
         <a href="${WHATSAPP_LINK}" class="btn btn--green btn--full" target="_blank" rel="noopener">Devis WhatsApp</a>
       </div>
     </div>
@@ -626,7 +709,7 @@ ${voisinesHtml ? `
   <div class="container">
     <h2>En Panne à ${data.commune} ?</h2>
     <p>Dites-nous où vous êtes, on vous dit quand on arrive.</p>
-    <a href="tel:+3228445604" class="btn btn--primary">02 844 56 04</a>
+    <a href="tel:+3228860486" class="btn btn--primary">02 886 04 86</a>
   </div>
 </section>
 
@@ -736,7 +819,7 @@ ${serviceLie.slug ? `
     <h2>Besoin d'aide maintenant ?</h2>
     <p>HELPCAR Dépannage intervient 24h/24 à Bruxelles. Appelez-nous pour un dépannage rapide.</p>
     <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
-      <a href="tel:+3228445604" class="btn btn--primary">Appeler le 02 844 56 04</a>
+      <a href="tel:+3228860486" class="btn btn--primary">Appeler le 02 886 04 86</a>
       <a href="/services/${serviceLie.slug}/" class="btn btn--outline" style="border-color:white;color:white">${serviceLie.label || 'Voir le service'} &rarr;</a>
     </div>
   </div>
@@ -745,7 +828,7 @@ ${serviceLie.slug ? `
   <div class="container">
     <h2>En Panne Maintenant ?</h2>
     <p>Un appel, un prix, une intervention.</p>
-    <a href="tel:+3228445604" class="btn btn--primary">02 844 56 04</a>
+    <a href="tel:+3228860486" class="btn btn--primary">02 886 04 86</a>
   </div>
 </section>`}
 
@@ -838,7 +921,7 @@ ${getSharedHeader('Blog')}
   <div class="container">
     <h2>En Panne Maintenant ?</h2>
     <p>Un appel, un prix, une intervention. On est disponible 24h/24.</p>
-    <a href="tel:+3228445604" class="btn btn--primary">02 844 56 04</a>
+    <a href="tel:+3228860486" class="btn btn--primary">02 886 04 86</a>
   </div>
 </section>
 
@@ -876,6 +959,17 @@ let locationCount = 0;
 for (const file of locationFiles) {
   const slug = file.replace('.json', '');
   const outDir = path.join(__dirname, 'zones', slug);
+  const outFile = path.join(outDir, 'index.html');
+
+  // Preserve manually crafted zone pages that already have real photos
+  if (fs.existsSync(outFile)) {
+    const existing = fs.readFileSync(outFile, 'utf8');
+    if (existing.includes('<img src="/images/')) {
+      console.log(`  ⏭ zones/${slug}/index.html (preserved – has real images)`);
+      locationCount++;
+      continue;
+    }
+  }
 
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 
