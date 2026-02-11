@@ -1,10 +1,10 @@
 {
-  "meta_title": "Contact HELPCAR Dépannage Bruxelles | ☎️ 02 886 04 86 - 24h/24",
-  "meta_description": "Contactez HELPCAR Dépannage pour un dépannage ou remorquage à Bruxelles. Disponible 24h/24 et 7j/7. ☎️ 02 886 04 86. Rue Charles Martel 55, 1000 Bruxelles.",
+  "meta_title": "Contact HELPCAR Dépannage Bruxelles | ☎️ 02 844 56 04 - 24h/24",
+  "meta_description": "Contactez HELPCAR Dépannage pour un dépannage ou remorquage à Bruxelles. Disponible 24h/24 et 7j/7. ☎️ 02 844 56 04. Rue Charles Martel 55, 1000 Bruxelles.",
 
   "open_graph": {
-    "title": "Contactez HELPCAR Dépannage | 02 886 04 86 - 24h/7j",
-    "description": "HELPCAR Dépannage, Rue Charles Martel 55, 1000 Bruxelles. Appelez le 02 886 04 86 à tout moment."
+    "title": "Contactez HELPCAR Dépannage | 02 844 56 04 - 24h/7j",
+    "description": "HELPCAR Dépannage, Rue Charles Martel 55, 1000 Bruxelles. Appelez le 02 844 56 04 à tout moment."
   },
 
   "hero": {
@@ -17,7 +17,7 @@
 
   "formulaire": {
     "titre": "Envoyez-nous un Message",
-    "description": "Pour une demande non urgente, remplissez le formulaire. On vous répond rapidement. Si c'est urgent, appelez directement le 02 886 04 86.",
+    "description": "Pour une demande non urgente, remplissez le formulaire. On vous répond rapidement. Si c'est urgent, appelez directement le 02 844 56 04.",
     "champs": {
       "nom": {
         "label": "Nom complet *",
@@ -54,8 +54,8 @@
       {
         "type": "telephone",
         "label": "Téléphone",
-        "value": "02 886 04 86",
-        "href": "tel:028860486"
+        "value": "02 844 56 04",
+        "href": "tel:028445604"
       },
       {
         "type": "email",
@@ -79,6 +79,6 @@
   "cta_final": {
     "titre": "En Panne Maintenant ?",
     "subtitle": "Pas besoin de formulaire – un appel et on est en route.",
-    "button": "02 886 04 86"
+    "button": "02 844 56 04"
   }
 }
