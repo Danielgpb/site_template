@@ -951,6 +951,17 @@ for (const file of serviceFiles) {
   const baseName = file.replace('.json', '');
   const slug = SERVICE_SLUG_MAP[baseName] || baseName;
   const outDir = path.join(__dirname, 'services', slug);
+  const outFile = path.join(outDir, 'index.html');
+
+  // Preserve manually crafted service pages that already have real images
+  if (fs.existsSync(outFile)) {
+    const existing = fs.readFileSync(outFile, 'utf8');
+    if (existing.includes('<img src="/images/')) {
+      console.log(`  ⏭ services/${slug}/index.html (preserved – has real images)`);
+      serviceCount++;
+      continue;
+    }
+  }
 
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 
