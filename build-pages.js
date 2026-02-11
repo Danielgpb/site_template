@@ -7,6 +7,9 @@
 const fs = require('fs');
 const path = require('path');
 
+const FORCE = process.argv.includes('--force');
+if (FORCE) console.log('⚡ Mode --force : régénération de TOUTES les pages (les pages manuelles seront écrasées)\n');
+
 const SERVICES_DIR = path.join(__dirname, 'site_content/content/services');
 const LOCATIONS_DIR = path.join(__dirname, 'site_content/content/locations');
 const BLOG_DIR = path.join(__dirname, 'site_content/content/blog');
@@ -953,8 +956,8 @@ for (const file of serviceFiles) {
   const outDir = path.join(__dirname, 'services', slug);
   const outFile = path.join(outDir, 'index.html');
 
-  // Preserve manually crafted service pages that already have real images
-  if (fs.existsSync(outFile)) {
+  // Preserve manually crafted service pages that already have real images (skip with --force)
+  if (!FORCE && fs.existsSync(outFile)) {
     const existing = fs.readFileSync(outFile, 'utf8');
     if (existing.includes('<img src="/images/')) {
       console.log(`  ⏭ services/${slug}/index.html (preserved – has real images)`);
@@ -980,8 +983,8 @@ for (const file of locationFiles) {
   const outDir = path.join(__dirname, 'zones', slug);
   const outFile = path.join(outDir, 'index.html');
 
-  // Preserve manually crafted zone pages that already have real photos
-  if (fs.existsSync(outFile)) {
+  // Preserve manually crafted zone pages that already have real photos (skip with --force)
+  if (!FORCE && fs.existsSync(outFile)) {
     const existing = fs.readFileSync(outFile, 'utf8');
     if (existing.includes('<img src="/images/')) {
       console.log(`  ⏭ zones/${slug}/index.html (preserved – has real images)`);
@@ -1034,3 +1037,54 @@ if (fs.existsSync(BLOG_DIR)) {
 }
 
 console.log(`\nDone! Generated ${serviceCount} service pages, ${locationCount} location pages, and ${blogCount} blog posts.`);
+
+// ============ BUILD OUTPUT (deployable folder) ============
+
+const BUILD_DIR = path.join(__dirname, 'build');
+const DEPLOY_DIRS = [
+  'a-propos', 'blog', 'contact', 'css', 'images', 'js',
+  'mentions-legales', 'politique-confidentialite', 'services', 'tarifs', 'zones'
+];
+const DEPLOY_FILES = ['index.html', 'robots.txt', 'sitemap.xml'];
+
+function copyDirSync(src, dest) {
+  fs.mkdirSync(dest, { recursive: true });
+  for (const entry of fs.readdirSync(src, { withFileTypes: true })) {
+    const srcPath = path.join(src, entry.name);
+    const destPath = path.join(dest, entry.name);
+    if (entry.name === '.DS_Store') continue;
+    if (entry.isDirectory()) {
+      copyDirSync(srcPath, destPath);
+    } else {
+      fs.copyFileSync(srcPath, destPath);
+    }
+  }
+}
+
+console.log('\nBuilding deployable folder → build/ ...');
+
+// Clean previous build
+if (fs.existsSync(BUILD_DIR)) {
+  fs.rmSync(BUILD_DIR, { recursive: true, force: true });
+}
+fs.mkdirSync(BUILD_DIR);
+
+// Copy directories
+for (const dir of DEPLOY_DIRS) {
+  const src = path.join(__dirname, dir);
+  if (fs.existsSync(src)) {
+    copyDirSync(src, path.join(BUILD_DIR, dir));
+    console.log(`  ✓ ${dir}/`);
+  }
+}
+
+// Copy root files
+for (const file of DEPLOY_FILES) {
+  const src = path.join(__dirname, file);
+  if (fs.existsSync(src)) {
+    fs.copyFileSync(src, path.join(BUILD_DIR, file));
+    console.log(`  ✓ ${file}`);
+  }
+}
+
+console.log(`\n✅ build/ prêt pour déploiement Netlify (${DEPLOY_DIRS.length} dossiers + ${DEPLOY_FILES.length} fichiers)`);
