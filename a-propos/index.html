@@ -3,6 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- GA4 + GTM différé (charge au premier scroll/click ou après 5s) -->
+<script>
+function _lg(){
+  var s=document.createElement('script');
+  s.src='https://www.googletagmanager.com/gtag/js?id=G-TTH5XB3R2E';
+  s.async=true;document.head.appendChild(s);
+  s.onload=function(){window.dataLayer=window.dataLayer||[];
+  function g(){dataLayer.push(arguments)}window.gtag=g;
+  g('js',new Date());g('config','G-TTH5XB3R2E')};
+  var t=document.createElement('script');
+  t.async=true;t.src='https://www.googletagmanager.com/gtm.js?id=GTM-T229C88P';
+  document.head.appendChild(t);
+}
+var _ld=false;function _tl(){if(_ld)return;_ld=true;_lg()}
+['scroll','click','touchstart','keydown'].forEach(function(e){
+window.addEventListener(e,_tl,{once:true,passive:true})});
+setTimeout(_tl,5000);
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-TTH5XB3R2E');
+</script>
   <meta name="description" content="Découvrez l'équipe HELPCAR Dépannage à Bruxelles. Des dépanneurs expérimentés, disponibles 24h/24, qui connaissent chaque rue de la région.">
   <meta name="robots" content="index, follow">
   <title>À Propos HELPCAR Dépannage Bruxelles | Équipe Expérimentée</title>
@@ -26,12 +50,19 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T229C88P"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
   <!-- ========== HEADER ========== -->
   <header class="header">
     <div class="header__inner">
       <a href="/" class="header__logo">
-        <img src="/images/logo-helpcar.png" alt="HELPCAR Dépannage" class="header__logo-img">
+        <picture>
+  <source srcset="/images/logo-helpcar.webp" type="image/webp">
+  <img src="/images/logo-helpcar.png" alt="HELPCAR Dépannage" class="header__logo-img" width="400" height="166">
+</picture>
       </a>
 
       <nav class="nav-desktop">
@@ -102,7 +133,11 @@
           <p>Au fil des années, on a construit notre réputation intervention après intervention. Chaque client satisfait en recommandait un autre.</p>
         </div>
         <div class="photo-section__image">
-          <img src="/images/depanneuse-cinquantenaire-etterbeek.jpg" alt="Dépanneuse HELPCAR équipe Bruxelles" style="max-height:480px">
+          <picture>
+  <source srcset="/images/depanneuse-cinquantenaire-etterbeek-md.webp" media="(max-width: 767px)" type="image/webp">
+  <source srcset="/images/depanneuse-cinquantenaire-etterbeek.webp" type="image/webp">
+  <img src="/images/depanneuse-cinquantenaire-etterbeek.jpg" alt="Dépanneuse HELPCAR équipe Bruxelles" style="max-height:480px" loading="lazy" width="662" height="441">
+</picture>
         </div>
       </div>
 
@@ -113,7 +148,11 @@
           <p>Notre philosophie n'a pas changé : vous appelez le <a href="tel:+3228860486" class="phone-link">02 886 04 86</a>, on vous écoute, on vous donne un prix, et on vient. Pas de surprise, pas de jargon, pas de frais cachés. C'est aussi simple que ça.</p>
         </div>
         <div class="photo-section__image">
-          <img src="/images/depanneuse-helpcar.jpg" alt="Intervention dépannage HELPCAR Saint-Josse Bruxelles" style="max-height:480px">
+          <picture>
+  <source srcset="/images/depanneuse-helpcar-md.webp" media="(max-width: 767px)" type="image/webp">
+  <source srcset="/images/depanneuse-helpcar.webp" type="image/webp">
+  <img src="/images/depanneuse-helpcar.jpg" alt="Intervention dépannage HELPCAR Saint-Josse Bruxelles" style="max-height:480px" loading="lazy" width="662" height="441">
+</picture>
         </div>
       </div>
     </div>
@@ -284,7 +323,10 @@
 
         <div>
           <div class="footer__title" style="margin-bottom:14px;">
-            <img src="/images/logo-helpcar.png" alt="HELPCAR Dépannage" class="header__logo-img">
+            <picture>
+  <source srcset="/images/logo-helpcar.webp" type="image/webp">
+  <img src="/images/logo-helpcar.png" alt="HELPCAR Dépannage" class="header__logo-img" width="400" height="166">
+</picture>
           </div>
           <p style="font-size:0.9rem; color:var(--gray-400); line-height:1.6; margin-bottom:16px;">Dépannage auto et remorquage à Bruxelles, 24h/24 et 7j/7. Prix annoncé par téléphone.</p>
           <div class="footer__contact-item">
@@ -353,6 +395,6 @@
     </a>
   </div>
 
-  <script src="../js/main.js"></script>
+  <script src="../js/main.js" defer></script>
 </body>
 </html>

@@ -3,6 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- GA4 + GTM différé (charge au premier scroll/click ou après 5s) -->
+<script>
+function _lg(){
+  var s=document.createElement('script');
+  s.src='https://www.googletagmanager.com/gtag/js?id=G-TTH5XB3R2E';
+  s.async=true;document.head.appendChild(s);
+  s.onload=function(){window.dataLayer=window.dataLayer||[];
+  function g(){dataLayer.push(arguments)}window.gtag=g;
+  g('js',new Date());g('config','G-TTH5XB3R2E')};
+  var t=document.createElement('script');
+  t.async=true;t.src='https://www.googletagmanager.com/gtm.js?id=GTM-T229C88P';
+  document.head.appendChild(t);
+}
+var _ld=false;function _tl(){if(_ld)return;_ld=true;_lg()}
+['scroll','click','touchstart','keydown'].forEach(function(e){
+window.addEventListener(e,_tl,{once:true,passive:true})});
+setTimeout(_tl,5000);
+</script>
   <title>Comment éviter une panne de batterie en hiver ? | HELPCAR Dépannage</title>
   <meta name="description" content="Panne de batterie en hiver ? Découvrez pourquoi le froid tue les batteries, les signes avant-coureurs et nos conseils pour éviter la panne à Bruxelles.">
   <link rel="canonical" href="https://helpcar.be/blog/eviter-panne-batterie-hiver/">
@@ -42,6 +60,10 @@
   </script>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T229C88P"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <header class="header">
   <div class="header__inner">
     <a href="/" class="header__logo">
@@ -198,6 +220,6 @@
   <a href="https://wa.me/3228860486?text=Bonjour%20HELPCAR%20D%C3%A9pannage%2C%20j%27ai%20besoin%20d%27un%20d%C3%A9pannage." class="btn btn--green" target="_blank" rel="noopener">WhatsApp</a>
 </div>
 
-<script src="../../js/main.js"></script>
+<script src="../../js/main.js" defer></script>
 </body>
 </html>

@@ -3,6 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- GA4 + GTM différé (charge au premier scroll/click ou après 5s) -->
+<script>
+function _lg(){
+  var s=document.createElement('script');
+  s.src='https://www.googletagmanager.com/gtag/js?id=G-TTH5XB3R2E';
+  s.async=true;document.head.appendChild(s);
+  s.onload=function(){window.dataLayer=window.dataLayer||[];
+  function g(){dataLayer.push(arguments)}window.gtag=g;
+  g('js',new Date());g('config','G-TTH5XB3R2E')};
+  var t=document.createElement('script');
+  t.async=true;t.src='https://www.googletagmanager.com/gtm.js?id=GTM-T229C88P';
+  document.head.appendChild(t);
+}
+var _ld=false;function _tl(){if(_ld)return;_ld=true;_lg()}
+['scroll','click','touchstart','keydown'].forEach(function(e){
+window.addEventListener(e,_tl,{once:true,passive:true})});
+setTimeout(_tl,5000);
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-TTH5XB3R2E');
+</script>
   <title>Politique de Confidentialité | HELPCAR Dépannage</title>
   <meta name="description" content="Politique de confidentialité de HELPCAR Dépannage. Découvrez comment nous traitons et protégeons vos données personnelles conformément au RGPD.">
   <meta name="robots" content="index, follow">
@@ -15,12 +39,19 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T229C88P"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
   <!-- HEADER -->
   <header class="header">
     <div class="header__inner">
       <a href="/" class="header__logo">
-        <img src="/images/logo-helpcar.png" alt="HELPCAR Dépannage" class="header__logo-img">
+        <picture>
+  <source srcset="/images/logo-helpcar.webp" type="image/webp">
+  <img src="/images/logo-helpcar.png" alt="HELPCAR Dépannage" class="header__logo-img" width="400" height="166">
+</picture>
       </a>
       <nav class="nav-desktop">
         <a href="/">Accueil</a>
@@ -246,7 +277,10 @@
 
         <div class="footer__col">
           <div class="footer__brand">
-            <img src="/images/logo-helpcar.png" alt="HELPCAR Dépannage" class="header__logo-img">
+            <picture>
+  <source srcset="/images/logo-helpcar.webp" type="image/webp">
+  <img src="/images/logo-helpcar.png" alt="HELPCAR Dépannage" class="header__logo-img" width="400" height="166">
+</picture>
           </div>
           <p>Service de dépannage automobile à Bruxelles. Disponible 24h/24 et 7j/7.</p>
           <p><a href="tel:+3228860486">&#x1F4DE; 02 886 04 86</a></p>
@@ -303,6 +337,6 @@
     <a href="https://wa.me/3228860486?text=Bonjour%20HELPCAR%20D%C3%A9pannage%2C%20j%27ai%20besoin%20d%27un%20d%C3%A9pannage." class="btn btn--green">&#x1F4AC; WhatsApp</a>
   </div>
 
-  <script src="../js/main.js"></script>
+  <script src="../js/main.js" defer></script>
 </body>
 </html>

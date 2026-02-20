@@ -3,6 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- GA4 + GTM différé (charge au premier scroll/click ou après 5s) -->
+<script>
+function _lg(){
+  var s=document.createElement('script');
+  s.src='https://www.googletagmanager.com/gtag/js?id=G-TTH5XB3R2E';
+  s.async=true;document.head.appendChild(s);
+  s.onload=function(){window.dataLayer=window.dataLayer||[];
+  function g(){dataLayer.push(arguments)}window.gtag=g;
+  g('js',new Date());g('config','G-TTH5XB3R2E')};
+  var t=document.createElement('script');
+  t.async=true;t.src='https://www.googletagmanager.com/gtm.js?id=GTM-T229C88P';
+  document.head.appendChild(t);
+}
+var _ld=false;function _tl(){if(_ld)return;_ld=true;_lg()}
+['scroll','click','touchstart','keydown'].forEach(function(e){
+window.addEventListener(e,_tl,{once:true,passive:true})});
+setTimeout(_tl,5000);
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-TTH5XB3R2E');
+</script>
   <title>22 Services de Dépannage et Remorquage à Bruxelles | HELPCAR Dépannage</title>
   <meta name="description" content="HELPCAR Dépannage propose 22 services de dépannage et remorquage à Bruxelles : batterie, pneu, remorquage voiture, moto, camionnette. Intervention en 30 min, 24h/24.">
   <meta name="robots" content="index, follow">
@@ -19,12 +43,19 @@
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T229C88P"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
   <!-- ========== HEADER ========== -->
   <header class="header">
     <div class="header__inner">
       <a href="/" class="header__logo">
-        <img src="/images/logo-helpcar.png" alt="HELPCAR Dépannage" class="header__logo-img">
+        <picture>
+  <source srcset="/images/logo-helpcar.webp" type="image/webp">
+  <img src="/images/logo-helpcar.png" alt="HELPCAR Dépannage" class="header__logo-img" width="400" height="166">
+</picture>
       </a>
 
       <nav class="nav-desktop">
@@ -141,7 +172,11 @@
           <!-- === REMORQUAGE SERVICES === -->
           <a href="/services/remorquage-voiture-bruxelles/" class="service-card" data-category="remorquage">
             <div class="service-card__photo">
-              <img src="/images/depannage-camionette-plateau.jpg" alt="Remorquage voiture Bruxelles">
+              <picture>
+  <source srcset="/images/depannage-camionette-plateau-md.webp" media="(max-width: 767px)" type="image/webp">
+  <source srcset="/images/depannage-camionette-plateau.webp" type="image/webp">
+  <img src="/images/depannage-camionette-plateau.jpg" alt="Remorquage voiture Bruxelles" loading="lazy" width="662" height="441">
+</picture>
             </div>
             <div class="service-card__body">
               <div class="service-card__icon">
@@ -157,7 +192,11 @@
 
           <a href="/services/remorquage-motos-bruxelles/" class="service-card" data-category="remorquage">
             <div class="service-card__photo">
-              <img src="/images/remorquage-moto-new.jpg" alt="Remorquage moto Bruxelles">
+              <picture>
+  <source srcset="/images/remorquage-moto-new-md.webp" media="(max-width: 767px)" type="image/webp">
+  <source srcset="/images/remorquage-moto-new.webp" type="image/webp">
+  <img src="/images/remorquage-moto-new.jpg" alt="Remorquage moto Bruxelles" loading="lazy" width="662" height="441">
+</picture>
             </div>
             <div class="service-card__body">
               <div class="service-card__icon">
@@ -173,7 +212,11 @@
 
           <a href="/services/depannage-camionnette-bruxelles/" class="service-card" data-category="remorquage">
             <div class="service-card__photo">
-              <img src="/images/remorquage-camionnette.jpg" alt="Remorquage camionnette Bruxelles">
+              <picture>
+  <source srcset="/images/remorquage-camionnette-md.webp" media="(max-width: 767px)" type="image/webp">
+  <source srcset="/images/remorquage-camionnette.webp" type="image/webp">
+  <img src="/images/remorquage-camionnette.jpg" alt="Remorquage camionnette Bruxelles" loading="lazy" width="662" height="441">
+</picture>
             </div>
             <div class="service-card__body">
               <div class="service-card__icon">
@@ -189,7 +232,11 @@
 
           <a href="/services/remorquage-vehicules-speciaux-bruxelles/" class="service-card" data-category="remorquage">
             <div class="service-card__photo">
-              <img src="/images/remorquage-vehicules-speciaux.jpg" alt="Remorquage véhicules spéciaux Bruxelles">
+              <picture>
+  <source srcset="/images/remorquage-vehicules-speciaux-md.webp" media="(max-width: 767px)" type="image/webp">
+  <source srcset="/images/remorquage-vehicules-speciaux.webp" type="image/webp">
+  <img src="/images/remorquage-vehicules-speciaux.jpg" alt="Remorquage véhicules spéciaux Bruxelles" loading="lazy" width="662" height="441">
+</picture>
             </div>
             <div class="service-card__body">
               <div class="service-card__icon">
@@ -205,7 +252,11 @@
 
           <a href="/services/transport-routier-local-bruxelles/" class="service-card" data-category="remorquage">
             <div class="service-card__photo">
-              <img src="/images/transport-local.jpg" alt="Transport local véhicule Bruxelles">
+              <picture>
+  <source srcset="/images/transport-local-md.webp" media="(max-width: 767px)" type="image/webp">
+  <source srcset="/images/transport-local.webp" type="image/webp">
+  <img src="/images/transport-local.jpg" alt="Transport local véhicule Bruxelles" loading="lazy" width="662" height="441">
+</picture>
             </div>
             <div class="service-card__body">
               <div class="service-card__icon">
@@ -221,7 +272,11 @@
 
           <a href="/services/transport-routier-longue-distance-bruxelles/" class="service-card" data-category="remorquage">
             <div class="service-card__photo">
-              <img src="/images/transport-longue-distance.jpg" alt="Transport véhicule longue distance Bruxelles">
+              <picture>
+  <source srcset="/images/transport-longue-distance-md.webp" media="(max-width: 767px)" type="image/webp">
+  <source srcset="/images/transport-longue-distance.webp" type="image/webp">
+  <img src="/images/transport-longue-distance.jpg" alt="Transport véhicule longue distance Bruxelles" loading="lazy" width="662" height="441">
+</picture>
             </div>
             <div class="service-card__body">
               <div class="service-card__icon">
@@ -237,7 +292,11 @@
 
           <a href="/services/enlevement-epave-bruxelles/" class="service-card" data-category="remorquage">
             <div class="service-card__photo">
-              <img src="/images/enlevement-epave.jpg" alt="Enlèvement épave Bruxelles">
+              <picture>
+  <source srcset="/images/enlevement-epave-md.webp" media="(max-width: 767px)" type="image/webp">
+  <source srcset="/images/enlevement-epave.webp" type="image/webp">
+  <img src="/images/enlevement-epave.jpg" alt="Enlèvement épave Bruxelles" loading="lazy" width="662" height="441">
+</picture>
             </div>
             <div class="service-card__body">
               <div class="service-card__icon">
@@ -253,7 +312,11 @@
 
           <a href="/services/sortie-fourriere-bruxelles/" class="service-card" data-category="remorquage">
             <div class="service-card__photo">
-              <img src="/images/sortie-fourriere.jpg" alt="Sortie fourrière Bruxelles">
+              <picture>
+  <source srcset="/images/sortie-fourriere-md.webp" media="(max-width: 767px)" type="image/webp">
+  <source srcset="/images/sortie-fourriere.webp" type="image/webp">
+  <img src="/images/sortie-fourriere.jpg" alt="Sortie fourrière Bruxelles" loading="lazy" width="662" height="441">
+</picture>
             </div>
             <div class="service-card__body">
               <div class="service-card__icon">
@@ -269,7 +332,11 @@
 
           <a href="/services/depannage-voiture-bruxelles/" class="service-card" data-category="remorquage">
             <div class="service-card__photo">
-              <img src="/images/depannage-voiture.jpg" alt="Dépannage voiture Bruxelles">
+              <picture>
+  <source srcset="/images/depannage-voiture-md.webp" media="(max-width: 767px)" type="image/webp">
+  <source srcset="/images/depannage-voiture.webp" type="image/webp">
+  <img src="/images/depannage-voiture.jpg" alt="Dépannage voiture Bruxelles" loading="lazy" width="662" height="441">
+</picture>
             </div>
             <div class="service-card__body">
               <div class="service-card__icon">
@@ -285,7 +352,11 @@
 
           <a href="/services/depannage-voiture-electrique-bruxelles/" class="service-card" data-category="remorquage">
             <div class="service-card__photo">
-              <img src="/images/depannage-voiture-electrique.jpg" alt="Dépannage voiture électrique Bruxelles">
+              <picture>
+  <source srcset="/images/depannage-voiture-electrique-md.webp" media="(max-width: 767px)" type="image/webp">
+  <source srcset="/images/depannage-voiture-electrique.webp" type="image/webp">
+  <img src="/images/depannage-voiture-electrique.jpg" alt="Dépannage voiture électrique Bruxelles" loading="lazy" width="662" height="441">
+</picture>
             </div>
             <div class="service-card__body">
               <div class="service-card__icon">
@@ -301,7 +372,11 @@
 
           <a href="/services/achat-voiture-accidentee/" class="service-card" data-category="remorquage">
             <div class="service-card__photo">
-              <img src="/images/achat-voiture-accidentee.jpg" alt="Achat voiture accidentée Bruxelles">
+              <picture>
+  <source srcset="/images/achat-voiture-accidentee-md.webp" media="(max-width: 767px)" type="image/webp">
+  <source srcset="/images/achat-voiture-accidentee.webp" type="image/webp">
+  <img src="/images/achat-voiture-accidentee.jpg" alt="Achat voiture accidentée Bruxelles" loading="lazy" width="662" height="441">
+</picture>
             </div>
             <div class="service-card__body">
               <div class="service-card__icon">
@@ -317,7 +392,11 @@
 
           <a href="/services/depannage-parking-souterrain-bruxelles/" class="service-card" data-category="remorquage">
             <div class="service-card__photo">
-              <img src="/images/depannage-parking-souterrain.jpg" alt="Dépannage parking souterrain Bruxelles">
+              <picture>
+  <source srcset="/images/depannage-parking-souterrain-md.webp" media="(max-width: 767px)" type="image/webp">
+  <source srcset="/images/depannage-parking-souterrain.webp" type="image/webp">
+  <img src="/images/depannage-parking-souterrain.jpg" alt="Dépannage parking souterrain Bruxelles" loading="lazy" width="662" height="441">
+</picture>
             </div>
             <div class="service-card__body">
               <div class="service-card__icon">
@@ -334,7 +413,11 @@
           <!-- === DEPANNAGE SERVICES === -->
           <a href="/services/depannage-batterie-bruxelles/" class="service-card" data-category="depannage">
             <div class="service-card__photo">
-              <img src="/images/choc-batterie-avec-client.jpg" alt="Dépannage batterie Bruxelles">
+              <picture>
+  <source srcset="/images/choc-batterie-avec-client-md.webp" media="(max-width: 767px)" type="image/webp">
+  <source srcset="/images/choc-batterie-avec-client.webp" type="image/webp">
+  <img src="/images/choc-batterie-avec-client.jpg" alt="Dépannage batterie Bruxelles" loading="lazy" width="662" height="441">
+</picture>
             </div>
             <div class="service-card__body">
               <div class="service-card__icon">
@@ -350,7 +433,11 @@
 
           <a href="/services/reparation-pneu-bruxelles/" class="service-card" data-category="depannage">
             <div class="service-card__photo">
-              <img src="/images/pneu-meche.jpg" alt="Réparation pneu Bruxelles">
+              <picture>
+  <source srcset="/images/pneu-meche-md.webp" media="(max-width: 767px)" type="image/webp">
+  <source srcset="/images/pneu-meche.webp" type="image/webp">
+  <img src="/images/pneu-meche.jpg" alt="Réparation pneu Bruxelles" loading="lazy" width="662" height="441">
+</picture>
             </div>
             <div class="service-card__body">
               <div class="service-card__icon">
@@ -366,7 +453,11 @@
 
           <a href="/services/remplacement-batterie-bruxelles/" class="service-card" data-category="depannage">
             <div class="service-card__photo">
-              <img src="/images/remplacement-batterie.jpg" alt="Remplacement batterie voiture Bruxelles">
+              <picture>
+  <source srcset="/images/remplacement-batterie-md.webp" media="(max-width: 767px)" type="image/webp">
+  <source srcset="/images/remplacement-batterie.webp" type="image/webp">
+  <img src="/images/remplacement-batterie.jpg" alt="Remplacement batterie voiture Bruxelles" loading="lazy" width="662" height="441">
+</picture>
             </div>
             <div class="service-card__body">
               <div class="service-card__icon">
@@ -382,7 +473,11 @@
 
           <a href="/services/fourniture-carburant-bruxelles/" class="service-card" data-category="depannage">
             <div class="service-card__photo">
-              <img src="/images/fourniture-carburant.jpg" alt="Fourniture carburant Bruxelles">
+              <picture>
+  <source srcset="/images/fourniture-carburant-md.webp" media="(max-width: 767px)" type="image/webp">
+  <source srcset="/images/fourniture-carburant.webp" type="image/webp">
+  <img src="/images/fourniture-carburant.jpg" alt="Fourniture carburant Bruxelles" loading="lazy" width="662" height="441">
+</picture>
             </div>
             <div class="service-card__body">
               <div class="service-card__icon">
@@ -398,7 +493,11 @@
 
           <a href="/services/panne-essence-bruxelles/" class="service-card" data-category="depannage">
             <div class="service-card__photo">
-              <img src="/images/panne-essence.jpg" alt="Panne essence Bruxelles">
+              <picture>
+  <source srcset="/images/panne-essence-md.webp" media="(max-width: 767px)" type="image/webp">
+  <source srcset="/images/panne-essence.webp" type="image/webp">
+  <img src="/images/panne-essence.jpg" alt="Panne essence Bruxelles" loading="lazy" width="662" height="441">
+</picture>
             </div>
             <div class="service-card__body">
               <div class="service-card__icon">
@@ -414,7 +513,11 @@
 
           <a href="/services/ouverture-porte-voiture-bruxelles/" class="service-card" data-category="depannage">
             <div class="service-card__photo">
-              <img src="/images/ouverture-de-porte.jpg" alt="Ouverture de porte voiture Bruxelles">
+              <picture>
+  <source srcset="/images/ouverture-de-porte-md.webp" media="(max-width: 767px)" type="image/webp">
+  <source srcset="/images/ouverture-de-porte.webp" type="image/webp">
+  <img src="/images/ouverture-de-porte.jpg" alt="Ouverture de porte voiture Bruxelles" loading="lazy" width="662" height="441">
+</picture>
             </div>
             <div class="service-card__body">
               <div class="service-card__icon">
@@ -430,7 +533,11 @@
 
           <a href="/services/placement-roue-secours-bruxelles/" class="service-card" data-category="depannage">
             <div class="service-card__photo">
-              <img src="/images/placement-roue-secours.jpg" alt="Placement roue de secours Bruxelles">
+              <picture>
+  <source srcset="/images/placement-roue-secours-md.webp" media="(max-width: 767px)" type="image/webp">
+  <source srcset="/images/placement-roue-secours.webp" type="image/webp">
+  <img src="/images/placement-roue-secours.jpg" alt="Placement roue de secours Bruxelles" loading="lazy" width="662" height="441">
+</picture>
             </div>
             <div class="service-card__body">
               <div class="service-card__icon">
@@ -446,7 +553,11 @@
 
           <a href="/services/siphonnage-reservoir-bruxelles/" class="service-card" data-category="depannage">
             <div class="service-card__photo">
-              <img src="/images/erreur-carburant.jpg" alt="Erreur carburant siphonnage réservoir Bruxelles">
+              <picture>
+  <source srcset="/images/erreur-carburant-md.webp" media="(max-width: 767px)" type="image/webp">
+  <source srcset="/images/erreur-carburant.webp" type="image/webp">
+  <img src="/images/erreur-carburant.jpg" alt="Erreur carburant siphonnage réservoir Bruxelles" loading="lazy" width="662" height="441">
+</picture>
             </div>
             <div class="service-card__body">
               <div class="service-card__icon">
@@ -462,7 +573,11 @@
 
           <a href="/services/voiture-embourbee-bruxelles/" class="service-card" data-category="depannage">
             <div class="service-card__photo">
-              <img src="/images/voiture-embourbee.jpg" alt="Voiture embourbée dépannage Bruxelles">
+              <picture>
+  <source srcset="/images/voiture-embourbee-md.webp" media="(max-width: 767px)" type="image/webp">
+  <source srcset="/images/voiture-embourbee.webp" type="image/webp">
+  <img src="/images/voiture-embourbee.jpg" alt="Voiture embourbée dépannage Bruxelles" loading="lazy" width="662" height="441">
+</picture>
             </div>
             <div class="service-card__body">
               <div class="service-card__icon">
@@ -685,6 +800,6 @@
     </a>
   </div>
 
-  <script src="../js/main.js"></script>
+  <script src="../js/main.js" defer></script>
 </body>
 </html>

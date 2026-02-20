@@ -43,6 +43,30 @@ const SERVICE_SLUG_MAP = {
 
 const WHATSAPP_LINK = 'https://wa.me/3228860486?text=Bonjour%20HELPCAR%20D%C3%A9pannage%2C%20j%27ai%20besoin%20d%27un%20d%C3%A9pannage.';
 
+const GA_TAG = `<!-- GA4 + GTM différé (charge au premier scroll/click ou après 5s) -->
+<script>
+function _lg(){
+  var s=document.createElement('script');
+  s.src='https://www.googletagmanager.com/gtag/js?id=G-TTH5XB3R2E';
+  s.async=true;document.head.appendChild(s);
+  s.onload=function(){window.dataLayer=window.dataLayer||[];
+  function g(){dataLayer.push(arguments)}window.gtag=g;
+  g('js',new Date());g('config','G-TTH5XB3R2E')};
+  var t=document.createElement('script');
+  t.async=true;t.src='https://www.googletagmanager.com/gtm.js?id=GTM-T229C88P';
+  document.head.appendChild(t);
+}
+var _ld=false;function _tl(){if(_ld)return;_ld=true;_lg()}
+['scroll','click','touchstart','keydown'].forEach(function(e){
+window.addEventListener(e,_tl,{once:true,passive:true})});
+setTimeout(_tl,5000);
+</script>`;
+
+const GTM_NOSCRIPT = `<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T229C88P"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->`;
+
 function getSharedHeader(activeNav) {
   const navItems = [
     { label: 'Accueil', href: '/' },
@@ -421,6 +445,7 @@ function buildServicePage(jsonFile, slug) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  ${GA_TAG}
   <title>${titleAttr}</title>
   <meta name="description" content="${descAttr}">
   <link rel="canonical" href="${canonicalUrl}">
@@ -441,6 +466,7 @@ function buildServicePage(jsonFile, slug) {
   </script>
 </head>
 <body>
+${GTM_NOSCRIPT}
 ${getSharedHeader('Services')}
 
 <section class="hero">
@@ -501,7 +527,7 @@ ${faqHtml ? `
 ${getSharedFooter()}
 ${getFloatingCTA()}
 
-<script src="${jsPath}"></script>
+<script src="${jsPath}" defer></script>
 </body>
 </html>`;
 }
@@ -605,6 +631,7 @@ function buildLocationPage(jsonFile, slug) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  ${GA_TAG}
   <title>${titleAttr}</title>
   <meta name="description" content="${descAttr}">
   <link rel="canonical" href="${canonicalUrl}">
@@ -625,6 +652,7 @@ function buildLocationPage(jsonFile, slug) {
   </script>
 </head>
 <body>
+${GTM_NOSCRIPT}
 ${getSharedHeader('Zones')}
 
 <section class="hero">
@@ -727,7 +755,7 @@ ${voisinesHtml ? `
 ${getSharedFooter()}
 ${getFloatingCTA()}
 
-<script src="${jsPath}"></script>
+<script src="${jsPath}" defer></script>
 </body>
 </html>`;
 }
@@ -776,6 +804,7 @@ function buildBlogPost(jsonFile, slug) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  ${GA_TAG}
   <title>${titleAttr} | HELPCAR Dépannage</title>
   <meta name="description" content="${descAttr}">
   <link rel="canonical" href="${canonicalUrl}">
@@ -796,6 +825,7 @@ function buildBlogPost(jsonFile, slug) {
   </script>
 </head>
 <body>
+${GTM_NOSCRIPT}
 ${getSharedHeader('Blog')}
 
 <section class="hero" style="padding:48px 0 32px">
@@ -846,7 +876,7 @@ ${serviceLie.slug ? `
 ${getSharedFooter()}
 ${getFloatingCTA()}
 
-<script src="${jsPath}"></script>
+<script src="${jsPath}" defer></script>
 </body>
 </html>`;
 }
@@ -889,6 +919,7 @@ function buildBlogListing(blogArticles) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  ${GA_TAG}
   <title>Blog Dépannage Auto Bruxelles | Conseils &amp; Astuces | HELPCAR</title>
   <meta name="description" content="Conseils dépannage auto, astuces prévention pannes et informations remorquage à Bruxelles. Le blog HELPCAR Dépannage.">
   <link rel="canonical" href="https://helpcar.be/blog/">
@@ -909,6 +940,7 @@ function buildBlogListing(blogArticles) {
   </script>
 </head>
 <body>
+${GTM_NOSCRIPT}
 ${getSharedHeader('Blog')}
 
 <section class="hero" style="padding:48px 0 32px">
@@ -939,7 +971,7 @@ ${getSharedHeader('Blog')}
 ${getSharedFooter()}
 ${getFloatingCTA()}
 
-<script src="${jsPath}"></script>
+<script src="${jsPath}" defer></script>
 </body>
 </html>`;
 }
@@ -1045,7 +1077,7 @@ const DEPLOY_DIRS = [
   'a-propos', 'blog', 'contact', 'css', 'images', 'js',
   'mentions-legales', 'politique-confidentialite', 'services', 'tarifs', 'zones'
 ];
-const DEPLOY_FILES = ['index.html', 'robots.txt', 'sitemap.xml'];
+const DEPLOY_FILES = ['index.html', 'robots.txt', 'sitemap.xml', 'favicon.ico'];
 
 function copyDirSync(src, dest) {
   fs.mkdirSync(dest, { recursive: true });
@@ -1086,5 +1118,16 @@ for (const file of DEPLOY_FILES) {
     console.log(`  ✓ ${file}`);
   }
 }
+
+// Minify CSS and JS in build/
+const { execSync } = require('child_process');
+try {
+  execSync(`npx clean-css-cli -o "${path.join(BUILD_DIR, 'css/style.css')}" "${path.join(BUILD_DIR, 'css/style.css')}"`, { stdio: 'pipe' });
+  console.log('  ✓ css/style.css (minified)');
+} catch (e) { console.log('  ⚠ CSS minification failed:', e.message); }
+try {
+  execSync(`npx terser "${path.join(BUILD_DIR, 'js/main.js')}" -o "${path.join(BUILD_DIR, 'js/main.js')}" --compress --mangle`, { stdio: 'pipe' });
+  console.log('  ✓ js/main.js (minified)');
+} catch (e) { console.log('  ⚠ JS minification failed:', e.message); }
 
 console.log(`\n✅ build/ prêt pour déploiement Netlify (${DEPLOY_DIRS.length} dossiers + ${DEPLOY_FILES.length} fichiers)`);
