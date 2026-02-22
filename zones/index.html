@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+  <link rel="dns-prefetch" href="https://www.google-analytics.com">
 <!-- GA4 + GTM différé (charge au premier scroll/click ou après 5s) -->
 <script>
 function _lg(){
@@ -31,15 +35,16 @@ setTimeout(_tl,5000);
   <meta name="description" content="HELPCAR Dépannage intervient dans toutes les communes de Bruxelles et en périphérie. Service rapide 24/7, prix annoncé par téléphone. ☎️ 02 886 04 86">
   <meta name="robots" content="index, follow">
   <meta name="author" content="HELPCAR Dépannage">
-  <link rel="canonical" href="https://www.helpcar.be/zones/">
+  <link rel="canonical" href="https://helpcar.be/zones/">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="Dépannage Auto Bruxelles et Périphérie | HELPCAR Dépannage">
   <meta property="og:description" content="HELPCAR Dépannage couvre Bruxelles-Capitale et la périphérie. Intervention rapide 24h/24 et 7j/7.">
-  <meta property="og:url" content="https://www.helpcar.be/zones/">
+  <meta property="og:url" content="https://helpcar.be/zones/">
   <meta property="og:site_name" content="HELPCAR Dépannage">
   <meta property="og:locale" content="fr_BE">
+    <meta property="og:image" content="https://helpcar.be/images/og-helpcar.png" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary">
@@ -52,6 +57,58 @@ setTimeout(_tl,5000);
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
   <link rel="stylesheet" href="../css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Zones d'Intervention HELPCAR Dépannage",
+  "url": "https://helpcar.be/zones/",
+  "mainEntity": {
+    "@type": "LocalBusiness",
+    "@id": "https://helpcar.be/#business",
+    "name": "HELPCAR Dépannage",
+    "url": "https://helpcar.be",
+    "telephone": "+3228860486",
+    "image": "https://helpcar.be/images/og-helpcar.png",
+    "logo": "https://helpcar.be/images/logo-helpcar.webp",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bruxelles",
+      "addressRegion": "Bruxelles-Capitale",
+      "addressCountry": "BE"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 50.8503,
+      "longitude": 4.3517
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "212"
+    },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Région de Bruxelles-Capitale"
+    }
+  }
+}
+</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://helpcar.be/"}, {"@type": "ListItem", "position": 2, "name": "Zones d'Intervention"}]}</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -113,7 +170,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </header>
 
   <!-- ========== HERO ========== -->
-  <section class="hero">
+  <nav class="breadcrumb" aria-label="Fil d'Ariane" style="padding:12px 0;font-size:0.85rem;color:#6B7280;"><div class="container"><a href="https://helpcar.be/">Accueil</a> <span style="margin:0 6px;">›</span> <span>Zones d'Intervention</span></div></nav>
+<section class="hero">
     <div class="container hero__content">
       <div class="hero__badge">
         <span class="hero__badge-dot"></span>
@@ -634,7 +692,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
 
       <div class="footer__bottom">
-        <p>&copy; 2025 HELPCAR Dépannage. Tous droits réservés.</p>
+        <p>&copy; 2026 HELPCAR Dépannage. Tous droits réservés.</p>
         <div>
           <a href="/mentions-legales/">Mentions légales</a> &nbsp;|&nbsp;
           <a href="/politique-confidentialite/">Politique de confidentialité</a>

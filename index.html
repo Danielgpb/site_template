@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+  <link rel="dns-prefetch" href="https://www.google-analytics.com">
 <!-- GA4 + GTM différé (charge au premier scroll/click ou après 5s) -->
 <script>
 function _lg(){
@@ -40,6 +44,7 @@ setTimeout(_tl,5000);
   <meta property="og:url" content="https://helpcar.be/">
   <meta property="og:locale" content="fr_BE">
   <meta property="og:site_name" content="HELPCAR Dépannage">
+    <meta property="og:image" content="https://helpcar.be/images/og-helpcar.png" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary">
@@ -124,12 +129,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- Desktop Navigation -->
       <nav class="nav-desktop">
         <a href="/" class="active">Accueil</a>
-        <a href="services/">Services</a>
-        <a href="zones/">Zones</a>
-        <a href="tarifs/">Tarifs</a>
-        <a href="a-propos/">À propos</a>
-        <a href="blog/">Blog</a>
-        <a href="contact/">Contact</a>
+        <a href="/services/">Services</a>
+        <a href="/zones/">Zones</a>
+        <a href="/tarifs/">Tarifs</a>
+        <a href="/a-propos/">À propos</a>
+        <a href="/blog/">Blog</a>
+        <a href="/contact/">Contact</a>
         <a href="tel:+3228860486" class="header__phone-desktop">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
           02 886 04 86
@@ -153,12 +158,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- Mobile Navigation Overlay -->
     <nav class="nav-mobile">
       <a href="/" class="active">Accueil</a>
-      <a href="services/">Services</a>
-      <a href="zones/">Zones</a>
-      <a href="tarifs/">Tarifs</a>
-      <a href="a-propos/">À propos</a>
-      <a href="blog/">Blog</a>
-      <a href="contact/">Contact</a>
+      <a href="/services/">Services</a>
+      <a href="/zones/">Zones</a>
+      <a href="/tarifs/">Tarifs</a>
+      <a href="/a-propos/">À propos</a>
+      <a href="/blog/">Blog</a>
+      <a href="/contact/">Contact</a>
       <a href="tel:+3228860486" class="nav-mobile__cta">
         Appeler le 02 886 04 86
       </a>
@@ -240,7 +245,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       <div class="services-grid">
         <!-- Depannage Batterie -->
-        <a href="services/depannage-batterie-bruxelles/" class="service-card">
+        <a href="/services/depannage-batterie-bruxelles/" class="service-card">
           <div class="service-card__photo">
             <picture>
   <source srcset="/images/choc-batterie-avec-client-md.webp" media="(max-width: 767px)" type="image/webp">
@@ -261,7 +266,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </a>
 
         <!-- Remorquage Voiture -->
-        <a href="services/remorquage-voiture-bruxelles/" class="service-card">
+        <a href="/services/remorquage-voiture-bruxelles/" class="service-card">
           <div class="service-card__photo">
             <picture>
   <source srcset="/images/depannage-camionette-plateau-md.webp" media="(max-width: 767px)" type="image/webp">
@@ -282,7 +287,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </a>
 
         <!-- Reparation Pneu -->
-        <a href="services/reparation-pneu-bruxelles/" class="service-card">
+        <a href="/services/reparation-pneu-bruxelles/" class="service-card">
           <div class="service-card__photo">
             <picture>
   <source srcset="/images/pneu-meche-md.webp" media="(max-width: 767px)" type="image/webp">
@@ -303,7 +308,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </a>
 
         <!-- Ouverture de Porte -->
-        <a href="services/ouverture-porte-voiture-bruxelles/" class="service-card">
+        <a href="/services/ouverture-porte-voiture-bruxelles/" class="service-card">
           <div class="service-card__photo">
             <picture>
   <source srcset="/images/ouverture-de-porte-md.webp" media="(max-width: 767px)" type="image/webp">
@@ -324,7 +329,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </a>
 
         <!-- Remorquage Moto -->
-        <a href="services/remorquage-motos-bruxelles/" class="service-card">
+        <a href="/services/remorquage-motos-bruxelles/" class="service-card">
           <div class="service-card__photo">
             <picture>
   <source srcset="/images/remorquage-moto-md.webp" media="(max-width: 767px)" type="image/webp">
@@ -345,7 +350,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </a>
 
         <!-- Panne d'Essence -->
-        <a href="services/panne-essence-bruxelles/" class="service-card">
+        <a href="/services/panne-essence-bruxelles/" class="service-card">
           <div class="service-card__photo">
             <picture>
   <source srcset="/images/fourniture-carburant-md.webp" media="(max-width: 767px)" type="image/webp">
@@ -367,7 +372,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
 
       <div class="text-center" style="margin-top:28px;">
-        <a href="services/" class="btn btn--outline" style="border-color:var(--gray-300);color:var(--dark);">Voir tous nos services &rarr;</a>
+        <a href="/services/" class="btn btn--outline" style="border-color:var(--gray-300);color:var(--dark);">Voir tous nos services &rarr;</a>
       </div>
     </div>
   </section>
@@ -388,7 +393,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <li>&#10003; Matériel professionnel</li>
             <li>&#10003; Intervention rapide à Bruxelles</li>
           </ul>
-          <a href="services/" class="btn btn--primary btn--sm">Nos services &rarr;</a>
+          <a href="/services/" class="btn btn--primary btn--sm">Nos services &rarr;</a>
         </div>
         <div class="alternating-section__image">
           <picture>
@@ -693,7 +698,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       <div class="zones-grid">
         <!-- Bruxelles-Centre -->
-        <a href="zones/depannage-voiture-bruxelles-centre/" class="zone-card">
+        <a href="/zones/depannage-voiture-bruxelles-centre/" class="zone-card">
           <div class="zone-card__info">
             <div class="zone-card__icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -707,7 +712,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </a>
 
         <!-- Etterbeek -->
-        <a href="zones/depannage-voiture-etterbeek/" class="zone-card">
+        <a href="/zones/depannage-voiture-etterbeek/" class="zone-card">
           <div class="zone-card__info">
             <div class="zone-card__icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -721,7 +726,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </a>
 
         <!-- Ixelles -->
-        <a href="zones/depannage-voiture-ixelles/" class="zone-card">
+        <a href="/zones/depannage-voiture-ixelles/" class="zone-card">
           <div class="zone-card__info">
             <div class="zone-card__icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -735,7 +740,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </a>
 
         <!-- Schaerbeek -->
-        <a href="zones/depannage-voiture-schaerbeek/" class="zone-card">
+        <a href="/zones/depannage-voiture-schaerbeek/" class="zone-card">
           <div class="zone-card__info">
             <div class="zone-card__icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -750,7 +755,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
 
       <div class="text-center" style="margin-top:28px;">
-        <a href="zones/" class="btn btn--outline" style="border-color:var(--gray-300);color:var(--dark);">Voir toutes nos zones &rarr;</a>
+        <a href="/zones/" class="btn btn--outline" style="border-color:var(--gray-300);color:var(--dark);">Voir toutes nos zones &rarr;</a>
       </div>
     </div>
   </section>
@@ -796,12 +801,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div>
           <div class="footer__title">Services</div>
           <ul class="footer__links">
-            <li><a href="services/depannage-batterie-bruxelles/">Dépannage Batterie</a></li>
-            <li><a href="services/remorquage-voiture-bruxelles/">Remorquage Voiture</a></li>
-            <li><a href="services/reparation-pneu-bruxelles/">Réparation Pneu</a></li>
-            <li><a href="services/ouverture-porte-voiture-bruxelles/">Ouverture de Porte</a></li>
-            <li><a href="services/remorquage-motos-bruxelles/">Remorquage Moto</a></li>
-            <li><a href="services/panne-essence-bruxelles/">Panne d'Essence</a></li>
+            <li><a href="/services/depannage-batterie-bruxelles/">Dépannage Batterie</a></li>
+            <li><a href="/services/remorquage-voiture-bruxelles/">Remorquage Voiture</a></li>
+            <li><a href="/services/reparation-pneu-bruxelles/">Réparation Pneu</a></li>
+            <li><a href="/services/ouverture-porte-voiture-bruxelles/">Ouverture de Porte</a></li>
+            <li><a href="/services/remorquage-motos-bruxelles/">Remorquage Moto</a></li>
+            <li><a href="/services/panne-essence-bruxelles/">Panne d'Essence</a></li>
           </ul>
         </div>
 
@@ -809,12 +814,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div>
           <div class="footer__title">Zones</div>
           <ul class="footer__links">
-            <li><a href="zones/depannage-voiture-bruxelles-centre/">Bruxelles-Centre</a></li>
-            <li><a href="zones/depannage-voiture-etterbeek/">Etterbeek</a></li>
-            <li><a href="zones/depannage-voiture-ixelles/">Ixelles</a></li>
-            <li><a href="zones/depannage-voiture-schaerbeek/">Schaerbeek</a></li>
-            <li><a href="zones/">Toutes les zones</a></li>
-            <li style="margin-top:12px"><a href="blog/" style="font-weight:500">Blog</a></li>
+            <li><a href="/zones/depannage-voiture-bruxelles-centre/">Bruxelles-Centre</a></li>
+            <li><a href="/zones/depannage-voiture-etterbeek/">Etterbeek</a></li>
+            <li><a href="/zones/depannage-voiture-ixelles/">Ixelles</a></li>
+            <li><a href="/zones/depannage-voiture-schaerbeek/">Schaerbeek</a></li>
+            <li><a href="/zones/">Toutes les zones</a></li>
+            <li style="margin-top:12px"><a href="/blog/" style="font-weight:500">Blog</a></li>
           </ul>
         </div>
 
@@ -844,9 +849,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="footer__bottom">
         <span>&copy; 2026 HELPCAR Dépannage. Tous droits réservés.</span>
         <div>
-          <a href="mentions-legales/">Mentions légales</a> &middot;
-          <a href="/politique-confidentialite/">Politique de confidentialité</a> &middot;
-          <a href="/mentions-legales/">Mentions légales</a>
+          <a href="/mentions-legales/">Mentions légales</a> &middot;
+          <a href="/politique-confidentialite/">Politique de confidentialité</a>
         </div>
       </div>
     </div>
