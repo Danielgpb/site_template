@@ -44,7 +44,7 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- 22 pages services -->
+  <!-- 21 pages services -->
   <url>
     <loc>https://helpcar.be/services/depannage-batterie-bruxelles/</loc>
     <lastmod>2026-02-08</lastmod>
@@ -198,7 +198,7 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- 5 articles blog -->
+  <!-- 2 articles blog -->
   <url>
     <loc>https://helpcar.be/blog/eviter-panne-batterie-hiver/</loc>
     <lastmod>2026-02-08</lastmod>
@@ -206,7 +206,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://helpcar.be/blog/combien-coute-remorquage-bruxelles/</loc>
+    <loc>https://helpcar.be/blog/voiture-ne-demarre-pas/</loc>
     <lastmod>2026-02-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
