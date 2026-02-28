@@ -126,3 +126,5 @@
 ## INSTRUCTIONS
 Indiquez le numéro de la photo (1-38) pour chaque emplacement.
 Une même photo peut être utilisée à plusieurs endroits.
+
+
