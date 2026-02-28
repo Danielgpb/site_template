@@ -1,1 +1,70 @@
-document.addEventListener("DOMContentLoaded",function(){const e=document.querySelector(".header__burger"),t=document.querySelector(".nav-mobile");e&&t&&(e.addEventListener("click",function(){e.classList.toggle("active"),t.classList.toggle("open"),document.body.style.overflow=t.classList.contains("open")?"hidden":""}),t.querySelectorAll("a").forEach(function(o){o.addEventListener("click",function(){e.classList.remove("active"),t.classList.remove("open"),document.body.style.overflow=""})})),document.querySelectorAll(".faq-item__question").forEach(function(e){e.addEventListener("click",function(){var e=this.closest(".faq-item"),t=e.querySelector(".faq-item__answer"),o=e.classList.contains("open"),c=e.closest(".faq-list");c&&c.querySelectorAll(".faq-item.open").forEach(function(e){e.classList.remove("open"),e.querySelector(".faq-item__answer").style.maxHeight=null}),o||(e.classList.add("open"),t.style.maxHeight=t.scrollHeight+"px")})}),document.querySelectorAll(".toggle-tab").forEach(function(e){e.addEventListener("click",function(){this.closest(".toggle-tabs").querySelectorAll(".toggle-tab").forEach(function(e){e.classList.remove("active")}),this.classList.add("active");var e=this.dataset.filter,t=document.querySelector(".services-grid[data-filterable]");t&&t.querySelectorAll(".service-card").forEach(function(t){"all"===e||t.dataset.category===e?t.style.display="":t.style.display="none"})})});var o=window.location.pathname;document.querySelectorAll(".nav-desktop a, .nav-mobile a:not(.nav-mobile__cta)").forEach(function(e){var t=e.getAttribute("href");t&&-1!==o.indexOf(t)&&"/"!==t?e.classList.add("active"):"/"!==t||"/"!==o&&"/index.html"!==o||e.classList.add("active")}),document.querySelectorAll('a[href^="#"]').forEach(function(e){e.addEventListener("click",function(e){var t=document.querySelector(this.getAttribute("href"));t&&(e.preventDefault(),t.scrollIntoView({behavior:"smooth",block:"start"}))})})});
+/* HELPCAR Depannage - Main JavaScript */
+
+document.addEventListener('DOMContentLoaded', function() {
+
+  // --- Mobile Navigation Toggle ---
+  const burger = document.querySelector('.header__burger');
+  const navMobile = document.querySelector('.nav-mobile');
+
+  if (burger && navMobile) {
+    burger.addEventListener('click', function() {
+      burger.classList.toggle('active');
+      navMobile.classList.toggle('open');
+      document.body.style.overflow = navMobile.classList.contains('open') ? 'hidden' : '';
+    });
+
+    // Close nav on link click
+    navMobile.querySelectorAll('a').forEach(function(link) {
+      link.addEventListener('click', function() {
+        burger.classList.remove('active');
+        navMobile.classList.remove('open');
+        document.body.style.overflow = '';
+      });
+    });
+  }
+
+
+  // --- Toggle Tabs (Services filter) ---
+  document.querySelectorAll('.toggle-tab').forEach(function(tab) {
+    tab.addEventListener('click', function() {
+      var group = this.closest('.toggle-tabs');
+      group.querySelectorAll('.toggle-tab').forEach(function(t) { t.classList.remove('active'); });
+      this.classList.add('active');
+
+      var filter = this.dataset.filter;
+      var grid = document.querySelector('.services-grid[data-filterable]');
+      if (grid) {
+        grid.querySelectorAll('.service-card').forEach(function(card) {
+          if (filter === 'all' || card.dataset.category === filter) {
+            card.style.display = '';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      }
+    });
+  });
+
+  // --- Active nav link ---
+  var currentPath = window.location.pathname;
+  document.querySelectorAll('.nav-desktop a, .nav-mobile a:not(.nav-mobile__cta)').forEach(function(link) {
+    var href = link.getAttribute('href');
+    if (href && currentPath.indexOf(href) !== -1 && href !== '/') {
+      link.classList.add('active');
+    } else if (href === '/' && (currentPath === '/' || currentPath === '/index.html')) {
+      link.classList.add('active');
+    }
+  });
+
+  // --- Smooth scroll for anchor links ---
+  document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+    anchor.addEventListener('click', function(e) {
+      var target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        e.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  });
+
+});

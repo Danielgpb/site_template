@@ -23,28 +23,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // --- FAQ Accordion ---
-  document.querySelectorAll('.faq-item__question').forEach(function(btn) {
-    btn.addEventListener('click', function() {
-      var item = this.closest('.faq-item');
-      var answer = item.querySelector('.faq-item__answer');
-      var isOpen = item.classList.contains('open');
-
-      // Close all in same group
-      var parent = item.closest('.faq-list');
-      if (parent) {
-        parent.querySelectorAll('.faq-item.open').forEach(function(openItem) {
-          openItem.classList.remove('open');
-          openItem.querySelector('.faq-item__answer').style.maxHeight = null;
-        });
-      }
-
-      if (!isOpen) {
-        item.classList.add('open');
-        answer.style.maxHeight = answer.scrollHeight + 'px';
-      }
-    });
-  });
 
   // --- Toggle Tabs (Services filter) ---
   document.querySelectorAll('.toggle-tab').forEach(function(tab) {

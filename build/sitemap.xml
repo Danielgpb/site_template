@@ -172,9 +172,9 @@
     <priority>0.5</priority>
   </url>
 
-  <!-- 4 pages zones -->
+  <!-- 3 pages zones -->
   <url>
-    <loc>https://helpcar.be/zones/depannage-voiture-bruxelles-centre/</loc>
+    <loc>https://helpcar.be/zones//</loc>
     <lastmod>2026-02-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
