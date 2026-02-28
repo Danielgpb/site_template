@@ -174,12 +174,6 @@
 
   <!-- 3 pages zones -->
   <url>
-    <loc>https://helpcar.be/zones//</loc>
-    <lastmod>2026-02-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://helpcar.be/zones/depannage-voiture-etterbeek/</loc>
     <lastmod>2026-02-08</lastmod>
     <changefreq>monthly</changefreq>
