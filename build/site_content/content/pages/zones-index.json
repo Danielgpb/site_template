@@ -1,0 +1,172 @@
+{
+  "meta_title": "Zones d'Intervention Dépannage Bruxelles | HELPCAR Dépannage",
+  "meta_description": "HELPCAR Dépannage intervient dans toutes les communes de Bruxelles et en périphérie. Service rapide 24/7, prix annoncé par téléphone. ☎️ 02 886 04 86",
+
+  "open_graph": {
+    "title": "Dépannage Auto Bruxelles et Périphérie | HELPCAR Dépannage",
+    "description": "HELPCAR Dépannage couvre Bruxelles-Capitale et la périphérie. Intervention rapide 24h/24 et 7j/7."
+  },
+
+  "hero": {
+    "h1": "On Intervient dans Toute la Région Bruxelloise",
+    "h2": "Bruxelles-Ville, Ixelles, Etterbeek, Schaerbeek et bien d'autres communes – HELPCAR Dépannage arrive chez vous.",
+    "image_alt": "Zone d'intervention HELPCAR Dépannage Bruxelles"
+  },
+
+  "section_couverture": {
+    "section_label": "Notre zone",
+    "section_title": "Bruxelles et ses alentours, on connaît",
+    "paragraphes": [
+      "<strong style=\"color: #CF5706;\">HELPCAR Dépannage</strong>, c'est le <strong>meilleur service de dépannage auto dans toute la région bruxelloise</strong>. Que vous soyez bloqué près de la Gare Centrale, Place Jourdan à Etterbeek, au Parc Josaphat à Schaerbeek ou Avenue Louise à Ixelles – un dépanneur se déplace en 30 minutes.",
+      "Notre équipe cumule <strong>plus de 10 ans d'expérience</strong> sur les routes de Bruxelles. Appelez le <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>, donnez-nous votre position et on vous rejoint."
+    ]
+  },
+
+  "section_services": {
+    "section_label": "Disponible partout",
+    "section_title": "Les mêmes services dans chaque commune",
+    "section_description": "Où que vous soyez en panne, vous avez accès à tous nos services",
+    "services": [
+      {
+        "nom": "Dépannage Batterie",
+        "url_var": "URL_SERVICE_BATTERIE",
+        "description": "Recharge ou remplacement directement sur place",
+        "icon": "depannage-batterie.png"
+      },
+      {
+        "nom": "Réparation Pneu",
+        "url_var": "URL_SERVICE_PNEU",
+        "description": "Pose de mèche ou roue de secours",
+        "icon": "reparation-pneu.png"
+      },
+      {
+        "nom": "Panne de Carburant",
+        "url_var": "URL_SERVICE_PANNE_ESSENCE",
+        "description": "On vous apporte du carburant sur place",
+        "icon": "panne-essence.png"
+      },
+      {
+        "nom": "Ouverture de Porte",
+        "url_var": "URL_SERVICE_OUVERTURE_PORTE",
+        "description": "Clés enfermées, ouverture sans abîmer",
+        "icon": "ouverture-porte-voiture.png"
+      },
+      {
+        "nom": "Remorquage Voiture",
+        "url_var": "URL_SERVICE_REMORQUAGE_VOITURE",
+        "description": "Transport vers votre garage ou domicile",
+        "icon": "remorquage-voiture.png"
+      },
+      {
+        "nom": "Remorquage Moto",
+        "url_var": "URL_SERVICE_REMORQUAGE_MOTO",
+        "description": "Moto ou scooter en panne, on s'en charge",
+        "icon": "remorquage-motos.png"
+      }
+    ],
+    "cta_text": "Voir tous nos services →"
+  },
+
+  "section_communes": {
+    "section_label": "Communes desservies",
+    "section_title": "Toutes nos zones d'intervention",
+    "section_description": "Cliquez sur une commune pour découvrir nos services dans votre quartier."
+  },
+
+  "section_axes_routiers": {
+    "section_label": "Sur la route aussi",
+    "section_title": "On intervient sur les grands axes routiers",
+    "axes": [
+      {
+        "emoji": "🛣️",
+        "nom": "Ring de Bruxelles (R0)",
+        "description": "Tout le contour de Bruxelles"
+      },
+      {
+        "emoji": "🛣️",
+        "nom": "E40",
+        "description": "Direction Gand ou Liège"
+      },
+      {
+        "emoji": "🛣️",
+        "nom": "E19",
+        "description": "Direction Anvers ou Mons"
+      },
+      {
+        "emoji": "🛣️",
+        "nom": "E411",
+        "description": "Direction Namur et Luxembourg"
+      },
+      {
+        "emoji": "🛣️",
+        "nom": "A12",
+        "description": "Direction Anvers via Boom"
+      },
+      {
+        "emoji": "🛣️",
+        "nom": "N4, N5, N6",
+        "description": "Nationales vers le Brabant wallon et flamand"
+      }
+    ],
+    "note_autoroute": "Bloqué sur l'autoroute ? Mettez-vous en sécurité sur la bande d'arrêt d'urgence et appelez le <a href=\"tel:028860486\" style=\"color: #CF5706; font-weight: 600;\">02 886 04 86</a>."
+  },
+
+  "section_pourquoi_nous": {
+    "section_label": "Ce qu'on vous garantit",
+    "section_title": "Pourquoi appeler HELPCAR Dépannage ?",
+    "avantages": [
+      {
+        "texte": "<strong>Toutes les communes de Bruxelles</strong> – Plus la périphérie proche"
+      },
+      {
+        "texte": "<strong>Environ 30 minutes</strong> – On part dès que vous raccrochez"
+      },
+      {
+        "texte": "<strong>Prix annoncé par téléphone</strong> – Vous savez ce que ça coûte avant qu'on bouge"
+      },
+      {
+        "texte": "<strong>24h/24, 7j/7</strong> – Nuit, week-end, jours fériés inclus"
+      },
+      {
+        "texte": "<strong>Équipe expérimentée</strong> – Plus de 10 ans dans le dépannage"
+      }
+    ]
+  },
+
+  "faq": {
+    "section_label": "FAQ",
+    "section_title": "Questions fréquentes sur nos zones",
+    "questions": [
+      {
+        "question": "Vous couvrez toutes les communes de Bruxelles ?",
+        "reponse": "Oui, les <strong>19 communes de Bruxelles-Capitale</strong> sont couvertes : Bruxelles-Ville, Ixelles, Etterbeek, Schaerbeek, Saint-Gilles, Uccle, Forest, Anderlecht, Jette, Woluwe-Saint-Lambert, Woluwe-Saint-Pierre, Auderghem, Watermael-Boitsfort, Evere, Koekelberg, Ganshoren, Berchem-Sainte-Agathe, Saint-Josse et Molenbeek."
+      },
+      {
+        "question": "Et en dehors de Bruxelles, vous venez ?",
+        "reponse": "Oui, on intervient aussi en <strong>périphérie</strong> : Zaventem, Tervuren, Overijse, Waterloo, Wavre, Braine-l'Alleud, La Hulpe, et d'autres. Appelez-nous au <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong> avec votre adresse, on vous confirme tout de suite."
+      },
+      {
+        "question": "C'est plus cher en périphérie ?",
+        "reponse": "Le tarif tient compte de la distance, mais ça reste raisonnable. On vous donne le <strong>montant exact par téléphone</strong> avant de se déplacer."
+      },
+      {
+        "question": "Vous intervenez sur le Ring ?",
+        "reponse": "Oui. Le <strong>Ring de Bruxelles (R0)</strong>, l'E40, l'E19, l'E411 – on intervient sur tous les grands axes. Garez-vous en sécurité sur la bande d'arrêt d'urgence et appelez-nous."
+      },
+      {
+        "question": "Ma commune n'apparaît pas dans la liste, vous venez quand même ?",
+        "reponse": "Probablement oui. Appelez le <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong> avec votre localisation exacte. Si on peut intervenir dans un délai raisonnable, on vient."
+      },
+      {
+        "question": "Vous intervenez la nuit dans toutes les zones ?",
+        "reponse": "Oui, <strong>24h/24</strong> dans toutes les communes et sur tous les axes routiers. Appelez pour connaître le tarif exact."
+      }
+    ]
+  },
+
+  "cta_final": {
+    "titre": "En panne quelque part à Bruxelles ?",
+    "subtitle": "Dites-nous où vous êtes, on vous dit quand on arrive.",
+    "button": "Appeler le 02 886 04 86"
+  }
+}
