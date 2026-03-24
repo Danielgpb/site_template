@@ -57,7 +57,7 @@ setTimeout(_tl,5000);
   "url": "https://helpcar.be/zones/depannage-voiture-zaventem/",
   "description": "Dépannage et remorquage à Zaventem (1930). Aéroport, Leuvensesteenweg, Corporate Village, Pegasus Park. Intervention rapide 24h/24.",
   "provider": {
-    "@type": "LocalBusiness",
+    "@type": ["AutoRepair", "EmergencyService"],
     "@id": "https://helpcar.be/#business",
     "name": "HELPCAR Dépannage",
     "url": "https://helpcar.be",
@@ -104,42 +104,42 @@ setTimeout(_tl,5000);
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Je suis en panne au parking de Brussels Airport, vous venez ?",
+      "name": "Ma voiture est en panne au parking de Brussels Airport, vous venez ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Oui, parkings P1, P2, P3, longue durée – on connaît tous les accès. On intervient même aux niveaux souterrains grâce à notre matériel adapté au dépannage en parking souterrain."
+        "text": "Oui, on intervient dans tous les parkings de l'aéroport : P1, P2, parking longue durée. On connaît tous les accès, y compris les niveaux souterrains. Appelez-nous et on arrive."
       }
     },
     {
       "@type": "Question",
-      "name": "Mon véhicule est tombé en panne sur l'E40 près de Zaventem, c'est possible ?",
+      "name": "Combien de temps pour arriver à Zaventem depuis Bruxelles ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Oui, on intervient sur autoroute pour un dépannage sur place ou un remorquage. Mettez-vous en sécurité sur la bande d'arrêt d'urgence et appelez-nous."
+        "text": "Comptez 25 à 35 minutes selon le trafic. On emprunte le Ring et l'E40 qu'on connaît parfaitement, ce qui nous permet d'optimiser le trajet."
       }
     },
     {
       "@type": "Question",
-      "name": "Ça coûte combien un dépannage à Zaventem ?",
+      "name": "Je suis en panne sur le Ring à hauteur de Zaventem, c'est possible ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Prix exact par téléphone. Consultez nos tarifs pour plus d'infos."
+        "text": "Oui, on intervient régulièrement sur le Ring et les autoroutes autour de Zaventem. La mise en sécurité de votre véhicule est notre priorité. Garez-vous sur la bande d'arrêt d'urgence et appelez-nous."
       }
     },
     {
       "@type": "Question",
-      "name": "Vous dépannez aussi à Diegem et dans les zones d'entreprises ?",
+      "name": "Vous dépannez aussi dans les zones industrielles de Zaventem ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Oui, Corporate Village, Pegasus Park, zone hôtelière – on y intervient régulièrement, y compris pour les camionnettes de livraison."
+        "text": "Oui, Corporate Village, Pegasus Park, les zones d'activité autour de l'aéroport – on connaît bien le secteur et on y intervient régulièrement, y compris pour les camionnettes et utilitaires."
       }
     },
     {
       "@type": "Question",
-      "name": "Dépannage en pleine nuit à l'aéroport, c'est possible ?",
+      "name": "C'est plus cher un dépannage à Zaventem qu'à Bruxelles ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "24/7. L'aéroport ne s'arrête jamais, nous non plus. Consultez notre tarif pour connaître le montant exact."
+        "text": "Le prix est communiqué par téléphone avant déplacement, tout compris. Pas de supplément surprise lié à la distance. Consultez nos tarifs pour plus d'infos."
       }
     }
   ]
@@ -577,51 +577,51 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <div class="faq-item">
       <button class="faq-item__question">
-        <span>Je suis en panne au parking de Brussels Airport, vous venez ?</span>
+        <span>Ma voiture est en panne au parking de Brussels Airport, vous venez ?</span>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
       </button>
       <div class="faq-item__answer">
-        <div class="faq-item__answer-inner">Oui, parkings P1, P2, P3, longue durée – on connaît tous les accès. On intervient même aux niveaux souterrains grâce à notre matériel adapté au <a href="/services/depannage-parking-souterrain-bruxelles/" style="color:#CF5706;text-decoration:none;font-weight:600;">dépannage en parking souterrain</a>.</div>
+        <div class="faq-item__answer-inner">Oui, on intervient dans tous les parkings de l'aéroport : P1, P2, parking longue durée. On connaît tous les accès, y compris les niveaux souterrains grâce à notre matériel adapté au <a href="/services/depannage-parking-souterrain-bruxelles/" style="color:#CF5706;text-decoration:none;font-weight:600;">dépannage en parking souterrain</a>. Appelez-nous et on arrive.</div>
       </div>
     </div>
 
     <div class="faq-item">
       <button class="faq-item__question">
-        <span>Mon véhicule est tombé en panne sur l'E40 près de Zaventem, c'est possible ?</span>
+        <span>Combien de temps pour arriver à Zaventem depuis Bruxelles ?</span>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
       </button>
       <div class="faq-item__answer">
-        <div class="faq-item__answer-inner">Oui, on intervient sur autoroute pour un dépannage sur place ou un <a href="/services/remorquage-voiture-bruxelles/" style="color:#CF5706;text-decoration:none;font-weight:600;">remorquage</a>. Mettez-vous en sécurité sur la bande d'arrêt d'urgence et appelez-nous.</div>
+        <div class="faq-item__answer-inner">Comptez <strong>25 à 35 minutes</strong> selon le trafic. On emprunte le Ring et l'E40 qu'on connaît parfaitement, ce qui nous permet d'optimiser le trajet.</div>
       </div>
     </div>
 
     <div class="faq-item">
       <button class="faq-item__question">
-        <span>Ça coûte combien un dépannage à Zaventem ?</span>
+        <span>Je suis en panne sur le Ring à hauteur de Zaventem, c'est possible ?</span>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
       </button>
       <div class="faq-item__answer">
-        <div class="faq-item__answer-inner"><strong>Prix exact par téléphone.</strong> Consultez nos <a href="/tarifs/" style="color:#CF5706;text-decoration:none;font-weight:600;">prix</a> pour plus d'infos.</div>
+        <div class="faq-item__answer-inner">Oui, on intervient régulièrement sur le Ring et les autoroutes autour de Zaventem. La mise en sécurité de votre véhicule est notre priorité. Garez-vous sur la bande d'arrêt d'urgence et appelez-nous pour un <a href="/services/remorquage-voiture-bruxelles/" style="color:#CF5706;text-decoration:none;font-weight:600;">remorquage</a> ou un dépannage sur place.</div>
       </div>
     </div>
 
     <div class="faq-item">
       <button class="faq-item__question">
-        <span>Vous dépannez aussi à Diegem et dans les zones d'entreprises ?</span>
+        <span>Vous dépannez aussi dans les zones industrielles de Zaventem ?</span>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
       </button>
       <div class="faq-item__answer">
-        <div class="faq-item__answer-inner">Oui, Corporate Village, Pegasus Park, zone hôtelière – on y intervient régulièrement, y compris pour les <a href="/services/depannage-camionnette-bruxelles/" style="color:#CF5706;text-decoration:none;font-weight:600;">camionnettes</a> de livraison.</div>
+        <div class="faq-item__answer-inner">Oui, Corporate Village, Pegasus Park, les zones d'activité autour de l'aéroport – on connaît bien le secteur et on y intervient régulièrement, y compris pour les <a href="/services/depannage-camionnette-bruxelles/" style="color:#CF5706;text-decoration:none;font-weight:600;">camionnettes</a> et utilitaires.</div>
       </div>
     </div>
 
     <div class="faq-item">
       <button class="faq-item__question">
-        <span>Dépannage en pleine nuit à l'aéroport, c'est possible ?</span>
+        <span>C'est plus cher un dépannage à Zaventem qu'à Bruxelles ?</span>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
       </button>
       <div class="faq-item__answer">
-        <div class="faq-item__answer-inner"><strong>24/7</strong>. L'aéroport ne s'arrête jamais, nous non plus. Appelez pour connaître le <a href="/tarifs/" style="color:#CF5706;text-decoration:none;font-weight:600;">tarif</a> exact.</div>
+        <div class="faq-item__answer-inner">Le prix est communiqué par téléphone avant déplacement, <strong>tout compris</strong>. Pas de supplément surprise lié à la distance. Consultez nos <a href="/tarifs/" style="color:#CF5706;text-decoration:none;font-weight:600;">tarifs</a> pour plus d'infos.</div>
       </div>
     </div>
 

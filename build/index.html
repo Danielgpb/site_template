@@ -61,7 +61,7 @@ setTimeout(_tl,5000);
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": ["AutoRepair", "EmergencyService"],
     "@id": "https://helpcar.be/#business",
     "name": "HELPCAR Dépannage",
     "description": "Dépannage auto et remorquage à Bruxelles. Service rapide 24h/24, 7j/7.",
@@ -89,11 +89,49 @@ setTimeout(_tl,5000);
       "closes": "23:59"
     },
     "priceRange": "$$",
-    "areaServed": {
-      "@type": "City",
-      "name": "Bruxelles"
+    "image": "https://helpcar.be/images/og-helpcar.png",
+    "logo": "https://helpcar.be/images/logo-helpcar.webp",
+    "sameAs": [
+      "https://maps.app.goo.gl/qBtfKXq3Tjg63dE59"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "bestRating": "5",
+      "reviewCount": "25"
     },
-    "serviceType": ["Dépannage automobile", "Remorquage", "Dépannage batterie", "Réparation pneu", "Ouverture de porte"]
+    "review": [
+      {
+        "@type": "Review",
+        "author": {"@type": "Person", "name": "Henri Botermans"},
+        "reviewRating": {"@type": "Rating", "ratingValue": "5"},
+        "reviewBody": "Service impeccable, rapide et honnête pour un dépannage sur une remorque. Un grand merci pour votre gentillesse et votre professionnalisme."
+      },
+      {
+        "@type": "Review",
+        "author": {"@type": "Person", "name": "Nicolas Faidherbe"},
+        "reviewRating": {"@type": "Rating", "ratingValue": "5"},
+        "reviewBody": "Service au top, rapide, dépanneur très sympathique avec de très bon prix, je recommande."
+      },
+      {
+        "@type": "Review",
+        "author": {"@type": "Person", "name": "Thomas Pirrera"},
+        "reviewRating": {"@type": "Rating", "ratingValue": "5"},
+        "reviewBody": "Contact facile et dépannage rapide avec un prix très raisonnable. Service de qualité, merci encore. Je recommande !"
+      }
+    ],
+    "areaServed": [
+      {"@type": "City", "name": "Bruxelles"},
+      {"@type": "City", "name": "Etterbeek"},
+      {"@type": "City", "name": "Ixelles"},
+      {"@type": "City", "name": "Schaerbeek"},
+      {"@type": "City", "name": "Uccle"},
+      {"@type": "City", "name": "Forest"},
+      {"@type": "City", "name": "Woluwe-Saint-Lambert"},
+      {"@type": "City", "name": "Evere"},
+      {"@type": "City", "name": "Zaventem"}
+    ],
+    "serviceType": ["Dépannage automobile", "Remorquage", "Dépannage batterie", "Réparation pneu", "Ouverture de porte", "Dépannage voiture électrique", "Remorquage moto", "Dépannage camionnette", "Enlèvement épave", "Transport routier"]
   }
   </script>
   <link rel="icon" href="/favicon.ico" sizes="any">
@@ -761,6 +799,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <p style="margin:8px 0 0;font-size:0.95rem;color:#6B7280;">Essence et diesel pour les pannes sèches en pleine route</p>
           </div>
         </div>
+
+        <h2 class="section-title" style="text-align:left;margin-bottom:20px;margin-top:40px;">Tous les Véhicules, Toutes les Situations</h2>
+        <p>On ne dépanne pas que les berlines. Votre <a href="/services/depannage-camionnette-bruxelles/" style="color:#CF5706;text-decoration:none;font-weight:600;">camionnette utilitaire</a> (Kangoo, Trafic, Sprinter, Transit jusqu'à 3,5T) refuse de démarrer sur un chantier ? Votre <a href="/services/depannage-voiture-electrique-bruxelles/" style="color:#CF5706;text-decoration:none;font-weight:600;">voiture électrique</a> est en rade de batterie haute tension ? On a le matériel et l'expérience pour ces cas particuliers. Le <a href="/services/remorquage-motos-bruxelles/" style="color:#CF5706;text-decoration:none;font-weight:600;">remorquage de motos et scooters</a> se fait sur plateau avec sangles dédiées – zéro risque de rayure.</p>
+        <p>Coincé dans un <a href="/services/depannage-parking-souterrain-bruxelles/" style="color:#CF5706;text-decoration:none;font-weight:600;">parking souterrain</a> avec un plafond bas ? <a href="/services/voiture-embourbee-bruxelles/" style="color:#CF5706;text-decoration:none;font-weight:600;">Voiture embourbée</a> sur un terrain meuble après la pluie ? On a un chariot de déplacement et un treuil pour sortir votre véhicule sans l'abîmer. Pour les <a href="/services/remorquage-vehicules-speciaux-bruxelles/" style="color:#CF5706;text-decoration:none;font-weight:600;">véhicules spéciaux</a> (collection, prestige, surbaissé), on adapte le chargement pour garantir un transport sans contact.</p>
+
+        <h2 class="section-title" style="text-align:left;margin-bottom:20px;margin-top:40px;">Batterie HS, Mauvais Carburant, Pneu à Plat : On Gère Sur Place</h2>
+        <p>Votre batterie a rendu l'âme et un simple boost ne suffit plus ? On effectue le <a href="/services/remplacement-batterie-bruxelles/" style="color:#CF5706;text-decoration:none;font-weight:600;">remplacement de batterie sur place</a> – les formats courants (60Ah à 95Ah) sont dans le camion, prêts à être posés en 20 minutes. Réservoir vide en pleine route ? Notre <a href="/services/fourniture-carburant-bruxelles/" style="color:#CF5706;text-decoration:none;font-weight:600;">service de fourniture de carburant</a> vous apporte 10 litres d'essence ou de diesel pour que vous repartiez jusqu'à la station la plus proche. Et si votre roue de secours est dans le coffre mais que vous ne savez pas la monter, on s'occupe du <a href="/services/placement-roue-secours-bruxelles/" style="color:#CF5706;text-decoration:none;font-weight:600;">placement de la roue de secours</a> avec serrage au couple.</p>
+
+        <h2 class="section-title" style="text-align:left;margin-bottom:20px;margin-top:40px;">Votre Voiture Ne Roulera Plus ? On a des Solutions</h2>
+        <p>Accident, moteur cassé, véhicule trop ancien pour être réparé – parfois la route s'arrête là. On peut organiser l'<a href="/services/enlevement-epave-bruxelles/" style="color:#CF5706;text-decoration:none;font-weight:600;">enlèvement de votre épave</a> gratuitement si le véhicule nous est cédé, ou le transporter vers la casse de votre choix. Votre voiture est en fourrière ? On gère la <a href="/services/sortie-fourriere-bruxelles/" style="color:#CF5706;text-decoration:none;font-weight:600;">sortie de fourrière</a> : on va la chercher et on vous la ramène. Et si vous voulez simplement vous en débarrasser, notre service d'<a href="/services/achat-voiture-accidentee/" style="color:#CF5706;text-decoration:none;font-weight:600;">achat de voiture accidentée</a> vous fait une offre sur place.</p>
+        <p>Besoin de déplacer un véhicule d'un point A à un point B dans Bruxelles ? Notre <a href="/services/transport-routier-local-bruxelles/" style="color:#CF5706;text-decoration:none;font-weight:600;">transport routier local</a> couvre toute la région. Pour un transfert vers Anvers, Liège ou au-delà, on assure aussi le <a href="/services/transport-routier-longue-distance-bruxelles/" style="color:#CF5706;text-decoration:none;font-weight:600;">transport longue distance</a> sur plateau sécurisé.</p>
       </div>
     </div>
   </section>
@@ -1099,11 +1148,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="footer__title">Services</div>
           <ul class="footer__links">
             <li><a href="/services/depannage-batterie-bruxelles/">Dépannage Batterie</a></li>
+            <li><a href="/services/remplacement-batterie-bruxelles/">Remplacement Batterie</a></li>
             <li><a href="/services/remorquage-voiture-bruxelles/">Remorquage Voiture</a></li>
             <li><a href="/services/reparation-pneu-bruxelles/">Réparation Pneu</a></li>
+            <li><a href="/services/placement-roue-secours-bruxelles/">Roue de Secours</a></li>
             <li><a href="/services/ouverture-porte-voiture-bruxelles/">Ouverture de Porte</a></li>
             <li><a href="/services/remorquage-motos-bruxelles/">Remorquage Moto</a></li>
             <li><a href="/services/panne-essence-bruxelles/">Panne d'Essence</a></li>
+            <li><a href="/services/fourniture-carburant-bruxelles/">Fourniture Carburant</a></li>
+            <li><a href="/services/siphonnage-reservoir-bruxelles/">Siphonnage Réservoir</a></li>
+            <li><a href="/services/depannage-voiture-electrique-bruxelles/">Voiture Électrique</a></li>
+            <li><a href="/services/depannage-camionnette-bruxelles/">Dépannage Camionnette</a></li>
+            <li><a href="/services/depannage-parking-souterrain-bruxelles/">Parking Souterrain</a></li>
+            <li><a href="/services/voiture-embourbee-bruxelles/">Voiture Embourbée</a></li>
+            <li><a href="/services/enlevement-epave-bruxelles/">Enlèvement Épave</a></li>
+            <li><a href="/services/sortie-fourriere-bruxelles/">Sortie Fourrière</a></li>
+            <li><a href="/services/achat-voiture-accidentee/">Achat Voiture Accidentée</a></li>
+            <li><a href="/services/">Tous les services &rarr;</a></li>
           </ul>
         </div>
 

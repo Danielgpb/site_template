@@ -57,7 +57,7 @@ setTimeout(_tl,5000);
   "url": "https://helpcar.be/zones/depannage-voiture-schaerbeek/",
   "description": "Dépannage et remorquage à Schaerbeek (1030). Meiser, Helmet, Cage aux Ours, Josaphat. Intervention rapide 24h/24.",
   "provider": {
-    "@type": "LocalBusiness",
+    "@type": ["AutoRepair", "EmergencyService"],
     "@id": "https://helpcar.be/#business",
     "name": "HELPCAR Dépannage",
     "url": "https://helpcar.be",
@@ -104,10 +104,10 @@ setTimeout(_tl,5000);
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Je suis bloqué sur la chaussée de Haecht en plein bouchon, vous pouvez venir ?",
+      "name": "Vous venez jusqu'à la Place Meiser et le quartier Helmet ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Oui. La chaussée de Haecht est un de nos axes d'intervention habituels. On accède par les rues parallèles si nécessaire. Activez vos warnings et restez dans votre véhicule si vous ne pouvez pas vous mettre en sécurité."
+        "text": "Absolument. On connaît très bien Meiser, Helmet et tous les quartiers de Schaerbeek. Les grands boulevards Art nouveau comme l'avenue Louis Bertrand ou l'avenue Huart Hamoir, on les emprunte régulièrement. On arrive vite quel que soit le coin de la commune."
       }
     },
     {
@@ -115,31 +115,31 @@ setTimeout(_tl,5000);
       "name": "Combien de temps pour arriver à Schaerbeek ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "En général 25 à 35 minutes selon le quartier et le trafic. Schaerbeek est vaste, mais on optimise notre trajet. Estimation précise donnée au téléphone."
+        "text": "Comptez 20 à 30 minutes en moyenne. Schaerbeek est une commune bien desservie et on connaît les raccourcis. Les lignes de tram et de bus ne nous gênent pas, on s'adapte au trafic. Estimation précise donnée par téléphone."
       }
     },
     {
       "@type": "Question",
-      "name": "Vous dépannez aussi autour du parc Josaphat le week-end ?",
+      "name": "J'ai mis du diesel au lieu de l'essence à Schaerbeek, vous pouvez m'aider ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Oui, 7j/7 et 24h/24. Le quartier du parc Josaphat est résidentiel et calme le week-end, mais les batteries mortes ne choisissent pas leur moment. On vient à toute heure."
+        "text": "Oui, on intervient pour les erreurs de carburant. On effectue le siphonnage du réservoir directement sur place à Schaerbeek, sans avoir besoin de remorquer votre véhicule. Appelez-nous et on vous explique la procédure au téléphone."
       }
     },
     {
       "@type": "Question",
-      "name": "Ma camionnette est en panne à Schaerbeek, vous prenez les utilitaires ?",
+      "name": "Vous faites les dépannages la nuit près de la gare de Schaerbeek ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Oui. Camionnettes, fourgons, véhicules utilitaires jusqu'à 3,5 tonnes – on a le matériel adapté. Le prix est communiqué par téléphone, comme pour les voitures."
+        "text": "Oui, on intervient 24h/24 et 7j/7, y compris la nuit. Le quartier de la gare de Schaerbeek fait partie de nos zones d'intervention fréquentes. Batterie à plat, pneu crevé, panne moteur – on vient à toute heure."
       }
     },
     {
       "@type": "Question",
-      "name": "Est-ce que vous pouvez remorquer ma voiture jusqu'à un garage à l'autre bout de Bruxelles ?",
+      "name": "Ma camionnette est bloquée chaussée de Haecht, c'est possible ?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Bien sûr. Vous choisissez la destination : garage, concessionnaire, votre domicile, même hors de Bruxelles. On calcule le prix en fonction de la distance et on vous le communique avant de partir."
+        "text": "Oui, on dépanne les véhicules utilitaires jusqu'à 3,5 tonnes. La chaussée de Haecht, on la connaît par cœur. On a le matériel adapté pour charger votre camionnette sur plateau, même en double file si nécessaire. Prix communiqué par téléphone."
       }
     }
   ]
@@ -558,14 +558,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <div class="faq-item">
       <button class="faq-item__question">
-        <span>Je suis bloqué sur la chaussée de Haecht en plein bouchon, vous pouvez venir ?</span>
+        <span>Vous venez jusqu'à la Place Meiser et le quartier Helmet ?</span>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
       </button>
       <div class="faq-item__answer">
-        <div class="faq-item__answer-inner">Oui. La chaussée de Haecht est un de nos axes d'intervention habituels. On accède par les rues parallèles si nécessaire. Activez vos warnings et restez dans votre véhicule si vous ne pouvez pas vous mettre en sécurité.</div>
+        <div class="faq-item__answer-inner">Absolument. On connaît très bien Meiser, Helmet et tous les quartiers de Schaerbeek. Les grands boulevards Art nouveau comme l'avenue Louis Bertrand ou l'avenue Huart Hamoir, on les emprunte régulièrement. On arrive vite quel que soit le coin de la commune.</div>
       </div>
     </div>
-
 
     <div class="faq-item">
       <button class="faq-item__question">
@@ -573,40 +572,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
       </button>
       <div class="faq-item__answer">
-        <div class="faq-item__answer-inner">En général <strong>25 à 35 minutes</strong> selon le quartier et le trafic. Schaerbeek est vaste, mais on optimise notre trajet. Estimation précise donnée au téléphone.</div>
+        <div class="faq-item__answer-inner">Comptez <strong>20 à 30 minutes</strong> en moyenne. Schaerbeek est une commune bien desservie et on connaît les raccourcis. Les lignes de tram et de bus ne nous gênent pas, on s'adapte au trafic. Estimation précise donnée par téléphone.</div>
       </div>
     </div>
 
-
     <div class="faq-item">
       <button class="faq-item__question">
-        <span>Vous dépannez aussi autour du parc Josaphat le week-end ?</span>
+        <span>J'ai mis du diesel au lieu de l'essence à Schaerbeek, vous pouvez m'aider ?</span>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
       </button>
       <div class="faq-item__answer">
-        <div class="faq-item__answer-inner">Oui, <strong>7j/7 et 24h/24</strong>. Le quartier du parc Josaphat est résidentiel et calme le week-end, mais les <a href="/services/depannage-batterie-bruxelles/" style="color:#CF5706;text-decoration:none;font-weight:600;">batteries</a> mortes ne choisissent pas leur moment. On vient à toute heure.</div>
+        <div class="faq-item__answer-inner">Oui, on intervient pour les erreurs de carburant. On effectue le siphonnage du réservoir directement sur place à Schaerbeek, sans avoir besoin de <a href="/services/remorquage-voiture-bruxelles/" style="color:#CF5706;text-decoration:none;font-weight:600;">remorquer</a> votre véhicule. Appelez-nous et on vous explique la procédure au téléphone.</div>
       </div>
     </div>
 
-
     <div class="faq-item">
       <button class="faq-item__question">
-        <span>Ma camionnette est en panne à Schaerbeek, vous prenez les utilitaires ?</span>
+        <span>Vous faites les dépannages la nuit près de la gare de Schaerbeek ?</span>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
       </button>
       <div class="faq-item__answer">
-        <div class="faq-item__answer-inner">Oui. Camionnettes, fourgons, véhicules utilitaires jusqu'à 3,5 tonnes – on a le matériel adapté. Le <a href="/tarifs/" style="color:#CF5706;text-decoration:none;font-weight:600;">prix</a> est communiqué par téléphone, comme pour les voitures.</div>
+        <div class="faq-item__answer-inner">Oui, on intervient <strong>24h/24 et 7j/7</strong>, y compris la nuit. Le quartier de la gare de Schaerbeek fait partie de nos zones d'intervention fréquentes. <a href="/services/depannage-batterie-bruxelles/" style="color:#CF5706;text-decoration:none;font-weight:600;">Batterie</a> à plat, pneu crevé, panne moteur – on vient à toute heure.</div>
       </div>
     </div>
 
-
     <div class="faq-item">
       <button class="faq-item__question">
-        <span>Est-ce que vous pouvez remorquer ma voiture jusqu'à un garage à l'autre bout de Bruxelles ?</span>
+        <span>Ma camionnette est bloquée chaussée de Haecht, c'est possible ?</span>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
       </button>
       <div class="faq-item__answer">
-        <div class="faq-item__answer-inner">Bien sûr. Vous choisissez la destination : garage, concessionnaire, votre domicile, même hors de Bruxelles. On calcule le prix en fonction de la distance et on vous le communique avant de partir. Consultez nos <a href="/tarifs/" style="color:#CF5706;text-decoration:none;font-weight:600;">tarifs</a> pour en savoir plus.</div>
+        <div class="faq-item__answer-inner">Oui, on dépanne les véhicules utilitaires jusqu'à 3,5 tonnes. La chaussée de Haecht, on la connaît par cœur. On a le matériel adapté pour charger votre camionnette sur plateau, même en double file si nécessaire. <a href="/tarifs/" style="color:#CF5706;text-decoration:none;font-weight:600;">Prix</a> communiqué par téléphone.</div>
       </div>
     </div>
 
