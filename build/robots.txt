@@ -2,4 +2,13 @@ User-agent: *
 Allow: /
 Disallow: /build/
 
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
 Sitemap: https://helpcar.be/sitemap.xml
