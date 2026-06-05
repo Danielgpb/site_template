@@ -1,2 +1,17 @@
 .DS_Store
+**/.DS_Store
 node_modules/
+
+# Worktrees / agents
+.claude/
+
+# Fichiers de travail & rapports (hors site)
+*.pdf
+*.xlsx
+*.zip
+probleme-photo-site.md
+
+# Images brutes IA non optimisées (générations à ne jamais committer)
+ChatGPT Image*
+**/ChatGPT Image*
+*ChatGPT*
