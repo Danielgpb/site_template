@@ -67,4 +67,25 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
+  // --- Lazy-load des vidéos YouTube (façade : iframe chargée au clic) ---
+  document.querySelectorAll('.video-facade').forEach(function(el) {
+    function loadVideo() {
+      var id = el.getAttribute('data-video');
+      if (!id) return;
+      var iframe = document.createElement('iframe');
+      iframe.src = 'https://www.youtube.com/embed/' + id + '?autoplay=1';
+      iframe.title = el.getAttribute('data-title') || 'Vidéo';
+      iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+      iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+      iframe.allowFullscreen = true;
+      el.innerHTML = '';
+      el.appendChild(iframe);
+      el.classList.add('is-playing');
+    }
+    el.addEventListener('click', loadVideo);
+    el.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); loadVideo(); }
+    });
+  });
+
 });

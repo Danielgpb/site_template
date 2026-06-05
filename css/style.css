@@ -1794,4 +1794,125 @@ h3 { font-size: 1.25rem; }
   .footer__bottom { flex-direction: row; justify-content: space-between; }
 
   .review-card { min-width: 340px; max-width: 380px; }
+
+  .wa-float { display: flex; }
+  .wa-float__tooltip { display: block; }
 }
+
+/* --- WhatsApp Floating Bubble (desktop only) --- */
+.wa-float {
+  position: fixed;
+  bottom: 28px;
+  right: 18px;
+  z-index: 997;
+  display: none;
+  align-items: center;
+  gap: 10px;
+  opacity: 0;
+  transform: scale(0.5);
+  transition: opacity .4s ease, transform .4s ease;
+  pointer-events: none;
+}
+.wa-float.is-visible {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: auto;
+}
+.wa-float__btn {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #25D366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 14px rgba(37,211,102,0.4);
+  transition: transform .2s ease, box-shadow .2s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+.wa-float__btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(37,211,102,0.5);
+}
+.wa-float__btn svg {
+  width: 30px;
+  height: 30px;
+  fill: #fff;
+}
+.wa-float__tooltip {
+  display: none;
+  background: #fff;
+  color: #1f2937;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 8px 14px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+  white-space: nowrap;
+  position: relative;
+  opacity: 0;
+  transform: translateX(5px);
+  transition: opacity .4s ease, transform .4s ease;
+}
+.wa-float__tooltip.is-shown {
+  opacity: 1;
+  transform: translateX(0);
+}
+.wa-float__tooltip::after {
+  content: '';
+  position: absolute;
+  right: -6px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 6px solid transparent;
+  border-left-color: #fff;
+}
+@keyframes wa-float-pulse {
+  0%, 100% { box-shadow: 0 4px 14px rgba(37,211,102,0.4); }
+  50% { box-shadow: 0 4px 20px rgba(37,211,102,0.6), 0 0 0 8px rgba(37,211,102,0.1); }
+}
+.wa-float.is-visible .wa-float__btn {
+  animation: wa-float-pulse 3s ease-in-out infinite;
+}
+
+/* ===== Vidéo de démonstration (façade YouTube Short, format vertical) ===== */
+.video-demo { text-align: center; margin-top: 56px; }
+.video-demo__title { font-size: 1.5rem; margin-bottom: 6px; color: var(--primary); }
+.video-demo__sub { color: #555; margin-bottom: 22px; }
+.video-facade {
+  position: relative;
+  width: 100%;
+  max-width: 320px;
+  aspect-ratio: 9 / 16;
+  margin: 0 auto;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  background: #000;
+  box-shadow: 0 10px 30px rgba(0,0,0,.18);
+}
+.video-facade__thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform .4s ease, opacity .3s ease;
+}
+.video-facade:hover .video-facade__thumb { transform: scale(1.05); opacity: .85; }
+.video-facade__play {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 68px; height: 68px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 22px; color: #fff;
+  background: var(--primary);
+  border-radius: 50%;
+  box-shadow: 0 4px 16px rgba(0,0,0,.35);
+  transition: transform .2s ease, background .2s ease;
+  padding-left: 3px;
+}
+.video-facade:hover .video-facade__play { transform: translate(-50%, -50%) scale(1.1); background: var(--primary-dark); }
+.video-facade:focus-visible { outline: 3px solid var(--primary); outline-offset: 3px; }
+.video-facade iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
