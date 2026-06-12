@@ -176,7 +176,7 @@
       cta_trust_message: 'Prix annoncé par téléphone. On ne se déplace jamais sans votre feu vert.',
 
       // Trust badges
-      badge_rating: '4.9/5',
+      badge_rating: '5.0/5',
       badge_time: '~30 min',
       badge_payment: 'Paiement sur place',
 

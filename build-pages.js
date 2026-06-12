@@ -38,6 +38,7 @@ const SERVICE_SLUG_MAP = {
   'depannage-voiture-electrique-bruxelles': 'depannage-voiture-electrique-bruxelles',
   'depannage-voiture-bruxelles': 'depannage-voiture-bruxelles',
   'depannage-camionnette-bruxelles': 'depannage-camionnette-bruxelles',
+  'depannage-camion-poids-lourd-bruxelles': 'depannage-camion-poids-lourd-bruxelles',
   'achat-voiture-accidentee': 'achat-voiture-accidentee',
 };
 
@@ -226,6 +227,12 @@ const SERVICE_PHOTO_SUGGESTIONS = {
     { label: 'Dépannage camionnette intervention Bruxelles HELPCAR', suggestion: '/images/depannage-camionnette-intervention.jpg' },
     { label: 'Camionnette chargée sur plateau dépanneuse Bruxelles HELPCAR', suggestion: '/images/depannage-camionnette-resultat.jpg' },
     { label: 'Déplacement intervention dépannage camionnette Bruxelles HELPCAR', suggestion: '/images/deplacement-intervention.jpg' },
+  ],
+  'depannage-camion-poids-lourd-bruxelles': [
+    { label: 'Dépannage poids lourd en panne sur autoroute avec dépanneuse lourde Bruxelles HELPCAR', suggestion: '/images/depannage-poids-lourd-autoroute.jpg' },
+    { label: 'Levage fort tonnage d\'un camion sur dépanneuse lourde Bruxelles HELPCAR', suggestion: '/images/remorquage-poids-lourd-levage.jpg' },
+    { label: 'Bus chargé sur plateau de remorquage poids lourd Bruxelles HELPCAR', suggestion: '/images/remorquage-bus-plateau.jpg' },
+    { label: 'Arrimage par sangles d\'un véhicule lourd sur plateau autoroute Bruxelles HELPCAR', suggestion: '/images/remorquage-sangle-autoroute.jpg' },
   ],
   'depannage-sous-sol': [
     { label: 'Dépannage parking souterrain Bruxelles HELPCAR', suggestion: '/images/depannage-parking-souterrain.jpg' },
