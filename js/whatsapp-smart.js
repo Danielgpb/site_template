@@ -152,6 +152,10 @@
       wreck_step3_bot_question: 'Quelle année ?',
       wreck_step3_input_placeholder: 'Ex: 2018',
 
+      // Vehicle make/model (main flow)
+      step_model_question: 'Quelle est la marque et le modèle de la voiture ?',
+      step_model_placeholder: 'Ex: Peugeot 308, BMW Série 1...',
+
       // Step 5: Summary
       step5_bot_message: 'Parfait, on a tout ce qu\'il faut. Cliquez ci-dessous pour recevoir votre tarif sur WhatsApp.',
       step5_summary_title: 'Récapitulatif',
@@ -159,6 +163,7 @@
 
       summary_problem: 'Problème',
       summary_vehicle: 'Véhicule',
+      summary_model: 'Modèle',
       summary_transmission: 'Transmission',
       summary_location: 'Position',
       summary_destination: 'Destination',
@@ -185,6 +190,7 @@
       msg_intro: 'Je souhaite obtenir un devis pour une intervention HELPCAR.',
       msg_problem: 'Problème :',
       msg_vehicle: 'Véhicule :',
+      msg_model: 'Modèle :',
       msg_transmission: 'Transmission :',
       msg_location: 'Localisation :',
       msg_destination: 'Destination :',
@@ -485,6 +491,45 @@
     return html;
   }
 
+  function createVehicleModelStep() {
+    let html = '';
+
+    if (state.problem?.id === 'wreck' || state.problem?.id === 'locked') return html;
+    if (!state.vehicle) return html;
+
+    // Réponse précédente (catégorie de véhicule, ou position de roue si pneu crevé)
+    if (state.problem?.id === 'flat') {
+      if (!state.wheelPosition) return html;
+      html += createUserMessage(t('wheel_position_' + state.wheelPosition));
+    } else {
+      html += createUserMessage(t('vehicle_' + state.vehicle));
+    }
+
+    if (state.isTyping && state.currentStep === 1.7) {
+      html += createTypingIndicator();
+    } else if (state.currentStep === 1.7 && !state.isTyping) {
+      html += createBotMessage(t('step_model_question'));
+      html += `
+        <div class="wa-text-input-container">
+          <input
+            type="text"
+            id="wa-mainmodel-input"
+            class="wa-text-input"
+            placeholder="${t('step_model_placeholder')}"
+            autocomplete="off"
+          />
+          <button class="wa-text-submit-btn" id="wa-mainmodel-submit">
+            ${ICONS.chevronRight}
+          </button>
+        </div>
+      `;
+    } else if (state.currentStep > 1.7 && state.vehicleModel) {
+      html += createUserMessage(state.vehicleModel);
+    }
+
+    return html;
+  }
+
   function createWreckStep1() {
     let html = '';
 
@@ -613,8 +658,6 @@
     let html = '';
 
     if (state.vehicle && (!state.problem || state.problem.id !== 'flat')) {
-      html += createUserMessage(t('vehicle_' + state.vehicle));
-
       if (state.isTyping && state.currentStep === 2) {
         html += createTypingIndicator();
       }
@@ -633,8 +676,6 @@
     }
 
     if (state.wheelPosition && state.problem && state.problem.id === 'flat') {
-      html += createUserMessage(t('wheel_position_' + state.wheelPosition));
-
       if (state.isTyping && state.currentStep === 2) {
         html += createTypingIndicator();
       }
@@ -886,6 +927,16 @@
             <span class="wa-summary-value">${isWreck ? `${state.vehicleBrand} ${state.vehicleModel} (${state.vehicleYear})` : t('vehicle_' + state.vehicle)}</span>
           </div>
 
+          ${!isWreck && state.vehicleModel ? `
+            <div class="wa-summary-item">
+              <span class="wa-summary-label">
+                ${ICONS.carFront}
+                ${t('summary_model')}
+              </span>
+              <span class="wa-summary-value">${state.vehicleModel}</span>
+            </div>
+          ` : ''}
+
           ${!isWreck ? `
             <div class="wa-summary-item">
               <span class="wa-summary-label">
@@ -1011,6 +1062,7 @@
     } else {
       if (state.currentStep >= 1) html += createStep1();
       if (state.currentStep >= 1.5 && state.problem?.id === 'flat') html += createStep1b();
+      if (state.currentStep >= 1.7) html += createVehicleModelStep();
       if (state.currentStep >= 2) html += createStep2();
       if (state.currentStep >= 3) html += createStep3();
       if (state.currentStep >= 4) html += createStep4();
@@ -1051,6 +1103,20 @@
           smoothScrollToBottom();
         }, CONFIG.transitionDelay);
       }
+    }, CONFIG.typingDelayAfterUser);
+  }
+
+  function goToStep(targetStep) {
+    state.currentStep = targetStep;
+    state.isTyping = true;
+    renderCurrentStep();
+    smoothScrollToBottom();
+
+    setTimeout(() => {
+      state.isTyping = false;
+      renderCurrentStep();
+      smoothScrollToBottom();
+      setTimeout(() => smoothScrollToBottom(), CONFIG.transitionDelay);
     }, CONFIG.typingDelayAfterUser);
   }
 
@@ -1101,7 +1167,7 @@
             setTimeout(() => smoothScrollToBottom(), CONFIG.transitionDelay);
           }, CONFIG.typingDelayAfterUser);
         } else {
-          setTimeout(goToNextStep, CONFIG.transitionDelay);
+          setTimeout(() => goToStep(1.7), CONFIG.transitionDelay);
         }
       });
     });
@@ -1200,6 +1266,25 @@
       setTimeout(() => yearInput.focus(), 100);
     }
 
+    // Main flow: Vehicle make/model input
+    const mainModelInput = document.getElementById('wa-mainmodel-input');
+    const mainModelSubmit = document.getElementById('wa-mainmodel-submit');
+    if (mainModelInput && mainModelSubmit) {
+      const handleMainModelSubmit = () => {
+        const value = mainModelInput.value.trim();
+        if (value) {
+          state.vehicleModel = value;
+          log('Vehicle model entered', value);
+          setTimeout(() => goToStep(2), CONFIG.transitionDelay);
+        }
+      };
+      mainModelSubmit.addEventListener('click', handleMainModelSubmit);
+      mainModelInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') handleMainModelSubmit();
+      });
+      setTimeout(() => mainModelInput.focus(), 100);
+    }
+
     // Step 1.5, 2, 3: Wheel position, Transmission, 4WD
     document.querySelectorAll('.wa-small-options-container .wa-small-option-btn').forEach(btn => {
       btn.addEventListener('click', () => {
@@ -1208,16 +1293,7 @@
         if (state.currentStep === 1.5) {
           state.wheelPosition = value;
           log('Wheel position selected', state.wheelPosition);
-          state.currentStep = 2;
-          state.isTyping = true;
-          renderCurrentStep();
-          smoothScrollToBottom();
-
-          setTimeout(() => {
-            state.isTyping = false;
-            renderCurrentStep();
-            smoothScrollToBottom();
-          }, CONFIG.typingDelayAfterUser);
+          setTimeout(() => goToStep(1.7), CONFIG.transitionDelay);
         } else if (state.currentStep === 2) {
           state.transmission = value;
           log('Transmission selected', state.transmission);
@@ -1549,6 +1625,9 @@
       msg += `${t('msg_vehicle')} ${state.vehicleBrand} ${state.vehicleModel} (${state.vehicleYear})\n`;
     } else {
       msg += `${t('msg_vehicle')} ${t('vehicle_' + state.vehicle)}\n`;
+      if (state.vehicleModel) {
+        msg += `${t('msg_model')} ${state.vehicleModel}\n`;
+      }
       msg += `${t('msg_transmission')} ${t('transmission_' + state.transmission)}, `;
       msg += `${state.fourWheelDrive ? t('fourwd_label_yes') : t('fourwd_label_no')}\n`;
     }
