@@ -1,0 +1,130 @@
+{
+  "version": "2.0",
+  "commune": "Brussel",
+  "code_postal": "1000",
+  "seo": {
+    "meta_title": "Bestelwagen Depannage Brussel 24/7 | Takelen & Pechhulp – HELPCAR",
+    "meta_description": "Bestelwagen met pech in Brussel? Pechverhelping en takelen van bestelwagens tot 3,5 ton, 24/7. ☎ 02 886 04 86"
+  },
+  "geo": {
+    "region": "BE-BRU",
+    "lat": "50.8503",
+    "lng": "4.3517"
+  },
+  "hreflang_fr": "https://helpcar.be/services/depannage-camionnette-bruxelles/",
+  "hero": {
+    "h1": "Bestelwagen Depannage in Brussel – 24/7",
+    "accroche": "Uw bestelwagen weer op weg of veilig getakeld – want stilstand kost u geld."
+  },
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Bestelwagen in panne? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> depanneert en takelt <strong>bestelwagens en lichte bedrijfsvoertuigen tot 3,5 ton</strong> in Brussel en de Rand – snel, want uw werkdag wacht niet.",
+      "paragraphe_1": "Een geladen bestelwagen takel je niet met om het even welk materieel. Onze plateaus zijn <strong>berekend op het gewicht en de afmetingen</strong> van bestelwagens, ook hoge of verlengde modellen (L3H3).",
+      "paragraphe_2": "Batterij, banden, brandstof: veel pannes lossen we <strong>ter plaatse</strong> op, zodat uw levering of werf gewoon doorgaat. Moet er toch getakeld worden, dan brengen we voertuig én lading veilig waar u wilt."
+    },
+    "section_on_connait": {
+      "h2": "Wanneer Belt U Ons?",
+      "intro": "De situaties waarvoor zelfstandigen en bedrijven ons bellen:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Pech tijdens een levering",
+          "description": "Stilgevallen met een geladen bestelwagen? We komen snel en denken mee over de lading."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Bestelwagen start niet op de werf",
+          "description": "Lege batterij of startprobleem bij het einde van de werkdag – klassieker. We starten of vervangen ter plaatse."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Hoge of verlengde modellen",
+          "description": "H2/H3, L3/L4, dubbele cabine: ons materieel is erop voorzien."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Vloot of leasing",
+          "description": "Bedrijfsvloot of leasewagen? We stemmen af met uw fleetbeheerder of leasemaatschappij."
+        }
+      ]
+    },
+    "section_services": {
+      "h2": "Zo Werkt Het",
+      "intro": "Eenvoudig en zonder verrassingen:",
+      "categories": [
+        {
+          "titre": "1. U belt, wij luisteren",
+          "services": [
+            {
+              "nom": "U beschrijft de situatie en uw locatie"
+            },
+            {
+              "nom": "U krijgt meteen de exacte prijs"
+            },
+            {
+              "nom": "U beslist – geen verplichtingen"
+            }
+          ]
+        },
+        {
+          "titre": "2. Wij komen en lossen op",
+          "services": [
+            {
+              "nom": "Ter plaatse in ±30 min"
+            },
+            {
+              "nom": "Vakkundig en zonder schade"
+            },
+            {
+              "nom": "Klaar? U kunt weer verder"
+            }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+    "faq_locale": {
+      "h2": "FAQ – Bestelwagen Depannage Brussel",
+      "questions": [
+        {
+          "question": "Tot welk gewicht takelen jullie bestelwagens?",
+          "reponse": "Tot 3,5 ton MTM. Zwaarder? Zie onze pagina vrachtwagens takelen – ook daarvoor hebben we een oplossing."
+        },
+        {
+          "question": "Wat gebeurt er met mijn lading?",
+          "reponse": "Die blijft in principe in het voertuig en gaat mee. Bespreek bijzondere ladingen (koeltransport, waardevol materiaal) even aan de telefoon."
+        },
+        {
+          "question": "Werken jullie met facturen voor bedrijven?",
+          "reponse": "Ja, u krijgt een correcte factuur voor uw boekhouding. Vermeld uw bedrijfsgegevens bij de interventie."
+        },
+        {
+          "question": "Kan ik jullie in het Nederlands bereiken?",
+          "reponse": "Ja, in het Nederlands, Frans of Engels – telefonisch op 02 886 04 86 of via WhatsApp."
+        }
+      ]
+    },
+    "section_zones_voisines": {
+      "h2": "Onze Andere Diensten",
+      "content": "Misschien zoekt u eerder dit:",
+      "communes_voisines": [
+        {
+          "nom": "Vrachtwagen takelen",
+          "slug": "takeldienst-vrachtwagen-brussel"
+        },
+        {
+          "nom": "Takeldienst – auto takelen",
+          "slug": "takeldienst-brussel"
+        },
+        {
+          "nom": "Pechverhelping ter plaatse",
+          "slug": "pechverhelping-brussel"
+        }
+      ]
+    },
+    "cta_final": {
+      "titre": "Bestelwagen in panne?",
+      "texte": "Elke minuut telt – bel ons meteen."
+    }
+  }
+}

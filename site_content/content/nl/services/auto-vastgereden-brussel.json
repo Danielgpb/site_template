@@ -1,0 +1,130 @@
+{
+  "version": "2.0",
+  "commune": "Brussel",
+  "code_postal": "1000",
+  "seo": {
+    "meta_title": "Auto Vastgereden? Bergen & Lostrekken Brussel 24/7 – HELPCAR",
+    "meta_description": "Auto vast in modder, gras of een gracht in of rond Brussel? Professioneel lostrekken zonder schade, 24/7. ☎ 02 886 04 86"
+  },
+  "geo": {
+    "region": "BE-BRU",
+    "lat": "50.8503",
+    "lng": "4.3517"
+  },
+  "hreflang_fr": "https://helpcar.be/services/voiture-embourbee-bruxelles/",
+  "hero": {
+    "h1": "Auto Vastgereden? – Wij Trekken U Los, 24/7",
+    "accroche": "Vast in de modder, het gras of een gracht? Met lier en beleid krijgen we uw wagen los – zonder schade."
+  },
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Wielen die doordraaien en een wagen die geen centimeter meer beweegt? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> trekt uw <strong>vastgereden auto los</strong> in Brussel en de Rand – professioneel, met lier en zonder schade.",
+      "paragraphe_1": "Blijven gas geven maakt het alleen erger: de wagen zakt dieper en de <strong>koppeling of transmissie</strong> kan eraan. Zet de motor af en bel ons – met de lier en rijplaten halen we u er gecontroleerd uit.",
+      "paragraphe_2": "Modderige berm, nat grasveld, een parkeerplaats die zachter bleek dan gedacht, of een wiel in de gracht: we bekijken de situatie ter plaatse en kiezen de <strong>techniek die uw wagen spaart</strong>."
+    },
+    "section_on_connait": {
+      "h2": "Wanneer Belt U Ons?",
+      "intro": "De situaties waarvoor klanten ons bellen:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Vast in modder of gras",
+          "description": "Festivalweide, berm of werf: doordraaiende wielen graven zich in. Wij lieren u er recht en rustig uit."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Wiel in de gracht of van de oprit",
+          "description": "Eén wiel naast de verharding en de wagen hangt? We tillen en trekken zonder de onderkant te beschadigen."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Gladheid of sneeuw",
+          "description": "Vastgegleden op een helling of in een ondergelopen straat? We halen u veilig weg."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Parking of garage-inrit geblokkeerd",
+          "description": "Vastgereden op een te steile of gladde inrit? Ook binnen de stad lossen we dat dagelijks op."
+        }
+      ]
+    },
+    "section_services": {
+      "h2": "Zo Werkt Het",
+      "intro": "Eenvoudig en zonder verrassingen:",
+      "categories": [
+        {
+          "titre": "1. U belt, wij luisteren",
+          "services": [
+            {
+              "nom": "U beschrijft de situatie en uw locatie"
+            },
+            {
+              "nom": "U krijgt meteen de exacte prijs"
+            },
+            {
+              "nom": "U beslist – geen verplichtingen"
+            }
+          ]
+        },
+        {
+          "titre": "2. Wij komen en lossen op",
+          "services": [
+            {
+              "nom": "Ter plaatse in ±30 min"
+            },
+            {
+              "nom": "Vakkundig en zonder schade"
+            },
+            {
+              "nom": "Klaar? U kunt weer verder"
+            }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+    "faq_locale": {
+      "h2": "FAQ – Auto Vastgereden Brussel",
+      "questions": [
+        {
+          "question": "Beschadigt het lostrekken mijn auto?",
+          "reponse": "Nee – dat is net het punt. We bevestigen de lier op de officiële sleepogen en gebruiken rijplaten waar nodig. Geen cowboywerk met een sleepkabel."
+        },
+        {
+          "question": "Wat kost het lostrekken?",
+          "reponse": "Dat hangt af van de situatie (hoe diep, hoe bereikbaar). U krijgt de exacte prijs aan de telefoon, vóór we vertrekken."
+        },
+        {
+          "question": "Wat doe ik in afwachting?",
+          "reponse": "Motor af, niet meer gas geven, en indien mogelijk foto’s sturen via WhatsApp – zo schatten we de situatie perfect in."
+        },
+        {
+          "question": "Kan ik jullie in het Nederlands bereiken?",
+          "reponse": "Ja, in het Nederlands, Frans of Engels – telefonisch op 02 886 04 86 of via WhatsApp."
+        }
+      ]
+    },
+    "section_zones_voisines": {
+      "h2": "Onze Andere Diensten",
+      "content": "Misschien zoekt u eerder dit:",
+      "communes_voisines": [
+        {
+          "nom": "Takeldienst – auto takelen",
+          "slug": "takeldienst-brussel"
+        },
+        {
+          "nom": "Pechverhelping ter plaatse",
+          "slug": "pechverhelping-brussel"
+        },
+        {
+          "nom": "Speciale voertuigen takelen",
+          "slug": "speciale-voertuigen-takelen-brussel"
+        }
+      ]
+    },
+    "cta_final": {
+      "titre": "Vastgereden?",
+      "texte": "Stop met gas geven – bel ons, wij trekken u los."
+    }
+  }
+}

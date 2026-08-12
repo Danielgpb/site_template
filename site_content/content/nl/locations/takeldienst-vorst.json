@@ -1,0 +1,136 @@
+{
+  "version": "2.0",
+  "commune": "Vorst",
+  "code_postal": "1190",
+  "seo": {
+    "meta_title": "Takeldienst Vorst (1190) | 24/7 – HELPCAR Depannage",
+    "meta_description": "Takeldienst en pechverhelping in Vorst (1190). Vorst-Nationaal, Sint-Denijs, Altitude 100. Prijs vooraf. ☎ 02 886 04 86"
+  },
+  "geo": {
+    "region": "BE-BRU",
+    "lat": "50.8090",
+    "lng": "4.3170"
+  },
+  "hreflang_fr": "https://helpcar.be/zones/depannage-voiture-forest/",
+  "hero": {
+    "h1": "Takeldienst Vorst (1190) – 24/7",
+    "accroche": "Van Vorst-Nationaal tot Altitude 100: snelle interventie, prijs meteen aan de telefoon."
+  },
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Autopech in Vorst? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> is uw <strong>takeldienst in Vorst (1190)</strong>: prijs vooraf, ter plaatse in <strong>ongeveer 30 minuten</strong>, dag en nacht.",
+      "paragraphe_1": "Stilgevallen na een concert aan Vorst-Nationaal, batterij plat in de hellende straten van Altitude 100, pech in de industriezone langs het kanaal – <strong>wij komen</strong>, u kent de prijs vooraf.",
+      "paragraphe_2": "De hellingen van Vorst zijn berucht voor handremmen en koppelingen. Wij kennen er <strong>elke steile straat</strong> – en hoe we er veilig takelen."
+    },
+    "section_on_connait": {
+      "h2": "Wij Kennen Vorst",
+      "intro": "De plekken waar we het vaakst depanneren:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Vorst-Nationaal & Zuidwijk",
+          "description": "Concertzaal, drukke avonden en volle parkings. Pech na een event? We zijn in de buurt."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Sint-Denijs & centrum",
+          "description": "Het historische hart rond de abdij en het Sint-Denijsplein – smalle straten, wij kennen ze."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Altitude 100 & hoogtes",
+          "description": "De hellende woonwijken op de flank – takelen op een helling vraagt ervaring, en die hebben we."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Kanaalzone & industrie",
+          "description": "De bedrijvenzone langs het kanaal: bestelwagens en bedrijfsvoertuigen, ook buiten de uren."
+        }
+      ]
+    },
+    "section_services": {
+      "h2": "Wat We Doen in Vorst",
+      "intro": "Alle klassieke depannages, ter plaatse opgelost of getakeld naar de garage van uw keuze.",
+      "categories": [
+        {
+          "titre": "Pechverhelping ter plaatse",
+          "services": [
+            {
+              "nom": "Lege batterij opstarten of vervangen"
+            },
+            {
+              "nom": "Lekke band – reservewiel of herstelling"
+            },
+            {
+              "nom": "Verkeerde brandstof afpompen"
+            },
+            {
+              "nom": "Sleutels in de auto – deuropening"
+            }
+          ]
+        },
+        {
+          "titre": "Takelen & transport",
+          "services": [
+            {
+              "nom": "Takelen naar uw garage (België)"
+            },
+            {
+              "nom": "Motorfietsen en bestelwagens"
+            },
+            {
+              "nom": "Ondergrondse parkings (lage doorgang)"
+            },
+            {
+              "nom": "Wrakophaling"
+            }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+    "faq_locale": {
+      "h2": "FAQ – Takeldienst in Vorst",
+      "questions": [
+        {
+          "question": "Hoe snel zijn jullie in Vorst?",
+          "reponse": "Meestal binnen de 30 minuten, afhankelijk van het verkeer op de Ring en langs het kanaal."
+        },
+        {
+          "question": "Wat kost een takeling in Vorst?",
+          "reponse": "De prijs hangt af van uw locatie, het voertuig en de bestemming. U krijgt het exacte bedrag aan de telefoon, vóór we vertrekken."
+        },
+        {
+          "question": "Komen jullie 's nachts en in het weekend?",
+          "reponse": "Ja, 24 uur op 24, 7 dagen op 7, ook op zon- en feestdagen. U belt, wij komen."
+        },
+        {
+          "question": "Kan ik jullie in het Nederlands bereiken?",
+          "reponse": "Ja, in het Nederlands, Frans of Engels – telefonisch op 02 886 04 86 of via WhatsApp."
+        }
+      ]
+    },
+    "section_zones_voisines": {
+      "h2": "Buurgemeenten van Vorst",
+      "content": "We takelen in alle Brusselse gemeenten en de Rand:",
+      "communes_voisines": [
+        {
+          "nom": "Ukkel",
+          "slug": "takeldienst-ukkel"
+        },
+        {
+          "nom": "Sint-Genesius-Rode",
+          "slug": "takeldienst-sint-genesius-rode"
+        },
+        {
+          "nom": "Brussel-Centrum",
+          "slug": "takeldienst-brussel-centrum"
+        }
+      ]
+    },
+    "cta_final": {
+      "titre": "Pech in Vorst?",
+      "texte": "Zeg ons waar u staat, wij zeggen wanneer we er zijn."
+    }
+  }
+}

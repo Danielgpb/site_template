@@ -1,0 +1,118 @@
+{
+  "version": "2.0",
+  "commune": "Vilvoorde",
+  "code_postal": "1800",
+
+  "seo": {
+    "meta_title": "Takeldienst Vilvoorde (1800) | 24/7 – HELPCAR Depannage",
+    "meta_description": "Takeldienst en pechverhelping in Vilvoorde (1800). Viaduct, Woluwelaan, Cargovil, centrum. Prijs vooraf aan de telefoon. ☎ 02 886 04 86"
+  },
+
+  "geo": { "region": "BE-VBR", "lat": "50.9280", "lng": "4.4240" },
+
+  "hreflang_fr": "https://helpcar.be/zones/depannage-voiture-vilvoorde/",
+
+  "hero": {
+    "h1": "Takeldienst Vilvoorde (1800) – 24/7",
+    "accroche": "Van het viaduct tot het centrum van Vilvoorde: snelle pechverhelping, prijs meteen aan de telefoon."
+  },
+
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Autopech in Vilvoorde? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> is uw <strong>takeldienst in Vilvoorde (1800)</strong>: prijs vooraf, takelwagen ter plaatse in <strong>30 tot 40 minuten</strong>, dag en nacht.",
+      "paragraphe_1": "Stilgevallen op de Woluwelaan, lege batterij in de stationsbuurt, lekke band op de Schaarbeeklei – wij komen. Eén telefoontje naar <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>, u kent de prijs vóór we vertrekken.",
+      "paragraphe_2": "Met <strong>meer dan 10 jaar ervaring</strong> in de regio Brussel kennen we Vilvoorde goed: de industriezones langs het kanaal, de drukke assen richting Ring en de woonwijken van Koningslo tot Peutie."
+    },
+
+    "section_on_connait": {
+      "h2": "Wij Kennen Vilvoorde",
+      "intro": "De plekken waar we het vaakst depanneren:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Centrum & stationsbuurt",
+          "description": "De Grote Markt, de Leuvensestraat en het station. Smalle straten en beperkt parkeren – we weten hoe we er geraken."
+        },
+        {
+          "icon": "building",
+          "nom": "Woluwelaan & Cargovil",
+          "description": "De industriezones en bedrijvenparken langs de Woluwelaan en het kanaal. Veel bestelwagens en bedrijfswagens – ook die takelen we."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Koningslo & Faubourg",
+          "description": "De woonwijken tegen de grens met Brussel. Batterij plat na het weekend? Klassieker – we starten uw auto ter plaatse."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Peutie & Houtem",
+          "description": "De deelgemeenten en de zone rond de kazerne. Ook daar staan we vlot binnen het halfuur."
+        }
+      ],
+      "conclusion": "Pech op de Ring R0 of aan het viaduct van Vilvoorde? Geef ons uw exacte locatie (afrit, kilometerpaal) en we sturen meteen een takelwagen."
+    },
+
+    "section_services": {
+      "h2": "Wat We Doen in Vilvoorde",
+      "intro": "Alle klassieke depannages, ter plaatse opgelost of getakeld naar de garage van uw keuze.",
+      "categories": [
+        {
+          "titre": "Pechverhelping ter plaatse",
+          "services": [
+            { "nom": "Lege batterij opstarten of vervangen" },
+            { "nom": "Lekke band – reservewiel of herstelling" },
+            { "nom": "Verkeerde brandstof afpompen" },
+            { "nom": "Sleutels in de auto – deuropening" }
+          ]
+        },
+        {
+          "titre": "Takelen & transport",
+          "services": [
+            { "nom": "Takelen naar uw garage (België)" },
+            { "nom": "Motorfietsen en bestelwagens" },
+            { "nom": "Vrachtwagens en speciale voertuigen" },
+            { "nom": "Wrakophaling" }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+
+    "faq_locale": {
+      "h2": "FAQ – Takeldienst in Vilvoorde",
+      "questions": [
+        {
+          "question": "Hoe snel zijn jullie in Vilvoorde?",
+          "reponse": "Reken op 30 tot 40 minuten, afhankelijk van het verkeer op de Ring en de Woluwelaan. We geven u een eerlijk tijdstip aan de telefoon."
+        },
+        {
+          "question": "Wat kost een takeling in Vilvoorde?",
+          "reponse": "Dat hangt af van uw locatie, het voertuig en de bestemming. U krijgt de exacte prijs aan de telefoon, vóór we vertrekken."
+        },
+        {
+          "question": "Takelen jullie ook bestelwagens en bedrijfswagens?",
+          "reponse": "Ja, ook bestelwagens en lichte vrachtwagens uit de industriezones van Vilvoorde. Vermeld het type voertuig aan de telefoon, dan sturen we het juiste materieel."
+        },
+        {
+          "question": "Kan ik jullie in het Nederlands bereiken?",
+          "reponse": "Ja, in het Nederlands, Frans of Engels – telefonisch op 02 886 04 86 of via WhatsApp."
+        }
+      ]
+    },
+
+    "section_zones_voisines": {
+      "h2": "Buurgemeenten van Vilvoorde",
+      "content": "We takelen in heel de noordelijke Rand rond Brussel:",
+      "communes_voisines": [
+        { "nom": "Machelen & Diegem", "slug": "takeldienst-machelen" },
+        { "nom": "Zaventem", "slug": "takeldienst-zaventem" },
+        { "nom": "Evere", "slug": "takeldienst-evere" }
+      ]
+    },
+
+    "cta_final": {
+      "titre": "Pech in Vilvoorde?",
+      "texte": "Zeg ons waar u staat, wij zeggen wanneer we er zijn."
+    }
+  }
+}

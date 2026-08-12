@@ -1,0 +1,130 @@
+{
+  "version": "2.0",
+  "commune": "Brussel",
+  "code_postal": "1000",
+  "seo": {
+    "meta_title": "Moto Takelen Brussel | Motorfiets Depannage 24/7 – HELPCAR",
+    "meta_description": "Motorpech in Brussel? Uw moto of scooter veilig getakeld met aangepast materieel, zonder schade. ☎ 02 886 04 86"
+  },
+  "geo": {
+    "region": "BE-BRU",
+    "lat": "50.8503",
+    "lng": "4.3517"
+  },
+  "hreflang_fr": "https://helpcar.be/services/remorquage-motos-bruxelles/",
+  "hero": {
+    "h1": "Moto Takelen in Brussel – 24/7",
+    "accroche": "Uw moto of scooter veilig vervoerd, vastgezet zoals het hoort – zonder kras."
+  },
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Motorpech onderweg? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> takelt <strong>moto's en scooters in Brussel en de Rand</strong> met aangepast materieel: wielklem, spanbanden op de juiste punten, zachte bescherming.",
+      "paragraphe_1": "Een moto takel je niet zoals een auto: verkeerd vastgezet betekent <strong>krassen, een verwrongen stuur of erger</strong>. Onze depanneurs vervoeren regelmatig motoren en weten hoe uw machine veilig op de plateau gaat.",
+      "paragraphe_2": "Ook na een valpartij of ongeval halen we uw moto op, en brengen we hem naar de <strong>hersteller of dealer van uw keuze</strong> – of gewoon naar huis. Prijs vooraf aan de telefoon."
+    },
+    "section_on_connait": {
+      "h2": "Wanneer Belt U Ons?",
+      "intro": "De situaties waarvoor motorrijders ons bellen:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Motorpech onderweg",
+          "description": "Elektronica, ketting, lege batterij: als herstarten er niet in zit, vervoeren we uw moto naar de hersteller."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Na een valpartij",
+          "description": "Gevallen in de stad of op de Ring? We halen uw moto veilig op en stallen of vervoeren hem waar u wilt."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Lekke band",
+          "description": "Een motorband herstel je zelden langs de weg. Wij brengen u en uw machine naar de bandenspecialist."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Scooter of 125cc",
+          "description": "Ook scooters en lichte motoren vervoeren we dagelijks – zelfde zorg, zelfde materieel."
+        }
+      ]
+    },
+    "section_services": {
+      "h2": "Zo Werkt Het",
+      "intro": "Eenvoudig en zonder verrassingen:",
+      "categories": [
+        {
+          "titre": "1. U belt, wij luisteren",
+          "services": [
+            {
+              "nom": "U beschrijft de situatie en uw locatie"
+            },
+            {
+              "nom": "U krijgt meteen de exacte prijs"
+            },
+            {
+              "nom": "U beslist – geen verplichtingen"
+            }
+          ]
+        },
+        {
+          "titre": "2. Wij komen en lossen op",
+          "services": [
+            {
+              "nom": "Ter plaatse in ±30 min"
+            },
+            {
+              "nom": "Vakkundig en zonder schade"
+            },
+            {
+              "nom": "Klaar? U kunt weer verder"
+            }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+    "faq_locale": {
+      "h2": "FAQ – Moto Takelen Brussel",
+      "questions": [
+        {
+          "question": "Raakt mijn moto niet beschadigd bij het takelen?",
+          "reponse": "Nee. We werken met wielklem en spanbanden op de juiste punten, met bescherming waar de banden het stuur of frame raken."
+        },
+        {
+          "question": "Wat kost een mototakeling?",
+          "reponse": "Dat hangt af van uw locatie en de bestemming. U krijgt de exacte prijs aan de telefoon, vóór we vertrekken."
+        },
+        {
+          "question": "Kunnen jullie mij ook meenemen?",
+          "reponse": "Ja, u rijdt gewoon mee in de cabine tot aan de bestemming."
+        },
+        {
+          "question": "Kan ik jullie in het Nederlands bereiken?",
+          "reponse": "Ja, in het Nederlands, Frans of Engels – telefonisch op 02 886 04 86 of via WhatsApp."
+        }
+      ]
+    },
+    "section_zones_voisines": {
+      "h2": "Onze Andere Diensten",
+      "content": "Misschien zoekt u eerder dit:",
+      "communes_voisines": [
+        {
+          "nom": "Takeldienst – auto takelen",
+          "slug": "takeldienst-brussel"
+        },
+        {
+          "nom": "Speciale voertuigen takelen",
+          "slug": "speciale-voertuigen-takelen-brussel"
+        },
+        {
+          "nom": "Pechverhelping ter plaatse",
+          "slug": "pechverhelping-brussel"
+        }
+      ]
+    },
+    "cta_final": {
+      "titre": "Motorpech?",
+      "texte": "Uw machine in goede handen – bel ons."
+    }
+  }
+}

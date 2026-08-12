@@ -1,0 +1,136 @@
+{
+  "version": "2.0",
+  "commune": "Ukkel",
+  "code_postal": "1180",
+  "seo": {
+    "meta_title": "Takeldienst Ukkel (1180) | 24/7 – HELPCAR Depannage",
+    "meta_description": "Takeldienst en pechverhelping in Ukkel (1180). Sint-Job, Fort-Jaco, Stalle, Observatorium. Prijs vooraf. ☎ 02 886 04 86"
+  },
+  "geo": {
+    "region": "BE-BRU",
+    "lat": "50.8010",
+    "lng": "4.3370"
+  },
+  "hreflang_fr": "https://helpcar.be/zones/depannage-voiture-uccle/",
+  "hero": {
+    "h1": "Takeldienst Ukkel (1180) – 24/7",
+    "accroche": "Van Sint-Job tot Fort-Jaco: snelle pechverhelping in het groene zuiden van Brussel."
+  },
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Autopech in Ukkel? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> is uw <strong>takeldienst in Ukkel (1180)</strong>: prijs vooraf, ter plaatse in <strong>ongeveer 30 minuten</strong>, dag en nacht.",
+      "paragraphe_1": "Ukkel is groot en groen, met lange lanen en rustige woonwijken – en dus ook lange wandelingen als uw wagen stilvalt. <strong>Bel ons gewoon</strong>: batterij, band of takeling, we komen tot aan uw oprit.",
+      "paragraphe_2": "Van de Waterloosesteenweg tot de grens met het Zoniënwoud: we kennen <strong>elke wijk van Ukkel</strong> en de sluipwegen om er snel te geraken."
+    },
+    "section_on_connait": {
+      "h2": "Wij Kennen Ukkel",
+      "intro": "De plekken waar we het vaakst depanneren:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Sint-Job & Carrefour Vivier d’Oie",
+          "description": "Het plein, de handelaars en de woonwijken errond – vaste stek voor onze interventies."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Fort-Jaco & Waterloosesteenweg",
+          "description": "De drukke handelsas richting Waterloo: pech tussen het winkelen? We zijn snel ter plaatse."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Stalle & Globe",
+          "description": "De as richting Drogenbos, de tram en de bedrijven – ook voor bestelwagens."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Observatorium & Dieweg",
+          "description": "De residentiële hoogtes: lange dreven en veel geparkeerde wagens die soms lang stilstaan – batterijen dus."
+        }
+      ]
+    },
+    "section_services": {
+      "h2": "Wat We Doen in Ukkel",
+      "intro": "Alle klassieke depannages, ter plaatse opgelost of getakeld naar de garage van uw keuze.",
+      "categories": [
+        {
+          "titre": "Pechverhelping ter plaatse",
+          "services": [
+            {
+              "nom": "Lege batterij opstarten of vervangen"
+            },
+            {
+              "nom": "Lekke band – reservewiel of herstelling"
+            },
+            {
+              "nom": "Verkeerde brandstof afpompen"
+            },
+            {
+              "nom": "Sleutels in de auto – deuropening"
+            }
+          ]
+        },
+        {
+          "titre": "Takelen & transport",
+          "services": [
+            {
+              "nom": "Takelen naar uw garage (België)"
+            },
+            {
+              "nom": "Motorfietsen en bestelwagens"
+            },
+            {
+              "nom": "Ondergrondse parkings (lage doorgang)"
+            },
+            {
+              "nom": "Wrakophaling"
+            }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+    "faq_locale": {
+      "h2": "FAQ – Takeldienst in Ukkel",
+      "questions": [
+        {
+          "question": "Hoe snel zijn jullie in Ukkel?",
+          "reponse": "Meestal binnen de 30 minuten. Ukkel is uitgestrekt: geef uw wijk of een herkenningspunt door, dat versnelt de aanrijtijd."
+        },
+        {
+          "question": "Wat kost een takeling in Ukkel?",
+          "reponse": "De prijs hangt af van uw locatie, het voertuig en de bestemming. U krijgt het exacte bedrag aan de telefoon, vóór we vertrekken."
+        },
+        {
+          "question": "Komen jullie 's nachts en in het weekend?",
+          "reponse": "Ja, 24 uur op 24, 7 dagen op 7, ook op zon- en feestdagen. U belt, wij komen."
+        },
+        {
+          "question": "Kan ik jullie in het Nederlands bereiken?",
+          "reponse": "Ja, in het Nederlands, Frans of Engels – telefonisch op 02 886 04 86 of via WhatsApp."
+        }
+      ]
+    },
+    "section_zones_voisines": {
+      "h2": "Buurgemeenten van Ukkel",
+      "content": "We takelen in alle Brusselse gemeenten en de Rand:",
+      "communes_voisines": [
+        {
+          "nom": "Vorst",
+          "slug": "takeldienst-vorst"
+        },
+        {
+          "nom": "Sint-Genesius-Rode",
+          "slug": "takeldienst-sint-genesius-rode"
+        },
+        {
+          "nom": "Elsene",
+          "slug": "takeldienst-elsene"
+        }
+      ]
+    },
+    "cta_final": {
+      "titre": "Pech in Ukkel?",
+      "texte": "Zeg ons waar u staat, wij zeggen wanneer we er zijn."
+    }
+  }
+}

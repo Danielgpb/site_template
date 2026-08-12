@@ -1,0 +1,136 @@
+{
+  "version": "2.0",
+  "commune": "Schaarbeek",
+  "code_postal": "1030",
+  "seo": {
+    "meta_title": "Takeldienst Schaarbeek (1030) | 24/7 – HELPCAR Depannage",
+    "meta_description": "Takeldienst en pechverhelping in Schaarbeek (1030). Meiser, Louis Bertrand, Helmet, station. Prijs vooraf. ☎ 02 886 04 86"
+  },
+  "geo": {
+    "region": "BE-BRU",
+    "lat": "50.8676",
+    "lng": "4.3737"
+  },
+  "hreflang_fr": "https://helpcar.be/zones/depannage-voiture-schaerbeek/",
+  "hero": {
+    "h1": "Takeldienst Schaarbeek (1030) – 24/7",
+    "accroche": "Van Meiser tot Helmet: snelle interventie in een van de grootste gemeenten van Brussel."
+  },
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Autopech in Schaarbeek? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> is uw <strong>takeldienst in Schaarbeek (1030)</strong>: prijs vooraf, ter plaatse in <strong>ongeveer 25 minuten</strong>, dag en nacht.",
+      "paragraphe_1": "Schaarbeek is uitgestrekt en druk: trams, eenrichtingsverkeer en gegeerde parkeerplaatsen. Wij depanneren er <strong>dagelijks</strong> – van de Louis Bertrandlaan tot de Lambermontlaan.",
+      "paragraphe_2": "Stilgevallen op Meiser in volle spits? Dat kennen we. We <strong>beveiligen eerst</strong>, lossen op of takelen, en het verkeer kan weer door."
+    },
+    "section_on_connait": {
+      "h2": "Wij Kennen Schaarbeek",
+      "intro": "De plekken waar we het vaakst depanneren:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Meiser & Reyers",
+          "description": "Het beruchte kruispunt en de tunnels: pech geeft er meteen hinder. We zijn er snel en beveiligd."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Louis Bertrand & Josaphatpark",
+          "description": "De statige lanen rond het park – woonbuurt waar we vaak batterijen en banden doen."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Helmet & Foyer Schaarbeekois",
+          "description": "Dichtbevolkte wijken met smalle straten. Wij vinden onze weg, ook dubbel geparkeerd."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Station & Koninginnelaan",
+          "description": "Rond het prachtige station en richting Thurn & Taxis – ook voor bestelwagens."
+        }
+      ]
+    },
+    "section_services": {
+      "h2": "Wat We Doen in Schaarbeek",
+      "intro": "Alle klassieke depannages, ter plaatse opgelost of getakeld naar de garage van uw keuze.",
+      "categories": [
+        {
+          "titre": "Pechverhelping ter plaatse",
+          "services": [
+            {
+              "nom": "Lege batterij opstarten of vervangen"
+            },
+            {
+              "nom": "Lekke band – reservewiel of herstelling"
+            },
+            {
+              "nom": "Verkeerde brandstof afpompen"
+            },
+            {
+              "nom": "Sleutels in de auto – deuropening"
+            }
+          ]
+        },
+        {
+          "titre": "Takelen & transport",
+          "services": [
+            {
+              "nom": "Takelen naar uw garage (België)"
+            },
+            {
+              "nom": "Motorfietsen en bestelwagens"
+            },
+            {
+              "nom": "Ondergrondse parkings (lage doorgang)"
+            },
+            {
+              "nom": "Wrakophaling"
+            }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+    "faq_locale": {
+      "h2": "FAQ – Takeldienst in Schaarbeek",
+      "questions": [
+        {
+          "question": "Hoe snel zijn jullie in Schaarbeek?",
+          "reponse": "Meestal binnen de 25 à 30 minuten, afhankelijk van het verkeer rond Meiser en de Lambermontlaan."
+        },
+        {
+          "question": "Wat kost een takeling in Schaarbeek?",
+          "reponse": "De prijs hangt af van uw locatie, het voertuig en de bestemming. U krijgt het exacte bedrag aan de telefoon, vóór we vertrekken."
+        },
+        {
+          "question": "Komen jullie 's nachts en in het weekend?",
+          "reponse": "Ja, 24 uur op 24, 7 dagen op 7, ook op zon- en feestdagen. U belt, wij komen."
+        },
+        {
+          "question": "Kan ik jullie in het Nederlands bereiken?",
+          "reponse": "Ja, in het Nederlands, Frans of Engels – telefonisch op 02 886 04 86 of via WhatsApp."
+        }
+      ]
+    },
+    "section_zones_voisines": {
+      "h2": "Buurgemeenten van Schaarbeek",
+      "content": "We takelen in alle Brusselse gemeenten en de Rand:",
+      "communes_voisines": [
+        {
+          "nom": "Evere",
+          "slug": "takeldienst-evere"
+        },
+        {
+          "nom": "Brussel-Centrum",
+          "slug": "takeldienst-brussel-centrum"
+        },
+        {
+          "nom": "Sint-Lambrechts-Woluwe",
+          "slug": "takeldienst-sint-lambrechts-woluwe"
+        }
+      ]
+    },
+    "cta_final": {
+      "titre": "Pech in Schaarbeek?",
+      "texte": "Zeg ons waar u staat, wij zeggen wanneer we er zijn."
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "version": "2.0",
+  "commune": "Brussel",
+  "code_postal": "1000",
+  "seo": {
+    "meta_title": "Autodeur Openen Brussel | Sleutels in de Auto 24/7 – HELPCAR",
+    "meta_description": "Sleutels in de auto of koffer vergrendeld in Brussel? Deuropening zonder schade, 24/7. Prijs vooraf. ☎ 02 886 04 86"
+  },
+  "geo": {
+    "region": "BE-BRU",
+    "lat": "50.8503",
+    "lng": "4.3517"
+  },
+  "hreflang_fr": "https://helpcar.be/services/ouverture-porte-voiture-bruxelles/",
+  "hero": {
+    "h1": "Sleutels in de Auto? Deuropening in Brussel – 24/7",
+    "accroche": "Sleutels vergrendeld in de wagen of de koffer? We openen uw deur zonder schade, waar u ook staat."
+  },
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Sleutels in het contact, de deur in het slot gevallen? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> opent uw <strong>autodeur in Brussel en de Rand</strong>, zonder schade aan slot of koetswerk – dag en nacht.",
+      "paragraphe_1": "Het overkomt iedereen: de sleutels op de zetel, een koffer die dichtklapt met de sleutelbos erin, een kind of huisdier dat per ongeluk vergrendeld raakt. <strong>Blijf kalm en bel ons</strong> – bij een noodgeval met een kind in de wagen komen we met absolute voorrang.",
+      "paragraphe_2": "Onze depanneurs gebruiken professioneel gereedschap om het slot of het raam <strong>zonder braakschade</strong> te openen. Lukt het uitzonderlijk niet ter plaatse, dan takelen we de wagen naar een specialist – u beslist, met de prijs op voorhand."
+    },
+    "section_on_connait": {
+      "h2": "Wanneer Belt U Ons?",
+      "intro": "De klassiekers:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Sleutels in de auto",
+          "description": "Op de zetel, in het contact of in het handschoenkastje: we openen de deur zonder schade."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Koffer dichtgeklapt",
+          "description": "De sleutelbos ligt in de koffer en alles zit op slot. Ook dan raken we binnen."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Kind of huisdier in de wagen",
+          "description": "Noodgeval? Zeg het meteen aan de telefoon – we geven absolute voorrang en komen zo snel als wettelijk kan."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Sleutel afgebroken of verloren",
+          "description": "Sleutel kwijt of afgebroken in het slot? We openen de wagen en bekijken samen de volgende stap."
+        }
+      ]
+    },
+    "section_services": {
+      "h2": "Zo Werkt Het",
+      "intro": "Eenvoudig en zonder verrassingen:",
+      "categories": [
+        {
+          "titre": "1. U belt, wij luisteren",
+          "services": [
+            {
+              "nom": "U beschrijft de situatie en uw locatie"
+            },
+            {
+              "nom": "U krijgt meteen de exacte prijs"
+            },
+            {
+              "nom": "U beslist – geen verplichtingen"
+            }
+          ]
+        },
+        {
+          "titre": "2. Wij komen en lossen op",
+          "services": [
+            {
+              "nom": "Ter plaatse in ±30 min"
+            },
+            {
+              "nom": "Vakkundig en zonder schade"
+            },
+            {
+              "nom": "Klaar? U kunt weer verder"
+            }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+    "faq_locale": {
+      "h2": "FAQ – Autodeur Openen Brussel",
+      "questions": [
+        {
+          "question": "Beschadigt het openen mijn auto?",
+          "reponse": "Nee. We werken met professioneel gereedschap dat slot en koetswerk intact laat. Braakschade is de uitzondering, niet de regel."
+        },
+        {
+          "question": "Moet ik bewijzen dat het mijn auto is?",
+          "reponse": "Ja, dat vragen we altijd: identiteitskaart plus boorddocumenten of inschrijvingsbewijs. Zo beschermen we u én ons."
+        },
+        {
+          "question": "Hoe snel zijn jullie er?",
+          "reponse": "In Brussel meestal binnen de 30 minuten. Bij een noodgeval (kind, huisdier, motor die draait) krijgt u voorrang."
+        },
+        {
+          "question": "Kan ik jullie in het Nederlands bereiken?",
+          "reponse": "Ja, in het Nederlands, Frans of Engels – telefonisch op 02 886 04 86 of via WhatsApp."
+        }
+      ]
+    },
+    "section_zones_voisines": {
+      "h2": "Onze Andere Diensten",
+      "content": "Misschien zoekt u eerder dit:",
+      "communes_voisines": [
+        {
+          "nom": "Pechverhelping ter plaatse",
+          "slug": "pechverhelping-brussel"
+        },
+        {
+          "nom": "Takeldienst – auto takelen",
+          "slug": "takeldienst-brussel"
+        },
+        {
+          "nom": "Lege batterij – opstarten",
+          "slug": "batterij-depannage-brussel"
+        }
+      ]
+    },
+    "cta_final": {
+      "titre": "Buitengesloten?",
+      "texte": "Blijf bij uw wagen – wij komen naar u."
+    }
+  }
+}

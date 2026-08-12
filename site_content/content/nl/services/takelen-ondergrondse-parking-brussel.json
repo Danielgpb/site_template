@@ -1,0 +1,130 @@
+{
+  "version": "2.0",
+  "commune": "Brussel",
+  "code_postal": "1000",
+  "seo": {
+    "meta_title": "Takelen uit Ondergrondse Parking Brussel 24/7 – HELPCAR",
+    "meta_description": "Auto in panne in een ondergrondse parking in Brussel? Compact materieel voor lage doorgangen (vanaf 1m80). ☎ 02 886 04 86"
+  },
+  "geo": {
+    "region": "BE-BRU",
+    "lat": "50.8503",
+    "lng": "4.3517"
+  },
+  "hreflang_fr": "https://helpcar.be/services/depannage-parking-souterrain-bruxelles/",
+  "hero": {
+    "h1": "Pech in een Ondergrondse Parking? – Brussel 24/7",
+    "accroche": "Lage doorgang, krappe bochten? Ons compact materieel raakt waar een gewone takelwagen niet kan."
+  },
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Auto in panne op verdieping -2? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> depanneert en takelt in <strong>ondergrondse parkings in heel Brussel</strong> – met compact materieel gemaakt voor lage doorgangen.",
+      "paragraphe_1": "Een klassieke takelwagen raakt een parkeergarage niet binnen. Wij werken met <strong>lage interventievoertuigen en verplaatsbare wielliften</strong> waarmee we uw wagen veilig naar buiten brengen, ook uit krappe bochten en smalle hellingen.",
+      "paragraphe_2": "Batterij plat na een lange parkeerbeurt? Dat lossen we meestal gewoon <strong>ter plaatse in de parking</strong> op – opstarten, en u rijdt zelf naar buiten. Takelen doen we alleen als het echt moet."
+    },
+    "section_on_connait": {
+      "h2": "Wanneer Belt U Ons?",
+      "intro": "De situaties waarvoor klanten ons bellen:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Batterij plat in de parking",
+          "description": "De klassieker na een reis of lange parkeerbeurt. We starten uw wagen op tussen de betonkolommen – dagelijkse kost."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Wagen start niet meer op -1, -2, -3",
+          "description": "Motorprobleem of elektronica? We halen de wagen met aangepast materieel naar boven en takelen verder naar uw garage."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Publieke parkings & kantoorgebouwen",
+          "description": "Interparking, Q-Park, kantoor- of flatgebouw: we kennen de toegangsprocedures en werken discreet."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Lage doorgang",
+          "description": "Vanaf ongeveer 1m80 vrije hoogte kunnen we binnen. Geef de hoogte door als u ze kent – dan sturen we meteen het juiste voertuig."
+        }
+      ]
+    },
+    "section_services": {
+      "h2": "Zo Werkt Het",
+      "intro": "Eenvoudig en zonder verrassingen:",
+      "categories": [
+        {
+          "titre": "1. U belt, wij luisteren",
+          "services": [
+            {
+              "nom": "U beschrijft de situatie en uw locatie"
+            },
+            {
+              "nom": "U krijgt meteen de exacte prijs"
+            },
+            {
+              "nom": "U beslist – geen verplichtingen"
+            }
+          ]
+        },
+        {
+          "titre": "2. Wij komen en lossen op",
+          "services": [
+            {
+              "nom": "Ter plaatse in ±30 min"
+            },
+            {
+              "nom": "Vakkundig en zonder schade"
+            },
+            {
+              "nom": "Klaar? U kunt weer verder"
+            }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+    "faq_locale": {
+      "h2": "FAQ – Ondergrondse Parking Brussel",
+      "questions": [
+        {
+          "question": "Hoe laag mag de parking zijn?",
+          "reponse": "Ons compact materieel werkt vanaf ongeveer 1m80 vrije hoogte. Twijfelt u? Geef de hoogte (staat aan de inrit) door aan de telefoon."
+        },
+        {
+          "question": "Kost een interventie in een parking meer?",
+          "reponse": "Een parkinginterventie vraagt specifiek materieel, en dat zit in de prijs die u vooraf krijgt. Geen toeslagen achteraf."
+        },
+        {
+          "question": "Moet ik de parkingbeheerder verwittigen?",
+          "reponse": "Bij privéparkings is dat aangeraden. Bij publieke parkings regelen wij de toegang met de beheerder – dat doen we regelmatig."
+        },
+        {
+          "question": "Kan ik jullie in het Nederlands bereiken?",
+          "reponse": "Ja, in het Nederlands, Frans of Engels – telefonisch op 02 886 04 86 of via WhatsApp."
+        }
+      ]
+    },
+    "section_zones_voisines": {
+      "h2": "Onze Andere Diensten",
+      "content": "Misschien zoekt u eerder dit:",
+      "communes_voisines": [
+        {
+          "nom": "Lege batterij – opstarten",
+          "slug": "batterij-depannage-brussel"
+        },
+        {
+          "nom": "Takeldienst – auto takelen",
+          "slug": "takeldienst-brussel"
+        },
+        {
+          "nom": "Pechverhelping ter plaatse",
+          "slug": "pechverhelping-brussel"
+        }
+      ]
+    },
+    "cta_final": {
+      "titre": "Vast in de parking?",
+      "texte": "Geef ons het adres en de verdieping – wij komen."
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "version": "2.0",
+  "commune": "Brussel",
+  "code_postal": "1000",
+  "seo": {
+    "meta_title": "Brandstoflevering Brussel | Benzine of Diesel aan Huis – HELPCAR",
+    "meta_description": "Brandstof laten leveren in Brussel: benzine of diesel tot bij uw wagen, 24/7, ook op de pechstrook. ☎ 02 886 04 86"
+  },
+  "geo": {
+    "region": "BE-BRU",
+    "lat": "50.8503",
+    "lng": "4.3517"
+  },
+  "hreflang_fr": "https://helpcar.be/services/fourniture-carburant-bruxelles/",
+  "hero": {
+    "h1": "Brandstoflevering in Brussel – 24/7",
+    "accroche": "Benzine of diesel geleverd waar uw wagen staat, dag en nacht."
+  },
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Zonder brandstof, waar en wanneer dan ook? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> levert <strong>benzine of diesel rechtstreeks bij uw wagen</strong> in Brussel en de Rand – in ongeveer 30 minuten.",
+      "paragraphe_1": "Op de pechstrook, in een woonstraat, op een bedrijfsparking of thuis op de oprit: wij komen met de juiste brandstof en <strong>vullen veilig bij</strong>, conform de regels.",
+      "paragraphe_2": "We blijven tot de motor weer draait. Herstart de wagen niet – bijvoorbeeld door een ontlucht dieselsysteem – dan lossen we ook dat ter plaatse op. <strong>Eén interventie, alles geregeld.</strong>"
+    },
+    "section_on_connait": {
+      "h2": "Wanneer Belt U Ons?",
+      "intro": "De situaties waarvoor klanten ons het vaakst bellen:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Droog gevallen onderweg",
+          "description": "Stilgevallen in het verkeer of op de pechstrook. We brengen brandstof en u rijdt verder."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Auto staat al leeg geparkeerd",
+          "description": "De tank raakte leeg en het dichtstbijzijnde station is te ver? We vullen bij waar de wagen staat."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Bedrijfsvoertuig zonder brandstof",
+          "description": "Bestelwagen of bedrijfswagen stil door een lege tank? We komen ook op werven en bedrijfsterreinen."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Verkeerde meter gelezen",
+          "description": "Digitale meter verkeerd ingeschat of defecte brandstofmeter – het gebeurt vaker dan u denkt."
+        }
+      ]
+    },
+    "section_services": {
+      "h2": "Zo Werkt Het",
+      "intro": "Eenvoudig en zonder verrassingen:",
+      "categories": [
+        {
+          "titre": "1. U belt, wij luisteren",
+          "services": [
+            {
+              "nom": "U beschrijft de situatie en uw locatie"
+            },
+            {
+              "nom": "U krijgt meteen de exacte prijs"
+            },
+            {
+              "nom": "U beslist – geen verplichtingen"
+            }
+          ]
+        },
+        {
+          "titre": "2. Wij komen en lossen op",
+          "services": [
+            {
+              "nom": "Ter plaatse in ±30 min"
+            },
+            {
+              "nom": "Vakkundig en zonder schade"
+            },
+            {
+              "nom": "Klaar? U kunt weer verder"
+            }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+    "faq_locale": {
+      "h2": "FAQ – Brandstoflevering Brussel",
+      "questions": [
+        {
+          "question": "Welke brandstof leveren jullie?",
+          "reponse": "Benzine (E10/98) en diesel. Vermeld uw brandstoftype aan de telefoon, dan brengen we het juiste mee."
+        },
+        {
+          "question": "Wat kost een levering?",
+          "reponse": "U betaalt de interventie plus de brandstof zelf. Het exacte bedrag hoort u aan de telefoon, vóór we vertrekken."
+        },
+        {
+          "question": "Leveren jullie ook AdBlue?",
+          "reponse": "Ja, ook AdBlue voor diesels die zonder vallen en daardoor niet meer willen starten. Zeg het even aan de telefoon."
+        },
+        {
+          "question": "Kan ik jullie in het Nederlands bereiken?",
+          "reponse": "Ja, in het Nederlands, Frans of Engels – telefonisch op 02 886 04 86 of via WhatsApp."
+        }
+      ]
+    },
+    "section_zones_voisines": {
+      "h2": "Onze Andere Diensten",
+      "content": "Misschien zoekt u eerder dit:",
+      "communes_voisines": [
+        {
+          "nom": "Zonder brandstof gevallen",
+          "slug": "benzinepech-brussel"
+        },
+        {
+          "nom": "Verkeerde brandstof getankt",
+          "slug": "verkeerde-brandstof-brussel"
+        },
+        {
+          "nom": "Pechverhelping ter plaatse",
+          "slug": "pechverhelping-brussel"
+        }
+      ]
+    },
+    "cta_final": {
+      "titre": "Brandstof nodig?",
+      "texte": "Zeg ons waar u staat, wij brengen het."
+    }
+  }
+}

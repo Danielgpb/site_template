@@ -1,0 +1,130 @@
+{
+  "version": "2.0",
+  "commune": "Brussel",
+  "code_postal": "1000",
+  "seo": {
+    "meta_title": "Vrachtwagen Takelen Brussel 24/7 | Zwaar Vervoer – HELPCAR",
+    "meta_description": "Vrachtwagen of camion met pech in Brussel? Takelen en depannage van zware voertuigen, 24/7. ☎ 02 886 04 86"
+  },
+  "geo": {
+    "region": "BE-BRU",
+    "lat": "50.8503",
+    "lng": "4.3517"
+  },
+  "hreflang_fr": "https://helpcar.be/services/depannage-camion-poids-lourd-bruxelles/",
+  "hero": {
+    "h1": "Vrachtwagen Takelen in Brussel – 24/7",
+    "accroche": "Ook zware voertuigen takelen we – met het materieel dat daarvoor gemaakt is."
+  },
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Vrachtwagen in panne in of rond Brussel? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> organiseert de <strong>depannage en takeling van vrachtwagens en zware voertuigen</strong>, dag en nacht.",
+      "paragraphe_1": "Een camion die stilvalt, blokkeert al snel een hele as – zeker in de stad of op de Ring. We komen snel, <strong>beveiligen de plaats</strong> en zorgen dat het verkeer weer kan doorstromen.",
+      "paragraphe_2": "Van trekker tot bakwagen: we schatten aan de telefoon meteen in welk materieel er nodig is en <strong>geven u de prijs vooraf</strong>. Ook voor pech aan koppeling, lucht of banden op de zaak of onderweg."
+    },
+    "section_on_connait": {
+      "h2": "Wanneer Belt U Ons?",
+      "intro": "De situaties waarvoor transporteurs ons bellen:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Vrachtwagen stilgevallen onderweg",
+          "description": "Motorpech of elektronica op de Ring of een invalsweg? We beveiligen, depanneren of takelen naar uw stelplaats of garage."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Startproblemen op de stelplaats",
+          "description": "Batterijen plat of startprobleem bij vertrek? Vaak ter plaatse opgelost, zodat uw planning gered is."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Bandenpech zwaar vervoer",
+          "description": "Lekke of gescheurde band? We coördineren de herstelling ter plaatse of het transport naar de bandenspecialist."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Na een ongeval of schuiver",
+          "description": "Beschadigde vrachtwagen die weg moet? We regelen de berging in overleg met u en de verzekeraar."
+        }
+      ]
+    },
+    "section_services": {
+      "h2": "Zo Werkt Het",
+      "intro": "Eenvoudig en zonder verrassingen:",
+      "categories": [
+        {
+          "titre": "1. U belt, wij luisteren",
+          "services": [
+            {
+              "nom": "U beschrijft de situatie en uw locatie"
+            },
+            {
+              "nom": "U krijgt meteen de exacte prijs"
+            },
+            {
+              "nom": "U beslist – geen verplichtingen"
+            }
+          ]
+        },
+        {
+          "titre": "2. Wij komen en lossen op",
+          "services": [
+            {
+              "nom": "Ter plaatse in ±30 min"
+            },
+            {
+              "nom": "Vakkundig en zonder schade"
+            },
+            {
+              "nom": "Klaar? U kunt weer verder"
+            }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+    "faq_locale": {
+      "h2": "FAQ – Vrachtwagen Takelen Brussel",
+      "questions": [
+        {
+          "question": "Tot welk tonnage kunnen jullie takelen?",
+          "reponse": "Bel ons met het type voertuig (trekker, bakwagen, met of zonder lading) – we bevestigen meteen wat we inzetten en wat het kost."
+        },
+        {
+          "question": "Wat met mijn lading en mijn chauffeur?",
+          "reponse": "De chauffeur rijdt mee in de cabine. Voor de lading bekijken we samen de beste oplossing: mee met het voertuig of overslag organiseren."
+        },
+        {
+          "question": "Factureren jullie aan bedrijven?",
+          "reponse": "Ja, met correcte factuur voor uw boekhouding of verzekeringsdossier."
+        },
+        {
+          "question": "Kan ik jullie in het Nederlands bereiken?",
+          "reponse": "Ja, in het Nederlands, Frans of Engels – telefonisch op 02 886 04 86 of via WhatsApp."
+        }
+      ]
+    },
+    "section_zones_voisines": {
+      "h2": "Onze Andere Diensten",
+      "content": "Misschien zoekt u eerder dit:",
+      "communes_voisines": [
+        {
+          "nom": "Bestelwagen depannage",
+          "slug": "takeldienst-bestelwagen-brussel"
+        },
+        {
+          "nom": "Speciale voertuigen takelen",
+          "slug": "speciale-voertuigen-takelen-brussel"
+        },
+        {
+          "nom": "Voertuigtransport",
+          "slug": "voertuigtransport-brussel"
+        }
+      ]
+    },
+    "cta_final": {
+      "titre": "Camion in panne?",
+      "texte": "Elke minuut stilstand kost geld – bel meteen."
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "version": "2.0",
+  "commune": "Brussel",
+  "code_postal": "1000",
+
+  "seo": {
+    "meta_title": "Pechverhelping Brussel | Depannage 24/7 – HELPCAR Depannage",
+    "meta_description": "Autopech in Brussel of de Rand? Pechverhelping ter plaatse, 24/7: batterij, banden, brandstof, sleutels. Prijs vooraf. ☎ 02 886 04 86"
+  },
+
+  "geo": { "region": "BE-BRU", "lat": "50.8503", "lng": "4.3517" },
+
+  "hreflang_fr": "https://helpcar.be/services/depannage-voiture-bruxelles/",
+
+  "hero": {
+    "h1": "Pechverhelping Brussel – Depannage 24/7",
+    "accroche": "Autopech in Brussel of de Rand? We lossen het meestal ter plaatse op. De prijs krijgt u meteen aan de telefoon."
+  },
+
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Auto stilgevallen in Brussel? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> stuurt een depanneur die <strong>het probleem eerst ter plaatse probeert op te lossen</strong> – takelen doen we pas als het echt moet.",
+      "paragraphe_1": "Lege batterij, lekke band, verkeerde brandstof getankt, sleutels in de auto: <strong>7 op de 10 interventies lossen we op zonder te takelen</strong>. U rijdt gewoon verder en betaalt alleen de interventie.",
+      "paragraphe_2": "Ons team werkt al <strong>meer dan 10 jaar</strong> in Brussel en de Rand. We zijn er meestal binnen de <strong>30 minuten</strong> – dag en nacht, ook op zon- en feestdagen."
+    },
+
+    "section_on_connait": {
+      "h2": "Wat We Ter Plaatse Oplossen",
+      "intro": "De klassiekers waarvoor u ons kunt bellen:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Lege of defecte batterij",
+          "description": "We starten uw auto op met professioneel materiaal. Batterij aan vervanging toe? We plaatsen ter plaatse een nieuwe."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Lekke band",
+          "description": "We monteren uw reservewiel of herstellen de band waar mogelijk, zodat u veilig tot bij de bandencentrale raakt."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Verkeerde brandstof",
+          "description": "Benzine in een dieselwagen? Niet starten! We pompen de tank ter plaatse leeg en spoelen het circuit."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Sleutels in de auto",
+          "description": "Sleutels vergrendeld in de wagen of de koffer? We openen uw deur zonder schade."
+        }
+      ]
+    },
+
+    "section_services": {
+      "h2": "Zo Werkt Het",
+      "intro": "Eenvoudig en zonder verrassingen:",
+      "categories": [
+        {
+          "titre": "1. U belt, wij luisteren",
+          "services": [
+            { "nom": "U beschrijft het probleem en uw locatie" },
+            { "nom": "U krijgt meteen de exacte prijs" },
+            { "nom": "U beslist – geen verplichtingen" }
+          ]
+        },
+        {
+          "titre": "2. Wij komen en herstellen",
+          "services": [
+            { "nom": "Depanneur ter plaatse in ±30 min" },
+            { "nom": "Probleem opgelost waar u staat" },
+            { "nom": "Moet er toch getakeld worden? Dan regelen we dat meteen" }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+
+    "faq_locale": {
+      "h2": "FAQ – Pechverhelping Brussel",
+      "questions": [
+        {
+          "question": "Wat kost een pechverhelping in Brussel?",
+          "reponse": "Dat hangt af van het probleem en uw locatie. U krijgt de exacte prijs aan de telefoon, vóór we vertrekken. Geen voorrijkosten-verrassingen."
+        },
+        {
+          "question": "Moet ik lid zijn of een abonnement hebben?",
+          "reponse": "Nee. Geen lidmaatschap, geen abonnement, geen wachtdienstformule. U belt wanneer u ons nodig hebt en betaalt alleen die interventie."
+        },
+        {
+          "question": "Hoe snel zijn jullie er?",
+          "reponse": "In Brussel en de nabije Rand meestal binnen de 30 minuten. We geven u altijd een realistisch tijdstip aan de telefoon."
+        },
+        {
+          "question": "Wat als het probleem niet ter plaatse op te lossen is?",
+          "reponse": "Dan takelen we uw auto meteen naar de garage van uw keuze – u hoeft geen tweede dienst te bellen, wij regelen alles in één keer."
+        }
+      ]
+    },
+
+    "section_zones_voisines": {
+      "h2": "Onze Andere Diensten",
+      "content": "Weet u al wat er aan de hand is? Ga direct naar de juiste dienst:",
+      "communes_voisines": [
+        { "nom": "Takeldienst – auto takelen", "slug": "takeldienst-brussel" },
+        { "nom": "Lege batterij – opstarten", "slug": "batterij-depannage-brussel" },
+        { "nom": "Lekke band", "slug": "bandenpech-brussel" }
+      ]
+    },
+
+    "cta_final": {
+      "titre": "Autopech?",
+      "texte": "Zeg ons wat er scheelt, wij lossen het op."
+    }
+  }
+}

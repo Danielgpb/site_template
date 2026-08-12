@@ -1,0 +1,130 @@
+{
+  "version": "2.0",
+  "commune": "Brussel",
+  "code_postal": "1000",
+  "seo": {
+    "meta_title": "Verkeerde Brandstof Getankt? Tank Leegpompen Brussel – HELPCAR",
+    "meta_description": "Benzine in uw diesel getankt in Brussel? Start niet! We pompen de tank ter plaatse leeg, 24/7. ☎ 02 886 04 86"
+  },
+  "geo": {
+    "region": "BE-BRU",
+    "lat": "50.8503",
+    "lng": "4.3517"
+  },
+  "hreflang_fr": "https://helpcar.be/services/siphonnage-reservoir-bruxelles/",
+  "hero": {
+    "h1": "Verkeerde Brandstof Getankt? – Tank Leegpompen 24/7",
+    "accroche": "Benzine in de diesel (of omgekeerd)? Start de motor NIET en bel ons – we pompen de tank ter plaatse leeg."
+  },
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Benzine in uw dieselwagen getankt? <strong>Start de motor niet</strong> en draai zelfs het contact niet om. Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong> – <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> pompt uw tank <strong>ter plaatse leeg</strong> en spoelt het circuit, in Brussel en de Rand.",
+      "paragraphe_1": "Hoe minder de verkeerde brandstof circuleert, hoe kleiner de schade. Benzine smeert niet zoals diesel: een paar kilometer rijden kan de <strong>hogedrukpomp en injectoren</strong> beschadigen – een herstelling van duizenden euro's.",
+      "paragraphe_2": "Nog aan de pomp of net weggereden en stilgevallen? In beide gevallen lossen we het op: <strong>tank leegpompen, spoelen, juiste brandstof erin</strong> – en in de meeste gevallen rijdt u dezelfde dag nog verder."
+    },
+    "section_on_connait": {
+      "h2": "Wat U Moet Doen (en Laten)",
+      "intro": "De juiste reflexen bij een verkeerde tankbeurt:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "NIET starten",
+          "description": "Zolang de motor niet draait, blijft de verkeerde brandstof in de tank en is de schade beperkt. Zelfs contact opzetten activeert bij veel wagens al de brandstofpomp."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Wagen veilig zetten",
+          "description": "Nog aan de pomp? Laat de wagen staan (duw hem eventueel opzij) en verwittig het personeel. Onderweg stilgevallen? Zet u veilig aan de kant."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Bel ons meteen",
+          "description": "Geef door: welk voertuig, welke brandstof getankt, hoeveel liter, en of de motor gedraaid heeft. Zo komen we met het juiste materieel."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Wij pompen en spoelen",
+          "description": "Tank leeg, systeem gespoeld, verse brandstof erin. Heeft de motor gedraaid, dan controleren we mee of takelen we naar uw garage."
+        }
+      ]
+    },
+    "section_services": {
+      "h2": "Zo Werkt Het",
+      "intro": "Eenvoudig en zonder verrassingen:",
+      "categories": [
+        {
+          "titre": "1. U belt, wij luisteren",
+          "services": [
+            {
+              "nom": "U beschrijft de situatie en uw locatie"
+            },
+            {
+              "nom": "U krijgt meteen de exacte prijs"
+            },
+            {
+              "nom": "U beslist – geen verplichtingen"
+            }
+          ]
+        },
+        {
+          "titre": "2. Wij komen en lossen op",
+          "services": [
+            {
+              "nom": "Ter plaatse in ±30 min"
+            },
+            {
+              "nom": "Vakkundig en zonder schade"
+            },
+            {
+              "nom": "Klaar? U kunt weer verder"
+            }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+    "faq_locale": {
+      "h2": "FAQ – Verkeerde Brandstof Brussel",
+      "questions": [
+        {
+          "question": "Ik heb al een paar kilometer gereden – wat nu?",
+          "reponse": "Meteen stoppen zodra het veilig kan en ons bellen. Sputteren of stilvallen wijst erop dat de verkeerde brandstof al circuleert – hoe sneller leeggepompt, hoe beter."
+        },
+        {
+          "question": "Wat kost het leegpompen van de tank?",
+          "reponse": "Dat hangt af van het voertuig en de hoeveelheid. U krijgt de exacte prijs aan de telefoon, vóór we vertrekken."
+        },
+        {
+          "question": "Diesel in een benzinewagen – even erg?",
+          "reponse": "Meestal minder kritiek, maar de motor kan slecht lopen en roken. Ook dan: niet verder rijden en de tank laten leegpompen."
+        },
+        {
+          "question": "Kan ik jullie in het Nederlands bereiken?",
+          "reponse": "Ja, in het Nederlands, Frans of Engels – telefonisch op 02 886 04 86 of via WhatsApp."
+        }
+      ]
+    },
+    "section_zones_voisines": {
+      "h2": "Onze Andere Diensten",
+      "content": "Misschien zoekt u eerder dit:",
+      "communes_voisines": [
+        {
+          "nom": "Brandstoflevering",
+          "slug": "brandstoflevering-brussel"
+        },
+        {
+          "nom": "Takeldienst – auto takelen",
+          "slug": "takeldienst-brussel"
+        },
+        {
+          "nom": "Pechverhelping ter plaatse",
+          "slug": "pechverhelping-brussel"
+        }
+      ]
+    },
+    "cta_final": {
+      "titre": "Verkeerd getankt?",
+      "texte": "Niet starten – bel ons eerst."
+    }
+  }
+}

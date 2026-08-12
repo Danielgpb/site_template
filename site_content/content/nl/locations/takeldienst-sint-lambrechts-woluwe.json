@@ -1,0 +1,136 @@
+{
+  "version": "2.0",
+  "commune": "Sint-Lambrechts-Woluwe",
+  "code_postal": "1200",
+  "seo": {
+    "meta_title": "Takeldienst Sint-Lambrechts-Woluwe (1200) | 24/7 – HELPCAR Depannage",
+    "meta_description": "Takeldienst en pechverhelping in Sint-Lambrechts-Woluwe (1200). Woluwe Shopping, Roodebeek, Tomberg. Prijs vooraf. ☎ 02 886 04 86"
+  },
+  "geo": {
+    "region": "BE-BRU",
+    "lat": "50.8500",
+    "lng": "4.4290"
+  },
+  "hreflang_fr": "https://helpcar.be/zones/depannage-voiture-woluwe-saint-lambert/",
+  "hero": {
+    "h1": "Takeldienst Sint-Lambrechts-Woluwe (1200) – 24/7",
+    "accroche": "Van het Woluwe Shopping Center tot Roodebeek: snelle interventie, prijs meteen aan de telefoon."
+  },
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Autopech in Sint-Lambrechts-Woluwe? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> is uw <strong>takeldienst in Sint-Lambrechts-Woluwe (1200)</strong>: prijs vooraf, ter plaatse in <strong>ongeveer 25 minuten</strong>, dag en nacht.",
+      "paragraphe_1": "Batterij plat in de parking van het shoppingcenter, pech op de Woluwelaan, sleutels in de auto aan Tomberg – <strong>dagelijkse kost</strong> voor ons team. U belt, wij komen.",
+      "paragraphe_2": "Op de as tussen de E40, Montgomery en de luchthaven zijn we <strong>voortdurend onderweg</strong> – korte aanrijtijden gegarandeerd."
+    },
+    "section_on_connait": {
+      "h2": "Wij Kennen Sint-Lambrechts-Woluwe",
+      "intro": "De plekken waar we het vaakst depanneren:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Woluwe Shopping & Roodebeek",
+          "description": "De parkings van het winkelcentrum en het metrostation: batterijen en deuropeningen, elke week opnieuw."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Tomberg & Gribaumont",
+          "description": "De woonwijken rond de metrostations – interventies aan huis, ook in de smallere straten."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Woluwelaan & E40",
+          "description": "De grote as en de aansluiting op de snelweg: pech in de spits lossen we beveiligd op."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "UCL & Kapelleveld",
+          "description": "De campus en de tuinwijk: studentenwagens en gezinsauto’s, wij depanneren ze allemaal."
+        }
+      ]
+    },
+    "section_services": {
+      "h2": "Wat We Doen in Sint-Lambrechts-Woluwe",
+      "intro": "Alle klassieke depannages, ter plaatse opgelost of getakeld naar de garage van uw keuze.",
+      "categories": [
+        {
+          "titre": "Pechverhelping ter plaatse",
+          "services": [
+            {
+              "nom": "Lege batterij opstarten of vervangen"
+            },
+            {
+              "nom": "Lekke band – reservewiel of herstelling"
+            },
+            {
+              "nom": "Verkeerde brandstof afpompen"
+            },
+            {
+              "nom": "Sleutels in de auto – deuropening"
+            }
+          ]
+        },
+        {
+          "titre": "Takelen & transport",
+          "services": [
+            {
+              "nom": "Takelen naar uw garage (België)"
+            },
+            {
+              "nom": "Motorfietsen en bestelwagens"
+            },
+            {
+              "nom": "Ondergrondse parkings (lage doorgang)"
+            },
+            {
+              "nom": "Wrakophaling"
+            }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+    "faq_locale": {
+      "h2": "FAQ – Takeldienst in Sint-Lambrechts-Woluwe",
+      "questions": [
+        {
+          "question": "Hoe snel zijn jullie in Sint-Lambrechts-Woluwe?",
+          "reponse": "Meestal binnen de 25 minuten – we zijn dagelijks op de as E40-Montgomery te vinden."
+        },
+        {
+          "question": "Wat kost een takeling in Sint-Lambrechts-Woluwe?",
+          "reponse": "De prijs hangt af van uw locatie, het voertuig en de bestemming. U krijgt het exacte bedrag aan de telefoon, vóór we vertrekken."
+        },
+        {
+          "question": "Komen jullie 's nachts en in het weekend?",
+          "reponse": "Ja, 24 uur op 24, 7 dagen op 7, ook op zon- en feestdagen. U belt, wij komen."
+        },
+        {
+          "question": "Kan ik jullie in het Nederlands bereiken?",
+          "reponse": "Ja, in het Nederlands, Frans of Engels – telefonisch op 02 886 04 86 of via WhatsApp."
+        }
+      ]
+    },
+    "section_zones_voisines": {
+      "h2": "Buurgemeenten van Sint-Lambrechts-Woluwe",
+      "content": "We takelen in alle Brusselse gemeenten en de Rand:",
+      "communes_voisines": [
+        {
+          "nom": "Sint-Pieters-Woluwe",
+          "slug": "takeldienst-sint-pieters-woluwe"
+        },
+        {
+          "nom": "Evere",
+          "slug": "takeldienst-evere"
+        },
+        {
+          "nom": "Zaventem",
+          "slug": "takeldienst-zaventem"
+        }
+      ]
+    },
+    "cta_final": {
+      "titre": "Pech in Sint-Lambrechts-Woluwe?",
+      "texte": "Zeg ons waar u staat, wij zeggen wanneer we er zijn."
+    }
+  }
+}

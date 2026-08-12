@@ -1,0 +1,130 @@
+{
+  "version": "2.0",
+  "commune": "Brussel",
+  "code_postal": "1000",
+  "seo": {
+    "meta_title": "Speciale Voertuigen Takelen Brussel | Oldtimer, Sportwagen – HELPCAR",
+    "meta_description": "Oldtimer, sportwagen, verlaagde of aangepaste wagen takelen in Brussel? Vervoer met extra zorg, 24/7. ☎ 02 886 04 86"
+  },
+  "geo": {
+    "region": "BE-BRU",
+    "lat": "50.8503",
+    "lng": "4.3517"
+  },
+  "hreflang_fr": "https://helpcar.be/services/remorquage-vehicules-speciaux-bruxelles/",
+  "hero": {
+    "h1": "Speciale Voertuigen Takelen in Brussel – 24/7",
+    "accroche": "Oldtimer, sportwagen of verlaagde auto? Vervoer met de zorg die uw voertuig verdient."
+  },
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Een voertuig dat geen standaardbehandeling verdraagt? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> vervoert <strong>oldtimers, sportwagens, verlaagde en aangepaste voertuigen</strong> in en rond Brussel – met aangepast materieel en dubbele voorzichtigheid.",
+      "paragraphe_1": "Lage spoiler, weinig bodemvrijheid, kostbaar koetswerk: bij deze wagens maakt de <strong>oprijhoek en de bevestiging</strong> het verschil. We werken met verlengde opritten, zachte spanbanden en heffen op de juiste punten.",
+      "paragraphe_2": "Ook <strong>zonder pech</strong> kunt u op ons rekenen: transport naar een keuring, een garage, een verkoop of een event. U spreekt het moment af, wij zorgen dat uw voertuig er onberispelijk aankomt."
+    },
+    "section_on_connait": {
+      "h2": "Welke Voertuigen Vervoeren We?",
+      "intro": "Een greep uit wat we regelmatig op de plateau nemen:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Oldtimers & collectiewagens",
+          "description": "Zeldzame of oudere voertuigen vervoeren we met zachte banden en maximale bescherming – geen enkele kras is aanvaardbaar."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Sport- & verlaagde wagens",
+          "description": "Lage bumpers en spoilers vragen een aangepaste oprijhoek. Wij hebben de verlengde opritten daarvoor."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Aangepaste voertuigen",
+          "description": "Rolstoelvervoer, dubbele bediening of andere aanpassingen: we houden rekening met de specifieke punten van uw voertuig."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Quads, trikes & buggy’s",
+          "description": "Ook atypische voertuigen zetten we veilig vast en vervoeren we zonder verrassingen."
+        }
+      ]
+    },
+    "section_services": {
+      "h2": "Zo Werkt Het",
+      "intro": "Eenvoudig en zonder verrassingen:",
+      "categories": [
+        {
+          "titre": "1. U belt, wij luisteren",
+          "services": [
+            {
+              "nom": "U beschrijft de situatie en uw locatie"
+            },
+            {
+              "nom": "U krijgt meteen de exacte prijs"
+            },
+            {
+              "nom": "U beslist – geen verplichtingen"
+            }
+          ]
+        },
+        {
+          "titre": "2. Wij komen en lossen op",
+          "services": [
+            {
+              "nom": "Ter plaatse in ±30 min"
+            },
+            {
+              "nom": "Vakkundig en zonder schade"
+            },
+            {
+              "nom": "Klaar? U kunt weer verder"
+            }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+    "faq_locale": {
+      "h2": "FAQ – Speciale Voertuigen Brussel",
+      "questions": [
+        {
+          "question": "Hoe garanderen jullie dat er geen schade komt?",
+          "reponse": "Aangepast materieel (verlengde opritten, zachte spanbanden), heffen op de officiële punten, en foto’s vóór en na het transport indien gewenst."
+        },
+        {
+          "question": "Vervoeren jullie ook zonder panne, op afspraak?",
+          "reponse": "Ja – naar keuring, garage, verkoop of event. U kiest datum en uur, wij bevestigen de prijs op voorhand."
+        },
+        {
+          "question": "Is mijn voertuig verzekerd tijdens het transport?",
+          "reponse": "Ja, het vervoer gebeurt onder onze professionele aansprakelijkheid. Vermeld bijzonderheden (waarde, staat) aan de telefoon."
+        },
+        {
+          "question": "Kan ik jullie in het Nederlands bereiken?",
+          "reponse": "Ja, in het Nederlands, Frans of Engels – telefonisch op 02 886 04 86 of via WhatsApp."
+        }
+      ]
+    },
+    "section_zones_voisines": {
+      "h2": "Onze Andere Diensten",
+      "content": "Misschien zoekt u eerder dit:",
+      "communes_voisines": [
+        {
+          "nom": "Takeldienst – auto takelen",
+          "slug": "takeldienst-brussel"
+        },
+        {
+          "nom": "Moto takelen",
+          "slug": "moto-takelen-brussel"
+        },
+        {
+          "nom": "Voertuigtransport",
+          "slug": "voertuigtransport-brussel"
+        }
+      ]
+    },
+    "cta_final": {
+      "titre": "Bijzonder voertuig te vervoeren?",
+      "texte": "Vertel ons wat het is – wij komen met het juiste materieel."
+    }
+  }
+}

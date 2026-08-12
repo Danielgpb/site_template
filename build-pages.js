@@ -204,6 +204,17 @@ const IMG_ICON = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fi
 
 function imgPlaceholder(label, suggestion, size = '800 x 600 px', modifier = '--landscape') {
   if (suggestion && suggestion.startsWith('/images/')) {
+    // Si un .webp (et -md.webp mobile) existe, servir un <picture> responsive
+    const base = suggestion.replace(/\.(jpg|jpeg|png|webp)$/i, '');
+    const rel = base.replace('/images/', '');
+    if (fs.existsSync(path.join(__dirname, 'images', rel + '.webp'))) {
+      const md = fs.existsSync(path.join(__dirname, 'images', rel + '-md.webp'))
+        ? `<source srcset="${base}-md.webp" media="(max-width: 767px)" type="image/webp">\n  ` : '';
+      return `<picture>
+  ${md}<source srcset="${base}.webp" type="image/webp">
+  <img src="${suggestion}" alt="${label}" loading="lazy" style="width:100%;border-radius:12px" width="800" height="533">
+</picture>`;
+    }
     return `<img src="${suggestion}" alt="${label}" style="width:100%;border-radius:12px">`;
   }
   return `<div class="img-placeholder img-placeholder${modifier}">
@@ -555,10 +566,12 @@ function buildLocationPage(jsonFile, slug) {
 
   const quartiersHtml = (c.section_on_connait?.quartiers || []).map(q => `
     <div class="service-card">
-      <div class="service-card__photo">
+      ${q.photo ? `<div class="service-card__photo">
+        <img src="/images/${q.photo}" alt="${escapeAttr(q.nom)}" loading="lazy" style="width:100%;height:100%;object-fit:cover;">
+      </div>` : data.sans_placeholders ? '' : `<div class="service-card__photo">
         <div class="service-card__photo-icon">${IMG_ICON}</div>
         <div class="service-card__photo-hint">Photo : Rue ou place connue de ${q.nom}</div>
-      </div>
+      </div>`}
       <div class="service-card__body">
         <div class="service-card__icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -687,7 +700,7 @@ ${getSharedHeader('Zones')}
         </div>
       </div>
       <div class="photo-section__image">
-        ${imgPlaceholder('Photo : ' + data.commune, 'Vue de ' + data.commune + ' avec dépanneuse HELPCAR, ou point de repère connu de la commune avec camion en arrière-plan')}
+        ${imgPlaceholder('Dépannage voiture ' + data.commune + ' – HELPCAR', data.image ? '/images/' + data.image : 'Vue de ' + data.commune + ' avec dépanneuse HELPCAR, ou point de repère connu de la commune avec camion en arrière-plan')}
       </div>
     </div>
   </div>
@@ -1082,7 +1095,7 @@ console.log(`\nDone! Generated ${serviceCount} service pages, ${locationCount} l
 const BUILD_DIR = path.join(__dirname, 'build');
 const DEPLOY_DIRS = [
   'a-propos', 'blog', 'contact', 'css', 'images', 'js',
-  'mentions-legales', 'politique-confidentialite', 'services', 'tarifs', 'zones'
+  'mentions-legales', 'nl', 'politique-confidentialite', 'services', 'tarifs', 'zones'
 ];
 const DEPLOY_FILES = ['index.html', 'robots.txt', 'sitemap.xml', 'favicon.ico'];
 
@@ -1099,6 +1112,10 @@ function copyDirSync(src, dest) {
     }
   }
 }
+
+// Réinjecte les hreflang FR<->NL + le lien NL dans la nav (idempotents — indispensables après un --force)
+try { require('./scripts-hreflang-fr.js'); } catch (e) { console.log('  ⚠ hreflang FR<->NL :', e.message); }
+try { require('./scripts-lang-switch-fr.js'); } catch (e) { console.log('  ⚠ lien NL nav :', e.message); }
 
 console.log('\nBuilding deployable folder → build/ ...');
 

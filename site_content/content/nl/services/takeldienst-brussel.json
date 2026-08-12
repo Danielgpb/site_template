@@ -1,0 +1,115 @@
+{
+  "version": "2.0",
+  "commune": "Brussel",
+  "code_postal": "1000",
+
+  "seo": {
+    "meta_title": "Takeldienst Brussel | Auto Takelen 24/7 – HELPCAR Depannage",
+    "meta_description": "Takeldienst in Brussel en de Rand: uw auto getakeld naar de garage van uw keuze, 24/7. Prijs vooraf aan de telefoon. ☎ 02 886 04 86"
+  },
+
+  "geo": { "region": "BE-BRU", "lat": "50.8503", "lng": "4.3517" },
+
+  "hreflang_fr": "https://helpcar.be/services/remorquage-voiture-bruxelles/",
+
+  "hero": {
+    "h1": "Takeldienst Brussel – Auto Takelen 24/7",
+    "accroche": "Uw auto veilig getakeld naar de garage van uw keuze, in Brussel en de Vlaamse Rand. De prijs krijgt u meteen aan de telefoon."
+  },
+
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Uw auto start niet meer of mag niet verder rijden? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> takelt uw wagen <strong>24/7 in Brussel en de Rand</strong> – naar uw garage, uw huis of de bestemming van uw keuze.",
+      "paragraphe_1": "Motorpech, ongeval, auto die niet meer schakelt of een elektrische wagen zonder stroom: onze takelwagens zijn uitgerust voor alle situaties, ook voor ondergrondse parkings met lage doorgang. Eén telefoontje en u kent de <strong>exacte prijs vóór we vertrekken</strong>.",
+      "paragraphe_2": "Met <strong>meer dan 10 jaar ervaring</strong> en een team dat Brussel en de Rand door en door kent, zijn we er meestal binnen de <strong>30 minuten</strong> – dag en nacht, ook op zon- en feestdagen."
+    },
+
+    "section_on_connait": {
+      "h2": "Wanneer Belt U Ons voor een Takeling?",
+      "intro": "De situaties waarvoor klanten ons het vaakst bellen:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Motorpech of defect",
+          "description": "De motor slaat af, de koppeling geeft op, het dashboard licht rood op. We takelen uw auto naar de garage van uw keuze."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Na een ongeval",
+          "description": "Uw wagen is niet meer rijklaar na een aanrijding. We halen hem veilig op en brengen hem waar u wilt – ook voor de verzekering."
+        },
+        {
+          "icon": "building",
+          "nom": "Ondergrondse parking",
+          "description": "Pech in een parkeergarage met lage doorgang? We hebben compact materieel dat past waar een klassieke takelwagen niet binnen kan."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Elektrische wagen of automaat",
+          "description": "Een EV zonder stroom of een automaat mag vaak niet gesleept worden. Wij takelen met volledige opheffing – zonder schade."
+        }
+      ]
+    },
+
+    "section_services": {
+      "h2": "Zo Werkt Het",
+      "intro": "Eenvoudig en zonder verrassingen:",
+      "categories": [
+        {
+          "titre": "1. U belt, wij luisteren",
+          "services": [
+            { "nom": "U beschrijft de situatie en uw locatie" },
+            { "nom": "U krijgt meteen de exacte prijs" },
+            { "nom": "U beslist – geen verplichtingen" }
+          ]
+        },
+        {
+          "titre": "2. Wij komen en takelen",
+          "services": [
+            { "nom": "Takelwagen ter plaatse in ±30 min" },
+            { "nom": "Professioneel opgeladen, zonder schade" },
+            { "nom": "Naar de garage of bestemming van uw keuze" }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+
+    "faq_locale": {
+      "h2": "FAQ – Takeldienst Brussel",
+      "questions": [
+        {
+          "question": "Wat kost een takeling in Brussel?",
+          "reponse": "De prijs hangt af van uw locatie, het type voertuig en de bestemming. U krijgt het exacte bedrag aan de telefoon, vóór we vertrekken – geen verrassingen achteraf."
+        },
+        {
+          "question": "Naar welke garage takelen jullie mijn auto?",
+          "reponse": "Naar de garage van úw keuze, waar dan ook in België. Geen garage in gedachten? We denken graag mee, maar u beslist altijd zelf."
+        },
+        {
+          "question": "Kunnen jullie een elektrische auto takelen?",
+          "reponse": "Ja. Elektrische wagens en automaten takelen we met volledige opheffing van de aangedreven wielen, zoals het hoort – zonder risico op schade."
+        },
+        {
+          "question": "Takelen jullie ook in de Vlaamse Rand?",
+          "reponse": "Ja, we werken in heel Brussel én de Rand: Zaventem, de luchthaven, Sint-Genesius-Rode en de omliggende gemeenten."
+        }
+      ]
+    },
+
+    "section_zones_voisines": {
+      "h2": "Onze Andere Diensten",
+      "content": "Niet zeker of takelen nodig is? Vaak lossen we het ter plaatse op:",
+      "communes_voisines": [
+        { "nom": "Pechverhelping ter plaatse", "slug": "pechverhelping-brussel" },
+        { "nom": "Lege batterij – opstarten", "slug": "batterij-depannage-brussel" },
+        { "nom": "Lekke band", "slug": "bandenpech-brussel" }
+      ]
+    },
+
+    "cta_final": {
+      "titre": "Takelwagen nodig?",
+      "texte": "Zeg ons waar u staat, wij zeggen wanneer we er zijn."
+    }
+  }
+}

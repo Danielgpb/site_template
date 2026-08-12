@@ -1,0 +1,136 @@
+{
+  "version": "2.0",
+  "commune": "Etterbeek",
+  "code_postal": "1040",
+  "seo": {
+    "meta_title": "Takeldienst Etterbeek (1040) | 24/7 – HELPCAR Depannage",
+    "meta_description": "Takeldienst en pechverhelping in Etterbeek (1040). Jubelpark, Jourdanplein, Montgomery. Prijs vooraf. ☎ 02 886 04 86"
+  },
+  "geo": {
+    "region": "BE-BRU",
+    "lat": "50.8365",
+    "lng": "4.3894"
+  },
+  "hreflang_fr": "https://helpcar.be/zones/depannage-voiture-etterbeek/",
+  "hero": {
+    "h1": "Takeldienst Etterbeek (1040) – 24/7",
+    "accroche": "Van het Jubelpark tot het Jourdanplein: snelle interventie, prijs meteen aan de telefoon."
+  },
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Autopech in Etterbeek? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> is uw <strong>takeldienst in Etterbeek (1040)</strong>: prijs vooraf, ter plaatse in <strong>ongeveer 30 minuten</strong>, dag en nacht.",
+      "paragraphe_1": "Lege batterij aan het station van Etterbeek, lekke band in de Kazernewijk, sleutels in de auto op het Jourdanplein – wij lossen het op. Eén telefoontje en u kent de prijs.",
+      "paragraphe_2": "Tussen Montgomery, de Waversesteenweg en de Europese wijk rijden we <strong>elke dag</strong> – Etterbeek kennen we door en door."
+    },
+    "section_on_connait": {
+      "h2": "Wij Kennen Etterbeek",
+      "intro": "De plekken waar we het vaakst depanneren:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Jubelpark & Merode",
+          "description": "Het park, de rotonde van Merode en de Tervurenlaan. Drukke zone met veel doorgaand verkeer."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Jourdanplein",
+          "description": "Horeca en markt, moeilijk parkeren. We kennen de toegangen en interveniëren er vaak."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Kazernewijk & Jacht",
+          "description": "Woonstraten rond de oude kazerne en de Jachtlaan – klassiek terrein voor platte batterijen."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Montgomery",
+          "description": "Rotonde, tunnel en samenlopende lanen: een knooppunt waar pech meteen hinder geeft. We zijn er snel."
+        }
+      ]
+    },
+    "section_services": {
+      "h2": "Wat We Doen in Etterbeek",
+      "intro": "Alle klassieke depannages, ter plaatse opgelost of getakeld naar de garage van uw keuze.",
+      "categories": [
+        {
+          "titre": "Pechverhelping ter plaatse",
+          "services": [
+            {
+              "nom": "Lege batterij opstarten of vervangen"
+            },
+            {
+              "nom": "Lekke band – reservewiel of herstelling"
+            },
+            {
+              "nom": "Verkeerde brandstof afpompen"
+            },
+            {
+              "nom": "Sleutels in de auto – deuropening"
+            }
+          ]
+        },
+        {
+          "titre": "Takelen & transport",
+          "services": [
+            {
+              "nom": "Takelen naar uw garage (België)"
+            },
+            {
+              "nom": "Motorfietsen en bestelwagens"
+            },
+            {
+              "nom": "Ondergrondse parkings (lage doorgang)"
+            },
+            {
+              "nom": "Wrakophaling"
+            }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+    "faq_locale": {
+      "h2": "FAQ – Takeldienst in Etterbeek",
+      "questions": [
+        {
+          "question": "Hoe snel zijn jullie in Etterbeek?",
+          "reponse": "Meestal binnen de 30 minuten, afhankelijk van het verkeer rond Montgomery en de Europese wijk."
+        },
+        {
+          "question": "Wat kost een takeling in Etterbeek?",
+          "reponse": "De prijs hangt af van uw locatie, het voertuig en de bestemming. U krijgt het exacte bedrag aan de telefoon, vóór we vertrekken."
+        },
+        {
+          "question": "Komen jullie 's nachts en in het weekend?",
+          "reponse": "Ja, 24 uur op 24, 7 dagen op 7, ook op zon- en feestdagen. U belt, wij komen."
+        },
+        {
+          "question": "Kan ik jullie in het Nederlands bereiken?",
+          "reponse": "Ja, in het Nederlands, Frans of Engels – telefonisch op 02 886 04 86 of via WhatsApp."
+        }
+      ]
+    },
+    "section_zones_voisines": {
+      "h2": "Buurgemeenten van Etterbeek",
+      "content": "We takelen in alle Brusselse gemeenten en de Rand:",
+      "communes_voisines": [
+        {
+          "nom": "Sint-Pieters-Woluwe",
+          "slug": "takeldienst-sint-pieters-woluwe"
+        },
+        {
+          "nom": "Elsene",
+          "slug": "takeldienst-elsene"
+        },
+        {
+          "nom": "Brussel-Centrum",
+          "slug": "takeldienst-brussel-centrum"
+        }
+      ]
+    },
+    "cta_final": {
+      "titre": "Pech in Etterbeek?",
+      "texte": "Zeg ons waar u staat, wij zeggen wanneer we er zijn."
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "version": "2.0",
+  "commune": "Brussel",
+  "code_postal": "1000",
+  "seo": {
+    "meta_title": "Voertuigtransport Brussel & Omgeving | Auto Vervoeren – HELPCAR",
+    "meta_description": "Een auto laten vervoeren in of rond Brussel? Voertuigtransport op afspraak, ook zonder pech. ☎ 02 886 04 86"
+  },
+  "geo": {
+    "region": "BE-BRU",
+    "lat": "50.8503",
+    "lng": "4.3517"
+  },
+  "hreflang_fr": "https://helpcar.be/services/transport-routier-local-bruxelles/",
+  "hero": {
+    "h1": "Voertuigtransport in Brussel en Omgeving",
+    "accroche": "Een wagen verplaatsen zonder hem te rijden? Wij vervoeren hem – op afspraak, zonder stress."
+  },
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Een voertuig te verplaatsen in of rond Brussel? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> vervoert <strong>auto’s, bestelwagens en moto’s op de plateau</strong> – ook zonder panne, gewoon op afspraak.",
+      "paragraphe_1": "Een wagen zonder keuring of verzekering mag de weg niet op, een net gekochte auto moet opgehaald, een tweede wagen moet mee verhuizen: allemaal situaties waarin <strong>transport op de plateau</strong> de juiste (en wettelijke) oplossing is.",
+      "paragraphe_2": "U krijgt een <strong>vaste prijs op voorhand</strong> en een afgesproken tijdstip. Ophaling en levering waar u wilt: garage, keuringscentrum, oprit of parking."
+    },
+    "section_on_connait": {
+      "h2": "Wanneer Belt U Ons?",
+      "intro": "De situaties waarvoor klanten ons bellen:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Auto gekocht of verkocht",
+          "description": "Een tweedehands gekocht zonder keuring of nummerplaat? Wij halen hem op bij de verkoper en leveren aan huis."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Naar keuring of garage",
+          "description": "Wagen zonder geldige keuring of met een technisch probleem? Op de plateau mag hij wél naar het keuringscentrum of de garage."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Verhuis of langdurig stallen",
+          "description": "Tweede wagen mee verhuizen of naar een stalling brengen? Eén afspraak en het is geregeld."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Garagewagen of projectauto",
+          "description": "Een niet-rijdende projectwagen tussen werkplaatsen verplaatsen? Dagelijkse kost voor ons."
+        }
+      ]
+    },
+    "section_services": {
+      "h2": "Zo Werkt Het",
+      "intro": "Eenvoudig en zonder verrassingen:",
+      "categories": [
+        {
+          "titre": "1. U belt, wij luisteren",
+          "services": [
+            {
+              "nom": "U beschrijft de situatie en uw locatie"
+            },
+            {
+              "nom": "U krijgt meteen de exacte prijs"
+            },
+            {
+              "nom": "U beslist – geen verplichtingen"
+            }
+          ]
+        },
+        {
+          "titre": "2. Wij komen en lossen op",
+          "services": [
+            {
+              "nom": "Ter plaatse in ±30 min"
+            },
+            {
+              "nom": "Vakkundig en zonder schade"
+            },
+            {
+              "nom": "Klaar? U kunt weer verder"
+            }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+    "faq_locale": {
+      "h2": "FAQ – Voertuigtransport Brussel",
+      "questions": [
+        {
+          "question": "Wat kost een transport in de regio Brussel?",
+          "reponse": "De prijs hangt af van de afstand en het voertuig. U krijgt een vaste prijs aan de telefoon – geen verrassingen bij levering."
+        },
+        {
+          "question": "Moet het voertuig verzekerd of gekeurd zijn?",
+          "reponse": "Nee – dat is net het voordeel. Op de plateau hoeft het voertuig niet rijklaar, gekeurd of verzekerd te zijn."
+        },
+        {
+          "question": "Kan ik een vast tijdstip afspreken?",
+          "reponse": "Ja, transport op afspraak is de standaard: u kiest dag en tijdslot, wij bevestigen."
+        },
+        {
+          "question": "Kan ik jullie in het Nederlands bereiken?",
+          "reponse": "Ja, in het Nederlands, Frans of Engels – telefonisch op 02 886 04 86 of via WhatsApp."
+        }
+      ]
+    },
+    "section_zones_voisines": {
+      "h2": "Onze Andere Diensten",
+      "content": "Misschien zoekt u eerder dit:",
+      "communes_voisines": [
+        {
+          "nom": "Transport lange afstand",
+          "slug": "voertuigtransport-lange-afstand"
+        },
+        {
+          "nom": "Speciale voertuigen takelen",
+          "slug": "speciale-voertuigen-takelen-brussel"
+        },
+        {
+          "nom": "Takeldienst – auto takelen",
+          "slug": "takeldienst-brussel"
+        }
+      ]
+    },
+    "cta_final": {
+      "titre": "Voertuig te vervoeren?",
+      "texte": "Zeg ons vanwaar naar waar – u krijgt meteen de prijs."
+    }
+  }
+}

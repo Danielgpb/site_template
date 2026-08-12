@@ -1,0 +1,115 @@
+{
+  "version": "2.0",
+  "commune": "Brussel",
+  "code_postal": "1000",
+
+  "seo": {
+    "meta_title": "Lege Batterij? Batterij Depannage Brussel 24/7 – HELPCAR",
+    "meta_description": "Lege autobatterij in Brussel of de Rand? Opstarten of vervangen ter plaatse, 24/7. Prijs vooraf aan de telefoon. ☎ 02 886 04 86"
+  },
+
+  "geo": { "region": "BE-BRU", "lat": "50.8503", "lng": "4.3517" },
+
+  "hreflang_fr": "https://helpcar.be/services/depannage-batterie-bruxelles/",
+
+  "hero": {
+    "h1": "Lege Batterij? Depannage in Brussel – 24/7",
+    "accroche": "We starten uw auto op of vervangen de batterij ter plaatse, in Brussel en de Rand. Prijs meteen aan de telefoon."
+  },
+
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Uw auto start niet en u hoort alleen een klik? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> start uw wagen <strong>ter plaatse</strong> op – of plaatst meteen een nieuwe batterij als de oude versleten is.",
+      "paragraphe_1": "Een lege batterij is de <strong>meest voorkomende autopech</strong>: lichten laten branden, een week niet gereden, koude winternacht. In 9 van de 10 gevallen rijdt u binnen het kwartier na onze aankomst weer verder.",
+      "paragraphe_2": "We testen altijd eerst de batterij en het laadcircuit. Zo weet u meteen of opstarten volstaat of of de batterij aan vervanging toe is – <strong>u beslist, met de prijs op voorhand</strong>."
+    },
+
+    "section_on_connait": {
+      "h2": "Herkent U Dit?",
+      "intro": "De typische symptomen van een batterijprobleem:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Klikgeluid bij het starten",
+          "description": "De startmotor krijgt te weinig stroom. Meestal een (bijna) lege batterij – opstarten en een eindje rijden lost het vaak op."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Helemaal geen reactie",
+          "description": "Geen lichtjes, geen dashboard. Batterij volledig plat of een slecht contact – we sporen het ter plaatse op."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Auto start moeizaam in de kou",
+          "description": "Trage start bij vriesweer wijst op een verzwakte batterij. Beter nu vervangen dan volgende week stilstaan."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Batterijlampje brandt tijdens het rijden",
+          "description": "Mogelijk een probleem met de alternator. Blijf niet rondrijden – bel ons, we meten het laadcircuit door."
+        }
+      ]
+    },
+
+    "section_services": {
+      "h2": "Zo Werkt Het",
+      "intro": "Eenvoudig en zonder verrassingen:",
+      "categories": [
+        {
+          "titre": "1. U belt, wij luisteren",
+          "services": [
+            { "nom": "U beschrijft de symptomen en uw locatie" },
+            { "nom": "U krijgt meteen de exacte prijs" },
+            { "nom": "U beslist – geen verplichtingen" }
+          ]
+        },
+        {
+          "titre": "2. Wij komen en lossen op",
+          "services": [
+            { "nom": "Ter plaatse in ±30 min" },
+            { "nom": "Batterij getest, opgestart of vervangen" },
+            { "nom": "Nieuwe batterij? Met garantie geplaatst" }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+
+    "faq_locale": {
+      "h2": "FAQ – Batterij Depannage Brussel",
+      "questions": [
+        {
+          "question": "Wat kost het opstarten van mijn auto?",
+          "reponse": "U krijgt de exacte prijs aan de telefoon, vóór we vertrekken. Moet de batterij vervangen worden, dan geven we u ook die prijs op voorhand."
+        },
+        {
+          "question": "Hebben jullie batterijen bij voor mijn automodel?",
+          "reponse": "We hebben de courante maten aan boord. Geef uw merk en model door aan de telefoon, dan bevestigen we meteen of we de juiste batterij bij hebben."
+        },
+        {
+          "question": "Kan een start-stopbatterij ook?",
+          "reponse": "Ja, ook AGM- en EFB-batterijen voor start-stopsystemen vervangen we ter plaatse, met registratie in het boordsysteem waar nodig."
+        },
+        {
+          "question": "Mijn auto staat in een ondergrondse parking – lukt dat?",
+          "reponse": "Ja, voor opstarten of batterijvervanging komen we gewoon tot bij uw wagen, ook in parkeergarages met lage doorgang."
+        }
+      ]
+    },
+
+    "section_zones_voisines": {
+      "h2": "Onze Andere Diensten",
+      "content": "Toch iets anders aan de hand?",
+      "communes_voisines": [
+        { "nom": "Pechverhelping ter plaatse", "slug": "pechverhelping-brussel" },
+        { "nom": "Takeldienst – auto takelen", "slug": "takeldienst-brussel" },
+        { "nom": "Lekke band", "slug": "bandenpech-brussel" }
+      ]
+    },
+
+    "cta_final": {
+      "titre": "Lege batterij?",
+      "texte": "Bel ons – u rijdt zo weer verder."
+    }
+  }
+}

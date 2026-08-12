@@ -1,0 +1,130 @@
+{
+  "version": "2.0",
+  "commune": "Brussel",
+  "code_postal": "1000",
+  "seo": {
+    "meta_title": "Auto Getakeld door de Politie? Hulp bij het Depot Brussel – HELPCAR",
+    "meta_description": "Uw auto weggesleept naar het depot in Brussel? We helpen met de stappen en brengen uw wagen thuis. ☎ 02 886 04 86"
+  },
+  "geo": {
+    "region": "BE-BRU",
+    "lat": "50.8503",
+    "lng": "4.3517"
+  },
+  "hreflang_fr": "https://helpcar.be/services/sortie-fourriere-bruxelles/",
+  "hero": {
+    "h1": "Auto in het Takeldepot? Wij Helpen U – Brussel",
+    "accroche": "Weggesleept door de politie? We gidsen u door de stappen en brengen uw wagen daarna waar u wilt."
+  },
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Uw auto is weggesleept en staat in een depot? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> helpt u <strong>wegwijs in de procedure</strong> en haalt uw wagen daarna op om hem te brengen waar u wilt – thuis of bij uw garage.",
+      "paragraphe_1": "Elke Brusselse politiezone werkt met eigen depots en procedures. We leggen u uit <strong>welke documenten u nodig hebt</strong> (identiteit, boorddocumenten, betaalbewijs) en waar u moet zijn – dat bespaart u heen-en-weergeloop.",
+      "paragraphe_2": "Is uw wagen in het depot <strong>niet meer rijklaar</strong> (immobilisatie, schade, lege batterij na weken stilstand)? Dan takelen wij hem vanaf het depot naar uw bestemming, zodra de vrijgave in orde is."
+    },
+    "section_on_connait": {
+      "h2": "Zo Verloopt Het",
+      "intro": "De stappen na een wegsleping in Brussel:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "1. Waar staat uw wagen?",
+          "description": "Bel de politiezone van de plaats waar u geparkeerd stond – zij bevestigen het depot. Weet u niet welke zone? Wij helpen u zoeken."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "2. Documenten verzamelen",
+          "description": "Identiteitskaart, inschrijvingsbewijs of boorddocumenten, en verzekeringsbewijs. De retributie betaalt u aan het depot of de zone."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "3. Vrijgave aan het depot",
+          "description": "Met de vrijgave in de hand kan de wagen buiten. Rijdt hij nog, dan vertrekt u meteen zelf."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "4. Rijdt hij niet meer? Wij takelen",
+          "description": "Batterij plat, schade of immobilisatie: we halen de wagen bij het depot op en brengen hem waar u wilt."
+        }
+      ]
+    },
+    "section_services": {
+      "h2": "Zo Werkt Het",
+      "intro": "Eenvoudig en zonder verrassingen:",
+      "categories": [
+        {
+          "titre": "1. U belt, wij luisteren",
+          "services": [
+            {
+              "nom": "U beschrijft de situatie en uw locatie"
+            },
+            {
+              "nom": "U krijgt meteen de exacte prijs"
+            },
+            {
+              "nom": "U beslist – geen verplichtingen"
+            }
+          ]
+        },
+        {
+          "titre": "2. Wij komen en lossen op",
+          "services": [
+            {
+              "nom": "Ter plaatse in ±30 min"
+            },
+            {
+              "nom": "Vakkundig en zonder schade"
+            },
+            {
+              "nom": "Klaar? U kunt weer verder"
+            }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+    "faq_locale": {
+      "h2": "FAQ – Takeldepot Brussel",
+      "questions": [
+        {
+          "question": "Kunnen jullie mijn auto uit het depot halen zonder mij?",
+          "reponse": "De vrijgave is persoonlijk: de eigenaar (of een gevolmachtigde met de juiste documenten) moet ze regelen. Daarna nemen wij het transport over."
+        },
+        {
+          "question": "Wat kost de wegsleping door de politie?",
+          "reponse": "De retributie verschilt per gemeente en komt van de politiezone of het depot – die betaalt u daar. Onze eventuele takeling vanaf het depot krijgt u apart en vooraf geprijsd."
+        },
+        {
+          "question": "Mijn auto is beschadigd bij de wegsleping – wat nu?",
+          "reponse": "Maak foto’s vóór u het depot verlaat en meld het meteen aan de depotbeheerder. Voor het verdere transport kunt u op ons rekenen."
+        },
+        {
+          "question": "Kan ik jullie in het Nederlands bereiken?",
+          "reponse": "Ja, in het Nederlands, Frans of Engels – telefonisch op 02 886 04 86 of via WhatsApp."
+        }
+      ]
+    },
+    "section_zones_voisines": {
+      "h2": "Onze Andere Diensten",
+      "content": "Misschien zoekt u eerder dit:",
+      "communes_voisines": [
+        {
+          "nom": "Takeldienst – auto takelen",
+          "slug": "takeldienst-brussel"
+        },
+        {
+          "nom": "Lege batterij – opstarten",
+          "slug": "batterij-depannage-brussel"
+        },
+        {
+          "nom": "Wrakophaling",
+          "slug": "wrakophaling-brussel"
+        }
+      ]
+    },
+    "cta_final": {
+      "titre": "Auto weggesleept?",
+      "texte": "Bel ons – we maken u wegwijs en regelen het transport."
+    }
+  }
+}

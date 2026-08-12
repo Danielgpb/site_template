@@ -1,0 +1,130 @@
+{
+  "version": "2.0",
+  "commune": "Brussel",
+  "code_postal": "1000",
+  "seo": {
+    "meta_title": "Accidentwagen Verkopen Brussel | Wij Kopen & Halen Op – HELPCAR",
+    "meta_description": "Uw beschadigde of total-loss wagen verkopen in Brussel? Bod aan de telefoon, ophaling inbegrepen. ☎ 02 886 04 86"
+  },
+  "geo": {
+    "region": "BE-BRU",
+    "lat": "50.8503",
+    "lng": "4.3517"
+  },
+  "hreflang_fr": "https://helpcar.be/services/achat-voiture-accidentee/",
+  "hero": {
+    "h1": "Accidentwagen Verkopen? Wij Kopen Hem – Brussel",
+    "accroche": "Beschadigde wagen kwijt zonder gedoe met zoekertjes? Wij doen een bod en halen hem op."
+  },
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Uw wagen is beschadigd en u wilt ervan af, zonder maandenlang zoekertjes en onderhandelaars? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> <strong>koopt accidentwagens in Brussel en de Rand</strong>: u krijgt een bod, en bij akkoord halen we de wagen op.",
+      "paragraphe_1": "Total loss verklaard, zware koetswerkschade of een motorprobleem dat meer kost dan de wagen waard is: in plaats van te blijven zitten met een onverkoopbare auto, <strong>maakt u er vandaag nog geld van</strong>.",
+      "paragraphe_2": "Stuur ons enkele <strong>foto’s via WhatsApp</strong> met merk, model, bouwjaar en kilometerstand – u krijgt snel een eerlijk voorstel. Bij akkoord regelen we ophaling én papierwerk in één keer."
+    },
+    "section_on_connait": {
+      "h2": "Welke Wagens Kopen We?",
+      "intro": "In deze staten doen we een bod:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Total loss na ongeval",
+          "description": "De verzekering heeft afgeschreven? Wij bieden op de wagen zoals hij is – rijdend of niet."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Zware mechanische schade",
+          "description": "Motor, versnellingsbak of turbo stuk en herstellen te duur? Ook dan heeft de wagen waarde voor ons."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Koetswerkschade",
+          "description": "Fikse blutsen of schade na een aanrijding, maar mechanisch nog gezond? Interessant – stuur foto’s."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Niet meer gekeurd of lang stilgestaan",
+          "description": "Zonder geldige keuring of jaren stilgestaan? We bekijken elk dossier – ophaling is nooit het probleem."
+        }
+      ]
+    },
+    "section_services": {
+      "h2": "Zo Werkt Het",
+      "intro": "Eenvoudig en zonder verrassingen:",
+      "categories": [
+        {
+          "titre": "1. U belt, wij luisteren",
+          "services": [
+            {
+              "nom": "U beschrijft de situatie en uw locatie"
+            },
+            {
+              "nom": "U krijgt meteen de exacte prijs"
+            },
+            {
+              "nom": "U beslist – geen verplichtingen"
+            }
+          ]
+        },
+        {
+          "titre": "2. Wij komen en lossen op",
+          "services": [
+            {
+              "nom": "Ter plaatse in ±30 min"
+            },
+            {
+              "nom": "Vakkundig en zonder schade"
+            },
+            {
+              "nom": "Klaar? U kunt weer verder"
+            }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+    "faq_locale": {
+      "h2": "FAQ – Accidentwagen Verkopen Brussel",
+      "questions": [
+        {
+          "question": "Hoe krijg ik een bod op mijn wagen?",
+          "reponse": "Bel of stuur via WhatsApp: foto’s, merk, model, bouwjaar, kilometerstand en een korte beschrijving van de schade. U krijgt snel een concreet voorstel."
+        },
+        {
+          "question": "Welke documenten heb ik nodig voor de verkoop?",
+          "reponse": "Inschrijvingsbewijs, gelijkvormigheidsattest en het Car-Pass-document. Ontbreekt er iets? We bekijken samen wat mogelijk is."
+        },
+        {
+          "question": "Is de ophaling inbegrepen in het bod?",
+          "reponse": "Ja, bij akkoord halen we de wagen op zonder extra kosten – ook als hij niet meer rijdt."
+        },
+        {
+          "question": "Kan ik jullie in het Nederlands bereiken?",
+          "reponse": "Ja, in het Nederlands, Frans of Engels – telefonisch op 02 886 04 86 of via WhatsApp."
+        }
+      ]
+    },
+    "section_zones_voisines": {
+      "h2": "Onze Andere Diensten",
+      "content": "Misschien zoekt u eerder dit:",
+      "communes_voisines": [
+        {
+          "nom": "Wrakophaling",
+          "slug": "wrakophaling-brussel"
+        },
+        {
+          "nom": "Takeldienst – auto takelen",
+          "slug": "takeldienst-brussel"
+        },
+        {
+          "nom": "Voertuigtransport",
+          "slug": "voertuigtransport-brussel"
+        }
+      ]
+    },
+    "cta_final": {
+      "titre": "Beschadigde wagen te koop?",
+      "texte": "Stuur foto’s via WhatsApp – u krijgt snel een bod."
+    }
+  }
+}

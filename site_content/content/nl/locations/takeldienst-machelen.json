@@ -1,0 +1,117 @@
+{
+  "version": "2.0",
+  "commune": "Machelen & Diegem",
+  "code_postal": "1830",
+
+  "seo": {
+    "meta_title": "Takeldienst Machelen & Diegem (1830) | 24/7 – HELPCAR Depannage",
+    "meta_description": "Takeldienst en pechverhelping in Machelen en Diegem (1830). Kantorenzone, Brucargo, Woluwelaan, R0. Prijs vooraf aan de telefoon. ☎ 02 886 04 86"
+  },
+
+  "geo": { "region": "BE-VBR", "lat": "50.9090", "lng": "4.4420" },
+
+  "hreflang_fr": "https://helpcar.be/zones/depannage-voiture-machelen/",
+
+  "hero": {
+    "h1": "Takeldienst Machelen & Diegem (1830) – 24/7",
+    "accroche": "Kantorenzone van Diegem, Brucargo of centrum Machelen: ter plaatse in ongeveer 25 minuten."
+  },
+
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Autopech in Machelen of Diegem? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> is uw <strong>takeldienst in Machelen en Diegem (1830)</strong>: prijs vooraf aan de telefoon, takelwagen ter plaatse in <strong>ongeveer 25 minuten</strong>.",
+      "paragraphe_1": "Bedrijfswagen die niet start op de parking van uw kantoor in Diegem, lekke band op de Woluwelaan, pech aan Brucargo – wij lossen het op, ook buiten de kantooruren. Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>.",
+      "paragraphe_2": "Machelen en Diegem liggen vlak bij onze thuisbasis: tussen de luchthaven, de Ring en de Woluwelaan zijn we hier <strong>elke dag</strong>. Weinig takeldiensten kennen deze zone beter."
+    },
+
+    "section_on_connait": {
+      "h2": "Wij Kennen Machelen & Diegem",
+      "intro": "De plekken waar we het vaakst uitrukken:",
+      "quartiers": [
+        {
+          "icon": "building",
+          "nom": "Kantorenzone Diegem",
+          "description": "De bedrijvenparken rond de Berkenlaan en de Pegasuslaan. Bedrijfswagens, huurauto's, leasing – we kennen de parkings en de toegangen."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Brucargo & luchthavenrand",
+          "description": "De vrachtzone van Brussels Airport en de omliggende wegen. Ook voor bestelwagens en lichte vrachtwagens."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Centrum Machelen",
+          "description": "De dorpskern, de Heirbaan en de woonwijken. Lege batterij of lekke band aan huis? We komen ter plaatse."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Woluwelaan & R0",
+          "description": "De drukke as tussen Vilvoorde en Zaventem en de op- en afritten van de Ring. Pech in de spits? Geef uw exacte locatie door."
+        }
+      ]
+    },
+
+    "section_services": {
+      "h2": "Wat We Doen in Machelen & Diegem",
+      "intro": "Alle klassieke depannages, ter plaatse opgelost of getakeld naar de garage van uw keuze.",
+      "categories": [
+        {
+          "titre": "Pechverhelping ter plaatse",
+          "services": [
+            { "nom": "Lege batterij opstarten of vervangen" },
+            { "nom": "Lekke band – reservewiel of herstelling" },
+            { "nom": "Verkeerde brandstof afpompen" },
+            { "nom": "Sleutels in de auto – deuropening" }
+          ]
+        },
+        {
+          "titre": "Takelen & transport",
+          "services": [
+            { "nom": "Takelen naar uw garage (België)" },
+            { "nom": "Bestelwagens en lichte vrachtwagens" },
+            { "nom": "Ondergrondse parkings (lage doorgang)" },
+            { "nom": "Wrakophaling" }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+
+    "faq_locale": {
+      "h2": "FAQ – Takeldienst in Machelen & Diegem",
+      "questions": [
+        {
+          "question": "Hoe snel zijn jullie in Diegem?",
+          "reponse": "Vaak binnen de 25 minuten – Diegem ligt vlak bij onze interventiezone rond de luchthaven. U krijgt een realistisch tijdstip aan de telefoon."
+        },
+        {
+          "question": "Komen jullie op bedrijfsparkings en in parkeergarages?",
+          "reponse": "Ja. Voor ondergrondse parkings met lage doorgang hebben we aangepast materieel. Vermeld de vrije hoogte aan de telefoon als u ze kent."
+        },
+        {
+          "question": "Wat kost een takeling in Machelen of Diegem?",
+          "reponse": "De prijs hangt af van uw locatie, het voertuig en de bestemming. U krijgt het exacte bedrag aan de telefoon, vóór we vertrekken."
+        },
+        {
+          "question": "Kan ik jullie in het Nederlands bereiken?",
+          "reponse": "Ja, in het Nederlands, Frans of Engels – telefonisch op 02 886 04 86 of via WhatsApp."
+        }
+      ]
+    },
+
+    "section_zones_voisines": {
+      "h2": "Buurgemeenten van Machelen & Diegem",
+      "content": "We takelen in heel de noordoostelijke Rand:",
+      "communes_voisines": [
+        { "nom": "Zaventem", "slug": "takeldienst-zaventem" },
+        { "nom": "Vilvoorde", "slug": "takeldienst-vilvoorde" },
+        { "nom": "Evere", "slug": "takeldienst-evere" }
+      ]
+    },
+
+    "cta_final": {
+      "titre": "Pech in Machelen of Diegem?",
+      "texte": "Zeg ons waar u staat, wij zeggen wanneer we er zijn."
+    }
+  }
+}

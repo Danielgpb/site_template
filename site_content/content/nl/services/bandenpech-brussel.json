@@ -1,0 +1,115 @@
+{
+  "version": "2.0",
+  "commune": "Brussel",
+  "code_postal": "1000",
+
+  "seo": {
+    "meta_title": "Lekke Band? Bandenpech Brussel 24/7 – HELPCAR Depannage",
+    "meta_description": "Lekke band in Brussel of de Rand? Reservewiel gemonteerd of band hersteld ter plaatse, 24/7. Prijs vooraf. ☎ 02 886 04 86"
+  },
+
+  "geo": { "region": "BE-BRU", "lat": "50.8503", "lng": "4.3517" },
+
+  "hreflang_fr": "https://helpcar.be/services/reparation-pneu-bruxelles/",
+
+  "hero": {
+    "h1": "Lekke Band in Brussel? – Bandenpech 24/7",
+    "accroche": "We monteren uw reservewiel of herstellen de band ter plaatse, in Brussel en de Rand. Prijs meteen aan de telefoon."
+  },
+
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Lekke band en geen zin (of geen materiaal) om zelf te wisselen? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> komt <strong>ter plaatse</strong>: reservewiel gemonteerd, band hersteld of – als het niet anders kan – getakeld naar de bandencentrale.",
+      "paragraphe_1": "Op de pechstrook, langs een drukke steenweg of in een smalle straat: bandenwissel is <strong>gevaarlijk werk op de verkeerde plek</strong>. Wij doen het dagelijks, snel en veilig, met het juiste materiaal.",
+      "paragraphe_2": "Geen reservewiel in de auto? Steeds meer wagens hebben er geen. Geen probleem: we herstellen kleine lekken ter plaatse of takelen u naar een bandencentrale naar keuze – <strong>prijs op voorhand</strong>, u beslist."
+    },
+
+    "section_on_connait": {
+      "h2": "Wat We Doen bij Bandenpech",
+      "intro": "Afhankelijk van de schade en uw uitrusting:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Reservewiel monteren",
+          "description": "U hebt een reservewiel of thuiskomertje? We monteren het veilig, met de juiste aanhaalkoppels, waar u ook staat."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Band ter plaatse herstellen",
+          "description": "Kleine perforatie in het loopvlak? Vaak kunnen we de band ter plaatse herstellen zodat u meteen verder kunt."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Geen reservewiel?",
+          "description": "We bekijken of herstelling mogelijk is. Zo niet, takelen we u naar de bandencentrale van uw keuze – alles in één interventie."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Klapband of velgschade",
+          "description": "Bij een klapband of beschadigde velg is verder rijden uitgesloten. We takelen uw wagen veilig weg, ook vanop de pechstrook."
+        }
+      ]
+    },
+
+    "section_services": {
+      "h2": "Zo Werkt Het",
+      "intro": "Eenvoudig en zonder verrassingen:",
+      "categories": [
+        {
+          "titre": "1. U belt, wij luisteren",
+          "services": [
+            { "nom": "U beschrijft de schade en uw locatie" },
+            { "nom": "U krijgt meteen de exacte prijs" },
+            { "nom": "U beslist – geen verplichtingen" }
+          ]
+        },
+        {
+          "titre": "2. Wij komen en lossen op",
+          "services": [
+            { "nom": "Ter plaatse in ±30 min" },
+            { "nom": "Wiel gewisseld of band hersteld" },
+            { "nom": "Indien nodig: takeling naar de bandencentrale" }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+
+    "faq_locale": {
+      "h2": "FAQ – Bandenpech Brussel",
+      "questions": [
+        {
+          "question": "Wat kost een bandenwissel ter plaatse?",
+          "reponse": "U krijgt de exacte prijs aan de telefoon, vóór we vertrekken. Herstelling, wissel of takeling: elk scenario heeft zijn prijs, en u kent hem op voorhand."
+        },
+        {
+          "question": "Ik heb geen reservewiel – wat nu?",
+          "reponse": "Heel gebruikelijk. We proberen de band ter plaatse te herstellen; lukt dat niet, dan takelen we u naar een bandencentrale naar keuze. Eén telefoontje volstaat."
+        },
+        {
+          "question": "Kunnen jullie op de pechstrook of de Ring komen?",
+          "reponse": "Ja. Zet uw wagen zo veilig mogelijk, gordel aan achter de vangrail, en geef ons uw exacte locatie (kilometerpaal of praatpaal). Wij regelen de rest."
+        },
+        {
+          "question": "Vervangen jullie ook twee banden tegelijk?",
+          "reponse": "Bij schade aan meerdere banden bekijken we samen de beste oplossing – meestal een takeling naar de bandencentrale, zodat u niet twee keer betaalt."
+        }
+      ]
+    },
+
+    "section_zones_voisines": {
+      "h2": "Onze Andere Diensten",
+      "content": "Toch iets anders aan de hand?",
+      "communes_voisines": [
+        { "nom": "Pechverhelping ter plaatse", "slug": "pechverhelping-brussel" },
+        { "nom": "Takeldienst – auto takelen", "slug": "takeldienst-brussel" },
+        { "nom": "Lege batterij – opstarten", "slug": "batterij-depannage-brussel" }
+      ]
+    },
+
+    "cta_final": {
+      "titre": "Lekke band?",
+      "texte": "Blijf veilig staan – wij komen naar u."
+    }
+  }
+}

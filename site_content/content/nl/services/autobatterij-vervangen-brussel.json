@@ -1,0 +1,130 @@
+{
+  "version": "2.0",
+  "commune": "Brussel",
+  "code_postal": "1000",
+  "seo": {
+    "meta_title": "Autobatterij Vervangen aan Huis Brussel 24/7 – HELPCAR",
+    "meta_description": "Autobatterij versleten? Nieuwe batterij geleverd en geplaatst aan huis in Brussel, ook start-stop (AGM/EFB). ☎ 02 886 04 86"
+  },
+  "geo": {
+    "region": "BE-BRU",
+    "lat": "50.8503",
+    "lng": "4.3517"
+  },
+  "hreflang_fr": "https://helpcar.be/services/remplacement-batterie-bruxelles/",
+  "hero": {
+    "h1": "Autobatterij Vervangen aan Huis – Brussel 24/7",
+    "accroche": "Nieuwe batterij geleverd én geplaatst waar uw wagen staat – u hoeft nergens heen."
+  },
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Batterij aan het einde van zijn Latijn? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> komt met een <strong>nieuwe batterij naar uw wagen</strong> – thuis, op het werk of langs de weg – en plaatst ze meteen, overal in Brussel en de Rand.",
+      "paragraphe_1": "We <strong>testen eerst gratis</strong> batterij en laadcircuit: soms volstaat opstarten en een goede rit. Is de batterij echt versleten, dan krijgt u de prijs van de vervanging op voorhand – u beslist.",
+      "paragraphe_2": "Ook <strong>start-stopbatterijen (AGM/EFB)</strong> plaatsen we ter plaatse, inclusief registratie in het boordsysteem waar het model dat vraagt. Uw radiocode en instellingen blijven bewaard waar mogelijk."
+    },
+    "section_on_connait": {
+      "h2": "Wanneer Is Vervangen Nodig?",
+      "intro": "De signalen van een batterij op zijn einde:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Elke ochtend moeizaam starten",
+          "description": "Trage start, zeker bij koud weer? De batterij houdt zijn lading niet meer – vervangen vóór u ergens stilstaat."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Al meermaals opgestart",
+          "description": "Moet u regelmatig kabels of een booster bovenhalen? Dan is de batterij versleten – opstarten is geen oplossing meer."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Batterij ouder dan 5 jaar",
+          "description": "Een autobatterij gaat gemiddeld 4 tot 6 jaar mee. Bij twijfel meten we hem gratis door."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Start-stop werkt niet meer",
+          "description": "Als het start-stopsysteem zichzelf uitschakelt, is de AGM/EFB-batterij vaak te zwak. Wij plaatsen het juiste type."
+        }
+      ]
+    },
+    "section_services": {
+      "h2": "Zo Werkt Het",
+      "intro": "Eenvoudig en zonder verrassingen:",
+      "categories": [
+        {
+          "titre": "1. U belt, wij luisteren",
+          "services": [
+            {
+              "nom": "U beschrijft de situatie en uw locatie"
+            },
+            {
+              "nom": "U krijgt meteen de exacte prijs"
+            },
+            {
+              "nom": "U beslist – geen verplichtingen"
+            }
+          ]
+        },
+        {
+          "titre": "2. Wij komen en lossen op",
+          "services": [
+            {
+              "nom": "Ter plaatse in ±30 min"
+            },
+            {
+              "nom": "Vakkundig en zonder schade"
+            },
+            {
+              "nom": "Klaar? U kunt weer verder"
+            }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+    "faq_locale": {
+      "h2": "FAQ – Autobatterij Vervangen Brussel",
+      "questions": [
+        {
+          "question": "Wat kost een nieuwe batterij met plaatsing?",
+          "reponse": "Dat hangt af van het type (standaard, AGM, EFB) en uw wagen. U krijgt de totaalprijs – batterij plus plaatsing – aan de telefoon."
+        },
+        {
+          "question": "Hebben jullie mijn batterijmodel bij?",
+          "reponse": "De courante maten hebben we aan boord. Geef merk, model en bouwjaar door, dan bevestigen we meteen."
+        },
+        {
+          "question": "Is er garantie op de nieuwe batterij?",
+          "reponse": "Ja, de geplaatste batterijen hebben fabrieksgarantie. U krijgt het bewijs bij de interventie."
+        },
+        {
+          "question": "Kan ik jullie in het Nederlands bereiken?",
+          "reponse": "Ja, in het Nederlands, Frans of Engels – telefonisch op 02 886 04 86 of via WhatsApp."
+        }
+      ]
+    },
+    "section_zones_voisines": {
+      "h2": "Onze Andere Diensten",
+      "content": "Misschien zoekt u eerder dit:",
+      "communes_voisines": [
+        {
+          "nom": "Lege batterij – opstarten",
+          "slug": "batterij-depannage-brussel"
+        },
+        {
+          "nom": "Pechverhelping ter plaatse",
+          "slug": "pechverhelping-brussel"
+        },
+        {
+          "nom": "Depannage elektrische auto",
+          "slug": "depannage-elektrische-auto-brussel"
+        }
+      ]
+    },
+    "cta_final": {
+      "titre": "Batterij versleten?",
+      "texte": "Nieuwe batterij, geplaatst waar u staat."
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "version": "2.0",
+  "commune": "Elsene",
+  "code_postal": "1050",
+  "seo": {
+    "meta_title": "Takeldienst Elsene (1050) | 24/7 – HELPCAR Depannage",
+    "meta_description": "Takeldienst en pechverhelping in Elsene (1050). Flagey, Louizalaan, ULB, Matonge. Prijs vooraf. ☎ 02 886 04 86"
+  },
+  "geo": {
+    "region": "BE-BRU",
+    "lat": "50.8225",
+    "lng": "4.3667"
+  },
+  "hreflang_fr": "https://helpcar.be/zones/depannage-voiture-ixelles/",
+  "hero": {
+    "h1": "Takeldienst Elsene (1050) – 24/7",
+    "accroche": "Van Flagey tot de Louizalaan: snelle pechverhelping in een van de drukste gemeenten van Brussel."
+  },
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Autopech in Elsene? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> is uw <strong>takeldienst in Elsene (1050)</strong>: prijs vooraf, ter plaatse in <strong>ongeveer 25 minuten</strong>, dag en nacht.",
+      "paragraphe_1": "Parkeren is er al een sport, stilvallen helemaal: dubbele rijen, smalle eenrichtingsstraten, drukke horeca. Wij depanneren <strong>dagelijks in Elsene</strong> en weten precies hoe we bij u geraken.",
+      "paragraphe_2": "Van de vijvers van Elsene tot de campus van de ULB/VUB: <strong>meer dan 10 jaar ervaring</strong> in de dichtste wijken van Brussel."
+    },
+    "section_on_connait": {
+      "h2": "Wij Kennen Elsene",
+      "intro": "De plekken waar we het vaakst depanneren:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Flagey & vijvers",
+          "description": "Het plein, de horeca en de woonstraten errond – deuropeningen en batterijen zijn er dagelijkse kost."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Louizalaan & Kastelein",
+          "description": "Chique lanen, ondergrondse parkings en veel verkeer. Ook daar takelen we – met compact materieel indien nodig."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "ULB/VUB & Kerkhof van Elsene",
+          "description": "De studentenbuurt: oudere wagens, platte batterijen en lekke banden – we kennen het terrein."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Matonge & Naamsepoort",
+          "description": "Druk, levendig en krap – pech aan de kleine Ring lossen we snel op vóór de file aangroeit."
+        }
+      ]
+    },
+    "section_services": {
+      "h2": "Wat We Doen in Elsene",
+      "intro": "Alle klassieke depannages, ter plaatse opgelost of getakeld naar de garage van uw keuze.",
+      "categories": [
+        {
+          "titre": "Pechverhelping ter plaatse",
+          "services": [
+            {
+              "nom": "Lege batterij opstarten of vervangen"
+            },
+            {
+              "nom": "Lekke band – reservewiel of herstelling"
+            },
+            {
+              "nom": "Verkeerde brandstof afpompen"
+            },
+            {
+              "nom": "Sleutels in de auto – deuropening"
+            }
+          ]
+        },
+        {
+          "titre": "Takelen & transport",
+          "services": [
+            {
+              "nom": "Takelen naar uw garage (België)"
+            },
+            {
+              "nom": "Motorfietsen en bestelwagens"
+            },
+            {
+              "nom": "Ondergrondse parkings (lage doorgang)"
+            },
+            {
+              "nom": "Wrakophaling"
+            }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+    "faq_locale": {
+      "h2": "FAQ – Takeldienst in Elsene",
+      "questions": [
+        {
+          "question": "Hoe snel zijn jullie in Elsene?",
+          "reponse": "Meestal binnen de 25 à 30 minuten, afhankelijk van het verkeer rond de kleine Ring en Flagey."
+        },
+        {
+          "question": "Wat kost een takeling in Elsene?",
+          "reponse": "De prijs hangt af van uw locatie, het voertuig en de bestemming. U krijgt het exacte bedrag aan de telefoon, vóór we vertrekken."
+        },
+        {
+          "question": "Komen jullie 's nachts en in het weekend?",
+          "reponse": "Ja, 24 uur op 24, 7 dagen op 7, ook op zon- en feestdagen. U belt, wij komen."
+        },
+        {
+          "question": "Kan ik jullie in het Nederlands bereiken?",
+          "reponse": "Ja, in het Nederlands, Frans of Engels – telefonisch op 02 886 04 86 of via WhatsApp."
+        }
+      ]
+    },
+    "section_zones_voisines": {
+      "h2": "Buurgemeenten van Elsene",
+      "content": "We takelen in alle Brusselse gemeenten en de Rand:",
+      "communes_voisines": [
+        {
+          "nom": "Etterbeek",
+          "slug": "takeldienst-etterbeek"
+        },
+        {
+          "nom": "Ukkel",
+          "slug": "takeldienst-ukkel"
+        },
+        {
+          "nom": "Brussel-Centrum",
+          "slug": "takeldienst-brussel-centrum"
+        }
+      ]
+    },
+    "cta_final": {
+      "titre": "Pech in Elsene?",
+      "texte": "Zeg ons waar u staat, wij zeggen wanneer we er zijn."
+    }
+  }
+}

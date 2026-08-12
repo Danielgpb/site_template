@@ -1,0 +1,119 @@
+{
+  "version": "2.0",
+  "commune": "Zaventem",
+  "code_postal": "1930",
+
+  "seo": {
+    "meta_title": "Takeldienst Zaventem (1930) | 24/7 – HELPCAR Depannage",
+    "meta_description": "Takeldienst en pechverhelping in Zaventem (1930). Brussels Airport, Leuvensesteenweg, Corporate Village. Prijs vooraf aan de telefoon. ☎ 02 886 04 86"
+  },
+
+  "geo": { "region": "BE-VBR", "lat": "50.8850", "lng": "4.4700" },
+
+  "hreflang_fr": "https://helpcar.be/zones/depannage-voiture-zaventem/",
+
+  "hero": {
+    "h1": "Takeldienst Zaventem (1930) – 24/7",
+    "accroche": "Van Brussels Airport tot het centrum van Zaventem: ter plaatse in ongeveer 30 minuten. De prijs krijgt u meteen aan de telefoon."
+  },
+
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Autopech in Zaventem of aan de luchthaven? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> is uw <strong>takeldienst in Zaventem (1930)</strong>: prijs vooraf aan de telefoon, een takelwagen ter plaatse in <strong>ongeveer 30 minuten</strong>, dag en nacht.",
+      "paragraphe_1": "Lege batterij op de parking van Brussels Airport, lekke band op de Leuvensesteenweg, motorpech op de E40 richting Leuven – wij lossen het op. Eén telefoontje naar <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>, u krijgt de prijs, u beslist.",
+      "paragraphe_2": "Ons team heeft <strong>meer dan 10 jaar ervaring</strong> met depannage rond Brussel. Zaventem kennen we door en door: de luchthavenzone, de kantorenparken, de op- en afritten van de Ring – we weten precies hoe we snel bij u geraken."
+    },
+
+    "section_on_connait": {
+      "h2": "Wij Kennen Zaventem Als Onze Broekzak",
+      "intro": "Van de luchthaven tot de woonwijken: dit zijn de plekken waar we het vaakst uitrukken.",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Brussels Airport & Brucargo",
+          "description": "Vertrek- en aankomstparkings, verhuurzones, Brucargo. Auto start niet na een week parking P3? Klassieker – we starten of takelen ter plaatse."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Leuvensesteenweg & centrum",
+          "description": "Het handelscentrum van Zaventem, de stationsbuurt en de Leuvensesteenweg. Druk verkeer, weinig parkeerplaats – we kennen de toegangswegen."
+        },
+        {
+          "icon": "building",
+          "nom": "Corporate Village & kantorenzones",
+          "description": "De kantorenparken rond de luchthaven. Bedrijfswagen met pech na de werkuren? We komen ook 's avonds en in het weekend."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Nossegem & Sterrebeek",
+          "description": "De deelgemeenten van Zaventem, de N2 en de woonwijken. Ook daar staan we binnen het halfuur."
+        }
+      ],
+      "conclusion": "Ook op de op- en afritten van de E40 en de Ring R0 rond Zaventem takelen we dagelijks. Geef ons uw exacte locatie (afrit, kilometerpaal of adres) en we zijn onderweg."
+    },
+
+    "section_services": {
+      "h2": "Wat We Doen in Zaventem",
+      "intro": "Alle klassieke depannages, ter plaatse opgelost of getakeld naar de garage van uw keuze.",
+      "categories": [
+        {
+          "titre": "Pechverhelping ter plaatse",
+          "services": [
+            { "nom": "Lege batterij opstarten of vervangen" },
+            { "nom": "Lekke band – reservewiel of herstelling" },
+            { "nom": "Verkeerde brandstof afpompen" },
+            { "nom": "Sleutels in de auto – deuropening" }
+          ]
+        },
+        {
+          "titre": "Takelen & transport",
+          "services": [
+            { "nom": "Takelen naar uw garage (België)" },
+            { "nom": "Motorfietsen en bestelwagens" },
+            { "nom": "Ondergrondse parkings (lage doorgang)" },
+            { "nom": "Wrakophaling" }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+
+    "faq_locale": {
+      "h2": "FAQ – Takeldienst in Zaventem",
+      "questions": [
+        {
+          "question": "Hoe snel zijn jullie in Zaventem?",
+          "reponse": "Meestal binnen de 30 minuten, afhankelijk van het verkeer op de Ring. We geven u een realistische aankomsttijd aan de telefoon – geen loze beloftes."
+        },
+        {
+          "question": "Wat kost een takeling in Zaventem?",
+          "reponse": "De prijs hangt af van uw locatie, het voertuig en de bestemming. U krijgt het exacte bedrag aan de telefoon, vóór we vertrekken. Geen verrassingen achteraf."
+        },
+        {
+          "question": "Komen jullie op de parkings van Brussels Airport?",
+          "reponse": "Ja. We kennen de toegangsprocedures van de luchthavenparkings en komen regelmatig ter plaatse voor batterijen, lekke banden en takelingen."
+        },
+        {
+          "question": "Kan ik jullie in het Nederlands bereiken?",
+          "reponse": "Ja, u kunt ons bereiken in het Nederlands, Frans of Engels – telefonisch op 02 886 04 86 of via WhatsApp."
+        }
+      ]
+    },
+
+    "section_zones_voisines": {
+      "h2": "Buurgemeenten van Zaventem",
+      "content": "We takelen in heel de oostelijke Rand rond Brussel:",
+      "communes_voisines": [
+        { "nom": "Machelen & Diegem", "slug": "takeldienst-machelen" },
+        { "nom": "Vilvoorde", "slug": "takeldienst-vilvoorde" },
+        { "nom": "Sint-Lambrechts-Woluwe", "slug": "takeldienst-sint-lambrechts-woluwe" },
+        { "nom": "Evere", "slug": "takeldienst-evere" }
+      ]
+    },
+
+    "cta_final": {
+      "titre": "Pech in Zaventem?",
+      "texte": "Zeg ons waar u staat, wij zeggen wanneer we er zijn."
+    }
+  }
+}

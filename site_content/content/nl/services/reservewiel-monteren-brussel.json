@@ -1,0 +1,130 @@
+{
+  "version": "2.0",
+  "commune": "Brussel",
+  "code_postal": "1000",
+  "seo": {
+    "meta_title": "Reservewiel Laten Monteren Brussel 24/7 – HELPCAR Depannage",
+    "meta_description": "Lekke band en geen zin om zelf te sleutelen? We monteren uw reservewiel veilig, waar u ook staat in Brussel. ☎ 02 886 04 86"
+  },
+  "geo": {
+    "region": "BE-BRU",
+    "lat": "50.8503",
+    "lng": "4.3517"
+  },
+  "hreflang_fr": "https://helpcar.be/services/placement-roue-secours-bruxelles/",
+  "hero": {
+    "h1": "Reservewiel Laten Monteren in Brussel – 24/7",
+    "accroche": "Wij wisselen uw wiel veilig en correct, waar u ook staat – u houdt uw handen schoon."
+  },
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Lekke band en een reservewiel in de koffer, maar geen zin of mogelijkheid om zelf te wisselen? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> monteert uw <strong>reservewiel ter plaatse</strong>, overal in Brussel en de Rand.",
+      "paragraphe_1": "Langs een drukke weg, in de regen, met een krik die u nooit gebruikt hebt: zelf wisselen is vaak <strong>gevaarlijker dan het lijkt</strong>. Wij doen het dagelijks, met professioneel materieel en de juiste aanhaalkoppels.",
+      "paragraphe_2": "Ook met een thuiskomertje (noodwiel) of runflats helpen we u verder, met het juiste advies over snelheid en afstand. <strong>Geen reservewiel?</strong> Dan herstellen we de band ter plaatse of takelen we naar de bandencentrale."
+    },
+    "section_on_connait": {
+      "h2": "Wanneer Belt U Ons?",
+      "intro": "De situaties waarvoor klanten ons het vaakst bellen:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Nooit zelf een wiel gewisseld",
+          "description": "Geen schande – een fout aangehaalde wielbout is gevaarlijk. Wij doen het correct, met momentsleutel."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Bouten zitten muurvast",
+          "description": "Vastgeroeste of te hard aangedraaide bouten, of een vergrendelbout zonder sleutel? Wij hebben het gereedschap."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Onveilige locatie",
+          "description": "Pechstrook, tunnel, drukke steenweg: wij zetten de interventie veilig op met signalisatie."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Krik past of werkt niet",
+          "description": "Verlaagde wagen, zware SUV of ontbrekende krik? Ons materieel werkt op elk voertuig."
+        }
+      ]
+    },
+    "section_services": {
+      "h2": "Zo Werkt Het",
+      "intro": "Eenvoudig en zonder verrassingen:",
+      "categories": [
+        {
+          "titre": "1. U belt, wij luisteren",
+          "services": [
+            {
+              "nom": "U beschrijft de situatie en uw locatie"
+            },
+            {
+              "nom": "U krijgt meteen de exacte prijs"
+            },
+            {
+              "nom": "U beslist – geen verplichtingen"
+            }
+          ]
+        },
+        {
+          "titre": "2. Wij komen en lossen op",
+          "services": [
+            {
+              "nom": "Ter plaatse in ±30 min"
+            },
+            {
+              "nom": "Vakkundig en zonder schade"
+            },
+            {
+              "nom": "Klaar? U kunt weer verder"
+            }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+    "faq_locale": {
+      "h2": "FAQ – Reservewiel Monteren Brussel",
+      "questions": [
+        {
+          "question": "Wat kost het monteren van mijn reservewiel?",
+          "reponse": "U krijgt de exacte prijs aan de telefoon, vóór we vertrekken. Eén duidelijk bedrag, geen verrassingen."
+        },
+        {
+          "question": "Hoe ver mag ik rijden op een thuiskomertje?",
+          "reponse": "Een noodwiel is tijdelijk: maximaal 80 km/u en zo snel mogelijk naar de bandencentrale. We geven u ter plaatse het juiste advies mee."
+        },
+        {
+          "question": "Ik heb geen reservewiel – wat dan?",
+          "reponse": "We proberen de band ter plaatse te herstellen; lukt dat niet, dan takelen we u naar een bandencentrale naar keuze. Zie ook onze pagina bandenpech."
+        },
+        {
+          "question": "Kan ik jullie in het Nederlands bereiken?",
+          "reponse": "Ja, in het Nederlands, Frans of Engels – telefonisch op 02 886 04 86 of via WhatsApp."
+        }
+      ]
+    },
+    "section_zones_voisines": {
+      "h2": "Onze Andere Diensten",
+      "content": "Misschien zoekt u eerder dit:",
+      "communes_voisines": [
+        {
+          "nom": "Lekke band – herstelling",
+          "slug": "bandenpech-brussel"
+        },
+        {
+          "nom": "Pechverhelping ter plaatse",
+          "slug": "pechverhelping-brussel"
+        },
+        {
+          "nom": "Takeldienst – auto takelen",
+          "slug": "takeldienst-brussel"
+        }
+      ]
+    },
+    "cta_final": {
+      "titre": "Wiel wisselen?",
+      "texte": "Blijf veilig staan – wij doen de rest."
+    }
+  }
+}

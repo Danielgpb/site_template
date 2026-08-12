@@ -1,0 +1,110 @@
+{
+  "version": "2.0",
+  "commune": "Machelen",
+  "code_postal": "1830",
+  "image": "machelen-hero.jpg",
+  "sans_placeholders": true,
+
+  "seo": {
+    "meta_title": "Dépannage Voiture Machelen & Diegem (1830) | 24h/24 – HELPCAR",
+    "meta_description": "Dépannage auto et remorquage à Machelen et Diegem (1830). Zone de bureaux, Brucargo, Woluwelaan, R0. Prix par téléphone. ☎ 02 886 04 86"
+  },
+
+  "hero": {
+    "h1": "Dépannage Voiture Machelen & Diegem (1830) – 24h/24",
+    "accroche": "Zone de bureaux de Diegem, Brucargo ou centre de Machelen : sur place en environ 25 minutes."
+  },
+
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "En panne à Machelen ou Diegem ? Appelez le <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Dépannage</strong>, c'est votre <strong>dépannage voiture à Machelen et Diegem (1830)</strong> : prix annoncé par téléphone, dépanneuse sur place en <strong>environ 25 minutes</strong>.",
+      "paragraphe_1": "Voiture de société qui ne démarre plus sur le parking de votre bureau à Diegem, pneu crevé sur la Woluwelaan, panne à Brucargo – on règle ça, aussi en dehors des heures de bureau. Appelez le <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>.",
+      "paragraphe_2": "Machelen et Diegem sont à deux pas de notre base : entre l'aéroport, le Ring et la Woluwelaan, on y passe <strong>tous les jours</strong>. Peu de dépanneurs connaissent mieux ce secteur."
+    },
+
+    "section_on_connait": {
+      "h2": "On Connaît Machelen & Diegem",
+      "intro": "Les endroits où on intervient le plus souvent :",
+      "quartiers": [
+        {
+          "icon": "building",
+          "nom": "Zone de bureaux de Diegem",
+          "description": "Les parcs d'entreprises autour de la Berkenlaan et de la Pegasuslaan. Voitures de société, de location, leasing – on connaît les parkings et les accès."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Brucargo & abords de l'aéroport",
+          "description": "La zone fret de Brussels Airport et les routes alentour. Aussi pour camionnettes et utilitaires légers."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Centre de Machelen",
+          "description": "Le noyau villageois, la Heirbaan et les quartiers résidentiels. Batterie à plat ou pneu crevé devant chez vous ? On vient sur place."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Woluwelaan & R0",
+          "description": "L'axe chargé entre Vilvoorde et Zaventem et les entrées du Ring. Panne en heure de pointe ? Donnez votre position exacte."
+        }
+      ]
+    },
+
+    "section_services": {
+      "h2": "Ce Qu'on Fait à Machelen & Diegem",
+      "intro": "Tous les dépannages classiques, réglés sur place ou remorqués vers le garage de votre choix.",
+      "categories": [
+        {
+          "titre": "Dépannage sur place",
+          "services": [
+            { "nom": "Batterie à plat – boost ou remplacement" },
+            { "nom": "Pneu crevé – roue de secours ou réparation" },
+            { "nom": "Erreur de carburant – siphonnage" },
+            { "nom": "Clés enfermées – ouverture de porte" }
+          ]
+        },
+        {
+          "titre": "Remorquage & transport",
+          "services": [
+            { "nom": "Remorquage vers votre garage (Belgique)" },
+            { "nom": "Camionnettes et utilitaires légers" },
+            { "nom": "Parkings souterrains (hauteur limitée)" },
+            { "nom": "Enlèvement d'épave" }
+          ]
+        }
+      ],
+      "cta_text": "Appeler le 02 886 04 86"
+    },
+
+    "faq_locale": {
+      "h2": "FAQ – Dépannage à Machelen & Diegem",
+      "questions": [
+        {
+          "question": "En combien de temps arrivez-vous à Diegem ?",
+          "reponse": "Souvent en moins de 25 minutes – Diegem est au cœur de notre zone d'intervention autour de l'aéroport. On vous donne un horaire réaliste au téléphone."
+        },
+        {
+          "question": "Vous intervenez sur les parkings d'entreprise et en sous-sol ?",
+          "reponse": "Oui. Pour les parkings souterrains à hauteur limitée, on a du matériel adapté. Mentionnez la hauteur libre au téléphone si vous la connaissez."
+        },
+        {
+          "question": "Combien coûte un remorquage à Machelen ou Diegem ?",
+          "reponse": "Le prix dépend de votre position, du véhicule et de la destination. Le montant exact vous est annoncé par téléphone, avant qu'on parte."
+        },
+        {
+          "question": "Peut-on vous joindre en néerlandais ?",
+          "reponse": "Oui, on vous répond en français, néerlandais ou anglais – au 02 886 04 86 ou via WhatsApp."
+        }
+      ]
+    },
+
+    "section_zones_voisines": {
+      "h2": "Communes Voisines de Machelen & Diegem",
+      "content": "On intervient dans toute la périphérie nord-est :",
+      "communes_voisines": [
+        { "nom": "Zaventem", "slug": "depannage-voiture-zaventem" },
+        { "nom": "Vilvoorde", "slug": "depannage-voiture-vilvoorde" },
+        { "nom": "Evere", "slug": "depannage-voiture-evere" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "version": "2.0",
+  "commune": "Sint-Pieters-Woluwe",
+  "code_postal": "1150",
+  "seo": {
+    "meta_title": "Takeldienst Sint-Pieters-Woluwe (1150) | 24/7 – HELPCAR Depannage",
+    "meta_description": "Takeldienst en pechverhelping in Sint-Pieters-Woluwe (1150). Montgomery, Stokkel, Tervurenlaan. Prijs vooraf. ☎ 02 886 04 86"
+  },
+  "geo": {
+    "region": "BE-BRU",
+    "lat": "50.8280",
+    "lng": "4.4340"
+  },
+  "hreflang_fr": "https://helpcar.be/zones/depannage-voiture-woluwe-saint-pierre/",
+  "hero": {
+    "h1": "Takeldienst Sint-Pieters-Woluwe (1150) – 24/7",
+    "accroche": "Van Montgomery tot Stokkel: snelle pechverhelping, prijs meteen aan de telefoon."
+  },
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Autopech in Sint-Pieters-Woluwe? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> is uw <strong>takeldienst in Sint-Pieters-Woluwe (1150)</strong>: prijs vooraf, ter plaatse in <strong>ongeveer 25 minuten</strong>, dag en nacht.",
+      "paragraphe_1": "Stilgevallen op de Tervurenlaan, batterij plat aan het Dumonplein, lekke band aan de Vierarmen – <strong>wij lossen het op</strong>, en u kent de prijs vóór we vertrekken.",
+      "paragraphe_2": "Tussen Montgomery, Stokkel en het Zoniënwoud rijden we <strong>elke dag</strong> – de lanen en dreven van 1150 hebben geen geheimen voor ons."
+    },
+    "section_on_connait": {
+      "h2": "Wij Kennen Sint-Pieters-Woluwe",
+      "intro": "De plekken waar we het vaakst depanneren:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Montgomery & Tervurenlaan",
+          "description": "De prestigieuze as richting Tervuren: veel verkeer, trams en pech die snel hinder geeft."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Stokkel & Dumonplein",
+          "description": "Het handelshart aan de grens met Kraainem – parkings en woonstraten waar we vaak komen."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Vierarmen & Zoniënwoud",
+          "description": "Het kruispunt richting Tervuren en de bosrand: pech onderweg naar buiten de stad? We komen tot daar."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Chant d’Oiseau & Mooi-Bos",
+          "description": "De rustige tuinwijken: interventies aan huis voor batterijen, banden en deuropeningen."
+        }
+      ]
+    },
+    "section_services": {
+      "h2": "Wat We Doen in Sint-Pieters-Woluwe",
+      "intro": "Alle klassieke depannages, ter plaatse opgelost of getakeld naar de garage van uw keuze.",
+      "categories": [
+        {
+          "titre": "Pechverhelping ter plaatse",
+          "services": [
+            {
+              "nom": "Lege batterij opstarten of vervangen"
+            },
+            {
+              "nom": "Lekke band – reservewiel of herstelling"
+            },
+            {
+              "nom": "Verkeerde brandstof afpompen"
+            },
+            {
+              "nom": "Sleutels in de auto – deuropening"
+            }
+          ]
+        },
+        {
+          "titre": "Takelen & transport",
+          "services": [
+            {
+              "nom": "Takelen naar uw garage (België)"
+            },
+            {
+              "nom": "Motorfietsen en bestelwagens"
+            },
+            {
+              "nom": "Ondergrondse parkings (lage doorgang)"
+            },
+            {
+              "nom": "Wrakophaling"
+            }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+    "faq_locale": {
+      "h2": "FAQ – Takeldienst in Sint-Pieters-Woluwe",
+      "questions": [
+        {
+          "question": "Hoe snel zijn jullie in Sint-Pieters-Woluwe?",
+          "reponse": "Meestal binnen de 25 minuten, afhankelijk van het verkeer op de Tervurenlaan en aan Montgomery."
+        },
+        {
+          "question": "Wat kost een takeling in Sint-Pieters-Woluwe?",
+          "reponse": "De prijs hangt af van uw locatie, het voertuig en de bestemming. U krijgt het exacte bedrag aan de telefoon, vóór we vertrekken."
+        },
+        {
+          "question": "Komen jullie 's nachts en in het weekend?",
+          "reponse": "Ja, 24 uur op 24, 7 dagen op 7, ook op zon- en feestdagen. U belt, wij komen."
+        },
+        {
+          "question": "Kan ik jullie in het Nederlands bereiken?",
+          "reponse": "Ja, in het Nederlands, Frans of Engels – telefonisch op 02 886 04 86 of via WhatsApp."
+        }
+      ]
+    },
+    "section_zones_voisines": {
+      "h2": "Buurgemeenten van Sint-Pieters-Woluwe",
+      "content": "We takelen in alle Brusselse gemeenten en de Rand:",
+      "communes_voisines": [
+        {
+          "nom": "Sint-Lambrechts-Woluwe",
+          "slug": "takeldienst-sint-lambrechts-woluwe"
+        },
+        {
+          "nom": "Etterbeek",
+          "slug": "takeldienst-etterbeek"
+        },
+        {
+          "nom": "Zaventem",
+          "slug": "takeldienst-zaventem"
+        }
+      ]
+    },
+    "cta_final": {
+      "titre": "Pech in Sint-Pieters-Woluwe?",
+      "texte": "Zeg ons waar u staat, wij zeggen wanneer we er zijn."
+    }
+  }
+}

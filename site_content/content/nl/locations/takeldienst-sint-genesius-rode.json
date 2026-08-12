@@ -1,0 +1,112 @@
+{
+  "version": "2.0",
+  "commune": "Sint-Genesius-Rode",
+  "code_postal": "1640",
+
+  "seo": {
+    "meta_title": "Takeldienst Sint-Genesius-Rode (1640) | 24/7 – HELPCAR Depannage",
+    "meta_description": "Takeldienst en pechverhelping in Sint-Genesius-Rode (1640). Ring R0, Zoniënwoud, centrum. Prijs vooraf aan de telefoon. ☎ 02 886 04 86"
+  },
+
+  "geo": { "region": "BE-VBR", "lat": "50.7414", "lng": "4.3576" },
+
+  "hreflang_fr": "https://helpcar.be/zones/depannage-voiture-rhode-saint-genese/",
+
+  "hero": {
+    "h1": "Takeldienst Sint-Genesius-Rode (1640) – 24/7",
+    "accroche": "Van de Ring tot het Zoniënwoud: snelle pechverhelping, prijs meteen aan de telefoon."
+  },
+
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Autopech in Sint-Genesius-Rode? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> is uw <strong>takeldienst in Sint-Genesius-Rode (1640)</strong>: prijs vooraf aan de telefoon, takelwagen ter plaatse in <strong>30 tot 40 minuten</strong>, dag en nacht.",
+      "paragraphe_1": "Stilgevallen op de Ring, lege batterij aan het station, lekke band op de Chausséeweg richting Waterloo – wij komen. Eén telefoontje naar <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>, u kent de prijs vóór we vertrekken.",
+      "paragraphe_2": "Met <strong>meer dan 10 jaar ervaring</strong> in de regio Brussel komen we dagelijks in de zuidrand: de R0 tussen Ukkel en Waterloo, de dreven door het Zoniënwoud en de woonwijken van Rode kennen we goed."
+    },
+
+    "section_on_connait": {
+      "h2": "Wij Kennen Sint-Genesius-Rode",
+      "intro": "De plekken waar we het vaakst depanneren:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Centrum & stationsbuurt",
+          "description": "De dorpskern en de buurt rond het station. Lege batterij na een dag pendelen? We starten uw auto ter plaatse."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Ring R0 & invalswegen",
+          "description": "De zuidelijke Ring en de assen richting Waterloo en Halle. Pech langs de snelweg? Geef ons uw exacte locatie door."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Zoniënwoud & residentiële dreven",
+          "description": "De groene wijken tegen het woud en de grens met Ukkel. Ook in de smalste dreven raken we tot bij u."
+        }
+      ]
+    },
+
+    "section_services": {
+      "h2": "Wat We Doen in Sint-Genesius-Rode",
+      "intro": "Alle klassieke depannages, ter plaatse opgelost of getakeld naar de garage van uw keuze.",
+      "categories": [
+        {
+          "titre": "Pechverhelping ter plaatse",
+          "services": [
+            { "nom": "Lege batterij opstarten of vervangen" },
+            { "nom": "Lekke band – reservewiel of herstelling" },
+            { "nom": "Verkeerde brandstof afpompen" },
+            { "nom": "Sleutels in de auto – deuropening" }
+          ]
+        },
+        {
+          "titre": "Takelen & transport",
+          "services": [
+            { "nom": "Takelen naar uw garage (België)" },
+            { "nom": "Motorfietsen en bestelwagens" },
+            { "nom": "Auto vast in de modder of een gracht" },
+            { "nom": "Wrakophaling" }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+
+    "faq_locale": {
+      "h2": "FAQ – Takeldienst in Sint-Genesius-Rode",
+      "questions": [
+        {
+          "question": "Hoe snel zijn jullie in Sint-Genesius-Rode?",
+          "reponse": "Reken op 30 tot 40 minuten, afhankelijk van het verkeer op de Ring. We geven u een realistisch tijdstip aan de telefoon."
+        },
+        {
+          "question": "Wat kost een takeling in Sint-Genesius-Rode?",
+          "reponse": "De prijs hangt af van uw locatie, het voertuig en de bestemming. U krijgt het exacte bedrag aan de telefoon, vóór we vertrekken."
+        },
+        {
+          "question": "Komen jullie 's nachts en in het weekend?",
+          "reponse": "Ja, 24 uur op 24, 7 dagen op 7, ook op zon- en feestdagen. U belt, wij komen."
+        },
+        {
+          "question": "Kan ik jullie in het Nederlands bereiken?",
+          "reponse": "Ja, in het Nederlands, Frans of Engels – telefonisch op 02 886 04 86 of via WhatsApp."
+        }
+      ]
+    },
+
+    "section_zones_voisines": {
+      "h2": "Buurgemeenten van Sint-Genesius-Rode",
+      "content": "We takelen ook in de aangrenzende gemeenten:",
+      "communes_voisines": [
+        { "nom": "Ukkel", "slug": "takeldienst-ukkel" },
+        { "nom": "Vorst", "slug": "takeldienst-vorst" },
+        { "nom": "Zaventem", "slug": "takeldienst-zaventem" }
+      ]
+    },
+
+    "cta_final": {
+      "titre": "Pech in Sint-Genesius-Rode?",
+      "texte": "Zeg ons waar u staat, wij zeggen wanneer we er zijn."
+    }
+  }
+}

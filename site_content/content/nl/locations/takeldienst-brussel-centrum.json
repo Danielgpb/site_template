@@ -1,0 +1,136 @@
+{
+  "version": "2.0",
+  "commune": "Brussel-Centrum",
+  "code_postal": "1000",
+  "seo": {
+    "meta_title": "Takeldienst Brussel-Centrum (1000) | 24/7 – HELPCAR Depannage",
+    "meta_description": "Takeldienst en pechverhelping in Brussel-Centrum (1000). Vijfhoek, Dansaert, Marollen, Noordwijk. Prijs vooraf. ☎ 02 886 04 86"
+  },
+  "geo": {
+    "region": "BE-BRU",
+    "lat": "50.8465",
+    "lng": "4.3517"
+  },
+  "hreflang_fr": "https://helpcar.be/zones/depannage-voiture-bruxelles-centre/",
+  "hero": {
+    "h1": "Takeldienst Brussel-Centrum (1000) – 24/7",
+    "accroche": "Van de Grote Markt tot de kleine Ring: snelle pechverhelping in hartje Brussel."
+  },
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Autopech in het centrum van Brussel? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> is uw <strong>takeldienst in Brussel-Centrum (1000)</strong>: prijs vooraf aan de telefoon, ter plaatse in <strong>ongeveer 20 minuten</strong>, dag en nacht.",
+      "paragraphe_1": "Eenrichtingsstraten, voetgangerszones, laden en lossen: het centrum is geen evidente plek om stil te vallen. Wij kennen <strong>elke toegangsweg en elke tunnel</strong> – u belt, we vinden u.",
+      "paragraphe_2": "Met <strong>meer dan 10 jaar ervaring</strong> in Brussel takelen we dagelijks in de Vijfhoek en op de kleine Ring – ook uit de parkings onder het centrum."
+    },
+    "section_on_connait": {
+      "h2": "Wij Kennen Brussel-Centrum",
+      "intro": "De plekken waar we het vaakst depanneren:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Grote Markt & Vijfhoek",
+          "description": "Het historische hart met zijn voetgangerszones en smalle straten. We kennen de toegangen die wél mogen."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Dansaert & Sint-Katelijne",
+          "description": "Drukke horecabuurt, weinig parkeerplaats. Batterijen en deuropeningen zijn er dagelijkse kost."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Marollen & Zuidwijk",
+          "description": "Van het Vossenplein tot Brussel-Zuid: dichte wijken waar we vlot onze weg vinden."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Noordwijk & kleine Ring",
+          "description": "Kantoortorens, tunnels en de drukke assen van de kleine Ring – pech in de spits? Wij geraken erbij."
+        }
+      ]
+    },
+    "section_services": {
+      "h2": "Wat We Doen in Brussel-Centrum",
+      "intro": "Alle klassieke depannages, ter plaatse opgelost of getakeld naar de garage van uw keuze.",
+      "categories": [
+        {
+          "titre": "Pechverhelping ter plaatse",
+          "services": [
+            {
+              "nom": "Lege batterij opstarten of vervangen"
+            },
+            {
+              "nom": "Lekke band – reservewiel of herstelling"
+            },
+            {
+              "nom": "Verkeerde brandstof afpompen"
+            },
+            {
+              "nom": "Sleutels in de auto – deuropening"
+            }
+          ]
+        },
+        {
+          "titre": "Takelen & transport",
+          "services": [
+            {
+              "nom": "Takelen naar uw garage (België)"
+            },
+            {
+              "nom": "Motorfietsen en bestelwagens"
+            },
+            {
+              "nom": "Ondergrondse parkings (lage doorgang)"
+            },
+            {
+              "nom": "Wrakophaling"
+            }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+    "faq_locale": {
+      "h2": "FAQ – Takeldienst in Brussel-Centrum",
+      "questions": [
+        {
+          "question": "Hoe snel zijn jullie in Brussel-Centrum?",
+          "reponse": "In het centrum meestal binnen de 20 à 30 minuten, afhankelijk van het verkeer en de toegankelijkheid van de straat."
+        },
+        {
+          "question": "Wat kost een takeling in Brussel-Centrum?",
+          "reponse": "De prijs hangt af van uw locatie, het voertuig en de bestemming. U krijgt het exacte bedrag aan de telefoon, vóór we vertrekken."
+        },
+        {
+          "question": "Komen jullie 's nachts en in het weekend?",
+          "reponse": "Ja, 24 uur op 24, 7 dagen op 7, ook op zon- en feestdagen. U belt, wij komen."
+        },
+        {
+          "question": "Kan ik jullie in het Nederlands bereiken?",
+          "reponse": "Ja, in het Nederlands, Frans of Engels – telefonisch op 02 886 04 86 of via WhatsApp."
+        }
+      ]
+    },
+    "section_zones_voisines": {
+      "h2": "Buurgemeenten van Brussel-Centrum",
+      "content": "We takelen in alle Brusselse gemeenten en de Rand:",
+      "communes_voisines": [
+        {
+          "nom": "Schaarbeek",
+          "slug": "takeldienst-schaarbeek"
+        },
+        {
+          "nom": "Elsene",
+          "slug": "takeldienst-elsene"
+        },
+        {
+          "nom": "Etterbeek",
+          "slug": "takeldienst-etterbeek"
+        }
+      ]
+    },
+    "cta_final": {
+      "titre": "Pech in Brussel-Centrum?",
+      "texte": "Zeg ons waar u staat, wij zeggen wanneer we er zijn."
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "version": "2.0",
+  "commune": "Brussel",
+  "code_postal": "1000",
+  "seo": {
+    "meta_title": "Wrakophaling Brussel | Autowrak Laten Ophalen – HELPCAR",
+    "meta_description": "Autowrak laten ophalen in Brussel of de Rand? Ophaling met officiële documenten, snel geregeld. ☎ 02 886 04 86"
+  },
+  "geo": {
+    "region": "BE-BRU",
+    "lat": "50.8503",
+    "lng": "4.3517"
+  },
+  "hreflang_fr": "https://helpcar.be/services/enlevement-epave-bruxelles/",
+  "hero": {
+    "h1": "Wrakophaling in Brussel – Wij Halen Uw Autowrak Op",
+    "accroche": "Een wagen die niet meer rijdt en alleen plaats inneemt? Wij halen hem op, papieren inbegrepen."
+  },
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Staat er een autowrak in uw garage, op uw oprit of op straat? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> haalt uw <strong>autowrak op in Brussel en de Rand</strong> – snel, correct en met de nodige documenten.",
+      "paragraphe_1": "Of de wagen nu total loss is na een ongeval, jaren stilstaat of gewoon niets meer waard is: wij laden hem op met aangepast materieel, ook als hij <strong>niet meer rolt, stuurt of remt</strong>.",
+      "paragraphe_2": "U ontvangt de correcte documenten voor de ophaling, zodat u administratief in orde bent (schrapping nummerplaat, verzekering). Alles wordt <strong>vooraf duidelijk afgesproken aan de telefoon</strong>."
+    },
+    "section_on_connait": {
+      "h2": "Wanneer Laat U een Wrak Ophalen?",
+      "intro": "De situaties waarvoor klanten ons het vaakst bellen:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Total loss na ongeval",
+          "description": "De verzekering heeft uw wagen total loss verklaard en hij moet weg. Wij halen hem op waar hij staat."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Auto die jaren stilstaat",
+          "description": "Een wagen die niet meer start en alleen plaats inneemt in uw garage of op uw oprit? In één afspraak opgeruimd."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Geen keuring meer waard",
+          "description": "Herstellen kost meer dan de wagen waard is. Wij halen hem op en u bent er vanaf."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Wrak op de openbare weg",
+          "description": "Vermijd een boete of takeling door de gemeente: laat het wrak weghalen vóór er een retributie volgt."
+        }
+      ]
+    },
+    "section_services": {
+      "h2": "Zo Werkt Het",
+      "intro": "Eenvoudig en zonder verrassingen:",
+      "categories": [
+        {
+          "titre": "1. U belt, wij luisteren",
+          "services": [
+            {
+              "nom": "U beschrijft de situatie en uw locatie"
+            },
+            {
+              "nom": "U krijgt meteen de exacte prijs"
+            },
+            {
+              "nom": "U beslist – geen verplichtingen"
+            }
+          ]
+        },
+        {
+          "titre": "2. Wij komen en lossen op",
+          "services": [
+            {
+              "nom": "Ter plaatse in ±30 min"
+            },
+            {
+              "nom": "Vakkundig en zonder schade"
+            },
+            {
+              "nom": "Klaar? U kunt weer verder"
+            }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+    "faq_locale": {
+      "h2": "FAQ – Wrakophaling Brussel",
+      "questions": [
+        {
+          "question": "Wat kost een wrakophaling?",
+          "reponse": "Dat hangt af van de staat van de wagen en waar hij staat. U krijgt de exacte prijs aan de telefoon – in veel gevallen is de ophaling erg voordelig."
+        },
+        {
+          "question": "Welke documenten moet ik klaarleggen?",
+          "reponse": "Ideaal: het inschrijvingsbewijs en het gelijkvormigheidsattest. Ontbreken er documenten? Bel ons, we bekijken samen wat mogelijk is."
+        },
+        {
+          "question": "De auto rolt niet meer – is dat een probleem?",
+          "reponse": "Nee. We werken met een lier en aangepast materieel, ook voor wagens zonder wielen of met geblokkeerde remmen."
+        },
+        {
+          "question": "Kan ik jullie in het Nederlands bereiken?",
+          "reponse": "Ja, in het Nederlands, Frans of Engels – telefonisch op 02 886 04 86 of via WhatsApp."
+        }
+      ]
+    },
+    "section_zones_voisines": {
+      "h2": "Onze Andere Diensten",
+      "content": "Misschien zoekt u eerder dit:",
+      "communes_voisines": [
+        {
+          "nom": "Opkoop accidentwagens",
+          "slug": "opkoop-accidentwagens-brussel"
+        },
+        {
+          "nom": "Takeldienst – auto takelen",
+          "slug": "takeldienst-brussel"
+        },
+        {
+          "nom": "Auto uit het takeldepot halen",
+          "slug": "takeldepot-brussel"
+        }
+      ]
+    },
+    "cta_final": {
+      "titre": "Wrak kwijt?",
+      "texte": "Eén telefoontje en het is geregeld."
+    }
+  }
+}

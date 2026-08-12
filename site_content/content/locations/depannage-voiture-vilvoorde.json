@@ -1,0 +1,111 @@
+{
+  "version": "2.0",
+  "commune": "Vilvoorde",
+  "code_postal": "1800",
+  "image": "vilvoorde-hero.jpg",
+  "sans_placeholders": true,
+
+  "seo": {
+    "meta_title": "Dépannage Voiture Vilvoorde (1800) | 24h/24 – HELPCAR Dépannage",
+    "meta_description": "Dépannage auto et remorquage à Vilvoorde (1800). Viaduc, Woluwelaan, Cargovil, centre. Prix annoncé par téléphone. ☎ 02 886 04 86"
+  },
+
+  "hero": {
+    "h1": "Dépannage Voiture Vilvoorde (1800) – 24h/24",
+    "accroche": "Du viaduc au centre de Vilvoorde : intervention rapide, prix annoncé par téléphone avant de partir."
+  },
+
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "En panne à Vilvoorde ? Appelez le <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Dépannage</strong>, c'est votre <strong>dépannage voiture à Vilvoorde (1800)</strong> : tarif donné par téléphone, un dépanneur sur place en <strong>30 à 40 minutes</strong>, jour et nuit.",
+      "paragraphe_1": "Immobilisé sur la Woluwelaan, batterie à plat près de la gare, pneu crevé sur la Schaarbeeklei – on gère. Un appel au <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>, vous connaissez le prix avant qu'on démarre.",
+      "paragraphe_2": "Avec <strong>plus de 10 ans d'expérience</strong> dans la région bruxelloise, on connaît bien Vilvoorde : les zonings le long du canal, les grands axes vers le Ring et les quartiers résidentiels de Koningslo à Peutie."
+    },
+
+    "section_on_connait": {
+      "h2": "On Connaît Vilvoorde",
+      "intro": "Les endroits où on dépanne le plus souvent :",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Centre & quartier de la gare",
+          "description": "La Grote Markt, la Leuvensestraat et la gare. Rues étroites et stationnement limité – on sait comment y accéder."
+        },
+        {
+          "icon": "building",
+          "nom": "Woluwelaan & Cargovil",
+          "description": "Les zonings et parcs d'entreprises le long de la Woluwelaan et du canal. Beaucoup de camionnettes et de véhicules de société – on les remorque aussi."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Koningslo & Faubourg",
+          "description": "Les quartiers résidentiels à la limite de Bruxelles. Batterie à plat après le week-end ? Classique – on redémarre votre voiture sur place."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Peutie & Houtem",
+          "description": "Les sections périphériques et la zone autour de la caserne. Là aussi, on arrive en une petite demi-heure."
+        }
+      ],
+      "conclusion": "Panne sur le Ring R0 ou au viaduc de Vilvoorde ? Donnez-nous votre position exacte (sortie, borne kilométrique) et on envoie une dépanneuse immédiatement."
+    },
+
+    "section_services": {
+      "h2": "Ce Qu'on Fait à Vilvoorde",
+      "intro": "Tous les dépannages classiques, réglés sur place ou remorqués vers le garage de votre choix.",
+      "categories": [
+        {
+          "titre": "Dépannage sur place",
+          "services": [
+            { "nom": "Batterie à plat – boost ou remplacement" },
+            { "nom": "Pneu crevé – roue de secours ou réparation" },
+            { "nom": "Erreur de carburant – siphonnage" },
+            { "nom": "Clés enfermées – ouverture de porte" }
+          ]
+        },
+        {
+          "titre": "Remorquage & transport",
+          "services": [
+            { "nom": "Remorquage vers votre garage (Belgique)" },
+            { "nom": "Motos et camionnettes" },
+            { "nom": "Poids lourds et véhicules spéciaux" },
+            { "nom": "Enlèvement d'épave" }
+          ]
+        }
+      ],
+      "cta_text": "Appeler le 02 886 04 86"
+    },
+
+    "faq_locale": {
+      "h2": "FAQ – Dépannage Voiture à Vilvoorde",
+      "questions": [
+        {
+          "question": "En combien de temps arrivez-vous à Vilvoorde ?",
+          "reponse": "Comptez 30 à 40 minutes selon le trafic sur le Ring et la Woluwelaan. On vous donne une estimation honnête au téléphone."
+        },
+        {
+          "question": "Combien coûte un remorquage à Vilvoorde ?",
+          "reponse": "Ça dépend de votre position, du véhicule et de la destination. Le prix exact vous est annoncé par téléphone, avant qu'on parte."
+        },
+        {
+          "question": "Vous remorquez aussi les camionnettes des zonings ?",
+          "reponse": "Oui, les camionnettes et utilitaires légers des zones d'activité de Vilvoorde aussi. Précisez le type de véhicule au téléphone, on envoie le bon matériel."
+        },
+        {
+          "question": "Peut-on vous joindre en néerlandais ?",
+          "reponse": "Oui, on vous répond en français, néerlandais ou anglais – au 02 886 04 86 ou via WhatsApp."
+        }
+      ]
+    },
+
+    "section_zones_voisines": {
+      "h2": "Communes Voisines de Vilvoorde",
+      "content": "On intervient dans toute la périphérie nord de Bruxelles :",
+      "communes_voisines": [
+        { "nom": "Machelen & Diegem", "slug": "depannage-voiture-machelen" },
+        { "nom": "Zaventem", "slug": "depannage-voiture-zaventem" },
+        { "nom": "Evere", "slug": "depannage-voiture-evere" }
+      ]
+    }
+  }
+}

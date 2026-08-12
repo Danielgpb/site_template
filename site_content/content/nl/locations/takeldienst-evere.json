@@ -1,0 +1,136 @@
+{
+  "version": "2.0",
+  "commune": "Evere",
+  "code_postal": "1140",
+  "seo": {
+    "meta_title": "Takeldienst Evere (1140) | 24/7 – HELPCAR Depannage",
+    "meta_description": "Takeldienst en pechverhelping in Evere (1140). Leopold III-laan, NAVO-wijk, Paduwa. Prijs vooraf. ☎ 02 886 04 86"
+  },
+  "geo": {
+    "region": "BE-BRU",
+    "lat": "50.8710",
+    "lng": "4.4020"
+  },
+  "hreflang_fr": "https://helpcar.be/zones/depannage-voiture-evere/",
+  "hero": {
+    "h1": "Takeldienst Evere (1140) – 24/7",
+    "accroche": "Van de Leopold III-laan tot Paduwa: snelle pechverhelping richting luchthaven."
+  },
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Autopech in Evere? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> is uw <strong>takeldienst in Evere (1140)</strong>: prijs vooraf, ter plaatse in <strong>ongeveer 25 minuten</strong>, dag en nacht.",
+      "paragraphe_1": "Op de as tussen Brussel en de luchthaven valt veel te depanneren: stilgevallen op de Leopold III-laan, batterij plat in een woonwijk, pech op weg naar een vlucht – <strong>we kennen de klok rond de weg</strong>.",
+      "paragraphe_2": "Evere ligt vlak bij onze dagelijkse routes richting Zaventem: <strong>korte aanrijtijden</strong>, ook tijdens de spits."
+    },
+    "section_on_connait": {
+      "h2": "Wij Kennen Evere",
+      "intro": "De plekken waar we het vaakst depanneren:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Leopold III-laan & NAVO-wijk",
+          "description": "De grote as richting luchthaven en de kantoren errond. Pech op weg naar een vlucht? Bel meteen."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Centrum & Hoedhaar",
+          "description": "De woonkern van Evere met zijn rustige straten – batterijen en deuropeningen aan huis."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Paduwa & Sint-Vincentius",
+          "description": "Rond het winkelcentrum en de kliniek: drukke parkeerzones waar we regelmatig interveniëren."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Grens met Schaarbeek & Haren",
+          "description": "De industriële rand en de wegen naar de NMBS-site: ook voor bestelwagens en bedrijfsvoertuigen."
+        }
+      ]
+    },
+    "section_services": {
+      "h2": "Wat We Doen in Evere",
+      "intro": "Alle klassieke depannages, ter plaatse opgelost of getakeld naar de garage van uw keuze.",
+      "categories": [
+        {
+          "titre": "Pechverhelping ter plaatse",
+          "services": [
+            {
+              "nom": "Lege batterij opstarten of vervangen"
+            },
+            {
+              "nom": "Lekke band – reservewiel of herstelling"
+            },
+            {
+              "nom": "Verkeerde brandstof afpompen"
+            },
+            {
+              "nom": "Sleutels in de auto – deuropening"
+            }
+          ]
+        },
+        {
+          "titre": "Takelen & transport",
+          "services": [
+            {
+              "nom": "Takelen naar uw garage (België)"
+            },
+            {
+              "nom": "Motorfietsen en bestelwagens"
+            },
+            {
+              "nom": "Ondergrondse parkings (lage doorgang)"
+            },
+            {
+              "nom": "Wrakophaling"
+            }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+    "faq_locale": {
+      "h2": "FAQ – Takeldienst in Evere",
+      "questions": [
+        {
+          "question": "Hoe snel zijn jullie in Evere?",
+          "reponse": "Meestal binnen de 25 minuten – Evere ligt op onze dagelijkse route tussen Brussel en de luchthaven."
+        },
+        {
+          "question": "Wat kost een takeling in Evere?",
+          "reponse": "De prijs hangt af van uw locatie, het voertuig en de bestemming. U krijgt het exacte bedrag aan de telefoon, vóór we vertrekken."
+        },
+        {
+          "question": "Komen jullie 's nachts en in het weekend?",
+          "reponse": "Ja, 24 uur op 24, 7 dagen op 7, ook op zon- en feestdagen. U belt, wij komen."
+        },
+        {
+          "question": "Kan ik jullie in het Nederlands bereiken?",
+          "reponse": "Ja, in het Nederlands, Frans of Engels – telefonisch op 02 886 04 86 of via WhatsApp."
+        }
+      ]
+    },
+    "section_zones_voisines": {
+      "h2": "Buurgemeenten van Evere",
+      "content": "We takelen in alle Brusselse gemeenten en de Rand:",
+      "communes_voisines": [
+        {
+          "nom": "Schaarbeek",
+          "slug": "takeldienst-schaarbeek"
+        },
+        {
+          "nom": "Zaventem",
+          "slug": "takeldienst-zaventem"
+        },
+        {
+          "nom": "Sint-Lambrechts-Woluwe",
+          "slug": "takeldienst-sint-lambrechts-woluwe"
+        }
+      ]
+    },
+    "cta_final": {
+      "titre": "Pech in Evere?",
+      "texte": "Zeg ons waar u staat, wij zeggen wanneer we er zijn."
+    }
+  }
+}

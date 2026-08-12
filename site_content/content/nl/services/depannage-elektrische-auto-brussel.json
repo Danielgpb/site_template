@@ -1,0 +1,130 @@
+{
+  "version": "2.0",
+  "commune": "Brussel",
+  "code_postal": "1000",
+  "seo": {
+    "meta_title": "Depannage Elektrische Auto Brussel 24/7 | EV & Hybride – HELPCAR",
+    "meta_description": "Elektrische auto met pech of lege batterij in Brussel? EV-depannage met aangepast materieel, 24/7. ☎ 02 886 04 86"
+  },
+  "geo": {
+    "region": "BE-BRU",
+    "lat": "50.8503",
+    "lng": "4.3517"
+  },
+  "hreflang_fr": "https://helpcar.be/services/depannage-voiture-electrique-bruxelles/",
+  "hero": {
+    "h1": "Depannage Elektrische Auto in Brussel – 24/7",
+    "accroche": "Lege accu of EV-storing? We takelen uw elektrische wagen zoals het hoort – met volledige opheffing."
+  },
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Elektrische of hybride wagen in panne? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> depanneert <strong>EV's en hybrides in Brussel en de Rand</strong> – met het materieel en de kennis die deze wagens vragen.",
+      "paragraphe_1": "Een EV mag <strong>nooit met de aangedreven wielen op de grond gesleept</strong> worden: de elektromotor kan onherstelbare schade oplopen. Wij takelen met volledige opheffing op de plateau – altijd.",
+      "paragraphe_2": "Lege tractiebatterij onderweg? We brengen u naar het <strong>dichtstbijzijnde snellaadstation</strong> of naar huis. Bij een storing of foutmelding gaat de wagen veilig naar uw dealer of specialist."
+    },
+    "section_on_connait": {
+      "h2": "Wanneer Belt U Ons?",
+      "intro": "De situaties waarvoor EV-rijders ons bellen:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Tractiebatterij leeg",
+          "description": "Net niet tot de laadpaal geraakt? We takelen u naar het dichtstbijzijnde (snel)laadstation – de veiligste oplossing."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Foutmelding of storing",
+          "description": "\"Schildpadmodus\", oranje of rode melding? We brengen de wagen naar uw dealer zonder extra risico."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "12V-batterij plat",
+          "description": "Ook een EV heeft een gewone 12V-batterij – en die valt vaker uit dan u denkt. Vaak ter plaatse opgelost."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Lekke band met EV",
+          "description": "Veel EV’s hebben geen reservewiel. We herstellen ter plaatse of takelen naar de bandencentrale."
+        }
+      ]
+    },
+    "section_services": {
+      "h2": "Zo Werkt Het",
+      "intro": "Eenvoudig en zonder verrassingen:",
+      "categories": [
+        {
+          "titre": "1. U belt, wij luisteren",
+          "services": [
+            {
+              "nom": "U beschrijft de situatie en uw locatie"
+            },
+            {
+              "nom": "U krijgt meteen de exacte prijs"
+            },
+            {
+              "nom": "U beslist – geen verplichtingen"
+            }
+          ]
+        },
+        {
+          "titre": "2. Wij komen en lossen op",
+          "services": [
+            {
+              "nom": "Ter plaatse in ±30 min"
+            },
+            {
+              "nom": "Vakkundig en zonder schade"
+            },
+            {
+              "nom": "Klaar? U kunt weer verder"
+            }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+    "faq_locale": {
+      "h2": "FAQ – EV Depannage Brussel",
+      "questions": [
+        {
+          "question": "Mag een elektrische auto gesleept worden?",
+          "reponse": "Kort en officieel: nee, niet met de aangedreven wielen op de grond. Volledige opheffing op een plateau is de enige veilige methode – en zo werken wij."
+        },
+        {
+          "question": "Kunnen jullie mijn EV opladen ter plaatse?",
+          "reponse": "We brengen u naar het dichtstbijzijnde laadstation – dat is sneller en betrouwbaarder dan mobiel bijladen. De prijs kent u op voorhand."
+        },
+        {
+          "question": "Werken jullie ook met Tesla, BYD, Polestar…?",
+          "reponse": "Ja, alle merken. Vermeld het model aan de telefoon, dan houden we rekening met de sleepmodus en de specifieke bevestigingspunten."
+        },
+        {
+          "question": "Kan ik jullie in het Nederlands bereiken?",
+          "reponse": "Ja, in het Nederlands, Frans of Engels – telefonisch op 02 886 04 86 of via WhatsApp."
+        }
+      ]
+    },
+    "section_zones_voisines": {
+      "h2": "Onze Andere Diensten",
+      "content": "Misschien zoekt u eerder dit:",
+      "communes_voisines": [
+        {
+          "nom": "Takeldienst – auto takelen",
+          "slug": "takeldienst-brussel"
+        },
+        {
+          "nom": "Lege 12V-batterij – opstarten",
+          "slug": "batterij-depannage-brussel"
+        },
+        {
+          "nom": "Lekke band",
+          "slug": "bandenpech-brussel"
+        }
+      ]
+    },
+    "cta_final": {
+      "titre": "EV in panne?",
+      "texte": "Wij takelen uw elektrische wagen zonder risico."
+    }
+  }
+}

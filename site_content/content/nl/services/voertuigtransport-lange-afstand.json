@@ -1,0 +1,130 @@
+{
+  "version": "2.0",
+  "commune": "Brussel",
+  "code_postal": "1000",
+  "seo": {
+    "meta_title": "Voertuigtransport Lange Afstand | Heel België & Buitenland – HELPCAR",
+    "meta_description": "Auto vervoeren van Brussel naar de kust, Ardennen of het buitenland? Lange-afstandstransport met vaste prijs. ☎ 02 886 04 86"
+  },
+  "geo": {
+    "region": "BE-BRU",
+    "lat": "50.8503",
+    "lng": "4.3517"
+  },
+  "hreflang_fr": "https://helpcar.be/services/transport-routier-longue-distance-bruxelles/",
+  "hero": {
+    "h1": "Voertuigtransport over Lange Afstand",
+    "accroche": "Van Brussel naar de kust, de Ardennen of over de grens – uw wagen komt aan waar u hem verwacht."
+  },
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "Een voertuig over een langere afstand te vervoeren? Bel <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Depannage</strong> vervoert wagens <strong>vanuit Brussel naar heel België en het buitenland</strong> – met vaste prijs en duidelijke afspraken.",
+      "paragraphe_1": "Pech onderweg ver van huis, een wagen gekocht in een andere provincie, een oldtimer die naar een beurs moet: voor <strong>lange trajecten</strong> is de plateau veiliger en vaak goedkoper dan zelf regelen.",
+      "paragraphe_2": "U krijgt <strong>één totaalprijs op voorhand</strong>, inclusief ophaling en levering. Onderweg blijft u bereikbaar via telefoon of WhatsApp – u weet altijd waar uw wagen is."
+    },
+    "section_on_connait": {
+      "h2": "Wanneer Belt U Ons?",
+      "intro": "De situaties waarvoor klanten ons bellen:",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Panne ver van huis",
+          "description": "Stilgevallen aan zee of in de Ardennen en uw garage is in Brussel? We repatriëren uw wagen naar huis."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Auto gekocht in een andere provincie",
+          "description": "De perfecte tweedehands staat in Antwerpen, Luik of over de grens? Wij halen hem op en leveren aan huis."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Bedrijfswagens tussen vestigingen",
+          "description": "Vloten verplaatsen tussen sites? We plannen meerdere transporten efficiënt in."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Naar of uit het buitenland",
+          "description": "Frankrijk, Nederland, Duitsland, Luxemburg: grensoverschrijdend transport op offerte."
+        }
+      ]
+    },
+    "section_services": {
+      "h2": "Zo Werkt Het",
+      "intro": "Eenvoudig en zonder verrassingen:",
+      "categories": [
+        {
+          "titre": "1. U belt, wij luisteren",
+          "services": [
+            {
+              "nom": "U beschrijft de situatie en uw locatie"
+            },
+            {
+              "nom": "U krijgt meteen de exacte prijs"
+            },
+            {
+              "nom": "U beslist – geen verplichtingen"
+            }
+          ]
+        },
+        {
+          "titre": "2. Wij komen en lossen op",
+          "services": [
+            {
+              "nom": "Ter plaatse in ±30 min"
+            },
+            {
+              "nom": "Vakkundig en zonder schade"
+            },
+            {
+              "nom": "Klaar? U kunt weer verder"
+            }
+          ]
+        }
+      ],
+      "cta_text": "Bel 02 886 04 86"
+    },
+    "faq_locale": {
+      "h2": "FAQ – Transport Lange Afstand",
+      "questions": [
+        {
+          "question": "Hoe wordt de prijs berekend?",
+          "reponse": "Op basis van afstand, voertuigtype en timing. U krijgt één vaste totaalprijs vóór we iets vastleggen."
+        },
+        {
+          "question": "Hoe snel kan een lang transport geregeld zijn?",
+          "reponse": "Dringend kan vaak dezelfde dag nog; gepland transport spreken we in op de dag en het tijdslot van uw keuze."
+        },
+        {
+          "question": "Mag ik meerijden?",
+          "reponse": "Op lange trajecten spreken we dat vooraf af – vaak kan het. Vermeld het bij uw aanvraag."
+        },
+        {
+          "question": "Kan ik jullie in het Nederlands bereiken?",
+          "reponse": "Ja, in het Nederlands, Frans of Engels – telefonisch op 02 886 04 86 of via WhatsApp."
+        }
+      ]
+    },
+    "section_zones_voisines": {
+      "h2": "Onze Andere Diensten",
+      "content": "Misschien zoekt u eerder dit:",
+      "communes_voisines": [
+        {
+          "nom": "Voertuigtransport regio Brussel",
+          "slug": "voertuigtransport-brussel"
+        },
+        {
+          "nom": "Speciale voertuigen takelen",
+          "slug": "speciale-voertuigen-takelen-brussel"
+        },
+        {
+          "nom": "Takeldienst – auto takelen",
+          "slug": "takeldienst-brussel"
+        }
+      ]
+    },
+    "cta_final": {
+      "titre": "Lange afstand te overbruggen?",
+      "texte": "Vertel ons het traject – u krijgt meteen een vaste prijs."
+    }
+  }
+}
