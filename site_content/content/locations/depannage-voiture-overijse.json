@@ -1,0 +1,128 @@
+{
+  "version": "2.0",
+  "commune": "Overijse",
+  "code_postal": "3090",
+  "image": "overijse-hero.jpg",
+  "sans_placeholders": true,
+  "seo": {
+    "meta_title": "Dépannage Voiture Overijse (3090) | 24h/24 – HELPCAR",
+    "meta_description": "Dépannage auto et remorquage à Overijse : Jezus-Eik, E411, Maleizen, Tombeek. Prix annoncé par téléphone, sur place en ±30 min. ☎ 02 886 04 86"
+  },
+  "hero": {
+    "h1": "Dépannage Voiture Overijse (3090) – 24h/24",
+    "accroche": "Jezus-Eik, le centre ou une sortie de l'E411 : dépanneuse sur place en environ 30 minutes."
+  },
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "En panne à Overijse ? Appelez le <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Dépannage</strong>, c'est votre <strong>dépannage voiture à Overijse (3090)</strong> : prix annoncé par téléphone, dépanneuse sur place en <strong>environ 30 minutes</strong>.",
+      "paragraphe_1": "Batterie à plat un matin d'hiver à Maleizen, pneu crevé sur la Brusselsesteenweg, moteur qui cale en sortant de l'E411 – on règle ça, de jour comme de nuit. Appelez le <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>.",
+      "paragraphe_2": "Entre le ring de Bruxelles et Wavre, l'axe E411 fait partie de notre quotidien : on passe par Overijse et Jezus-Eik <strong>presque tous les jours</strong>. La Druivenstreek et ses routes vallonnées, on connaît."
+    },
+    "section_on_connait": {
+      "h2": "On Connaît Overijse",
+      "intro": "Les endroits où on intervient le plus souvent :",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Jezus-Eik & lisière de la forêt de Soignes",
+          "description": "Le village à l'orée du bois, ses brasseries et le parking souvent bien rempli le week-end. Batterie à plat après la promenade ? On vient vous rebooster sur place."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "E411 & abords du carrefour Léonard",
+          "description": "Les sorties Overijse et Jezus-Eik, dans les deux sens. Panne sur l'autoroute ? Mettez-vous à l'abri derrière la glissière et donnez-nous la borne kilométrique."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Centre d'Overijse & Solheide",
+          "description": "Le noyau autour du Justus Lipsiusplein et les quartiers résidentiels en pente. Voiture qui ne démarre plus devant chez vous ? On se gare au plus près."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Maleizen, Tombeek & Eizer",
+          "description": "Les hameaux le long de la vallée de l'IJse et de la Terhulpsesteenweg. Même dans les petites rues en côte, on vient charger votre voiture sans casse."
+        }
+      ]
+    },
+    "section_services": {
+      "h2": "Ce Qu'on Fait à Overijse",
+      "intro": "Tous les dépannages classiques, réglés sur place partout à Overijse ou remorqués vers le garage de votre choix.",
+      "categories": [
+        {
+          "titre": "Dépannage sur place",
+          "services": [
+            {
+              "nom": "Batterie à plat – boost ou remplacement"
+            },
+            {
+              "nom": "Pneu crevé – roue de secours ou réparation"
+            },
+            {
+              "nom": "Erreur de carburant – siphonnage"
+            },
+            {
+              "nom": "Clés enfermées – ouverture de porte"
+            }
+          ]
+        },
+        {
+          "titre": "Remorquage & transport",
+          "services": [
+            {
+              "nom": "Remorquage vers votre garage (Belgique)"
+            },
+            {
+              "nom": "Panne ou accident sur l'E411"
+            },
+            {
+              "nom": "Camionnettes et utilitaires légers"
+            },
+            {
+              "nom": "Enlèvement d'épave"
+            }
+          ]
+        }
+      ],
+      "cta_text": "Appeler le 02 886 04 86"
+    },
+    "faq_locale": {
+      "h2": "FAQ – Dépannage à Overijse",
+      "questions": [
+        {
+          "question": "En combien de temps arrivez-vous à Overijse ?",
+          "reponse": "Comptez environ 30 minutes depuis Bruxelles, souvent moins si un de nos dépanneurs est déjà sur l'axe E411 ou du côté de Jezus-Eik. On vous donne un horaire réaliste au téléphone."
+        },
+        {
+          "question": "Je suis en panne sur l'E411, que faire ?",
+          "reponse": "Allumez vos feux de détresse, enfilez le gilet fluo et mettez-vous à l'abri derrière la glissière. Ensuite appelez-nous avec la borne kilométrique ou votre position GPS : on vous localise et on arrive."
+        },
+        {
+          "question": "Combien coûte un dépannage à Overijse ?",
+          "reponse": "Le prix d'un dépannage voiture à Overijse dépend de votre position, du véhicule et de la destination. Le montant exact vous est annoncé par téléphone, avant qu'on parte – pas de surprise à l'arrivée."
+        },
+        {
+          "question": "Peut-on vous joindre en néerlandais ?",
+          "reponse": "Oui, on vous répond en français, néerlandais ou anglais – au 02 886 04 86 ou via WhatsApp."
+        }
+      ]
+    },
+    "section_zones_voisines": {
+      "h2": "Communes Voisines d'Overijse",
+      "content": "On intervient dans toute la périphérie sud-est :",
+      "communes_voisines": [
+        {
+          "nom": "Watermael-Boitsfort",
+          "slug": "depannage-voiture-watermael-boitsfort"
+        },
+        {
+          "nom": "Rhode-Saint-Genèse",
+          "slug": "depannage-voiture-rhode-saint-genese"
+        },
+        {
+          "nom": "Zaventem",
+          "slug": "depannage-voiture-zaventem"
+        }
+      ]
+    }
+  }
+}

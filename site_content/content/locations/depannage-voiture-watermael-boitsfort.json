@@ -1,0 +1,128 @@
+{
+  "version": "2.0",
+  "commune": "Watermael-Boitsfort",
+  "code_postal": "1170",
+  "image": "watermael-hero.jpg",
+  "sans_placeholders": true,
+  "seo": {
+    "meta_title": "Dépannage Voiture Watermael-Boitsfort (1170) | 24h/24 – HELPCAR",
+    "meta_description": "Dépannage auto et remorquage à Watermael-Boitsfort : place Keym, Logis-Floréal, bd du Souverain. Prix annoncé par téléphone. ☎ 02 886 04 86"
+  },
+  "hero": {
+    "h1": "Dépannage Voiture Watermael-Boitsfort (1170) – 24h/24",
+    "accroche": "Place Keym, cités-jardins ou chaussée de La Hulpe : sur place en environ 25 minutes."
+  },
+  "content": {
+    "intro_autorite": {
+      "paragraphe_0": "En panne à Watermael-Boitsfort ? Appelez le <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>. <strong style=\"color: #CF5706;\">HELPCAR Dépannage</strong>, c'est votre <strong>dépannage voiture à Watermael-Boitsfort (1170)</strong> : prix annoncé par téléphone, dépanneuse sur place en <strong>environ 25 minutes</strong>.",
+      "paragraphe_1": "Batterie à plat devant la place Keym, pneu crevé boulevard du Souverain, voiture coincée dans une ruelle du Logis – on règle ça, de jour comme de nuit. Appelez le <strong><a href=\"tel:+3228860486\" style=\"color: #CF5706; text-decoration: none;\">02 886 04 86</a></strong>.",
+      "paragraphe_2": "La commune la plus verte de Bruxelles a ses particularités : rues étroites des cités-jardins, avenues en pente vers la forêt de Soignes, stationnement serré. On y intervient <strong>toutes les semaines</strong> – on sait où passer et comment se garer."
+    },
+    "section_on_connait": {
+      "h2": "On Connaît Watermael-Boitsfort",
+      "intro": "Les endroits où on intervient le plus souvent :",
+      "quartiers": [
+        {
+          "icon": "map-pin",
+          "nom": "Place Keym & centre de Watermael",
+          "description": "Le cœur commerçant de la commune et les rues autour de la gare de Watermael. Batterie à plat en revenant des courses ? On vient vous rebooster sur place."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Cités-jardins Le Logis & Floréal",
+          "description": "Les ruelles classées, étroites et bordées de cerisiers. On y passe avec du matériel compact : votre voiture est chargée sans toucher ni les haies ni les trottoirs."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Boulevard du Souverain & chaussée de La Hulpe",
+          "description": "Les grands axes vers Auderghem et l'hippodrome. Panne en heure de pointe ? Donnez votre position exacte, on connaît les bandes d'arrêt et les contre-allées."
+        },
+        {
+          "icon": "map-pin",
+          "nom": "Boitsfort & lisière de la forêt de Soignes",
+          "description": "Le centre de Boitsfort, la place Wiener et les avenues qui montent vers la forêt. Même garé en épi ou en côte, on charge votre voiture proprement."
+        }
+      ]
+    },
+    "section_services": {
+      "h2": "Ce Qu'on Fait à Watermael-Boitsfort",
+      "intro": "Tous les dépannages classiques, réglés sur place partout à Watermael-Boitsfort ou remorqués vers le garage de votre choix.",
+      "categories": [
+        {
+          "titre": "Dépannage sur place",
+          "services": [
+            {
+              "nom": "Batterie à plat – boost ou remplacement"
+            },
+            {
+              "nom": "Pneu crevé – roue de secours ou réparation"
+            },
+            {
+              "nom": "Erreur de carburant – siphonnage"
+            },
+            {
+              "nom": "Clés enfermées – ouverture de porte"
+            }
+          ]
+        },
+        {
+          "titre": "Remorquage & transport",
+          "services": [
+            {
+              "nom": "Remorquage vers votre garage (Belgique)"
+            },
+            {
+              "nom": "Rues étroites et stationnement serré"
+            },
+            {
+              "nom": "Parkings souterrains (hauteur limitée)"
+            },
+            {
+              "nom": "Enlèvement d'épave"
+            }
+          ]
+        }
+      ],
+      "cta_text": "Appeler le 02 886 04 86"
+    },
+    "faq_locale": {
+      "h2": "FAQ – Dépannage à Watermael-Boitsfort",
+      "questions": [
+        {
+          "question": "En combien de temps arrivez-vous à Watermael-Boitsfort ?",
+          "reponse": "Comptez environ 25 minutes, souvent moins depuis Ixelles ou Auderghem. On vous donne un horaire réaliste au téléphone, pas une promesse en l'air."
+        },
+        {
+          "question": "Ma voiture est dans une ruelle du Logis ou de Floréal, vous passez ?",
+          "reponse": "Oui. Les cités-jardins, on connaît : rues étroites, arbres classés, stationnement serré. On envoie une dépanneuse compacte et on charge votre voiture sans rien abîmer."
+        },
+        {
+          "question": "Combien coûte un dépannage à Watermael-Boitsfort ?",
+          "reponse": "Le prix d'un dépannage voiture à Watermael-Boitsfort dépend du type d'intervention et de votre position. Le montant exact vous est annoncé par téléphone, avant qu'on parte – pas de supplément surprise."
+        },
+        {
+          "question": "Vous intervenez aussi la nuit près de la forêt de Soignes ?",
+          "reponse": "Oui, 24h/24 et 7j/7. Une panne au retour d'une soirée, chaussée de La Hulpe ou avenue Delleur ? On décroche et on vient, même à 3h du matin."
+        }
+      ]
+    },
+    "section_zones_voisines": {
+      "h2": "Communes Voisines de Watermael-Boitsfort",
+      "content": "On intervient dans tout le sud-est de Bruxelles :",
+      "communes_voisines": [
+        {
+          "nom": "Ixelles",
+          "slug": "depannage-voiture-ixelles"
+        },
+        {
+          "nom": "Uccle",
+          "slug": "depannage-voiture-uccle"
+        },
+        {
+          "nom": "Overijse",
+          "slug": "depannage-voiture-overijse"
+        }
+      ]
+    }
+  }
+}
