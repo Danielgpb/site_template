@@ -147,7 +147,6 @@ function getSharedFooter() {
       <div>
         <h4 class="footer__title">Zones</h4>
         <ul class="footer__links">
-          <li><a href="/zones/depannage-voiture-bruxelles-centre/">Bruxelles-Centre</a></li>
           <li><a href="/zones/depannage-voiture-etterbeek/">Etterbeek</a></li>
           <li><a href="/zones/depannage-voiture-ixelles/">Ixelles</a></li>
           <li><a href="/zones/depannage-voiture-schaerbeek/">Schaerbeek</a></li>
@@ -1097,7 +1096,7 @@ const DEPLOY_DIRS = [
   'a-propos', 'blog', 'contact', 'css', 'images', 'js',
   'mentions-legales', 'nl', 'politique-confidentialite', 'services', 'tarifs', 'zones'
 ];
-const DEPLOY_FILES = ['index.html', 'robots.txt', 'sitemap.xml', 'favicon.ico'];
+const DEPLOY_FILES = ['index.html', 'robots.txt', 'sitemap.xml', 'favicon.ico', '_redirects', '_headers'];
 
 function copyDirSync(src, dest) {
   fs.mkdirSync(dest, { recursive: true });

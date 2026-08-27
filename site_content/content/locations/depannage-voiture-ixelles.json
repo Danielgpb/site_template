@@ -134,7 +134,6 @@
       "h2": "Communes Voisines d'Ixelles",
       "content": "On ne s'arrête pas à la frontière d'Ixelles. Si vous êtes en panne juste à côté, sur la chaussée de Waterloo ou l'avenue Louise côté Bruxelles-Ville, on vient sans hésiter.",
       "communes_voisines": [
-        {"nom": "Bruxelles-Ville (1000)", "slug": "depannage-voiture-bruxelles-centre"},
         {"nom": "Etterbeek (1040)", "slug": "depannage-voiture-etterbeek"},
         {"nom": "Schaerbeek (1030)", "slug": "depannage-voiture-schaerbeek"},
         {"nom": "Saint-Gilles (1060)", "slug": "depannage-voiture-saint-gilles"},

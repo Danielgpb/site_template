@@ -125,7 +125,6 @@
       "h2": "Communes Voisines de Schaerbeek",
       "content": "Schaerbeek touche plusieurs communes. Si vous êtes en panne côté Evere, Saint-Josse ou Woluwe-Saint-Lambert, on intervient aussi.",
       "communes_voisines": [
-        {"nom": "Bruxelles-Ville (1000)", "slug": "depannage-voiture-bruxelles-centre"},
         {"nom": "Etterbeek (1040)", "slug": "depannage-voiture-etterbeek"},
         {"nom": "Ixelles (1050)", "slug": "depannage-voiture-ixelles"},
         {"nom": "Saint-Josse (1210)", "slug": "depannage-voiture-saint-josse"},

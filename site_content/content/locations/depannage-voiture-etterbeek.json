@@ -128,7 +128,6 @@
       "h2": "Communes Voisines d'Etterbeek",
       "content": "Etterbeek touche plusieurs communes. Si vous êtes juste de l'autre côté de la limite – avenue de Tervueren, chaussée de Wavre, rond-point Mérode – on vient sans problème.",
       "communes_voisines": [
-        {"nom": "Bruxelles-Ville (1000)", "slug": "depannage-voiture-bruxelles-centre"},
         {"nom": "Ixelles (1050)", "slug": "depannage-voiture-ixelles"},
         {"nom": "Schaerbeek (1030)", "slug": "depannage-voiture-schaerbeek"},
         {"nom": "Woluwe-Saint-Pierre (1150)", "slug": "depannage-voiture-woluwe-saint-pierre"},

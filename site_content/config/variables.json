@@ -238,7 +238,6 @@
     "description": "URLs centralisées - Source unique pour tout le maillage interne",
     "communes": {
       "AUDERGHEM": "depannage-voiture-auderghem",
-      "BRUXELLES_VILLE": "depannage-voiture-bruxelles-centre",
       "ETTERBEEK": "depannage-voiture-etterbeek",
       "EVERE": "depannage-voiture-evere",
       "FOREST": "depannage-voiture-forest",
