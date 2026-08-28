@@ -13,3 +13,13 @@ Ces 5 pages zones utilisent aujourd'hui des photos génériques (`depanneuse-hel
 **Conseils de cohérence** avec les photos existantes du site : pas de texte lisible inventé sur les véhicules ni les bâtiments, uniformes orange/gris, plaques d'immatriculation floutées ou européennes génériques, ambiance Belgique (briques, verdure, ciel voilé).
 
 Une fois les fichiers déposés à la racine ou dans `images/`, Claude fait : conversion webp + `-md`, EXIF (description locale + auteur + copyright), branchement dans le hero de chaque page FR et NL, alt optimisé.
+
+## Ajout 28/08 — Waterloo & Braine-l'Alleud
+
+| Fichier cible | Usage | Prompt |
+|---|---|---|
+| `waterloo-hero.jpg` | Hero page Waterloo | Photo réaliste d'une dépanneuse à plateau orange et blanche chargeant un break gris sur le parking d'une rangée de commerces le long d'une chaussée animée type N5 à Waterloo, enseignes floues non lisibles, drapeaux et arbres taillés, circulation dense en arrière-plan, ciel voilé belge, gyrophares orange allumés, style photo documentaire, 1200×800 |
+| `braine-hero.jpg` | Hero page Braine-l'Alleud | Dépanneur en gilet fluo orange branchant un booster de batterie sur une berline compacte garée sur un grand parking de gare avec quais et caténaires flous en arrière-plan, vélos en stationnement, navetteurs au loin, la butte conique du Lion de Waterloo visible à l'horizon dans la brume, matin lumineux, photo réaliste prise au smartphone, 1200×800 |
+| `braine-lion.jpg` (optionnel, section terrain) | Section « Notre terrain » Braine-l'Alleud | Dépanneuse à plateau orange et blanche garée sur un parking de campagne, une citadine rouge à moitié chargée sur le plateau, la Butte du Lion de Waterloo bien visible en arrière-plan avec son escalier et sa statue au sommet, champs verts et groupes de visiteurs flous, fin d'après-midi d'été, photo réaliste style reportage, 1200×800 |
+
+Mêmes règles : pas de texte lisible inventé, plaques floutées ou génériques, uniformes orange/gris, ambiance Belgique.
