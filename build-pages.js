@@ -163,6 +163,8 @@ function getSharedFooter() {
           <li><a href="/zones/depannage-voiture-watermael-boitsfort/">Watermael-Boitsfort</a></li>
           <li><a href="/zones/depannage-voiture-overijse/">Overijse</a></li>
           <li><a href="/zones/depannage-voiture-wavre/">Wavre</a></li>
+          <li><a href="/zones/depannage-voiture-waterloo/">Waterloo</a></li>
+          <li><a href="/zones/depannage-voiture-braine-l-alleud/">Braine-l'Alleud</a></li>
           <li><a href="/zones/">Toutes les zones</a></li>
         </ul>
       </div>
