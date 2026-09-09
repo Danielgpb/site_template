@@ -14,7 +14,12 @@ const path = require('path');
 const NL_SERVICES_DIR = path.join(__dirname, 'site_content/content/nl/services');
 const NL_LOCATIONS_DIR = path.join(__dirname, 'site_content/content/nl/locations');
 const IMAGES_DIR = path.join(__dirname, 'images');
-const OUT_DIR = path.join(__dirname, 'nl');
+const OUT_DIR = process.env.NL_OUT ? path.resolve(process.env.NL_OUT) : path.join(__dirname, 'nl');
+
+// Contenus faits main (avis contextualisés, alts enrichis) — survivent à la régénération.
+// Format : { "<slug>": { heroAlt, terrainAlt, reviews: [3 cartes section sombre], carousel: [cartes carrousel] } }
+const OVERRIDES_PATH = path.join(__dirname, 'site_content/content/nl/overrides.json');
+const OVERRIDES = fs.existsSync(OVERRIDES_PATH) ? JSON.parse(fs.readFileSync(OVERRIDES_PATH, 'utf8')) : {};
 
 const PHONE_DISPLAY = '02 886 04 86';
 const PHONE_TEL = 'tel:+3228860486';
@@ -61,16 +66,16 @@ const PAGE_IMAGES = {
   'takeldienst-vorst': { hero: 'forest-hero', terrain: 'contacter-helpcar' },
   'takeldienst-elsene': { hero: 'plateau-flagey-ixelles', terrain: 'contacter-helpcar' },
   'takeldienst-schaarbeek': { hero: 'plateau-meiser', terrain: 'contacter-helpcar' },
-  'takeldienst-ukkel': { hero: 'depanneuse-helpcar', terrain: 'contacter-helpcar' },
+  'takeldienst-ukkel': { hero: 'uccle-hero', terrain: 'uccle-terrain' },
   'takeldienst-sint-lambrechts-woluwe': { hero: 'woluwe-saint-lambert-hero', terrain: 'contacter-helpcar' },
   'takeldienst-sint-pieters-woluwe': { hero: 'wsp-hero', terrain: 'wsp-terrain', prijs: 'wsp-confiance', nacht: 'wsp-nuit' },
   'takeldienst-sint-genesius-rode': { hero: 'rhode-hero', terrain: 'rhode-terrain', prijs: 'rhode-confiance', nacht: 'rhode-nuit' },
-  'takeldienst-zaventem': { hero: 'zaventem-hero', terrain: 'contacter-helpcar' },
+  'takeldienst-zaventem': { hero: 'zaventem-hero', terrain: 'zaventem-parking' },
   'takeldienst-vilvoorde': { hero: 'vilvoorde-hero', terrain: 'vilvoorde-zoning' },
   'takeldienst-machelen': { hero: 'machelen-hero', terrain: 'machelen-brucargo' },
   // Services
-  'takeldienst-brussel': { hero: 'depannage-camionette-plateau', terrain: 'remorquage-sangle-autoroute' },
-  'pechverhelping-brussel': { hero: 'depannage-voiture', terrain: 'client-satisfait-helpcar' },
+  'takeldienst-brussel': { hero: 'depannage-camionette-plateau', terrain: 'remorquage-autoroute' },
+  'pechverhelping-brussel': { hero: 'assistance-autoroute-client', terrain: 'client-satisfait-helpcar' },
   'batterij-depannage-brussel': { hero: 'choc-batterie-avec-client', terrain: 'diagnostic-batterie-multimetre' },
   'bandenpech-brussel': { hero: 'client-pneu-plat', terrain: 'pneu-meche-intervention' },
   'wrakophaling-brussel': { hero: 'enlevement-epave', terrain: 'enlevement-epave-2' },
@@ -81,16 +86,16 @@ const PAGE_IMAGES = {
   'reservewiel-monteren-brussel': { hero: 'placement-roue-secours', terrain: 'client-pneu-plat' },
   'autobatterij-vervangen-brussel': { hero: 'remplacement-batterie', terrain: 'booster-batterie-professionnel' },
   'moto-takelen-brussel': { hero: 'remorquage-moto-new', terrain: 'remorquage-moto-2' },
-  'takeldienst-bestelwagen-brussel': { hero: 'remorquage-camionnette', terrain: 'depannage-camionnette-intervention' },
+  'takeldienst-bestelwagen-brussel': { hero: 'remorquage-camionnette', terrain: 'remorquage-camionnette-sprinter' },
   'takeldienst-vrachtwagen-brussel': { hero: 'depannage-poids-lourd-autoroute', terrain: 'remorquage-poids-lourd-levage' },
   'depannage-elektrische-auto-brussel': { hero: 'depannage-voiture-electrique', terrain: 'photo-diagnostique' },
   'takelen-ondergrondse-parking-brussel': { hero: 'depannage-parking-souterrain', terrain: 'depanneuse-cinquantenaire-etterbeek' },
-  'auto-vastgereden-brussel': { hero: 'voiture-embourbee-2', terrain: 'voiture-embourbee-3' },
+  'auto-vastgereden-brussel': { hero: 'voiture-embourbee-boue', terrain: 'voiture-embourbee-treuillage' },
   'takeldepot-brussel': { hero: 'sortie-fourriere', terrain: 'sortie-fourriere-2' },
-  'speciale-voertuigen-takelen-brussel': { hero: 'remorquage-vehicules-speciaux', terrain: 'remorquage-vehicule-special-intervention' },
+  'speciale-voertuigen-takelen-brussel': { hero: 'remorquage-ancetre-evere', terrain: 'remorquage-vehicule-special-intervention' },
   'voertuigtransport-brussel': { hero: 'transport-local', terrain: 'remorquage-vehicule-special-resultat' },
   'voertuigtransport-lange-afstand': { hero: 'transport-longue-distance', terrain: 'transport-local' },
-  'opkoop-accidentwagens-brussel': { hero: 'achat-voiture-accidentee', terrain: 'achat-voiture-accidentee-2' },
+  'opkoop-accidentwagens-brussel': { hero: 'enlevement-voiture-accidentee', terrain: 'achat-voiture-accidentee-2' },
 };
 
 function escapeAttr(str) {
@@ -101,6 +106,31 @@ function stripHtml(str) {
   return String(str).replace(/<[^>]*>/g, '');
 }
 
+// Dimensions réelles lues dans l'en-tête JPEG (fallback 662×441 : gabarit historique)
+const _dimCache = {};
+function imgSize(name) {
+  if (_dimCache[name]) return _dimCache[name];
+  let d = { w: 662, h: 441 };
+  const jpg = path.join(IMAGES_DIR, `${name}.jpg`);
+  try {
+    if (fs.existsSync(jpg)) {
+      const buf = fs.readFileSync(jpg);
+      let i = 2;
+      while (i < buf.length - 9) {
+        if (buf[i] !== 0xFF) { i++; continue; }
+        const m = buf[i + 1];
+        if (m >= 0xC0 && m <= 0xCF && m !== 0xC4 && m !== 0xC8 && m !== 0xCC) {
+          d = { h: buf.readUInt16BE(i + 5), w: buf.readUInt16BE(i + 7) };
+          break;
+        }
+        i += 2 + buf.readUInt16BE(i + 2);
+      }
+    }
+  } catch (e) { /* fallback */ }
+  _dimCache[name] = d;
+  return d;
+}
+
 // <picture> responsive : source -md.webp si dispo, webp, fallback jpg si dispo
 function picture(name, alt, opts = {}) {
   if (!name || !fs.existsSync(path.join(IMAGES_DIR, `${name}.webp`))) return '';
@@ -109,9 +139,10 @@ function picture(name, alt, opts = {}) {
   const fallback = fs.existsSync(path.join(IMAGES_DIR, `${name}.jpg`)) ? `/images/${name}.jpg` : `/images/${name}.webp`;
   const attrs = opts.eager ? 'fetchpriority="high"' : 'loading="lazy"';
   const style = opts.style ? ` style="${opts.style}"` : '';
+  const { w, h } = imgSize(name);
   return `<picture>
   ${md}<source srcset="/images/${name}.webp" type="image/webp">
-  <img ${attrs} src="${fallback}" alt="${escapeAttr(alt)}"${style} width="662" height="441">
+  <img ${attrs} src="${fallback}" alt="${escapeAttr(alt)}"${style} width="${w}" height="${h}">
 </picture>`;
 }
 
@@ -130,8 +161,9 @@ function reviewAvatar(r, size) {
   return `<div style="width:${size}px;height:${size}px;border-radius:50%;background:${r.color || '#607D8B'};color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.8rem;flex-shrink:0;">${r.initial}</div>`;
 }
 
-function googleReviewsCarousel() {
-  const cards = REVIEWS.map(r => `
+function googleReviewsCarousel(slug) {
+  const list = (OVERRIDES[slug] && OVERRIDES[slug].carousel && OVERRIDES[slug].carousel.length) ? OVERRIDES[slug].carousel : REVIEWS;
+  const cards = list.map(r => `
       <div style="min-width:280px;max-width:300px;flex-shrink:0;scroll-snap-align:start;background:#fff;border:1px solid #E5E7EB;border-radius:10px;padding:14px 16px;">
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px;">
           ${reviewAvatar(r, 30)}
@@ -160,8 +192,9 @@ ${cards}
 </section>`;
 }
 
-function reviewsDarkSection() {
-  const three = [REVIEWS[0], REVIEWS[1], REVIEWS[2]];
+function reviewsDarkSection(slug) {
+  const ov = OVERRIDES[slug] && OVERRIDES[slug].reviews;
+  const three = (ov && ov.length) ? ov : [REVIEWS[0], REVIEWS[1], REVIEWS[2]];
   const cards = three.map(r => `
       <div class="review-card">
         <div class="review-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
@@ -289,7 +322,7 @@ function stappenSectionNL() {
           <p>Een depanneur rijdt naar uw locatie met al het nodige materieel. Brussel en de Rand, dag en nacht. Geschatte aankomst: ongeveer 30 minuten.</p>
         </div>
         <div class="photo-section__image">
-          ${picture('deplacement-intervention', 'Takelwagen onderweg in Brussel')}
+          ${picture('depanneuse-parlement-europeen', 'HelpCar takelwagen aan het Europees Parlement – Brussel')}
         </div>
       </div>
 
@@ -451,8 +484,8 @@ function alternatingNacht(imgName, commune) {
 </section>`;
 }
 
-function alternatingTerrain(imgName, commune, points) {
-  const img = picture(imgName, `Takeldienst ${commune} – HELPCAR kent het terrein`);
+function alternatingTerrain(imgName, commune, points, altOv) {
+  const img = picture(imgName, altOv || `Takeldienst ${commune} – HELPCAR kent het terrein`);
   if (!img || !points?.length) return '';
   return `<section class="section" id="terrein">
   <div class="container">
@@ -823,7 +856,8 @@ function buildPageNL(jsonFile, slug, isZone) {
   <meta name="geo.position" content="${data.geo.lat};${data.geo.lng}">
   <meta name="ICBM" content="${data.geo.lat}, ${data.geo.lng}">` : '';
 
-  const heroImg = picture(imgs.hero, stripHtml(data.hero.h1) + ' – HELPCAR', { eager: true, style: 'max-height:480px' });
+  const ov = OVERRIDES[slug] || {};
+  const heroImg = picture(imgs.hero, ov.heroAlt || stripHtml(data.hero.h1) + ' – HELPCAR', { eager: true, style: 'max-height:480px' });
   const terrainPoints = isZone ? (c.section_on_connait?.quartiers || []).map(q => q.nom) : null;
 
   return `<!DOCTYPE html>
@@ -877,7 +911,7 @@ ${breadcrumbNL(stripHtml(data.hero.h1))}
   </div>
 </section>
 
-${googleReviewsCarousel()}
+${googleReviewsCarousel(slug)}
 
 ${quartiersHtml ? `
 <section class="section section--gray">
@@ -891,7 +925,7 @@ ${quartiersHtml ? `
   </div>
 </section>` : ''}
 
-${isZone ? alternatingTerrain(imgs.terrain, data.commune, terrainPoints) : alternatingTerrainService(imgs.terrain, data)}
+${isZone ? alternatingTerrain(imgs.terrain, data.commune, terrainPoints, ov.terrainAlt) : alternatingTerrainService(imgs.terrain, data, ov.terrainAlt)}
 
 ${alternatingPrijs(imgs.prijs, data.commune)}
 
@@ -912,7 +946,7 @@ ${alternatingNacht(imgs.nacht, data.commune)}
 
 ${waaromSection()}
 
-${reviewsDarkSection()}
+${reviewsDarkSection(slug)}
 
 ${faqHtml ? `
 <section class="section section--gray">
@@ -953,8 +987,8 @@ ${waFloatNL()}
 }
 
 // Section alternée « terrain » pour les services : photo secondaire + arguments génériques
-function alternatingTerrainService(imgName, data) {
-  const img = picture(imgName, stripHtml(data.hero.h1) + ' – HELPCAR in actie');
+function alternatingTerrainService(imgName, data, altOv) {
+  const img = picture(imgName, altOv || stripHtml(data.hero.h1) + ' – HELPCAR in actie');
   if (!img) return '';
   return `<section class="section" id="aanpak">
   <div class="container">
@@ -1156,7 +1190,7 @@ ${getHeaderNL('/')}
   </div>
 </section>
 
-${googleReviewsCarousel()}
+${googleReviewsCarousel('nl-index')}
 
 <section class="section section--gray" id="diensten">
   <div class="container">
@@ -1183,7 +1217,7 @@ ${stappenSectionNL()}
 
 ${expertiseSectionNL()}
 
-${reviewsDarkSection()}
+${reviewsDarkSection('nl-index')}
 
 <section class="section section--gray" id="zones">
   <div class="container">

@@ -1,0 +1,152 @@
+{
+  "takeldienst-etterbeek": {
+    "reviews": [
+      {
+        "name": "Nashaat Taleb",
+        "date": "5 maanden geleden",
+        "text": "Venu me dépanner sur Etterbeek, super rapide et efficace, prix super correct !",
+        "initial": "N"
+      },
+      {
+        "name": "Michael Verhaeghe",
+        "date": "3 weken geleden",
+        "text": "On nous a aidés très rapidement et avec beaucoup de professionnalisme. Nous étions dans le pétrin car la voiture était mal garée et risquait d'être emmenée à la fourrière. Helpcar Dépannage nous a tirés d'affaire. Je les recommande vivement !",
+        "avatar": "michael-verhaeghe"
+      },
+      {
+        "name": "Josip Ž.",
+        "date": "3 weken geleden",
+        "text": "Fast and quality service towing the car.",
+        "initial": "J"
+      }
+    ]
+  },
+  "takeldienst-evere": {
+    "heroAlt": "Takeldienst Evere – takelen van een oldtimer cabrio door HELPCAR"
+  },
+  "takeldienst-schaarbeek": {
+    "reviews": [
+      {
+        "name": "Christine Godefroid",
+        "date": "4 maanden geleden",
+        "text": "Dépannage rapide et efficace sur Schaerbeek",
+        "initial": "C"
+      },
+      {
+        "name": "Michael Verhaeghe",
+        "date": "3 weken geleden",
+        "text": "On nous a aidés très rapidement et avec beaucoup de professionnalisme. Nous étions dans le pétrin car la voiture était mal garée et risquait d'être emmenée à la fourrière. Helpcar Dépannage nous a tirés d'affaire. Je les recommande vivement !",
+        "avatar": "michael-verhaeghe"
+      },
+      {
+        "name": "Josip Ž.",
+        "date": "3 weken geleden",
+        "text": "Fast and quality service towing the car.",
+        "initial": "J"
+      }
+    ]
+  },
+  "takeldienst-sint-lambrechts-woluwe": {
+    "reviews": [
+      {
+        "name": "Christine Camus",
+        "date": "3 weken geleden",
+        "text": "Super efficace, je suis tombé en panne sur l'autoroute, ils sont venus me dépanner rapidement. Service professionnel, chauffeur courtois et élégant !",
+        "initial": "C"
+      },
+      {
+        "name": "Michael Verhaeghe",
+        "date": "3 weken geleden",
+        "text": "On nous a aidés très rapidement et avec beaucoup de professionnalisme. Nous étions dans le pétrin car la voiture était mal garée et risquait d'être emmenée à la fourrière. Helpcar Dépannage nous a tirés d'affaire. Je les recommande vivement !",
+        "avatar": "michael-verhaeghe"
+      },
+      {
+        "name": "Jonathan De Lauw",
+        "date": "4 maanden geleden",
+        "text": "Rapide et efficace sur Woluwe",
+        "initial": "J"
+      }
+    ],
+    "heroAlt": "Takeldienst Sint-Lambrechts-Woluwe – takelen van een SUV op de E40 door HELPCAR"
+  },
+  "takeldienst-ukkel": {
+    "reviews": [
+      {
+        "name": "José Vilain",
+        "date": "4 maanden geleden",
+        "text": "Super impeccable sur Uccle pour ma batterie",
+        "initial": "J"
+      },
+      {
+        "name": "Jacques Dembele",
+        "date": "1 week geleden",
+        "text": "Dépannage HELPCAR. Merci pour ma bagnole ce matin à Uccle, toujours disponibles pour répondre à l'appel :)",
+        "initial": "J"
+      },
+      {
+        "name": "Josip Ž.",
+        "date": "3 weken geleden",
+        "text": "Fast and quality service towing the car.",
+        "initial": "J"
+      }
+    ],
+    "heroAlt": "Takeldienst Ukkel – takelwagen HELPCAR in een residentiële straat",
+    "terrainAlt": "HELPCAR takelt een berline in een woonstraat in Ukkel"
+  },
+  "takeldienst-vorst": {
+    "reviews": [
+      {
+        "name": "Sofiya Zrazhayeva",
+        "date": "1 maand geleden",
+        "text": "Very good and fast service, came in less than 30 minutes. Highly recommend!",
+        "avatar": "sofiya-zrazhayeva"
+      },
+      {
+        "name": "Michael Verhaeghe",
+        "date": "3 weken geleden",
+        "text": "On nous a aidés très rapidement et avec beaucoup de professionnalisme. Nous étions dans le pétrin car la voiture était mal garée et risquait d'être emmenée à la fourrière. Helpcar Dépannage nous a tirés d'affaire. Je les recommande vivement !",
+        "avatar": "michael-verhaeghe"
+      },
+      {
+        "name": "hikari SM",
+        "date": "1 week geleden",
+        "text": "Après le vol de mon scooter à Forest, j'avais besoin de le faire récupérer et transporter jusqu'à Ruisbroek. Le dépanneur est arrivé très rapidement sur place. Prise en charge efficace, scooter transporté avec soin et très bon contact malgré une situation assez stressante.",
+        "initial": "H"
+      }
+    ],
+    "heroAlt": "Takeldienst Vorst – beschadigde Tesla op takelwagen HELPCAR"
+  },
+  "takeldienst-zaventem": {
+    "reviews": [
+      {
+        "name": "Lien De Vries",
+        "date": "2 weken geleden",
+        "text": "Na het verlies van mijn autosleutels stond mijn Volkswagen Polo vast in een parkeergarage in Zaventem. Ik heb meteen contact opgenomen en de pechverhelper was verrassend snel ter plaatse. Alles werd rustig uitgelegd en de wagen werd zorgvuldig uit de parking gehaald zonder dat ik zelf iets moest regelen. Heel tevreden over deze snelle pechverhelping in Zaventem!",
+        "initial": "L"
+      },
+      {
+        "name": "Paul Ploumhans",
+        "date": "3 weken geleden",
+        "text": "Top service pour un remorquage dans le parking de l'aéroport. Service rendu dans les délais et pour le prix convenu. Je recommande.",
+        "initial": "P"
+      },
+      {
+        "name": "Hamilton",
+        "date": "4 dagen geleden",
+        "text": "Mon Volkswagen Caddy a soudainement perdu toute sa puissance sur l'E40 à hauteur de Zaventem. Le Caddy a été chargé avec soin puis transporté jusqu'à Bruxelles à l'endroit demandé. Ponctuel, sympa et surtout aucune complication. Merci encore pour le coup de main !",
+        "initial": "H"
+      }
+    ],
+    "heroAlt": "Takeldienst Zaventem – takelen aan Brussels Airport door HELPCAR",
+    "terrainAlt": "HELPCAR depanneert een auto in een overdekte parking in Zaventem"
+  },
+  "speciale-voertuigen-takelen-brussel": {
+    "heroAlt": "Oldtimer takelen op plateau – Speciale Voertuigen HELPCAR Brussel"
+  },
+  "opkoop-accidentwagens-brussel": {
+    "heroAlt": "Ophaling van een accidentwagen in Brussel – HELPCAR"
+  },
+  "pechverhelping-brussel": {
+    "heroAlt": "Pechverhelping op de snelweg – HELPCAR helpt een klant – Brussel"
+  }
+}
