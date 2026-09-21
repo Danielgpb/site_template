@@ -710,8 +710,8 @@
 
         if (state.currentStep === 3) {
           html += `<div class="wa-small-options-container wa-options-delayed">`;
-          html += createSmallOptionButton('yes', ICONS.check, t('fourwd_yes'));
           html += createSmallOptionButton('no', ICONS.close, t('fourwd_no'));
+          html += createSmallOptionButton('yes', ICONS.check, t('fourwd_yes'));
           html += `</div>`;
         }
       }
