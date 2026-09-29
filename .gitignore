@@ -18,3 +18,6 @@ ChatGPT Image*
 images/photo camion/
 **/photo camion/
 photo help/
+
+# Local Netlify folder
+.netlify
