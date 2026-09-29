@@ -180,7 +180,7 @@ function googleReviewsCarousel(slug) {
       ${GOOGLE_G_SVG}
       <span style="font-weight:700;font-size:1.1rem;">5.0</span>
       <span style="color:#FBBC05;font-size:1rem;">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-      <span style="color:#6B7280;font-size:0.85rem;">194 Google-reviews</span>
+      <span style="color:#6B7280;font-size:0.85rem;">237 Google-reviews</span>
     </a>
     <div style="display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding-bottom:8px;scrollbar-width:thin;">
 ${cards}
@@ -215,7 +215,7 @@ function reviewsDarkSection(slug) {
         <div class="google-badge__rating">5.0</div>
         <div>
           <div class="google-badge__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <div class="google-badge__count">194 reviews op Google</div>
+          <div class="google-badge__count">237 reviews op Google</div>
         </div>
       </a>
       <h2 class="section-title" style="margin-top:16px;">Wat Klanten Na een Depannage Zeggen</h2>
@@ -822,7 +822,7 @@ function buildPageNL(jsonFile, slug, isZone) {
     "email": "contact@helpcar.be",
     "image": OG_IMAGE,
     "openingHours": "Mo-Su 00:00-24:00",
-    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "194" },
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "237" },
     "areaServed": { "@type": "Place", "name": data.commune || slug },
     "address": {
       "@type": "PostalAddress",
@@ -1101,7 +1101,7 @@ function buildHomeNL() {
     "email": "contact@helpcar.be",
     "image": OG_IMAGE,
     "openingHours": "Mo-Su 00:00-24:00",
-    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "194" },
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "237" },
     "areaServed": [
       { "@type": "Place", "name": "Brussel" },
       { "@type": "Place", "name": "Vlaamse Rand" }
