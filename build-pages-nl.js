@@ -26,6 +26,8 @@ const PHONE_TEL = 'tel:+3228860486';
 const WHATSAPP_LINK_NL = 'https://wa.me/3228860486?text=Hallo%20HELPCAR%2C%20ik%20heb%20autopech%20en%20heb%20hulp%20nodig.';
 const GOOGLE_MAPS_LINK = 'https://maps.app.goo.gl/qBtfKXq3Tjg63dE59';
 const OG_IMAGE = 'https://helpcar.be/images/og-helpcar.jpg';
+// profils officiels, repris dans le sameAs de chaque LocalBusiness (identiques au footer)
+const SAME_AS = ['https://maps.app.goo.gl/qBtfKXq3Tjg63dE59', 'https://www.youtube.com/@HELPCARD%C3%A9pannage', 'https://www.facebook.com/helpcardepannage'];
 
 const GA_TAG = `<!-- GA4 + GTM différé (charge au premier scroll/click ou après 5s) -->
 <script>
@@ -180,7 +182,7 @@ function googleReviewsCarousel(slug) {
       ${GOOGLE_G_SVG}
       <span style="font-weight:700;font-size:1.1rem;">5.0</span>
       <span style="color:#FBBC05;font-size:1rem;">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-      <span style="color:#6B7280;font-size:0.85rem;">237 Google-reviews</span>
+      <span style="color:#6B7280;font-size:0.85rem;">239 Google-reviews</span>
     </a>
     <div style="display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding-bottom:8px;scrollbar-width:thin;">
 ${cards}
@@ -215,7 +217,7 @@ function reviewsDarkSection(slug) {
         <div class="google-badge__rating">5.0</div>
         <div>
           <div class="google-badge__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-          <div class="google-badge__count">237 reviews op Google</div>
+          <div class="google-badge__count">239 reviews op Google</div>
         </div>
       </a>
       <h2 class="section-title" style="margin-top:16px;">Wat Klanten Na een Depannage Zeggen</h2>
@@ -618,10 +620,10 @@ function getFooterNL() {
             <a href="mailto:contact@helpcar.be">contact@helpcar.be</a>
           </div>
           <div style="display:flex;gap:12px;margin-top:16px;">
-            <a href="https://www.facebook.com/people/Helpcar-D%C3%A9pannage/61586340715742/" target="_blank" rel="noopener" aria-label="Facebook" style="color:#9CA3AF;transition:color .2s;">
+            <a href="https://www.facebook.com/helpcardepannage" target="_blank" rel="noopener" aria-label="Facebook" style="color:#9CA3AF;transition:color .2s;">
               <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
             </a>
-            <a href="https://www.youtube.com/channel/UCZ5f2o-vD6sGGxR0UNpQkJw" target="_blank" rel="noopener" aria-label="YouTube" style="color:#9CA3AF;transition:color .2s;">
+            <a href="https://www.youtube.com/@HELPCARD%C3%A9pannage" target="_blank" rel="noopener" aria-label="YouTube" style="color:#9CA3AF;transition:color .2s;">
               <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
             </a>
             <a href="${GOOGLE_MAPS_LINK}" target="_blank" rel="noopener" aria-label="Google Maps" style="color:#9CA3AF;transition:color .2s;">
@@ -816,13 +818,14 @@ function buildPageNL(jsonFile, slug, isZone) {
     "@type": "LocalBusiness",
     "@id": "https://helpcar.be/#business",
     "name": "HELPCAR Dépannage",
+    "sameAs": SAME_AS,
     "description": stripHtml(description),
     "url": canonicalUrl,
     "telephone": "+3228860486",
     "email": "contact@helpcar.be",
     "image": OG_IMAGE,
     "openingHours": "Mo-Su 00:00-24:00",
-    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "237" },
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "239" },
     "areaServed": { "@type": "Place", "name": data.commune || slug },
     "address": {
       "@type": "PostalAddress",
@@ -1095,13 +1098,14 @@ function buildHomeNL() {
     "@type": "LocalBusiness",
     "@id": "https://helpcar.be/#business",
     "name": "HELPCAR Dépannage",
+    "sameAs": SAME_AS,
     "description": description,
     "url": canonicalUrl,
     "telephone": "+3228860486",
     "email": "contact@helpcar.be",
     "image": OG_IMAGE,
     "openingHours": "Mo-Su 00:00-24:00",
-    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "237" },
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "239" },
     "areaServed": [
       { "@type": "Place", "name": "Brussel" },
       { "@type": "Place", "name": "Vlaamse Rand" }
