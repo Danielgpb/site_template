@@ -1111,7 +1111,7 @@ const DEPLOY_DIRS = [
   'a-propos', 'blog', 'contact', 'css', 'images', 'js',
   'mentions-legales', 'nl', 'politique-confidentialite', 'services', 'tarifs', 'zones'
 ];
-const DEPLOY_FILES = ['index.html', 'robots.txt', 'sitemap.xml', 'favicon.ico', '_redirects', '_headers'];
+const DEPLOY_FILES = ['index.html', 'robots.txt', 'sitemap.xml', 'favicon.ico', '_redirects', '_headers', 'llms.txt'];
 
 function copyDirSync(src, dest) {
   fs.mkdirSync(dest, { recursive: true });

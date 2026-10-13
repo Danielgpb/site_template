@@ -35,3 +35,15 @@
 - Email : contact@helpcar.be
 - Adresse : Rue Charles Martel 55, 1000 Bruxelles, Belgique
 - Google Maps : https://maps.app.goo.gl/qBtfKXq3Tjg63dE59
+
+## Tarifs, à propos et contact
+- [Tarifs](https://helpcar.be/tarifs/): Comment le prix est fixé, annoncé par téléphone avant l'intervention
+- [À propos](https://helpcar.be/a-propos/): L'équipe HELPCAR Dépannage et sa façon de travailler
+- [Contact](https://helpcar.be/contact/): Téléphone 02 886 04 86, WhatsApp, e-mail contact@helpcar.be
+
+## Nederlandstalige versie (NL)
+- [Takeldienst & pechverhelping Brussel](https://helpcar.be/nl/): Startpagina in het Nederlands
+- [Alle diensten (NL)](https://helpcar.be/nl/diensten/)
+- [Alle zones (NL)](https://helpcar.be/nl/zones/)
+
+Dernière mise à jour : 2026-10-13
