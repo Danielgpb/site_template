@@ -36,7 +36,6 @@ const SERVICE_SLUG_MAP = {
   'enlevement-epave': 'enlevement-epave-bruxelles',
   'sortie-de-fourriere': 'sortie-fourriere-bruxelles',
   'depannage-voiture-electrique-bruxelles': 'depannage-voiture-electrique-bruxelles',
-  'depannage-voiture-bruxelles': 'depannage-voiture-bruxelles',
   'depannage-camionnette-bruxelles': 'depannage-camionnette-bruxelles',
   'depannage-camion-poids-lourd-bruxelles': 'depannage-camion-poids-lourd-bruxelles',
   'achat-voiture-accidentee': 'achat-voiture-accidentee',
@@ -263,12 +262,6 @@ const SERVICE_PHOTO_SUGGESTIONS = {
     { label: 'Dépannage parking souterrain Bruxelles HELPCAR', suggestion: '/images/depannage-parking-souterrain.jpg' },
     { label: 'Dépanneuse HELPCAR intervention parking souterrain Bruxelles', suggestion: '/images/depanneuse-cinquantenaire-etterbeek.jpg' },
     { label: 'Dépannage parking souterrain Bruxelles - HELPCAR', suggestion: '/images/depannage-parking-souterrain-bruxelles.jpg' },
-  ],
-  'depannage-voiture-bruxelles': [
-    { label: 'Dépannage voiture accidentée Bruxelles HELPCAR', suggestion: '/images/depannage-voiture.jpg' },
-    { label: 'Dépannage camionnette sur plateau HELPCAR Bruxelles', suggestion: '/images/depannage-camionette-plateau.jpg' },
-    { label: 'Client satisfait dépannage HELPCAR Bruxelles - tarif transparent', suggestion: '/images/client-satisfait-helpcar.jpg' },
-    { label: 'Placement roue de secours HELPCAR Bruxelles', suggestion: '/images/placement-roue-secours.jpg' },
   ],
   'depannage-voiture-electrique-bruxelles': [
     { label: 'Dépannage voiture électrique Bruxelles', suggestion: '/images/depannage-voiture-electrique.jpg' },

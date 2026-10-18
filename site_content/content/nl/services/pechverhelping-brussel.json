@@ -10,7 +10,7 @@
 
   "geo": { "region": "BE-BRU", "lat": "50.8503", "lng": "4.3517" },
 
-  "hreflang_fr": "https://helpcar.be/services/depannage-voiture-bruxelles/",
+  "hreflang_fr": null,
 
   "hero": {
     "h1": "Pechverhelping Brussel – Depannage 24/7",
