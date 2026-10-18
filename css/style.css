@@ -496,6 +496,10 @@ h3 { font-size: 1.25rem; }
   margin-top: 2px;
 }
 
+/* 4 chiffres dans le hero : 2 x 2 sur mobile et tablette, 4 sur une ligne en desktop */
+.hero__stats--4 { grid-template-columns: repeat(2, 1fr); }
+@media (min-width: 1024px) { .hero__stats--4 { grid-template-columns: repeat(4, 1fr); } }
+
 /* --- Service Cards --- */
 .services-grid {
   display: grid;
@@ -736,6 +740,14 @@ h3 { font-size: 1.25rem; }
 }
 
 .reviews-carousel::-webkit-scrollbar { display: none; }
+
+/* Avis en grille : tous visibles, sans défilement horizontal */
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+.reviews-grid .review-card { min-width: 0; max-width: none; }
 
 .review-card {
   min-width: 280px;
