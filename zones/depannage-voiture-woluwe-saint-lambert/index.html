@@ -59,7 +59,10 @@ setTimeout(_tl,5000);
   "url": "https://helpcar.be/zones/depannage-voiture-woluwe-saint-lambert/",
   "description": "Dépannage et remorquage à Woluwe-Saint-Lambert (1200). Tomberg, Roodebeek, Georges Henri, Woluwe Shopping Center. Intervention rapide 24h/24.",
   "provider": {
-    "@type": ["AutoRepair", "EmergencyService"],
+    "@type": [
+      "AutoRepair",
+      "EmergencyService"
+    ],
     "@id": "https://helpcar.be/#business",
     "name": "HELPCAR Dépannage",
     "url": "https://helpcar.be",
@@ -68,14 +71,15 @@ setTimeout(_tl,5000);
     "logo": "https://helpcar.be/images/logo-helpcar.webp",
     "address": {
       "@type": "PostalAddress",
+      "streetAddress": "Rue Charles Martel 55",
       "addressLocality": "Bruxelles",
-      "addressRegion": "Bruxelles-Capitale",
+      "postalCode": "1000",
       "addressCountry": "BE"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 50.8425,
-      "longitude": 4.4300
+      "latitude": 50.846,
+      "longitude": 4.381
     },
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
@@ -101,7 +105,12 @@ setTimeout(_tl,5000);
   "areaServed": {
     "@type": "City",
     "name": "Woluwe-Saint-Lambert",
-    "postalCode": "1200"
+    "postalCode": "1200",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 50.8425,
+      "longitude": 4.43
+    }
   }
 }
 </script>

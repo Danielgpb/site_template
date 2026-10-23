@@ -59,7 +59,10 @@ setTimeout(_tl,5000);
   "url": "https://helpcar.be/zones/depannage-voiture-etterbeek/",
   "description": "Dépannage et remorquage à Etterbeek (1040). Cinquantenaire, Place Jourdan, Chasses. Intervention rapide 24h/24.",
   "provider": {
-    "@type": ["AutoRepair", "EmergencyService"],
+    "@type": [
+      "AutoRepair",
+      "EmergencyService"
+    ],
     "@id": "https://helpcar.be/#business",
     "name": "HELPCAR Dépannage",
     "url": "https://helpcar.be",
@@ -68,14 +71,15 @@ setTimeout(_tl,5000);
     "logo": "https://helpcar.be/images/logo-helpcar.webp",
     "address": {
       "@type": "PostalAddress",
+      "streetAddress": "Rue Charles Martel 55",
       "addressLocality": "Bruxelles",
-      "addressRegion": "Bruxelles-Capitale",
+      "postalCode": "1000",
       "addressCountry": "BE"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 50.8350,
-      "longitude": 4.3880
+      "latitude": 50.846,
+      "longitude": 4.381
     },
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
@@ -101,7 +105,12 @@ setTimeout(_tl,5000);
   "areaServed": {
     "@type": "City",
     "name": "Etterbeek",
-    "postalCode": "1040"
+    "postalCode": "1040",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 50.835,
+      "longitude": 4.388
+    }
   }
 }
 </script>
