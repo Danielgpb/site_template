@@ -25,6 +25,7 @@
 - [Woluwe-Saint-Lambert](https://helpcar.be/zones/depannage-voiture-woluwe-saint-lambert/)
 - [Evere](https://helpcar.be/zones/depannage-voiture-evere/)
 - [Zaventem](https://helpcar.be/zones/depannage-voiture-zaventem/)
+- [La Hulpe](https://helpcar.be/zones/depannage-voiture-la-hulpe/): chaussée de Bruxelles, pont de Groenendaal, voitures embourbées en bordure de la forêt de Soignes
 
 ## Blog
 - [Éviter une panne de batterie en hiver](https://helpcar.be/blog/eviter-panne-batterie-hiver/): Guide prévention avec statistiques
